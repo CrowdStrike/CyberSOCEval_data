@@ -1,0 +1,111 @@
+{
+  "size": 6801,
+  "type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+  "submit_name": "4b83a33145a7f65d9e0bc816c4b6d8c23635738f4d1d9cd37e9cf3a5888dbd06",
+  "sha256": "4b83a33145a7f65d9e0bc816c4b6d8c23635738f4d1d9cd37e9cf3a5888dbd06",
+  "av_detect": 7,
+  "vx_family": "Trojan[Backdoor]/Remcos",
+  "threat_score": 5,
+  "threat_level": 3,
+  "verdict": "no verdict",
+  "total_signatures": 6,
+  "file_metadata": {
+    "file_compositions": [
+      "1 .OBJ Files (COFF) linked with LINK.EXE 5.10 (Visual Studio 5) (build: 27051)",
+      "99 .BAS Files compiled with C2.EXE 5.0 (Visual Basic 6) (build: 27051)"
+    ],
+    "imported_objects": [
+      "25 .LIB Files generated with LIB.EXE 9.00 (Visual Studio 2008) (build: 30729)",
+      "26 .OBJ Files (OMF) linked with LINK.EXE 5.10 (Visual Studio 5) (build: 26706)",
+      "33 .OBJ Files (COFF) linked with LINK.EXE 6.00 (Visual Studio 6) (build: 26706)",
+      "62 .OBJ Files (OMF) linked with LINK.EXE 6.00 (Visual Studio 6) (build: 26706)",
+      "2 .OBJ Files linked with ALIASOBJ.EXE 11.00 (Internal OLDNAMES.LIB Tool) (build: 41118)",
+      "1 .CPP Files compiled with CL.EXE 15.00 (Visual Studio 2008) (build: 30729)"
+    ],
+    "file_analysis": [
+      "File contains Visual Basic code",
+      "File appears to contain raw COFF/OMF content",
+      "File is the product of a medium codebase (99 files)"
+    ],
+    "total_file_compositions_imports": 321
+  },
+  "mitre_attcks": [
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Embedded Payloads",
+      "attck_id": "T1027.009",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1027/009",
+      "suspicious_identifiers_count": 1,
+      "parent": {
+        "technique": "Obfuscated Files or Information",
+        "attck_id": "T1027",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1027"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Obfuscated Files or Information",
+      "attck_id": "T1027",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1027",
+      "informative_identifiers_count": 1
+    }
+  ],
+  "network_mode": "default",
+  "signatures": [
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "static-153",
+      "name": "Uses 32 bit executable PE",
+      "description": "\"4b83a33145a7f65d9e0bc816c4b6d8c23635738f4d1d9cd37e9cf3a5888dbd06\" has flags like  IMAGE_FILE_32BIT_MACHINE\n IMAGE_FILE_EXECUTABLE",
+      "origin": "Static Parser"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "static-157",
+      "name": "Matched Compiler/Packer signature (DIE)",
+      "description": "\"4b83a33145a7f65d9e0bc816c4b6d8c23635738f4d1d9cd37e9cf3a5888dbd06\" was detected as \"Microsoft Linker\"  and name: \"Linker\"",
+      "origin": "Static Parser",
+      "attck_id": "T1027",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1027"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "static-80",
+      "relevance": 1,
+      "name": "PE file contains executable sections",
+      "description": "\"4b83a33145a7f65d9e0bc816c4b6d8c23635738f4d1d9cd37e9cf3a5888dbd06\" has an executable section named \".text\"",
+      "origin": "Static Parser"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "static-95",
+      "name": "PE file contains writable sections",
+      "description": "\"4b83a33145a7f65d9e0bc816c4b6d8c23635738f4d1d9cd37e9cf3a5888dbd06\" has an writable section named \".data\"",
+      "origin": "Static Parser"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "static-146",
+      "name": "PE file contains Debug data directory",
+      "description": "\"4b83a33145a7f65d9e0bc816c4b6d8c23635738f4d1d9cd37e9cf3a5888dbd06\" has Debug data directory \"IMAGE_DIRECTORY_ENTRY_DEBUG\"",
+      "origin": "Static Parser"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "Anti-Reverse Engineering",
+      "identifier": "static-6",
+      "relevance": 1,
+      "name": "Section contains high entropy",
+      "description": "\"4b83a33145a7f65d9e0bc816c4b6d8c23635738f4d1d9cd37e9cf3a5888dbd06\" has section name .text with entropy \"6.22030983313\"",
+      "origin": "Static Parser",
+      "attck_id": "T1027.009",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1027/009"
+    }
+  ]
+}

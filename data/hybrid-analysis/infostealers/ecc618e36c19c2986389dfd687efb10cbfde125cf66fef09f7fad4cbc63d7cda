@@ -1,0 +1,1545 @@
+{
+  "size": 63049,
+  "type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+  "submit_name": "ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda",
+  "sha256": "ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda",
+  "av_detect": 91,
+  "vx_family": "Dacic.1A7FA519.A.Generic",
+  "threat_score": 100,
+  "threat_level": 2,
+  "verdict": "malicious",
+  "certificates_validation_message": "No signature was present in the subject. (0x800b0100)",
+  "total_network_connections": 2,
+  "total_processes": 4,
+  "total_signatures": 160,
+  "extracted_files": [
+    {
+      "name": "7W4OOVRO.txt",
+      "file_path": "%APPDATA%\\Microsoft\\Windows\\Cookies\\7W4OOVRO.txt",
+      "file_size": 225,
+      "sha256": "375759857dabcb126644062f3e566801a7a934130a4be78f7931b92dcd8dcf97",
+      "type_tags": [
+        "text"
+      ],
+      "description": "ASCII text",
+      "runtime_process": "ewiuer2.exe (PID: 4444)",
+      "threat_level_readable": "no specific threat",
+      "file_available_to_download": true
+    },
+    {
+      "name": "JAPOZOO9.txt",
+      "file_path": "%APPDATA%\\Microsoft\\Windows\\Cookies\\JAPOZOO9.txt",
+      "file_size": 224,
+      "sha256": "2a42706b692552058b9a06670f425361b62e62a5293d567794c89e53818d4547",
+      "type_tags": [
+        "text"
+      ],
+      "description": "ASCII text",
+      "runtime_process": "ewiuer2.exe (PID: 4444)",
+      "threat_level_readable": "no specific threat",
+      "file_available_to_download": true
+    },
+    {
+      "name": "KE4KSO93.txt",
+      "file_path": "%APPDATA%\\Microsoft\\Windows\\Cookies\\KE4KSO93.txt",
+      "file_size": 144,
+      "sha256": "ae147947f56938668f438fef2a9b563ff6096bc43ebc37321f004da0841a5222",
+      "type_tags": [
+        "text"
+      ],
+      "description": "ASCII text",
+      "runtime_process": "ewiuer2.exe (PID: 3444)",
+      "threat_level_readable": "no specific threat",
+      "file_available_to_download": true
+    },
+    {
+      "name": "N1W0UPWY.txt",
+      "file_path": "%APPDATA%\\Microsoft\\Windows\\Cookies\\N1W0UPWY.txt",
+      "file_size": 226,
+      "sha256": "b9245b7219fa458fc3a217fb1d45531d5079225a68bef292e5bc141294876d65",
+      "type_tags": [
+        "text"
+      ],
+      "description": "ASCII text",
+      "runtime_process": "ewiuer2.exe (PID: 4444)",
+      "threat_level_readable": "no specific threat",
+      "file_available_to_download": true
+    },
+    {
+      "name": "ewiuer2.exe",
+      "file_path": "%APPDATA%\\ewiuer2.exe",
+      "file_size": 63049,
+      "sha256": "e5dfb0fef67c097b8fb59553816b6b57434e76c746392d53ad7442493468735c",
+      "type_tags": [
+        "peexe",
+        "executable"
+      ],
+      "description": "PE32 executable (GUI) Intel 80386, for MS Windows",
+      "runtime_process": "ewiuer2.exe (PID: 4444)",
+      "threat_level_readable": "no specific threat",
+      "file_available_to_download": true
+    },
+    {
+      "name": "ewiuer2.exe",
+      "file_path": "%WINDIR%\\System32\\ewiuer2.exe",
+      "file_size": 63049,
+      "sha256": "b93bb8f50fe8b6460bde972259250b1c0b36d09fe956ce17184c47cbfb134c18",
+      "type_tags": [
+        "peexe",
+        "executable"
+      ],
+      "description": "PE32 executable (GUI) Intel 80386, for MS Windows",
+      "runtime_process": "ewiuer2.exe (PID: 4444)",
+      "threat_level_readable": "no specific threat",
+      "file_available_to_download": true
+    },
+    {
+      "name": "viesazm.mpk",
+      "file_path": "%WINDIR%\\System32\\viesazm.mpk",
+      "file_size": 100,
+      "sha256": "84238281e3c74a75381c4fc3983ed0d395916d1bf2378a0a7626823cf6f9d690",
+      "type_tags": [
+        "data"
+      ],
+      "description": "data",
+      "runtime_process": "ewiuer2.exe (PID: 5220)",
+      "threat_level_readable": "no specific threat",
+      "file_available_to_download": true
+    },
+    {
+      "name": "EWIUER2.EXE.67A482B6.bin",
+      "file_size": 63049,
+      "sha256": "b93bb8f50fe8b6460bde972259250b1c0b36d09fe956ce17184c47cbfb134c18",
+      "type_tags": [
+        "peexe",
+        "executable"
+      ],
+      "description": "PE32 executable (GUI) Intel 80386, for MS Windows",
+      "threat_level_readable": "no specific threat",
+      "file_available_to_download": true
+    }
+  ],
+  "file_metadata": {
+    "file_compositions": [
+      "1 .OBJ Files (COFF) linked with LINK.EXE 8.00 (Visual Studio 2005) (build: 50727)",
+      "10 .CPP Files (with LTCG) compiled with CL.EXE 14.00 (Visual Studio 2005) (build: 50727)"
+    ],
+    "imported_objects": [
+      "19 .LIB Files generated with LIB.EXE 7.10 (Visual Studio .NET 2003) (build: 4035)",
+      "4   .C Files compiled with CL.EXE 13.10 (Visual Studio .NET 2003) (build: 4035)",
+      "13   .C Files compiled with CL.EXE 14.00 (Visual Studio 2005) (build: 50727)",
+      "12 .ASM Files assembled with MASM 8.00 (Visual Studio 2005) (build: 50727)"
+    ],
+    "file_analysis": [
+      "File contains C++ code",
+      "File appears to contain raw COFF/OMF content",
+      "File was optimized using LTCG and/or POGO",
+      "File is the product of a small codebase (10 files)"
+    ],
+    "total_file_compositions_imports": 112
+  },
+  "processes": [
+    {
+      "uid": "00000000-00003168",
+      "name": "ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe",
+      "normalized_path": "C:\\ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe",
+      "sha256": "ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda"
+    },
+    {
+      "uid": "00000000-00003444",
+      "parentuid": "00000000-00003168",
+      "name": "ewiuer2.exe",
+      "normalized_path": "%APPDATA%\\ewiuer2.exe",
+      "sha256": "e5dfb0fef67c097b8fb59553816b6b57434e76c746392d53ad7442493468735c"
+    },
+    {
+      "uid": "00000000-00004444",
+      "parentuid": "00000000-00003444",
+      "name": "ewiuer2.exe",
+      "normalized_path": "%WINDIR%\\System32\\ewiuer2.exe",
+      "sha256": "b93bb8f50fe8b6460bde972259250b1c0b36d09fe956ce17184c47cbfb134c18"
+    },
+    {
+      "uid": "00000000-00005220",
+      "parentuid": "00000000-00004444",
+      "name": "ewiuer2.exe",
+      "normalized_path": "%WINDIR%\\System32\\ewiuer2.exe",
+      "command_line": "/nomove",
+      "sha256": "b93bb8f50fe8b6460bde972259250b1c0b36d09fe956ce17184c47cbfb134c18"
+    }
+  ],
+  "mitre_attcks": [
+    {
+      "tactic": "Reconnaissance",
+      "technique": "IP Addresses",
+      "attck_id": "T1590.005",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1590/005",
+      "suspicious_identifiers_count": 1,
+      "parent": {
+        "technique": "Gather Victim Network Information",
+        "attck_id": "T1590",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1590"
+      }
+    },
+    {
+      "tactic": "Initial Access",
+      "technique": "Phishing",
+      "attck_id": "T1566",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1566",
+      "suspicious_identifiers_count": 1
+    },
+    {
+      "tactic": "Execution",
+      "technique": "Native API",
+      "attck_id": "T1106",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1106",
+      "suspicious_identifiers_count": 2,
+      "informative_identifiers_count": 10
+    },
+    {
+      "tactic": "Execution",
+      "technique": "Windows Command Shell",
+      "attck_id": "T1059.003",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1059/003",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Command and Scripting Interpreter",
+        "attck_id": "T1059",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1059"
+      }
+    },
+    {
+      "tactic": "Execution",
+      "technique": "JavaScript",
+      "attck_id": "T1059.007",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1059/007",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Command and Scripting Interpreter",
+        "attck_id": "T1059",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1059"
+      }
+    },
+    {
+      "tactic": "Execution",
+      "technique": "Shared Modules",
+      "attck_id": "T1129",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1129",
+      "informative_identifiers_count": 4
+    },
+    {
+      "tactic": "Execution",
+      "technique": "Inter-Process Communication",
+      "attck_id": "T1559",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1559",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Persistence",
+      "technique": "Windows Service",
+      "attck_id": "T1543.003",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1543/003",
+      "informative_identifiers_count": 2,
+      "parent": {
+        "technique": "Create or Modify System Process",
+        "attck_id": "T1543",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1543"
+      }
+    },
+    {
+      "tactic": "Persistence",
+      "technique": "Component Object Model Hijacking",
+      "attck_id": "T1546.015",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1546/015",
+      "informative_identifiers_count": 2,
+      "parent": {
+        "technique": "Event Triggered Execution",
+        "attck_id": "T1546",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1546"
+      }
+    },
+    {
+      "tactic": "Persistence",
+      "technique": "Boot or Logon Autostart Execution",
+      "attck_id": "T1547",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1547",
+      "suspicious_identifiers_count": 1
+    },
+    {
+      "tactic": "Persistence",
+      "technique": "DLL Side-Loading",
+      "attck_id": "T1574.002",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1574/002",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Hijack Execution Flow",
+        "attck_id": "T1574",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1574"
+      }
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "Dynamic-link Library Injection",
+      "attck_id": "T1055.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055/001",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Process Injection",
+        "attck_id": "T1055",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1055"
+      }
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "Windows Service",
+      "attck_id": "T1543.003",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1543/003",
+      "informative_identifiers_count": 2,
+      "parent": {
+        "technique": "Create or Modify System Process",
+        "attck_id": "T1543",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1543"
+      }
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "Process Injection",
+      "attck_id": "T1055",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055",
+      "malicious_identifiers_count": 2,
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 2
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "Component Object Model Hijacking",
+      "attck_id": "T1546.015",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1546/015",
+      "informative_identifiers_count": 2,
+      "parent": {
+        "technique": "Event Triggered Execution",
+        "attck_id": "T1546",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1546"
+      }
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "Thread Execution Hijacking",
+      "attck_id": "T1055.003",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055/003",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Process Injection",
+        "attck_id": "T1055",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1055"
+      }
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "ListPlanting",
+      "attck_id": "T1055.015",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055/015",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Process Injection",
+        "attck_id": "T1055",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1055"
+      }
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "Extra Window Memory Injection",
+      "attck_id": "T1055.011",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055/011",
+      "suspicious_identifiers_count": 1,
+      "parent": {
+        "technique": "Process Injection",
+        "attck_id": "T1055",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1055"
+      }
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "Boot or Logon Autostart Execution",
+      "attck_id": "T1547",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1547",
+      "suspicious_identifiers_count": 1
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "DLL Side-Loading",
+      "attck_id": "T1574.002",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1574/002",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Hijack Execution Flow",
+        "attck_id": "T1574",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1574"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Modify Registry",
+      "attck_id": "T1112",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1112",
+      "suspicious_identifiers_count": 2,
+      "informative_identifiers_count": 3
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Timestomp",
+      "attck_id": "T1070.006",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1070/006",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Indicator Removal",
+        "attck_id": "T1070",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1070"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Debugger Evasion",
+      "attck_id": "T1622",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1622",
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 2
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Dynamic-link Library Injection",
+      "attck_id": "T1055.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055/001",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Process Injection",
+        "attck_id": "T1055",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1055"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Process Injection",
+      "attck_id": "T1055",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055",
+      "malicious_identifiers_count": 2,
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 2
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Obfuscated Files or Information",
+      "attck_id": "T1027",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1027",
+      "informative_identifiers_count": 4
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "File Deletion",
+      "attck_id": "T1070.004",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1070/004",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Indicator Removal",
+        "attck_id": "T1070",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1070"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Thread Execution Hijacking",
+      "attck_id": "T1055.003",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055/003",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Process Injection",
+        "attck_id": "T1055",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1055"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Indicator Removal",
+      "attck_id": "T1070",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1070",
+      "suspicious_identifiers_count": 1
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Disable or Modify Tools",
+      "attck_id": "T1562.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1562/001",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Impair Defenses",
+        "attck_id": "T1562",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1562"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Time Based Evasion",
+      "attck_id": "T1497.003",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1497/003",
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 3,
+      "parent": {
+        "technique": "Virtualization/Sandbox Evasion",
+        "attck_id": "T1497",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1497"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Masquerading",
+      "attck_id": "T1036",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1036",
+      "malicious_identifiers_count": 1,
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Masquerade File Type",
+      "attck_id": "T1036.008",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1036/008",
+      "suspicious_identifiers_count": 1,
+      "parent": {
+        "technique": "Masquerading",
+        "attck_id": "T1036",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1036"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "User Activity Based Checks",
+      "attck_id": "T1497.002",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1497/002",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Virtualization/Sandbox Evasion",
+        "attck_id": "T1497",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1497"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "ListPlanting",
+      "attck_id": "T1055.015",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055/015",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Process Injection",
+        "attck_id": "T1055",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1055"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Extra Window Memory Injection",
+      "attck_id": "T1055.011",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055/011",
+      "suspicious_identifiers_count": 1,
+      "parent": {
+        "technique": "Process Injection",
+        "attck_id": "T1055",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1055"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "DLL Side-Loading",
+      "attck_id": "T1574.002",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1574/002",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Hijack Execution Flow",
+        "attck_id": "T1574",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1574"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Deobfuscate/Decode Files or Information",
+      "attck_id": "T1140",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1140",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Execution Guardrails",
+      "attck_id": "T1480",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1480",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Credential Access",
+      "technique": "Credentials In Files",
+      "attck_id": "T1552.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1552/001",
+      "malicious_identifiers_count": 1,
+      "parent": {
+        "technique": "Unsecured Credentials",
+        "attck_id": "T1552",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1552"
+      }
+    },
+    {
+      "tactic": "Credential Access",
+      "technique": "Credentials from Password Stores",
+      "attck_id": "T1555",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1555",
+      "informative_identifiers_count": 2
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "File and Directory Discovery",
+      "attck_id": "T1083",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1083",
+      "informative_identifiers_count": 10
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "System Information Discovery",
+      "attck_id": "T1082",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1082",
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 12
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "Debugger Evasion",
+      "attck_id": "T1622",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1622",
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 2
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "Application Window Discovery",
+      "attck_id": "T1010",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1010",
+      "informative_identifiers_count": 2
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "Query Registry",
+      "attck_id": "T1012",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1012",
+      "suspicious_identifiers_count": 4,
+      "informative_identifiers_count": 5
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "Remote System Discovery",
+      "attck_id": "T1018",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1018",
+      "suspicious_identifiers_count": 1
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "Process Discovery",
+      "attck_id": "T1057",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1057",
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 6
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "System Time Discovery",
+      "attck_id": "T1124",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1124",
+      "informative_identifiers_count": 2
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "System Service Discovery",
+      "attck_id": "T1007",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1007",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "Time Based Evasion",
+      "attck_id": "T1497.003",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1497/003",
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 3,
+      "parent": {
+        "technique": "Virtualization/Sandbox Evasion",
+        "attck_id": "T1497",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1497"
+      }
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "User Activity Based Checks",
+      "attck_id": "T1497.002",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1497/002",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Virtualization/Sandbox Evasion",
+        "attck_id": "T1497",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1497"
+      }
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "System Owner/User Discovery",
+      "attck_id": "T1033",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1033",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Lateral Movement",
+      "technique": "Remote Services",
+      "attck_id": "T1021",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1021",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Collection",
+      "technique": "Email Collection",
+      "attck_id": "T1114",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1114",
+      "suspicious_identifiers_count": 1
+    },
+    {
+      "tactic": "Collection",
+      "technique": "Local Data Staging",
+      "attck_id": "T1074.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1074/001",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Data Staged",
+        "attck_id": "T1074",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1074"
+      }
+    },
+    {
+      "tactic": "Collection",
+      "technique": "Data from Local System",
+      "attck_id": "T1005",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1005",
+      "suspicious_identifiers_count": 1
+    },
+    {
+      "tactic": "Command and Control",
+      "technique": "Web Protocols",
+      "attck_id": "T1071.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1071/001",
+      "suspicious_identifiers_count": 4,
+      "informative_identifiers_count": 5,
+      "parent": {
+        "technique": "Application Layer Protocol",
+        "attck_id": "T1071",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1071"
+      }
+    },
+    {
+      "tactic": "Command and Control",
+      "technique": "Application Layer Protocol",
+      "attck_id": "T1071",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1071",
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 8
+    },
+    {
+      "tactic": "Command and Control",
+      "technique": "Proxy",
+      "attck_id": "T1090",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1090",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Command and Control",
+      "technique": "Data Encoding",
+      "attck_id": "T1132",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1132",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Command and Control",
+      "technique": "DNS",
+      "attck_id": "T1071.004",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1071/004",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Application Layer Protocol",
+        "attck_id": "T1071",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1071"
+      }
+    },
+    {
+      "tactic": "Command and Control",
+      "technique": "Ingress Tool Transfer",
+      "attck_id": "T1105",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1105",
+      "suspicious_identifiers_count": 2,
+      "informative_identifiers_count": 4
+    },
+    {
+      "tactic": "Command and Control",
+      "technique": "Mail Protocols",
+      "attck_id": "T1071.003",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1071/003",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Application Layer Protocol",
+        "attck_id": "T1071",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1071"
+      }
+    },
+    {
+      "tactic": "Exfiltration",
+      "technique": "Scheduled Transfer",
+      "attck_id": "T1029",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1029",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Impact",
+      "technique": "Service Stop",
+      "attck_id": "T1489",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1489",
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 1
+    }
+  ],
+  "network_mode": "default",
+  "signatures": [
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "module-9",
+      "type": 10,
+      "name": "Loads the Bcrypt module DLL",
+      "description": "\"ewiuer2.exe\" loaded module \"%WINDIR%\\System32\\bcrypt.dll\" at 74B50000\n \"ewiuer2.exe\" loaded module \"%WINDIR%\\System32\\bcryptprimitives.dll\" at 74710000",
+      "origin": "Loaded Module",
+      "attck_id": "T1027",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1027"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "mutant-0",
+      "type": 4,
+      "relevance": 3,
+      "name": "Creates mutants",
+      "description": "\"\\Sessions\\1\\BaseNamedObjects\\Local\\ZonesCacheCounterMutex\"\n \"\\Sessions\\1\\BaseNamedObjects\\Local\\ZonesLockedCacheCounterMutex\"\n \"Local\\ZonesCacheCounterMutex\"\n \"Local\\ZonesLockedCacheCounterMutex\"",
+      "origin": "Created Mutant"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "registry-72",
+      "type": 3,
+      "relevance": 3,
+      "name": "Overview of unique CLSIDs touched in registry",
+      "description": "\"ewiuer2.exe\" touched \"NetworkListManager\" (Path: \"HKCU\\CLSID\\{DCB00C01-570F-4A9B-8D69-199FDBA5723B}\")\n \"ewiuer2.exe\" touched \"Network List Manager\" (Path: \"HKCU\\CLSID\\{A47979D2-C419-11D9-A5B4-001185AD2B89}\")\n \"ewiuer2.exe\" touched \"PSFactoryBuffer\" (Path: \"HKLM\\SOFTWARE\\CLASSES\\CLSID\\{1299CF18-C4F5-4B6A-BB0F-2299F0398E27}\")\n \"ewiuer2.exe\" touched \"WinInetBroker Class\" (Path: \"HKCU\\CLSID\\{C39EE728-D419-4BD4-A3EF-EDA059DBD935}\\TREATAS\")",
+      "origin": "Registry Access",
+      "attck_id": "T1546.015",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1546/015"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "static-153",
+      "name": "Uses 32 bit executable PE",
+      "description": "\"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda\" has flags like  IMAGE_FILE_32BIT_MACHINE\n IMAGE_FILE_EXECUTABLE\n \"ewiuer2.exe\" has flags like  IMAGE_FILE_32BIT_MACHINE\n IMAGE_FILE_EXECUTABLE\n \"EWIUER2.EXE.67A482B6.bin\" has flags like  IMAGE_FILE_32BIT_MACHINE\n IMAGE_FILE_EXECUTABLE",
+      "origin": "Static Parser"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "static-96",
+      "name": "PE file entrypoint instructions",
+      "description": "\"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda\" file has an entrypoint instructions - \"push\tebp,mov\tebp, esp,mov\teax, 0x1800,call\t0x40d5a0,push\tebx,push\tesi,push\tedi,mov\tedi, dword ptr [0x40e0ac],mov\tesi, 0x400,push\tesi,lea\teax, [ebp - 0x800],push\teax,xor\tebx, ebx,push\tebx,call\tedi,push\t0x40f4fc,lea\teax, [ebp - 0x800],call\t0x405493,test\teax, eax,pop\tecx,je\t0x40b3cf,push\tesi,lea\teax, [ebp - 0x800],push\teax,push\tebx,call\tedi,push\t1,lea\teax, [ebp - 0x800],push\teax,push\t0x40f414,push\t0x40f1f0,push\t0x80000001,\"\n \"ewiuer2.exe\" file has an entrypoint instructions - \"push\tebp,mov\tebp, esp,mov\teax, 0x1800,call\t0x40d5a0,push\tebx,push\tesi,push\tedi,mov\tedi, dword ptr [0x40e0ac],mov\tesi, 0x400,push\tesi,lea\teax, [ebp - 0x800],push\teax,xor\tebx, ebx,push\tebx,call\tedi,push\t0x40f4fc,lea\teax, [ebp - 0x800],call\t0x405493,test\teax, eax,pop\tecx,je\t0x40b3cf,push\tesi,lea\teax, [ebp - 0x800],push\teax,push\tebx,call\tedi,push\t1,lea\teax, [ebp - 0x800],push\teax,push\t0x40f414,push\t0x40f1f0,push\t0x80000001,\"\n \"EWIUER2.EXE.67A482B6.bin\" file has an entrypoint instructions - \"push\tebp,mov\tebp, esp,mov\teax, 0x1800,call\t0x40d5a0,push\tebx,push\tesi,push\tedi,mov\tedi, dword ptr [0x40e0ac],mov\tesi, 0x400,push\tesi,lea\teax, [ebp - 0x800],push\teax,xor\tebx, ebx,push\tebx,call\tedi,push\t0x40f4fc,lea\teax, [ebp - 0x800],call\t0x405493,test\teax, eax,pop\tecx,je\t0x40b3cf,push\tesi,lea\teax, [ebp - 0x800],push\teax,push\tebx,call\tedi,push\t1,lea\teax, [ebp - 0x800],push\teax,push\t0x40f414,push\t0x40f1f0,push\t0x80000001,\"",
+      "origin": "Static Parser"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "api-176",
+      "type": 6,
+      "relevance": 1,
+      "name": "Calls an API typically used to retrieve function addresses",
+      "description": "\"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"GetProcAddress\" with a parameter FlsGetValue (UID: 00000000-00003168)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"GetProcAddress\" with a parameter InitializeCriticalSectionEx (UID: 00000000-00003168)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"GetProcAddress\" with a parameter FlsAlloc (UID: 00000000-00003168)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"GetProcAddress\" with a parameter FlsSetValue (UID: 00000000-00003168)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"GetProcAddress\" with a parameter LCMapStringEx (UID: 00000000-00003168)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"GetProcAddress\" with a parameter FlsFree (UID: 00000000-00003168)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"GetProcAddress\" with a parameter InitOnceExecuteOnce (UID: 00000000-00003168)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"GetProcAddress\" with a parameter CreateEventExW (UID: 00000000-00003168)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"GetProcAddress\" with a parameter CreateSemaphoreW (UID: 00000000-00003168)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"GetProcAddress\" with a parameter CreateSemaphoreExW (UID: 00000000-00003168)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"GetProcAddress\" with a parameter CreateThreadpoolTimer (UID: 00000000-00003168)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"GetProcAddress\" with a parameter SetThreadpoolTimer (UID: 00000000-00003168)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"GetProcAddress\" with a parameter WaitForThreadpoolTimerCallbacks (UID: 00000000-00003168)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"GetProcAddress\" with a parameter CloseThreadpoolTimer (UID: 00000000-00003168)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"GetProcAddress\" with a parameter CreateThreadpoolWait (UID: 00000000-00003168)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"GetProcAddress\" with a parameter SetThreadpoolWait (UID: 00000000-00003168)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"GetProcAddress\" with a parameter CloseThreadpoolWait (UID: 00000000-00003168)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"GetProcAddress\" with a parameter FlushProcessWriteBuffers (UID: 00000000-00003168)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"GetProcAddress\" with a parameter FreeLibraryWhenCallbackReturns (UID: 00000000-00003168)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"GetProcAddress\" with a parameter GetCurrentProcessorNumber (UID: 00000000-00003168)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"GetProcAddress\" with a parameter CreateSymbolicLinkW (UID: 00000000-00003168)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"GetProcAddress\" with a parameter GetCurrentPackageId (UID: 00000000-00003168)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"GetProcAddress\" with a parameter GetTickCount64 (UID: 00000000-00003168)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"GetProcAddress\" with a parameter GetFileInformationByHandleEx (UID: 00000000-00003168)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"GetProcAddress\" with a parameter SetFileInformationByHandle (UID: 00000000-00003168)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"GetProcAddress\" with a parameter GetSystemTimePreciseAsFileTime (UID: 00000000-00003168)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"GetProcAddress\" with a parameter InitializeConditionVariable (UID: 00000000-00003168)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"GetProcAddress\" with a parameter WakeConditionVariable (UID: 00000000-00003168)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"GetProcAddress\" with a parameter WakeAllConditionVariable (UID: 00000000-00003168)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"GetProcAddress\" with a parameter SleepConditionVariableCS (UID: 00000000-00003168)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"GetProcAddress\" with a parameter InitializeSRWLock (UID: 00000000-00003168)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"GetProcAddress\" with a parameter AcquireSRWLockExclusive (UID: 00000000-00003168)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"GetProcAddress\" with a parameter TryAcquireSRWLockExclusive (UID: 00000000-00003168)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"GetProcAddress\" with a parameter ReleaseSRWLockExclusive (UID: 00000000-00003168)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"GetProcAddress\" with a parameter SleepConditionVariableSRW (UID: 00000000-00003168)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"GetProcAddress\" with a parameter CreateThreadpoolWork (UID: 00000000-00003168)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"GetProcAddress\" with a parameter SubmitThreadpoolWork (UID: 00000000-00003168)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"GetProcAddress\" with a parameter CloseThreadpoolWork (UID: 00000000-00003168)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"GetProcAddress\" with a parameter CompareStringEx (UID: 00000000-00003168)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"GetProcAddress\" with a parameter GetLocaleInfoEx (UID: 00000000-00003168)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"GetProcAddress\" with a parameter AreFileApisANSI (UID: 00000000-00003168)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"GetProcAddress\" with a parameter RtlGetVersion (UID: 00000000-00003168)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"GetProcAddress\" with a parameter UnregisterTraceGuids (UID: 00000000-00003168)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter FlsGetValue (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter CoTaskMemAlloc (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter InitializeCriticalSectionEx (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter FlsAlloc (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter FlsSetValue (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter LCMapStringEx (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter FlsFree (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter InitOnceExecuteOnce (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter CreateEventExW (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter CreateSemaphoreW (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter CreateSemaphoreExW (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter CreateThreadpoolTimer (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter SetThreadpoolTimer (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter WaitForThreadpoolTimerCallbacks (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter CloseThreadpoolTimer (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter CreateThreadpoolWait (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter SetThreadpoolWait (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter CloseThreadpoolWait (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter FlushProcessWriteBuffers (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter FreeLibraryWhenCallbackReturns (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter GetCurrentProcessorNumber (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter CreateSymbolicLinkW (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter GetCurrentPackageId (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter GetTickCount64 (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter GetFileInformationByHandleEx (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter SetFileInformationByHandle (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter GetSystemTimePreciseAsFileTime (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter InitializeConditionVariable (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter WakeConditionVariable (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter WakeAllConditionVariable (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter SleepConditionVariableCS (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter InitializeSRWLock (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter AcquireSRWLockExclusive (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter TryAcquireSRWLockExclusive (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter ReleaseSRWLockExclusive (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter SleepConditionVariableSRW (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter CreateThreadpoolWork (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter SubmitThreadpoolWork (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter CloseThreadpoolWork (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter CompareStringEx (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter GetLocaleInfoEx (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter AreFileApisANSI (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter RtlGetVersion (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter WinHttpCreateProxyResolver (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter RegQueryValueExW (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter EventActivityIdControl (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter WSAIoctl (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter GetBestInterfaceEx (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter GetIfEntry2 (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter NotifyIpInterfaceChange (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter NotifyUnicastIpAddressChange (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter SHGetValueA (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter RegCreateKeyExW (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter RegSetValueExW (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter RegDeleteValueW (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter DnsGetProxyInformation (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter RegisterTraceGuidsA (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter EventSetInformation (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter CoInternetCreateSecurityManager (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter CoInternetCreateZoneManager (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter GetUserNameExW (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter CoInitializeEx (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter EventWrite (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter CoCreateInstance (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter GetAdaptersAddresses (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter GetAddrInfoW (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter GetAddrInfoExW (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter LookupAccountSidLocalW (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter DhcpRequestParams (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter OpenThreadToken (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter OpenProcessToken (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter GetTokenInformation (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter AllocateAndInitializeSid (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter EqualSid (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter FreeSid (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter SystemFunction036 (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter RegOpenKeyW (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter ConvertInterfaceGuidToLuid (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter GetIpForwardTable2 (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter GetIpNetEntry2 (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter FreeMibTable (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter StringFromIID (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter CoUninitialize (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter CoSetProxyBlanket (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter ObjectStublessClient10 (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter CoTaskMemFree (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter QueryActCtxW (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter GetModuleHandleExW (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter CreateActCtxW (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter ActivateActCtx (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter FindActCtxSectionStringW (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter LpkEditControl (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter DeactivateActCtx (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter getaddrinfo (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter getnameinfo (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter freeaddrinfo (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter WSASocketA (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter WSASend (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter WSARecv (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter BCryptGenRandom (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter GetRngInterface (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter UnregisterTraceGuids (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter FlsGetValue (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter CopySid (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter ConvertSidToStringSidW (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter ConvertStringSecurityDescriptorToSecurityDescriptorW (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter CoTaskMemFree (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter EventRegister (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter RegGetValueA (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter RegOpenKeyExA (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter CoTaskMemAlloc (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter WinHttpCreateProxyResolver (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter RegQueryValueExW (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter EventActivityIdControl (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter WSAIoctl (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter GetBestInterfaceEx (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter GetIfEntry2 (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter SHGetValueA (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter RegCreateKeyExW (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter RegSetValueExW (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter RegDeleteValueW (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter DnsGetProxyInformation (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter AcquireSRWLockExclusive (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter ReleaseSRWLockExclusive (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter RegisterTraceGuidsA (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter EventSetInformation (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter NotifyIpInterfaceChange (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter NotifyUnicastIpAddressChange (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter CoInternetCreateSecurityManager (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter CoInternetCreateZoneManager (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter GetUserNameExW (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter CoInitializeEx (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter EventWrite (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter CoCreateInstance (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter GetAdaptersAddresses (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter GetAddrInfoW (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter GetAddrInfoExW (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter DhcpRequestParams (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter LookupAccountSidLocalW (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter OpenThreadToken (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter OpenProcessToken (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter GetTokenInformation (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter AllocateAndInitializeSid (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter EqualSid (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter FreeSid (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter SystemFunction036 (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter RegOpenKeyW (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter ConvertInterfaceGuidToLuid (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter GetIpForwardTable2 (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter GetIpNetEntry2 (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter FreeMibTable (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter StringFromIID (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter CoUninitialize (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter CoSetProxyBlanket (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter ObjectStublessClient10 (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter RegEnumKeyExW (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter QueryActCtxW (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter GetModuleHandleExW (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter CreateActCtxW (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter ActivateActCtx (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter FindActCtxSectionStringW (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter LpkEditControl (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter DeactivateActCtx (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter getaddrinfo (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter getnameinfo (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter freeaddrinfo (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter WSASocketA (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter WSASend (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter WSARecv (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter BCryptGenRandom (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter GetRngInterface (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter FlsFree (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter UnregisterTraceGuids (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter FlsGetValue (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter OpenThreadToken (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter InitializeCriticalSectionEx (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter FlsAlloc (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter FlsSetValue (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter LCMapStringEx (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter FlsFree (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter InitOnceExecuteOnce (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter CreateEventExW (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter CreateSemaphoreW (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter CreateSemaphoreExW (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter CreateThreadpoolTimer (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter SetThreadpoolTimer (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter WaitForThreadpoolTimerCallbacks (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter CloseThreadpoolTimer (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter CreateThreadpoolWait (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter SetThreadpoolWait (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter CloseThreadpoolWait (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter FlushProcessWriteBuffers (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter FreeLibraryWhenCallbackReturns (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter GetCurrentProcessorNumber (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter CreateSymbolicLinkW (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter GetCurrentPackageId (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter GetTickCount64 (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter GetFileInformationByHandleEx (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter SetFileInformationByHandle (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter GetSystemTimePreciseAsFileTime (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter InitializeConditionVariable (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter WakeConditionVariable (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter WakeAllConditionVariable (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter SleepConditionVariableCS (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter InitializeSRWLock (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter AcquireSRWLockExclusive (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter TryAcquireSRWLockExclusive (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter ReleaseSRWLockExclusive (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter SleepConditionVariableSRW (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter CreateThreadpoolWork (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter SubmitThreadpoolWork (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter CloseThreadpoolWork (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter CompareStringEx (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter GetLocaleInfoEx (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter AreFileApisANSI (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter RtlGetVersion (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter CopySid (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter ConvertSidToStringSidW (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter ConvertStringSecurityDescriptorToSecurityDescriptorW (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter CoTaskMemFree (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter EventRegister (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter RegGetValueA (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter RegOpenKeyExA (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter CoTaskMemAlloc (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter WinHttpCreateProxyResolver (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter RegQueryValueExW (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter EventActivityIdControl (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter WSAIoctl (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter GetBestInterfaceEx (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter GetIfEntry2 (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter NotifyIpInterfaceChange (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter NotifyUnicastIpAddressChange (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter SHGetValueA (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter RegCreateKeyExW (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter RegSetValueExW (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter RegDeleteValueW (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter DnsGetProxyInformation (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter RegisterTraceGuidsA (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter EventSetInformation (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter CoInternetCreateSecurityManager (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter CoInternetCreateZoneManager (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter GetUserNameExW (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter CoInitializeEx (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter EventWrite (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter CoCreateInstance (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter GetAddrInfoW (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter GetAdaptersAddresses (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter GetAddrInfoExW (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter DhcpRequestParams (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter LookupAccountSidLocalW (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter OpenProcessToken (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter GetTokenInformation (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter AllocateAndInitializeSid (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter EqualSid (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter FreeSid (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter SystemFunction036 (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter RegOpenKeyW (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter ConvertInterfaceGuidToLuid (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter GetIpForwardTable2 (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter GetIpNetEntry2 (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter FreeMibTable (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter StringFromIID (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter CoUninitialize (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter CoSetProxyBlanket (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter ObjectStublessClient10 (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter RegEnumKeyExW (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter QueryActCtxW (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter GetModuleHandleExW (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter CreateActCtxW (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter ActivateActCtx (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter FindActCtxSectionStringW (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter LpkEditControl (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter DeactivateActCtx (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter getaddrinfo (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter getnameinfo (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter freeaddrinfo (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter WSASocketA (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter WSASend (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter WSARecv (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter FreeAddrInfoExW (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetProcAddress\" with a parameter WSAGetOverlappedResult (UID: 00000000-00005220)",
+      "origin": "API Call",
+      "attck_id": "T1106",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1106"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "api-8",
+      "type": 6,
+      "relevance": 1,
+      "name": "Looks up procedures from modules (excluding apphelp.dll, kernel32.dll, user32.dll, gdi32.dll, ole32.dll, comctl32.dll, uxtheme.dll, oleaut32.dll, version.dll, msctfime.ime)",
+      "description": "\"15001600c03e516b@advapi32.DLL\"\n \"0e000f00703f516b@advapi32.DLL\"\n \"0e000f00cc3f516b@advapi32.DLL\"\n \"11001200b447516b@advapi32.DLL\"\n \"110012004848516b@advapi32.DLL\"\n \"120013008c48516b@advapi32.DLL\"\n \"12001300e448516b@advapi32.DLL\"\n \"14001500386e516b@advapi32.DLL\"\n \"14001500506e516b@advapi32.DLL\"\n \"14001500686e516b@advapi32.DLL\"\n \"17001800806e516b@advapi32.DLL\"\n \"0d000e00986e516b@advapi32.DLL\"\n \"11001200a86e516b@advapi32.DLL\"\n \"11001200bc6e516b@advapi32.DLL\"\n \"0d000e004466516b@WININET.dll\"\n \"0d000e00b466516b@WININET.dll\"\n \"10001100ec66516b@WININET.dll\"\n \"100011009067516b@WININET.dll\"\n \"10001100006f516b@WININET.dll\"\n \"10001100146f516b@WININET.dll\"\n \"14001500286f516b@WININET.dll\"\n \"14001500406f516b@WININET.dll\"\n \"12001300586f516b@WININET.dll\"\n \"120013006c6f516b@WININET.dll\"\n \"10001100d067516b@WININET.dll\"",
+      "origin": "API Call",
+      "attck_id": "T1129",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1129"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "api-122",
+      "type": 6,
+      "relevance": 3,
+      "name": "Calls an API typically used to create a directory",
+      "description": "\"ewiuer2.exe\" called \"CreateDirectoryW\" with parameter C:\\Users\\%OSUSER% (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"CreateDirectoryW\" with parameter %USERPROFILE%\\AppData\\Local (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"CreateDirectoryW\" with parameter %LOCALAPPDATA%\\Microsoft\\Windows\\Temporary Internet Files (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"CreateDirectoryW\" with parameter %USERPROFILE%\\AppData\\Roaming (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"CreateDirectoryW\" with parameter %APPDATA%\\Microsoft\\Windows\\Cookies (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"CreateDirectoryW\" with parameter %LOCALAPPDATA%\\Microsoft\\Windows\\History (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"CreateDirectoryW\" with parameter C:\\Users\\%OSUSER% (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"CreateDirectoryW\" with parameter %USERPROFILE%\\AppData\\Local (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"CreateDirectoryW\" with parameter %LOCALAPPDATA%\\Microsoft\\Windows\\Temporary Internet Files (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"CreateDirectoryW\" with parameter %USERPROFILE%\\AppData\\Roaming (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"CreateDirectoryW\" with parameter %APPDATA%\\Microsoft\\Windows\\Cookies (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"CreateDirectoryW\" with parameter %LOCALAPPDATA%\\Microsoft\\Windows\\History (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"CreateDirectoryW\" with parameter C:\\Users\\%OSUSER% (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"CreateDirectoryW\" with parameter %USERPROFILE%\\AppData\\Local (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"CreateDirectoryW\" with parameter %LOCALAPPDATA%\\Microsoft\\Windows\\Temporary Internet Files (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"CreateDirectoryW\" with parameter %USERPROFILE%\\AppData\\Roaming (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"CreateDirectoryW\" with parameter %APPDATA%\\Microsoft\\Windows\\Cookies (UID: 00000000-00005220)",
+      "origin": "API Call",
+      "attck_id": "T1074.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1074/001"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "api-128",
+      "type": 6,
+      "relevance": 5,
+      "name": "Calls an API typically used to create a process",
+      "description": "\"ewiuer2.exe\" called \"CreateProcessW\" with parameter \"%WINDIR%\\System32\\ewiuer2.exe\" - (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"CreateProcessW\" with parameter \"%WINDIR%\\System32\\ewiuer2.exe /nomove\" - (UID: 00000000-00004444)",
+      "origin": "API Call",
+      "attck_id": "T1106",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1106"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "network-1",
+      "type": 7,
+      "relevance": 1,
+      "name": "Contacts server",
+      "description": "\"<IPv4>:80\"\n \"<IPv4>:80\"",
+      "origin": "Network Traffic",
+      "attck_id": "T1071",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1071"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "network-0",
+      "type": 7,
+      "relevance": 1,
+      "name": "Contacts domains",
+      "description": "\"mkkuei4kdsz.com\"\n \"ow5dirasuek.com\"",
+      "origin": "Network Traffic",
+      "attck_id": "T1071",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1071"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "network-2",
+      "type": 7,
+      "relevance": 5,
+      "name": "GETs files from a webserver",
+      "description": "\"GET /457/533.html HTTP/1.1\nFrom: 133833028898974522\nVia: bjledplYpdq;225]^mc`;4Yn`m_l8//+./.0]jq<1/0,\\j`w<-d4\\78_.a/08^/d0413_7\\aa__`,6ea1\nHost: mkkuei4kdsz.com\nConnection: Keep-Alive\" Response ==> HTTP/1.1 200 OK\ncontent-type: text/html\ndate: Thu\n 06 Feb 2025 09:08:19 GMT\ncontent-length: 114 with response body ==>3C21444F43545950452068746D6C3E3C68746D6C3E3C686561643E3C7363726970743E77696E646F772E6F6E6C6F61643D66756E6374696F6E28297B77696E64.......\n \"GET /34/993.html HTTP/1.1\nFrom: 133833028898974522\nVia: bjledplYpdq;225]^mc`;4Yn`m_l8//+./.0]jq<1/0,\\j`w<-d4\\78_.a/08^/d0413_7\\aa__`,6ea1\nHost: ow5dirasuek.com\nConnection: Keep-Alive\" Response ==> HTTP/1.1 200 OK\nServer: nginx\nDate: Thu\n 06 Feb 2025 09:08:19 GMT\nContent-Type: text/html\nTransfer-Encoding: chunked\nConnection: close\nSet-Cookie: btst=f8b57a425714546c965f91b67aa30a59|<IPv4>|1738832899|1738832899|0|1|0; path=/; domain=.ow5dirasuek.com; Expires=Thu\n 15 Apr 2027 00:00:00 GMT; HttpOnly; SameSite=Lax;\nSet-Cookie: snkz=<IPv4>; path=/; Expires=Thu\n 15 Apr 2027 00:00:00 GMT with response body ==>300D0A0D0A.......\n \"GET /939/382.html HTTP/1.1\nFrom: 133833046141054708\nVia: emohgso\\sgt>558`apfc>7\\qcpbo;22.1213`mt?423/_mcz?568`75cb6d6hc78a79af35de0b54f3/5\nHost: mkkuei4kdsz.com\nConnection: Keep-Alive\" Response ==> HTTP/1.1 200 OK\ncontent-type: text/html\ndate: Thu\n 06 Feb 2025 09:08:27 GMT\ncontent-length: 114 with response body ==>3C21444F43545950452068746D6C3E3C68746D6C3E3C686561643E3C7363726970743E77696E646F772E6F6E6C6F61643D66756E6374696F6E28297B77696E64.......\n \"GET /644/428.html HTTP/1.1\nFrom: 133833046141054708\nVia: emohgso\\sgt>558`apfc>7\\qcpbo;22.1213`mt?423/_mcz?568`75cb6d6hc78a79af35de0b54f3/5\nHost: ow5dirasuek.com\nConnection: Keep-Alive\nCookie: btst=f8b57a425714546c965f91b67aa30a59|<IPv4>|1738832899|1738832899|0|1|0; snkz=<IPv4>\" Response ==> HTTP/1.1 200 OK\nServer: nginx\nDate: Thu\n 06 Feb 2025 09:08:28 GMT\nContent-Type: text/html\nTransfer-Encoding: chunked\nConnection: close\nSet-Cookie: btst=f8b57a425714546c965f91b67aa30a59|<IPv4>|1738832908|1738832899|4|2|0; path=/; domain=.ow5dirasuek.com; Expires=Thu\n 15 Apr 2027 00:00:00 GMT; HttpOnly; SameSite=Lax; with response body ==>300D0A0D0A.......\n \"GET /987/678.html HTTP/1.1\nFrom: 133833046141054708\nVia: emohgso\\sgt>558`apfc>7\\qcpbo;32.1213`mt?423/_mcz?04g37g_g;722166`ee32c115`4;11432\nHost: mkkuei4kdsz.com\nConnection: Keep-Alive\" Response ==> HTTP/1.1 200 OK\ncontent-type: text/html\ndate: Thu\n 06 Feb 2025 09:08:33 GMT\ncontent-length: 114 with response body ==>3C21444F43545950452068746D6C3E3C68746D6C3E3C686561643E3C7363726970743E77696E646F772E6F6E6C6F61643D66756E6374696F6E28297B77696E64.......\n \"GET /88/452.html HTTP/1.1\nFrom: 133833046141054708\nVia: emohgso\\sgt>558`apfc>7\\qcpbo;32.1213`mt?423/_mcz?04g37g_g;722166`ee32c115`4;11432\nHost: ow5dirasuek.com\nConnection: Keep-Alive\nCookie: btst=f8b57a425714546c965f91b67aa30a59|<IPv4>|1738832908|1738832899|4|2|0; snkz=<IPv4>\" Response ==> HTTP/1.1 200 OK\nServer: nginx\nDate: Thu\n 06 Feb 2025 09:08:34 GMT\nContent-Type: text/html\nTransfer-Encoding: chunked\nConnection: close\nSet-Cookie: btst=f8b57a425714546c965f91b67aa30a59|<IPv4>|1738832914|1738832899|5|3|0; path=/; domain=.ow5dirasuek.com; Expires=Thu\n 15 Apr 2027 00:00:00 GMT; HttpOnly; SameSite=Lax; with response body ==>300D0A0D0A.......\n \"GET /619/651.html HTTP/1.1\nFrom: 133833046141054708\nVia: lmc`pfx;495_qq>8/23\\lgw>ha4:37;.:g56f1gd49ead9278.bca28b\nHost: mkkuei4kdsz.com\nConnection: Keep-Alive\" Response ==> HTTP/1.1 200 OK\ncontent-type: text/html\ndate: Thu\n 06 Feb 2025 09:08:42 GMT\ncontent-length: 114 with response body ==>3C21444F43545950452068746D6C3E3C68746D6C3E3C686561643E3C7363726970743E77696E646F772E6F6E6C6F61643D66756E6374696F6E28297B77696E64.......\n \"GET /883/315.html HTTP/1.1\nFrom: 133833046141054708\nVia: lmc`pfx;495_qq>8/23\\lgw>ha4:37;.:g56f1gd49ead9278.bca28b\nHost: ow5dirasuek.com\nConnection: Keep-Alive\nCookie: btst=f8b57a425714546c965f91b67aa30a59|<IPv4>|1738832914|1738832899|5|3|0; snkz=<IPv4>\" Response ==> no response\n \"GET /22/867.html HTTP/1.1\nFrom: 133833046141054708\nVia: lmc`pfx;495_qq>8/23\\lgw>56g;638/1:_c35c7a9f0c87ghaf41:6a_pmdtwqv\nHost: mkkuei4kdsz.com\nConnection: Keep-Alive\" Response ==> HTTP/1.1 200 OK\ncontent-type: text/html\ndate: Thu\n 06 Feb 2025 09:08:54 GMT\ncontent-length: 114 with response body ==>3C21444F43545950452068746D6C3E3C68746D6C3E3C686561643E3C7363726970743E77696E646F772E6F6E6C6F61643D66756E6374696F6E28297B77696E64.......\n \"GET /506/903.html HTTP/1.1\nFrom: 133833046141054708\nVia: lmc`pfx;495_qq>8/23\\lgw>4cg809417c24h/6f.97038b2f5b22b;6_pmdtwqv\nHost: mkkuei4kdsz.com\nConnection: Keep-Alive\" Response ==> HTTP/1.1 200 OK\ncontent-type: text/html\ndate: Thu\n 06 Feb 2025 09:09:06 GMT\ncontent-length: 114 with response body ==>3C21444F43545950452068746D6C3E3C68746D6C3E3C686561643E3C7363726970743E77696E646F772E6F6E6C6F61643D66756E6374696F6E28297B77696E64.......\n \"GET /881/70.html HTTP/1.1\nFrom: 133833046141054708\nVia: lmc`pfx;495_qq>8/23\\lgw>d6dg.:;55g68:4b81d92451c759d238__pmdtwqv\nHost: mkkuei4kdsz.com\nConnection: Keep-Alive\" Response ==> HTTP/1.1 200 OK\ncontent-type: text/html\ndate: Thu\n 06 Feb 2025 09:09:17 GMT\ncontent-length: 114 with response body ==>3C21444F43545950452068746D6C3E3C68746D6C3E3C686561643E3C7363726970743E77696E646F772E6F6E6C6F61643D66756E6374696F6E28297B77696E64.......\n \"GET /91/622.html HTTP/1.1\nFrom: 133833046141054708\nVia: lmc`pfx;495_qq>8/23\\lgw>e6:fbg7.9;34c7g37163gg.fg4g;6g5c_pmdtwqv\nHost: mkkuei4kdsz.com\nConnection: Keep-Alive\" Response ==> HTTP/1.1 200 OK\ncontent-type: text/html\ndate: Thu\n 06 Feb 2025 09:09:29 GMT\ncontent-length: 114 with response body ==>3C21444F43545950452068746D6C3E3C68746D6C3E3C686561643E3C7363726970743E77696E646F772E6F6E6C6F61643D66756E6374696F6E28297B77696E64.......\n \"GET /922/654.html HTTP/1.1\nFrom: 133833046141054708\nVia: lmc`pfx;495_qq>8/23\\lgw>h67haed7b9/:2`6c1:;0::2fhdc47:h._pmdtwqv\nHost: mkkuei4kdsz.com\nConnection: Keep-Alive\" Response ==> HTTP/1.1 200 OK\ncontent-type: text/html\ndate: Thu\n 06 Feb 2025 09:09:41 GMT\ncontent-length: 114 with response body ==>3C21444F43545950452068746D6C3E3C68746D6C3E3C686561643E3C7363726970743E77696E646F772E6F6E6C6F61643D66756E6374696F6E28297B77696E64.......\n \"GET /851/52.html HTTP/1.1\nFrom: 133833046141054708\nVia: lmc`pfx;495_qq>8/23\\lgw>2/56c242c:3fg_c7/d2b965g72bfaf5b_pmdtwqv\nHost: mkkuei4kdsz.com\nConnection: Keep-Alive\" Response ==> HTTP/1.1 200 OK\ncontent-type: text/html\ndate: Thu\n 06 Feb 2025 09:09:52 GMT\ncontent-length: 114 with response body ==>3C21444F43545950452068746D6C3E3C68746D6C3E3C686561643E3C7363726970743E77696E646F772E6F6E6C6F61643D66756E6374696F6E28297B77696E64.......\n \"GET /683/84.html HTTP/1.1\nFrom: 133833046141054708\nVia: lmc`pfx;495_qq>8/23\\lgw>867:2ee1b3bg614gdg:`6:a9771246;1_pmdtwqv\nHost: mkkuei4kdsz.com\nConnection: Keep-Alive\" Response ==> HTTP/1.1 200 OK\ncontent-type: text/html\ndate: Thu\n 06 Feb 2025 09:10:04 GMT\ncontent-length: 114 with response body ==>3C21444F43545950452068746D6C3E3C68746D6C3E3C686561643E3C7363726970743E77696E646F772E6F6E6C6F61643D66756E6374696F6E28297B77696E64.......\n \"GET /514/116.html HTTP/1.1\nFrom: 133833046141054708\nVia: lmc`pfx;495_qq>8/23\\lgw>62bc6g8c2603e127/ec1b4434b5814fc_pmdtwqv\nHost: mkkuei4kdsz.com\nConnection: Keep-Alive\" Response ==> HTTP/1.1 200 OK\ncontent-type: text/html\ndate: Thu\n 06 Feb 2025 09:10:16 GMT\ncontent-length: 114 with response body ==>3C21444F43545950452068746D6C3E3C68746D6C3E3C686561643E3C7363726970743E77696E646F772E6F6E6C6F61643D66756E6374696F6E28297B77696E64.......\n \"GET /349/128.html HTTP/1.1\nFrom: 133833046141054708\nVia: lmc`pfx;495_qq>8/23\\lgw>7b2f2b:6cdbgc4e:55;c76`59db218g5_pmdtwqv\nHost: mkkuei4kdsz.com\nConnection: Keep-Alive\" Response ==> HTTP/1.1 200 OK\ncontent-type: text/html\ndate: Thu\n 06 Feb 2025 09:10:27 GMT\ncontent-length: 114 with response body ==>3C21444F43545950452068746D6C3E3C68746D6C3E3C686561643E3C7363726970743E77696E646F772E6F6E6C6F61643D66756E6374696F6E28297B77696E64.......\n \"GET /949/928.html HTTP/1.1\nFrom: 133833046141054708\nVia: lmc`pfx;495_qq>8/23\\lgw>d146789_:c`ge553c6;4e3b94b6c4c97_pmdtwqv\nHost: mkkuei4kdsz.com\nConnection: Keep-Alive\" Response ==> HTTP/1.1 200 OK\ncontent-type: text/html\ndate: Thu\n 06 Feb 2025 09:10:39 GMT\ncontent-length: 114 with response body ==>3C21444F43545950452068746D6C3E3C68746D6C3E3C686561643E3C7363726970743E77696E646F772E6F6E6C6F61643D66756E6374696F6E28297B77696E64.......\n \"GET /968/369.html HTTP/1.1\nFrom: 133833046141054708\nVia: lmc`pfx;495_qq>8/23\\lgw>6147bge`2f77259fab6.28.5f5:9`39b_pmdtwqv\nHost: mkkuei4kdsz.com\nConnection: Keep-Alive\" Response ==> HTTP/1.1 200 OK\ncontent-type: text/html\ndate: Thu\n 06 Feb 2025 09:10:51 GMT\ncontent-length: 114 with response body ==>3C21444F43545950452068746D6C3E3C68746D6C3E3C686561643E3C7363726970743E77696E646F772E6F6E6C6F61643D66756E6374696F6E28297B77696E64.......",
+      "origin": "Network Traffic",
+      "attck_id": "T1071.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1071/001"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "network-51",
+      "type": 7,
+      "relevance": 1,
+      "name": "Queries DNS server",
+      "description": "\"mkkuei4kdsz.com\"\n \"ow5dirasuek.com\"\n \"podayl.net\"",
+      "origin": "Network Traffic",
+      "attck_id": "T1071.004",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1071/004"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "static-80",
+      "relevance": 1,
+      "name": "PE file contains executable sections",
+      "description": "\"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda\" has an executable section named \".text\"\n \"ewiuer2.exe\" has an executable section named \".text\"\n \"EWIUER2.EXE.67A482B6.bin\" has an executable section named \".text\"",
+      "origin": "Static Parser"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "static-95",
+      "name": "PE file contains writable sections",
+      "description": "\"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda\" has an writable section named \".data\"\n \"ewiuer2.exe\" has an writable section named \".data\"\n \"EWIUER2.EXE.67A482B6.bin\" has an writable section named \".data\"",
+      "origin": "Static Parser"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "api-7",
+      "type": 6,
+      "relevance": 1,
+      "name": "Loads modules at runtime",
+      "description": "\"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" loaded module \"API-MS-WIN-CORE-SYNCH-L1-2-0\" at base 706f0000\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" loaded module \"API-MS-WIN-CORE-FIBERS-L1-1-1\" at base 0\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" loaded module \"KERNEL32\" at base 77050000\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" loaded module \"API-MS-WIN-CORE-LOCALIZATION-L1-2-1\" at base 0\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" loaded module \"%WINDIR%\\TEMP\\VXOLE32.DLL\" at base 6b6c0000\n \"ewiuer2.exe\" loaded module \"API-MS-WIN-CORE-SYNCH-L1-2-0\" at base 706f0000\n \"ewiuer2.exe\" loaded module \"API-MS-WIN-CORE-FIBERS-L1-1-1\" at base 0\n \"ewiuer2.exe\" loaded module \"KERNEL32\" at base 77050000\n \"ewiuer2.exe\" loaded module \"API-MS-WIN-CORE-LOCALIZATION-L1-2-1\" at base 0\n \"ewiuer2.exe\" loaded module \"%WINDIR%\\TEMP\\VXOLE32.DLL\" at base 6b6c0000\n \"ewiuer2.exe\" loaded module \"WS2_32.DLL\" at base 76ce0000\n \"ewiuer2.exe\" loaded module \"WINHTTP.DLL\" at base 70ef0000\n \"ewiuer2.exe\" loaded module \"%WINDIR%\\SYSTEM32\\MSWSOCK.DLL\" at base 74a00000\n \"ewiuer2.exe\" loaded module \"IPHLPAPI.DLL\" at base 73390000\n \"ewiuer2.exe\" loaded module \"%WINDIR%\\SYSTEM32\\WSHIP6.DLL\" at base 749f0000\n \"ewiuer2.exe\" loaded module \"API-MS-WIN-DOWNLEVEL-SHLWAPI-L2-1-0.DLL\" at base 72510000\n \"ewiuer2.exe\" loaded module \"DNSAPI.DLL\" at base 748c0000\n \"ewiuer2.exe\" loaded module \"RPCRT4.DLL\" at base 75a60000\n \"ewiuer2.exe\" loaded module \"API-MS-WIN-SECURITY-SDDL-L1-1-0.DLL\" at base 76f60000\n \"ewiuer2.exe\" loaded module \"ADVAPI32.DLL\" at base 76fa0000\n \"ewiuer2.exe\" loaded module \"URLMON.DLL\" at base 75b10000\n \"ewiuer2.exe\" loaded module \"SECUR32.DLL\" at base 74d60000\n \"ewiuer2.exe\" loaded module \"OLEAUT32.DLL\" at base 76ec0000\n \"ewiuer2.exe\" loaded module \"CRYPTBASE.DLL\" at base 74fc0000\n \"ewiuer2.exe\" loaded module \"CLBCATQ.DLL\" at base 77290000\n \"ewiuer2.exe\" loaded module \"%WINDIR%\\SYSTEM32\\NETPROFM.DLL\" at base 6cbe0000\n \"ewiuer2.exe\" loaded module \"OLE32.DLL\" at base 75370000\n \"ewiuer2.exe\" loaded module \"DHCPCSVC6.DLL\" at base 732a0000\n \"ewiuer2.exe\" loaded module \"%WINDIR%\\SYSTEM32\\WSHTCPIP.DLL\" at base 74560000\n \"ewiuer2.exe\" loaded module \"DHCPCSVC.DLL\" at base 731c0000\n \"ewiuer2.exe\" loaded module \"RASADHLP.DLL\" at base 71760000\n \"ewiuer2.exe\" loaded module \"API-MS-WIN-SECURITY-LSALOOKUP-L1-1-0.DLL\" at base 76f60000\n \"ewiuer2.exe\" loaded module \"CRYPTSP.DLL\" at base 74a40000\n \"ewiuer2.exe\" loaded module \"%WINDIR%\\SYSTEM32\\RSAENH.DLL\" at base 747d0000\n \"ewiuer2.exe\" loaded module \"RPCRTREMOTE.DLL\" at base 74fd0000\n \"ewiuer2.exe\" loaded module \"%WINDIR%\\SYSTEM32\\NPMPROXY.DLL\" at base 6bfd0000\n \"ewiuer2.exe\" loaded module \"%WINDIR%\\SYSTEM32\\OLEAUT32.DLL\" at base 76ec0000\n \"ewiuer2.exe\" loaded module \"%WINDIR%\\SYSTEM32\\WININET.DLL\" at base 75c60000\n \"ewiuer2.exe\" loaded module \"%WINDIR%\\SYSTEM32\\FWPUCLNT.DLL\" at base 73300000\n \"ewiuer2.exe\" loaded module \"COMCTL32.DLL\" at base 73f00000\n \"ewiuer2.exe\" loaded module \"%WINDIR%\\SYSTEM32\\WS2_32\" at base 76ce0000\n \"ewiuer2.exe\" loaded module \"BCRYPT.DLL\" at base 74b50000\n \"ewiuer2.exe\" loaded module \"%WINDIR%\\SYSTEM32\\BCRYPTPRIMITIVES.DLL\" at base 74710000\n \"ewiuer2.exe\" loaded module \"%WINDIR%\\SYSTEM32\\APPHELP.DLL\" at base 74ee0000\n \"ewiuer2.exe\" loaded module \"PROFAPI.DLL\" at base 75050000\n \"ewiuer2.exe\" loaded module \"API-MS-WIN-DOWNLEVEL-ADVAPI32-L2-1-0.DLL\" at base 70630000\n \"ewiuer2.exe\" loaded module \"API-MS-WIN-DOWNLEVEL-OLE32-L1-1-0.DLL\" at base 75360000\n \"ewiuer2.exe\" loaded module \"KERNEL32.DLL\" at base 77050000",
+      "origin": "API Call",
+      "attck_id": "T1129",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1129"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "api-175",
+      "type": 6,
+      "relevance": 1,
+      "name": "Calls an API typically used to load libraries",
+      "description": "\"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"LoadLibrary\" with a parameter api-ms-win-core-synch-l1-2-0 (UID: 00000000-00003168)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"LoadLibrary\" with a parameter api-ms-win-core-fibers-l1-1-1 (UID: 00000000-00003168)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"LoadLibrary\" with a parameter kernel32 (UID: 00000000-00003168)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"LoadLibrary\" with a parameter api-ms-win-core-localization-l1-2-1 (UID: 00000000-00003168)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter api-ms-win-core-synch-l1-2-0 (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter api-ms-win-core-fibers-l1-1-1 (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter kernel32 (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter api-ms-win-core-localization-l1-2-1 (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter WS2_32.dll (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter winhttp.dll (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter IPHLPAPI.DLL (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter api-ms-win-downlevel-shlwapi-l2-1-0.dll (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter DNSAPI.dll (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter ADVAPI32.dll (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter urlmon.dll (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter Secur32.dll (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter OLEAUT32.dll (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter ole32.dll (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter dhcpcsvc.DLL (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter API-MS-Win-Security-LSALookup-L1-1-0.dll (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter CRYPTBASE.dll (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter Comctl32.dll (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter %WINDIR%\\system32\\ws2_32 (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter bcrypt.dll (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter %WINDIR%\\system32\\bcryptprimitives.dll (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter api-ms-win-downlevel-advapi32-l2-1-0.dll (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter api-ms-win-downlevel-ole32-l1-1-0.dll (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter WS2_32.dll (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter winhttp.dll (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter IPHLPAPI.DLL (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter api-ms-win-downlevel-shlwapi-l2-1-0.dll (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter DNSAPI.dll (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter ADVAPI32.dll (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter urlmon.dll (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter Secur32.dll (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter OLEAUT32.dll (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter ole32.dll (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter dhcpcsvc.DLL (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter API-MS-Win-Security-LSALookup-L1-1-0.dll (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter CRYPTBASE.dll (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter Comctl32.dll (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter %WINDIR%\\system32\\ws2_32 (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter bcrypt.dll (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter %WINDIR%\\system32\\bcryptprimitives.dll (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter api-ms-win-core-synch-l1-2-0 (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter api-ms-win-core-fibers-l1-1-1 (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter kernel32 (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter api-ms-win-core-localization-l1-2-1 (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter api-ms-win-downlevel-advapi32-l2-1-0.dll (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter api-ms-win-downlevel-ole32-l1-1-0.dll (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter WS2_32.dll (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter winhttp.dll (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter IPHLPAPI.DLL (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter api-ms-win-downlevel-shlwapi-l2-1-0.dll (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter DNSAPI.dll (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter ADVAPI32.dll (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter urlmon.dll (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter Secur32.dll (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter OLEAUT32.dll (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter ole32.dll (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter dhcpcsvc.DLL (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter API-MS-Win-Security-LSALookup-L1-1-0.dll (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter CRYPTBASE.dll (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter Comctl32.dll (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"LoadLibrary\" with a parameter %WINDIR%\\system32\\ws2_32 (UID: 00000000-00005220)",
+      "origin": "API Call",
+      "attck_id": "T1129",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1129"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "api-22",
+      "type": 6,
+      "relevance": 1,
+      "name": "Fails to load modules at runtime",
+      "description": "\"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" failed to load missing module \"api-ms-win-core-fibers-l1-1-1\" - [base:0; Status:c0000135]\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" failed to load missing module \"api-ms-win-core-localization-l1-2-1\" - [base:0; Status:c0000135]\n \"ewiuer2.exe\" failed to load missing module \"api-ms-win-core-fibers-l1-1-1\" - [base:0; Status:c0000135]\n \"ewiuer2.exe\" failed to load missing module \"api-ms-win-core-localization-l1-2-1\" - [base:0; Status:c0000135]",
+      "origin": "API Call",
+      "attck_id": "T1574.002",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1574/002"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "module-10",
+      "type": 10,
+      "name": "Loads the RPC (Remote Procedure Call) module DLL",
+      "description": "\"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" loaded module \"%WINDIR%\\System32\\rpcrt4.dll\" at 75A60000\n \"ewiuer2.exe\" loaded module \"%WINDIR%\\System32\\rpcrt4.dll\" at 75A60000",
+      "origin": "Loaded Module",
+      "attck_id": "T1129",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1129"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "registry-25",
+      "type": 3,
+      "relevance": 3,
+      "name": "Reads information about supported languages",
+      "description": "\"ewiuer2.exe\" (Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\NLS\\CUSTOMLOCALE\"; Key: \"EN-US\")\n \"ewiuer2.exe\" (Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\NLS\\EXTENDEDLOCALE\"; Key: \"EN-US\")",
+      "origin": "Registry Access",
+      "attck_id": "T1082",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1082"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "target-103",
+      "type": 9,
+      "relevance": 3,
+      "name": "Spawns new processes that are not known child processes",
+      "description": "Spawned process \"ewiuer2.exe\" (UID: 00000000-00003444)\n Spawned process \"ewiuer2.exe\" (UID: 00000000-00004444)\n Spawned process \"ewiuer2.exe\" with commandline \"/nomove\" (UID: 00000000-00005220)",
+      "origin": "Monitored Target",
+      "attck_id": "T1057",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1057"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "target-25",
+      "type": 9,
+      "relevance": 3,
+      "name": "Spawns new processes",
+      "description": "Spawned process \"ewiuer2.exe\" (UID: 00000000-00003444)\n Spawned process \"ewiuer2.exe\" (UID: 00000000-00004444)\n Spawned process \"ewiuer2.exe\" with commandline \"/nomove\" (UID: 00000000-00005220)",
+      "origin": "Monitored Target",
+      "attck_id": "T1057",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1057"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "static-157",
+      "name": "Matched Compiler/Packer signature (DIE)",
+      "description": "\"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda\" was detected as \"Microsoft Visual C/C++\"  and name: \"Compiler\"\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda\" was detected as \"Microsoft Linker\"  and name: \"Linker\"\n \"ewiuer2.exe\" was detected as \"Microsoft Visual C/C++\"  and name: \"Compiler\"\n \"ewiuer2.exe\" was detected as \"Microsoft Linker\"  and name: \"Linker\"\n \"EWIUER2.EXE.67A482B6.bin\" was detected as \"Microsoft Visual C/C++\"  and name: \"Compiler\"\n \"EWIUER2.EXE.67A482B6.bin\" was detected as \"Microsoft Linker\"  and name: \"Linker\"",
+      "origin": "Static Parser",
+      "attck_id": "T1027",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1027"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Unusual Characteristics",
+      "identifier": "string-23",
+      "type": 2,
+      "relevance": 2,
+      "name": "Detected known bank URL artifact",
+      "description": "\"www.credit-agricole.fr\" (Source: 00000000-00003444.00000000.329766.001D0000.00000004.mdmp, 00000000-00003444.00000001.330143.001D0000.00000004.mdmp, Indicator: \"credit-agricole.fr\")\n \"capitalone.com\" (Source: 00000000-00003444.00000000.329766.001D0000.00000004.mdmp, 00000000-00003444.00000001.330143.001D0000.00000004.mdmp, Indicator: \"capitalone.com\")\n \"www.credit-agricole.fr\" (Source: 00000000-00004444.00000000.330444.00180000.00000004.mdmp, 00000000-00004444.00000001.331051.001E2000.00000004.mdmp, Indicator: \"credit-agricole.fr\")\n \"capitalone.com\" (Source: 00000000-00004444.00000000.330444.00180000.00000004.mdmp, 00000000-00004444.00000001.331051.001E2000.00000004.mdmp, Indicator: \"capitalone.com\")\n \"www.credit-agricole.fr\" (Source: 00000000-00005220.00000000.331367.00240000.00000004.mdmp, 00000000-00005220.00000001.333290.00240000.00000004.mdmp, 00000000-00005220.00000002.335213.00240000.00000004.mdmp, Indicator: \"credit-agricole.fr\")\n \"capitalone.com\" (Source: 00000000-00005220.00000000.331367.00240000.00000004.mdmp, 00000000-00005220.00000001.333290.00240000.00000004.mdmp, 00000000-00005220.00000002.335213.00240000.00000004.mdmp, Indicator: \"capitalone.com\")",
+      "origin": "File/Memory"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Unusual Characteristics",
+      "identifier": "binary-37",
+      "type": 8,
+      "relevance": 3,
+      "name": "Drops files inside appdata directory",
+      "description": "Dropped file: \"ewiuer2.exe\"  - Location: [%APPDATA%\\ewiuer2.exe]- [targetUID: 00000000-00004444]\n Dropped file: \"N1W0UPWY.txt\"  - Location: [%APPDATA%\\Microsoft\\Windows\\Cookies\\N1W0UPWY.txt]- [targetUID: 00000000-00004444]\n Dropped file: \"7W4OOVRO.txt\"  - Location: [%APPDATA%\\Microsoft\\Windows\\Cookies\\7W4OOVRO.txt]- [targetUID: 00000000-00004444]\n Dropped file: \"JAPOZOO9.txt\"  - Location: [%APPDATA%\\Microsoft\\Windows\\Cookies\\JAPOZOO9.txt]- [targetUID: 00000000-00004444]\n Dropped file: \"KE4KSO93.txt\"  - Location: [%APPDATA%\\Microsoft\\Windows\\Cookies\\KE4KSO93.txt]- [targetUID: 00000000-00003444]",
+      "origin": "Binary File",
+      "attck_id": "T1036",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1036"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "api-126",
+      "type": 6,
+      "relevance": 3,
+      "name": "Tries to access non-existent files (executable)",
+      "description": "\"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" trying to access non-existent file \"C:\\version.DLL\"\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" trying to access non-existent file \"C:\\FLTLIB.DLL\"\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" trying to access non-existent file \"C:\\Windows\\system32\\api-ms-win-core-fibers-l1-1-1.DLL\"\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" trying to access non-existent file \"C:\\Windows\\system32\\api-ms-win-core-localization-l1-2-1.DLL\"\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" trying to access non-existent file \"C:\\VERSION.DLL\"\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" trying to access non-existent file \"C:\\Windows\\System32\\API-MS-WIN-CORE-FIBERS-L1-1-1.DLL\"\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" trying to access non-existent file \"C:\\Windows\\System32\\API-MS-WIN-CORE-LOCALIZATION-L1-2-1.DLL\"\n \"ewiuer2.exe\" trying to access non-existent file \"C:\\Users\\%OSUSER%\\AppData\\Roaming\\version.DLL\"\n \"ewiuer2.exe\" trying to access non-existent file \"C:\\Users\\%OSUSER%\\AppData\\Roaming\\Secur32.dll\"\n \"ewiuer2.exe\" trying to access non-existent file \"C:\\Users\\%OSUSER%\\AppData\\Roaming\\SSPICLI.DLL\"\n \"ewiuer2.exe\" trying to access non-existent file \"C:\\Users\\%OSUSER%\\AppData\\Roaming\\api-ms-win-downlevel-advapi32-l2-1-0.dll\"\n \"ewiuer2.exe\" trying to access non-existent file \"C:\\Users\\%OSUSER%\\AppData\\Roaming\\FLTLIB.DLL\"\n \"ewiuer2.exe\" trying to access non-existent file \"C:\\Windows\\system32\\api-ms-win-core-fibers-l1-1-1.DLL\"\n \"ewiuer2.exe\" trying to access non-existent file \"C:\\Windows\\system32\\api-ms-win-core-localization-l1-2-1.DLL\"",
+      "origin": "API Call",
+      "attck_id": "T1083",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1083"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "api-243",
+      "type": 6,
+      "relevance": 1,
+      "name": "Reads files",
+      "description": "\"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" reads file \"c:\\ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\"\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" reads file \"c:\\users\\%osuser%\\appdata\\roaming\\ewiuer2.exe\"\n \"ewiuer2.exe\" reads file \"c:\\users\\%osuser%\\appdata\\roaming\\ewiuer2.exe\"\n \"ewiuer2.exe\" reads file \"c:\\windows\\system32\\ewiuer2.exe\"\n \"ewiuer2.exe\" reads file \"c:\\users\\%osuser%\\appdata\\roaming\\microsoft\\windows\\cookies\\n1w0upwy.txt\"\n \"ewiuer2.exe\" reads file \"c:\\windows\\system32\\viesazm.mpk\"\n \"ewiuer2.exe\" reads file \"c:\\users\\%osuser%\\appdata\\roaming\\microsoft\\windows\\cookies\\japozoo9.txt\"",
+      "origin": "API Call",
+      "attck_id": "T1083",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1083"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "registry-177",
+      "type": 3,
+      "relevance": 1,
+      "name": "Opens registry keys",
+      "description": "\"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" (Access type: \"OPEN\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\SIDEBYSIDE\"; Key: \"\"; Value: \"\")\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" (Access type: \"OPEN\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\SESSION MANAGER\"; Key: \"\"; Value: \"\")\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" (Access type: \"OPEN\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\TERMINAL SERVER\"; Key: \"\"; Value: \"\")\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" (Access type: \"OPEN\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\SAFEBOOT\\OPTION\"; Key: \"\"; Value: \"\")\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" (Access type: \"OPEN\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\SRP\\GP\\DLL\"; Key: \"\"; Value: \"\")\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" (Access type: \"OPEN\"; Path: \"HKLM\\SOFTWARE\\POLICIES\\MICROSOFT\\WINDOWS\\SAFER\\CODEIDENTIFIERS\"; Key: \"\"; Value: \"\")\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" (Access type: \"OPEN\"; Path: \"HKCU\\SOFTWARE\\POLICIES\\MICROSOFT\\WINDOWS\\SAFER\\CODEIDENTIFIERS\"; Key: \"\"; Value: \"\")\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" (Access type: \"OPEN\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\NLS\\SORTING\\VERSIONS\"; Key: \"\"; Value: \"\")\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" (Access type: \"OPEN\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\ERROR MESSAGE INSTRUMENT\"; Key: \"\"; Value: \"\")\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" (Access type: \"OPEN\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\WINDOWS NT\\CURRENTVERSION\\GRE_INITIALIZE\"; Key: \"\"; Value: \"\")\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" (Access type: \"OPEN\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\WINDOWS NT\\CURRENTVERSION\\COMPATIBILITY32\"; Key: \"\"; Value: \"\")\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" (Access type: \"OPEN\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\WINDOWS NT\\CURRENTVERSION\\IME COMPATIBILITY\"; Key: \"\"; Value: \"\")\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" (Access type: \"OPEN\"; Path: \"HKLM\"; Key: \"\"; Value: \"\")\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" (Access type: \"OPEN\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\WINDOWS NT\\CURRENTVERSION\\WINDOWS\"; Key: \"\"; Value: \"\")\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" (Access type: \"OPEN\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\WINDOWS NT\\CURRENTVERSION\\DIAGNOSTICS\"; Key: \"\"; Value: \"\")",
+      "origin": "Registry Access",
+      "attck_id": "T1012",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1012"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "api-264",
+      "type": 6,
+      "relevance": 3,
+      "name": "Creates a thread in a self process",
+      "description": "\"ewiuer2.exe\" creates a thread in process \"-1\" (Handle: 4294967295)",
+      "origin": "API Call",
+      "attck_id": "T1055.003",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055/003"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "api-263",
+      "type": 6,
+      "relevance": 1,
+      "name": "Touches files",
+      "description": "\"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" trying to touch file \"C:\\version.DLL\"\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" trying to touch file \"C:\\Windows\\system32\\version.DLL\"\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" trying to touch file \"C:\\Windows\\SYSTEM32\\sechost.dll\"\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" trying to touch file \"C:\\Windows\\system32\\IMM32.DLL\"\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" trying to touch file \"C:\\Users\\%OSUSER%\\AppData\\Roaming\\ewiuer2.exe\"\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" trying to touch file \"C:\\Windows\\Temp\\VxSSL32.dll\"\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" trying to touch file \"C:\\FLTLIB.DLL\"\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" trying to touch file \"C:\\Windows\\system32\\FLTLIB.DLL\"\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" trying to touch file \"C:\\Windows\\system32\\api-ms-win-core-synch-l1-2-0.DLL\"\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" trying to touch file \"C:\\Windows\\system32\\api-ms-win-core-fibers-l1-1-1.DLL\"\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" trying to touch file \"C:\\Windows\\system32\\api-ms-win-core-localization-l1-2-1.DLL\"\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" trying to touch file \"C:\\Windows\\system32\\apphelp.dll\"\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" trying to touch file \"C:\\Windows\\Temp\\VxOle32.dll\"\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" trying to touch file \"\\FileSystem\\Filters\\FltMgrMsg\"\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" trying to touch file \"C:\\Windows\\AppPatch\\sysmain.sdb\"\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" trying to touch file \"C:\\Users\\%OSUSER%\\AppData\\Roaming\\ui\\SwDRM.dll\"",
+      "origin": "API Call",
+      "attck_id": "T1083",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1083"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "api-242",
+      "type": 6,
+      "relevance": 1,
+      "name": "Writes files",
+      "description": "\"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" writes file \"c:\\users\\%osuser%\\appdata\\roaming\\ewiuer2.exe\"\n \"ewiuer2.exe\" writes file \"c:\\users\\%osuser%\\appdata\\roaming\\microsoft\\windows\\cookies\\ke4kso93.txt\"\n \"ewiuer2.exe\" writes file \"c:\\users\\%osuser%\\appdata\\roaming\\microsoft\\windows\\cookies\\n1w0upwy.txt\"\n \"ewiuer2.exe\" writes file \"c:\\windows\\system32\\ewiuer2.exe\"\n \"ewiuer2.exe\" writes file \"c:\\users\\%osuser%\\appdata\\roaming\\microsoft\\windows\\cookies\\7w4oovro.txt\"\n \"ewiuer2.exe\" writes file \"c:\\users\\%osuser%\\appdata\\roaming\\microsoft\\windows\\cookies\\japozoo9.txt\"\n \"ewiuer2.exe\" writes file \"c:\\windows\\system32\\viesazm.mpk\"\n \"ewiuer2.exe\" writes file \"%appdata%\\ewiuer2.exe\"\n \"ewiuer2.exe\" writes file \"%appdata%\\microsoft\\windows\\cookies\\n1w0upwy.txt\"\n \"ewiuer2.exe\" writes file \"%appdata%\\microsoft\\windows\\cookies\\7w4oovro.txt\"\n \"ewiuer2.exe\" writes file \"%appdata%\\microsoft\\windows\\cookies\\japozoo9.txt\"\n \"ewiuer2.exe\" writes file \"%appdata%\\microsoft\\windows\\cookies\\ke4kso93.txt\"\n \"ewiuer2.exe\" writes file \"%windir%\\system32\\viesazm.mpk\"\n \"ewiuer2.exe\" writes file \"%windir%\\system32\\ewiuer2.exe\"",
+      "origin": "API Call"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "api-161",
+      "type": 6,
+      "relevance": 3,
+      "name": "Tries to access non-existent files (non-executable)",
+      "description": "\"ewiuer2.exe\" trying to access non-existent file \"C:\\Users\\%OSUSER%\\AppData\\Roaming\\viesazm.mpk\"\n \"ewiuer2.exe\" trying to access non-existent file \"\\Device\\RasAcd\"\n \"ewiuer2.exe\" trying to access non-existent file \"\\Device\\NetBT_Tcpip_{90A066FE-591C-47F3-850D-9644B684FBA5}\"\n \"ewiuer2.exe\" trying to access non-existent file \"\\Device\\NetBT_Tcpip6_{AC07BF4D-B150-47EB-A71E-488912826651}\"\n \"ewiuer2.exe\" trying to access non-existent file \"\\Device\\NetBT_Tcpip6_{07B41F79-1AEC-4782-A6E8-8C28FFBA35ED}\"\n \"ewiuer2.exe\" trying to access non-existent file \"\\Device\\NetBT_Tcpip6_{90A066FE-591C-47F3-850D-9644B684FBA5}\"\n \"ewiuer2.exe\" trying to access non-existent file \"C:\\Users\\%OSUSER%\\AppData\\Roaming\\ewiuer2.exe.Local\\\"\n \"ewiuer2.exe\" trying to access non-existent file \"C:\\Users\\%OSUSER%\\AppData\\Roaming\\VIESAZM.MPK\"\n \"ewiuer2.exe\" trying to access non-existent file \"C:\\Users\\%OSUSER%\\AppData\\Roaming\\EWIUER2.EXE.LOCAL\"\n \"ewiuer2.exe\" trying to access non-existent file \"C:\\Windows\\System32\\viesazm.mpk\"",
+      "origin": "API Call",
+      "attck_id": "T1083",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1083"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "binary-0",
+      "type": 8,
+      "relevance": 3,
+      "name": "Dropped files",
+      "description": "\"ewiuer2.exe\" has type \"PE32 executable (GUI) Intel 80386 for MS Windows\"- Location: [%APPDATA%\\ewiuer2.exe]- [targetUID: 00000000-00004444]\n \"EWIUER2.EXE.67A482B6.bin\" has type \"PE32 executable (GUI) Intel 80386 for MS Windows\"- [targetUID: N/A]\n \"N1W0UPWY.txt\" has type \"ASCII text\"- Location: [%APPDATA%\\Microsoft\\Windows\\Cookies\\N1W0UPWY.txt]- [targetUID: 00000000-00004444]\n \"7W4OOVRO.txt\" has type \"ASCII text\"- Location: [%APPDATA%\\Microsoft\\Windows\\Cookies\\7W4OOVRO.txt]- [targetUID: 00000000-00004444]\n \"JAPOZOO9.txt\" has type \"ASCII text\"- Location: [%APPDATA%\\Microsoft\\Windows\\Cookies\\JAPOZOO9.txt]- [targetUID: 00000000-00004444]\n \"KE4KSO93.txt\" has type \"ASCII text\"- Location: [%APPDATA%\\Microsoft\\Windows\\Cookies\\KE4KSO93.txt]- [targetUID: 00000000-00003444]\n \"viesazm.mpk\" has type \"data\"- Location: [%WINDIR%\\System32\\viesazm.mpk]- [targetUID: 00000000-00005220]\n \"ewiuer2.exe\" has type \"PE32 executable (GUI) Intel 80386 for MS Windows\"- Location: [%WINDIR%\\System32\\ewiuer2.exe]- [targetUID: 00000000-00004444]",
+      "origin": "Binary File",
+      "attck_id": "T1105",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1105"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "api-55",
+      "type": 6,
+      "relevance": 7,
+      "name": "Touches files in the Windows directory",
+      "description": "\"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" touched file \"C:\\Windows\\AppPatch\\sysmain.sdb\"\n \"ewiuer2.exe\" touched file \"C:\\Windows\\AppPatch\\sysmain.sdb\"\n \"ewiuer2.exe\" touched file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\counters.dat\"\n \"ewiuer2.exe\" touched file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\"\n \"ewiuer2.exe\" touched file \"C:\\Users\\%OSUSER%\\AppData\\Roaming\\Microsoft\\Windows\\Cookies\"\n \"ewiuer2.exe\" touched file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\History\"\n \"ewiuer2.exe\" touched file \"C:\\Users\\%OSUSER%\\AppData\\Roaming\\Microsoft\\Windows\\Cookies\\KE4KSO93.txt\"\n \"ewiuer2.exe\" touched file \"C:\\Users\\%OSUSER%\\AppData\\Roaming\\Microsoft\\Windows\\Cookies\\N1W0UPWY.txt\"\n \"ewiuer2.exe\" touched file \"C:\\Windows\\System32\\ewiuer2.exe\"\n \"ewiuer2.exe\" touched file \"%LOCALAPPDATA%\\Microsoft\\Windows\\Temporary Internet Files\\counters.dat\"\n \"ewiuer2.exe\" touched file \"%LOCALAPPDATA%\\Microsoft\\Windows\\Temporary Internet Files\"\n \"ewiuer2.exe\" touched file \"%APPDATA%\\Microsoft\\Windows\\Cookies\"\n \"ewiuer2.exe\" touched file \"%LOCALAPPDATA%\\Microsoft\\Windows\\History\"\n \"ewiuer2.exe\" touched file \"%APPDATA%\\Microsoft\\Windows\\Cookies\\KE4KSO93.txt\"\n \"ewiuer2.exe\" touched file \"%APPDATA%\\Microsoft\\Windows\\Cookies\\N1W0UPWY.txt\"\n \"ewiuer2.exe\" touched file \"C:\\Windows\\System32\\viesazm.mpk\"",
+      "origin": "API Call",
+      "attck_id": "T1083",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1083"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "registry-172",
+      "type": 3,
+      "relevance": 1,
+      "name": "Queries registry keys",
+      "description": "\"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\SIDEBYSIDE\"; Key: \"PREFEREXTERNALMANIFEST\"; Value: \"\")\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\SESSION MANAGER\"; Key: \"CWDILLEGALINDLLSEARCH\"; Value: \"\")\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\TERMINAL SERVER\"; Key: \"TSAPPCOMPAT\"; Value: \"\")\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\TERMINAL SERVER\"; Key: \"TSUSERENABLED\"; Value: \"\")\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\POLICIES\\MICROSOFT\\WINDOWS\\SAFER\\CODEIDENTIFIERS\"; Key: \"TRANSPARENTENABLED\"; Value: \"\")\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\NLS\\SORTING\\VERSIONS\"; Key: \"COMPATDLL\"; Value: \"\")\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\NLS\\SORTING\\VERSIONS\"; Key: \"00060101.00060101\"; Value: \"\")\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\NLS\\SORTING\\VERSIONS\"; Key: \"\"; Value: \"\")\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\SESSION MANAGER\"; Key: \"SAFEDLLSEARCHMODE\"; Value: \"\")\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\WINDOWS NT\\CURRENTVERSION\\GRE_INITIALIZE\"; Key: \"DISABLEMETAFILES\"; Value: \"\")\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\WINDOWS NT\\CURRENTVERSION\\COMPATIBILITY32\"; Key: \"ECC618E36C19C2986389DFD687EFB10CBFDE125CF66FEF09F7FAD4CBC63D7CDA\"; Value: \"\")\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\WINDOWS NT\\CURRENTVERSION\\WINDOWS\"; Key: \"LOADAPPINIT_DLLS\"; Value: \"\")\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\OLE\"; Key: \"PAGEALLOCATORUSESYSTEMHEAP\"; Value: \"\")\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\OLE\"; Key: \"PAGEALLOCATORSYSTEMHEAPISPRIVATE\"; Value: \"\")\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" (Access type: \"QUERYVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\RUN\"; Key: \"TASKHOST\"; Value: \"\")\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\RUN\"; Key: \"TASKHOST\"; Value: \"\")\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\POLICIES\\MICROSOFT\\WINDOWS\\SAFER\\CODEIDENTIFIERS\"; Key: \"AUTHENTICODEENABLED\"; Value: \"\")\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\POLICIES\\MICROSOFT\\WINDOWS\\APPCOMPAT\"; Key: \"DISABLEENGINE\"; Value: \"\")\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" (Access type: \"QUERYVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\EXPLORER\\SHELL FOLDERS\"; Key: \"CACHE\"; Value: \"\")\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\WINDOWS NT\\CURRENTVERSION\\IMAGE FILE EXECUTION OPTIONS\"; Key: \"DISABLELOCALOVERRIDE\"; Value: \"\")",
+      "origin": "Registry Access",
+      "attck_id": "T1012",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1012"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "api-16",
+      "type": 6,
+      "relevance": 1,
+      "name": "Connects to LPC ports",
+      "description": "\"ewiuer2.exe\" connecting to \"\\ThemeApiPort\"",
+      "origin": "API Call",
+      "attck_id": "T1559",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1559"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Anti-Detection/Stealthyness",
+      "identifier": "registry-179",
+      "type": 3,
+      "relevance": 1,
+      "name": "Tries to map intranet network resources to internet zone",
+      "description": "\"ewiuer2.exe\" (Access type: \"SETVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\INTERNET SETTINGS\\ZONEMAP\"; Key: \"UNCASINTRANET\"; Value: \"00000000\")",
+      "origin": "Registry Access",
+      "attck_id": "T1562.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1562/001"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Environment Awareness",
+      "identifier": "api-222",
+      "type": 6,
+      "relevance": 2,
+      "name": "Calls an API typically used to retrieve OS information",
+      "description": "\"ewiuer2.exe\" called \"GetVersionExA\" with parameter 9c0000000600000001000000b11d00000200000053657276696365205061636b2031000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetVersionExA\" with parameter 940000000600000001000000b11d00000200000053657276696365205061636b2031000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"GetVersionExA\" with parameter 9c0000000600000001000000b11d00000200000053657276696365205061636b2031000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetVersionExA\" with parameter 940000000600000001000000b11d00000200000053657276696365205061636b2031000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"GetVersionExA\" with parameter 9c0000000600000001000000b11d00000200000053657276696365205061636b2031000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"GetVersionExA\" with parameter 940000000600000001000000b11d00000200000053657276696365205061636b2031000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 (UID: 00000000-00005220)",
+      "origin": "API Call",
+      "attck_id": "T1082",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1082"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Environment Awareness",
+      "identifier": "api-125",
+      "type": 6,
+      "relevance": 3,
+      "name": "Calls an API typically used to get system version information",
+      "description": "\"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"RtlGetVersion\" with parameter 140100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b0020003100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 (UID: 00000000-00003168)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"RtlGetVersion\" with parameter 140100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b002000310000002e0008332e0003332e00000000000000000000002a00000000013ccc120000000000a0d9120095e1147733f97600feffffff435c187750591877aa000000b800000002332e0000332e00c4cd1200fcd1120000000000000000000000000000000000000000000000000000000000000000001c5c177760d80f75ffffffff1700000074cd1200240000000300000064d2120090d71200fcd1120086000000a0cd120096ed18772a332e00a06aee7486000000c4cd1200fcd112000000000086008800a06aee74c4cd1200916cee742a332e00a06aee74a06aee7434d2120002020000 (UID: 00000000-00003168)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"RtlGetVersion\" with parameter 000000000600000001000000b11d000002000000530065007200760069006300650020005000610063006b0020003100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 (UID: 00000000-00003168)\n \"ewiuer2.exe\" called \"RtlGetVersion\" with parameter 140100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b0020003100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"RtlGetVersion\" with parameter 1c0100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b0020003100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"RtlGetVersion\" with parameter 1c0100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b00200031000000cd750000000050011d000000000006c4cd75887d1f00781b200000000000020000000000000000000001781b2000100000000000010198d0120000000000c4ff120095e11477e8fc7600feffffffe06318771664187700000000887d1f000400cc0000000000887d1f00807d1f00acd11200f4c5097700001d0000000000887d1f00f8d112006321ce7500001d0000000000887d1f003cc9cd750000000000000000000400000200000000000000887d1f00943c7c77000000000400cc000000000000000000000000006455400032d51200f4d61200000400000000000000000000 (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"RtlGetVersion\" with parameter 1c0100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b00200031000000000000001d0000000000c8be2200148812000464187738011d00e0631877f4667c770000000000001d00d0be22006dd1097798a332bb6caeb1750000000000000000e80100002328000bc4001d000100000000001d0050011d000c000000d0be22000000000002000000180000002c000000f0871200000000000000000003000000b48712003c6e1877000000000000000000000000c07b1f00c0751177c07b1f0000000000c0751177d087120079da0977000000000200000028881200dbd2097700000000e2d2097770ac32bb23280000ff2b187790667c770000000004021d00 (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"RtlGetVersion\" with parameter 1c0100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b00200031000000000098e63c0000008901f0f276013ce43c00ff2b187798e63c0095e11477c8fc7600feffffff435c18775059187734020000400200008a058901880589011000000080000000ff2b1877540b527720a3c16cac011d0000001d0001000000202b20000800d4000500000000d15f73ac011d0000001d00880589010900cf000500000005000000bcee1877d86f1d0000008901200000000a00ca0000000000d8d92200c86c1d00e86d1d00e81a230090711d000000890130e53c00d8d92200b0e63c0095e11477f0f27600feffffffff2b18779a2a187720a3c16c10a3c16c00000000 (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"RtlGetVersion\" with parameter 140100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b002000310000001d0016000000aa0000000000000000000000887a2400c86c1d00306e1d0068a72500e0781d007700690068c912007200320070d6120068a72500e9e9187768a7250000000000aa00000094ca1200ccce120000000000000000000000000000000000000000000000000000000000000000001c5c177760d80f75ffffffff1700000044ca1200240000000300000034cf120060d41200ccce12008600000070ca120096ed18778aa72500a06aee748600000094ca1200ccce12000000000086008800a06aee7494ca1200916cee748aa72500a06aee74a06aee7404cf120002020000 (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"RtlGetVersion\" with parameter 000000000600000001000000b11d000002000000530065007200760069006300650020005000610063006b0020003100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"RtlGetVersion\" with parameter 1c0100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b0020003100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004ce1200000000003e00000054ce1200feffffffdccd1200cf001977d60019771cda7c773e0000001f00000054ce120000000000b0cd12000000000018ce1200 (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"RtlGetVersion\" with parameter 1c0100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b0020003100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"RtlGetVersion\" with parameter 1c0100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b00200031000000cd7500000000500118000000000006c4cd75087d1a00a8a71b000000000002000000000000000000000100000000100000000000010198d0120000000000c4ff120095e11477c8057600feffffffe06318771664187700000000087d1a000400cc0000000000087d1a00007d1a00acd11200f4c509770000180000000000087d1a00f8d112006321ce750000180000000000087d1a003cc9cd750000000000000000000400000200000000000000087d1a00b4c57c77000000000400cc000000000000000000000000006455400032d51200f4d61200000400000000000000000000 (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"RtlGetVersion\" with parameter 1c0100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b002000310000000000000018000080000068ab1d00148812000464187738011800e0631877d49f7c77000000000000180070ab1d006dd10977259509946caeb1750000000000000000e4010000c4001800302f18000100000000001800500118000c00000070ab1d00302f180002000000180000002c0000008f060000000000000000000003000000b48712008f06000000000000000000000f00000f0f060000c0751177703a1d0000000000c0751177d087120079da097700000000302f180028881200dbd2097770ab1d00c4001800cd9a09948f060000ff2b1877b09f7c770000000004021800 (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"RtlGetVersion\" with parameter 1c0100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b00200031000000000098e64b0000001302d00b76013ce44b01ff2b187798e64b0195e11477e8057600feffffff435c18775059187734020000400200008a051302880513021000000080000000ff2b187774f2257620a3c16cac0118000000180001000000c0191b000700d9005b00000000d15f73ac01180000001800880513020800d4005b0000005b000000bcee1877606f180000001302200000000900cf000000000038c61d00506c1800706d180030de1d00187118000000130230e54b0138c61d00b0e64b0195e11477d00b7600feffffffff2b18779a2a187720a3c16c10a3c16c00000000 (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"RtlGetVersion\" with parameter 1c0100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b0020003100000018773cc67c7764d51200ac03180000001800500118000000000000000000302f1800000000009c2f1800000000007e02000000000000302f18004302000050ea210000000000c30200000000000080000000000000000000000000000000000000000000000002000002f0c62100b3320081000000000000000000000000ff0700000000180002000000d0d11200207e1877a8d21200000000003e004000a8d212000200000074d21200626f187701821877b4c57c7764d5120008020000d8cc2100c4ff120040420f006455400032d51200f4d612000004000040420f0000000000 (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"RtlGetVersion\" with parameter 000000000600000001000000b11d000002000000530065007200760069006300650020005000610063006b0020003100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"RtlGetVersion\" with parameter 140100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b0020003100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"RtlGetVersion\" with parameter 1c0100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b00200031000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e4de1200000000003e00000034df1200feffffffbcde1200cf001977d60019771a927c773e0000001f00000034df12000000000090de120000000000f8de1200 (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"RtlGetVersion\" with parameter 1c0100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b0020003100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"RtlGetVersion\" with parameter 1c0100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b0020003100000012000000000064000000f8e11200d8e21200c4ff1200bd0611755ae2d975feffffffcd750f7564560a778c01000074e2120064000000d8e2120000000000dce21200267e40008c01000074e2120064000000d8e212000000000000000000b8e94000010000002d781678117809780d781d7836780d781578787849784b784b7840784b784b7848784c784e7849784c78497848784d784c784f784878407878787878787878787878787878787878787878787878787878787878787878787878787878787878000000006455400024e5120010e712000100000000000000684f4100 (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"RtlGetVersion\" with parameter 1c0100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b0020003100000000000000240000000000e8f22900fc9812000464187738012400e06318775ad47c770000000000002400f0f229006dd10977140fc4006caeb1750000000000000000040200009f2700b8c40024000100000000002400500124000c000000f0f229000000000002000000180000002c000000d89812000000000000000000030000009c9812003c6e1877000000000000000000000000507b2600c0751177507b260000000000c0751177b898120079da0977000000000200000010991200dbd2097700000000e2d20977ac0ec4009f270000ff2b1877fed57c770000000004022400 (UID: 00000000-00005220)\n \"ewiuer2.exe\" called \"RtlGetVersion\" with parameter 1c0100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b00200031000000000098e6aa0000003f00b65076013ce4aa01ff2b187798e6aa0195e114778e5e7600feffffff435c18775059187734020000400200008a053f0088053f001000000080000000ff2b187712a9c47620a3c16cac0124000000240001000000f03f27002a002a003900000000d15f73ac0124000000240088053f002b0025003900000039000000bcee1877706f240000003f00200000002c00200000000000980a2a00606c2400806d240020be2a002871240000003f0030e5aa01980a2a00b0e6aa0195e11477b6507600feffffffff2b18779a2a187720a3c16c10a3c16c00000000 (UID: 00000000-00005220)",
+      "origin": "API Call",
+      "attck_id": "T1082",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1082"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Environment Awareness",
+      "identifier": "api-146",
+      "type": 6,
+      "relevance": 3,
+      "name": "Calls an API typically used to determine if process is running under WOW64",
+      "description": "\"ewiuer2.exe\" called \"IsWow64Process\" with parameter \"3444\" - (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"IsWow64Process\" with parameter \"4444\" - (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"IsWow64Process\" with parameter \"5220\" - (UID: 00000000-00005220)",
+      "origin": "API Call",
+      "attck_id": "T1057",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1057"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Environment Awareness",
+      "identifier": "registry-35",
+      "type": 3,
+      "relevance": 5,
+      "name": "Reads the active computer name",
+      "description": "\"ewiuer2.exe\" (Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\COMPUTERNAME\\ACTIVECOMPUTERNAME\"; Key: \"COMPUTERNAME\")",
+      "origin": "Registry Access",
+      "attck_id": "T1082",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1082"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Environment Awareness",
+      "identifier": "api-124",
+      "type": 6,
+      "relevance": 3,
+      "name": "Calls an API typically used to get product type",
+      "description": "\"ewiuer2.exe\" called \"RtlGetNtProductType\" with parameter 01000000 (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"RtlGetNtProductType\" with parameter 01000000 (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"RtlGetNtProductType\" with parameter 01000000 (UID: 00000000-00005220)",
+      "origin": "API Call",
+      "attck_id": "T1082",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1082"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Environment Awareness",
+      "identifier": "api-148",
+      "type": 6,
+      "relevance": 3,
+      "name": "Calls an API typically used to retrieve account information for specified SID",
+      "description": "\"ewiuer2.exe\" called \"LookupAccountSidW\" with param Name %OSUSER% (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"LookupAccountSidW\" with param Name %OSUSER% (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"LookupAccountSidW\" with param Name %OSUSER% (UID: 00000000-00005220)",
+      "origin": "API Call",
+      "attck_id": "T1033",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1033"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Environment Awareness",
+      "identifier": "registry-1",
+      "type": 3,
+      "relevance": 5,
+      "name": "Reads the cryptographic machine GUID",
+      "description": "\"ewiuer2.exe\" (Path: \"HKLM\\SOFTWARE\\MICROSOFT\\CRYPTOGRAPHY\"; Key: \"MACHINEGUID\")",
+      "origin": "Registry Access",
+      "attck_id": "T1082",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1082"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Environment Awareness",
+      "identifier": "registry-130",
+      "type": 3,
+      "relevance": 1,
+      "name": "Queries TCP/IP interface details",
+      "description": "\"ewiuer2.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\TCPIP\\PARAMETERS\\INTERFACES\\{07B41F79-1AEC-4782-A6E8-8C28FFBA35ED}\"; Key: \"ENABLEDHCP\"; Value: \"\")\n \"ewiuer2.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\TCPIP\\PARAMETERS\\INTERFACES\\{07B41F79-1AEC-4782-A6E8-8C28FFBA35ED}\"; Key: \"REGISTRATIONENABLED\"; Value: \"\")\n \"ewiuer2.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\TCPIP\\PARAMETERS\\INTERFACES\\{07B41F79-1AEC-4782-A6E8-8C28FFBA35ED}\"; Key: \"REGISTERADAPTERNAME\"; Value: \"\")\n \"ewiuer2.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\TCPIP\\PARAMETERS\\INTERFACES\\{07B41F79-1AEC-4782-A6E8-8C28FFBA35ED}\"; Key: \"DOMAIN\"; Value: \"\")\n \"ewiuer2.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\TCPIP\\PARAMETERS\\INTERFACES\\{07B41F79-1AEC-4782-A6E8-8C28FFBA35ED}\"; Key: \"DHCPDOMAIN\"; Value: \"\")\n \"ewiuer2.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\TCPIP\\PARAMETERS\\INTERFACES\\{E29AC6C2-7037-11DE-816D-806E6F6E6963}\"; Key: \"ENABLEDHCP\"; Value: \"\")\n \"ewiuer2.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\TCPIP\\PARAMETERS\\INTERFACES\\{E29AC6C2-7037-11DE-816D-806E6F6E6963}\"; Key: \"REGISTRATIONENABLED\"; Value: \"\")\n \"ewiuer2.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\TCPIP\\PARAMETERS\\INTERFACES\\{E29AC6C2-7037-11DE-816D-806E6F6E6963}\"; Key: \"REGISTERADAPTERNAME\"; Value: \"\")\n \"ewiuer2.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\TCPIP\\PARAMETERS\\INTERFACES\\{E29AC6C2-7037-11DE-816D-806E6F6E6963}\"; Key: \"DOMAIN\"; Value: \"\")\n \"ewiuer2.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\TCPIP\\PARAMETERS\\INTERFACES\\{E29AC6C2-7037-11DE-816D-806E6F6E6963}\"; Key: \"DHCPDOMAIN\"; Value: \"\")",
+      "origin": "Registry Access",
+      "attck_id": "T1012",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1012"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Spyware/Information Retrieval",
+      "identifier": "api-102",
+      "type": 6,
+      "relevance": 5,
+      "name": "Calls an API typically used for searching a directory for files",
+      "description": "\"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"FindFirstFileW\" with parameter %APPDATA%\\*.* (UID: 00000000-00003168)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"FindNextFileW\" with parameter .. (UID: 00000000-00003168)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"FindNextFileW\" with parameter Adobe (UID: 00000000-00003168)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"FindNextFileW\" with parameter ewiuer2.exe (UID: 00000000-00003168)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"FindNextFileW\" with parameter HNC (UID: 00000000-00003168)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"FindNextFileW\" with parameter Identities (UID: 00000000-00003168)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"FindNextFileW\" with parameter Macromedia (UID: 00000000-00003168)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"FindNextFileW\" with parameter Media Center Programs (UID: 00000000-00003168)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"FindNextFileW\" with parameter Microsoft (UID: 00000000-00003168)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"FindNextFileW\" with parameter Mozilla (UID: 00000000-00003168)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"FindNextFileW\" with parameter Sun (UID: 00000000-00003168)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" called \"FindNextFileW\" with parameter Wireshark (UID: 00000000-00003168)\n \"ewiuer2.exe\" called \"FindFirstFileW\" with parameter %WINDIR%\\System32\\*.* (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"FindNextFileW\" with parameter .. (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"FindNextFileW\" with parameter 0409 (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"FindNextFileW\" with parameter 12520437.cpx (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"FindNextFileW\" with parameter 12520850.cpx (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"FindNextFileW\" with parameter 7B296FB0-376B-497e-B012-9C450E1B7327-5P-0.C7483456-A289-439d-8115-601632D005A0 (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"FindNextFileW\" with parameter 7B296FB0-376B-497e-B012-9C450E1B7327-5P-1.C7483456-A289-439d-8115-601632D005A0 (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"FindNextFileW\" with parameter aaclient.dll (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"FindNextFileW\" with parameter accessibilitycpl.dll (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"FindNextFileW\" with parameter ACCTRES.dll (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"FindNextFileW\" with parameter acledit.dll (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"FindNextFileW\" with parameter aclui.dll (UID: 00000000-00003444)",
+      "origin": "API Call",
+      "attck_id": "T1083",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1083"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Spyware/Information Retrieval",
+      "identifier": "api-103",
+      "type": 6,
+      "relevance": 3,
+      "name": "Calls an API typically used for taking snapshot of the specified processes",
+      "description": "\"ewiuer2.exe\" called \"CreateToolhelp32Snapshot\" with parameters {\"dwFlags\": \"4\"\n \"th32ProcessID\": \"0\"}",
+      "origin": "API Call",
+      "attck_id": "T1057",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1057"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Network Related",
+      "identifier": "api-219",
+      "type": 6,
+      "relevance": 3,
+      "name": "Calls an API typically used to register an interface (RPC)",
+      "description": "\"ewiuer2.exe\" called \"RpcServerRegisterIf2\" (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"RpcServerRegisterIf2\" (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"RpcServerRegisterIf2\" (UID: 00000000-00005220)",
+      "origin": "API Call",
+      "attck_id": "T1021",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1021"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Network Related",
+      "identifier": "network-62",
+      "type": 7,
+      "relevance": 1,
+      "name": "Communicates with HTTP webserver (GET/POST requests)",
+      "description": "Found http requests in header \"GET /457/533.html\"\n Found http requests in header \"GET /34/993.html\"\n Found http requests in header \"GET /939/382.html\"\n Found http requests in header \"GET /644/428.html\"\n Found http requests in header \"GET /987/678.html\"\n Found http requests in header \"GET /88/452.html\"\n Found http requests in header \"GET /619/651.html\"\n Found http requests in header \"GET /883/315.html\"\n Found http requests in header \"GET /22/867.html\"\n Found http requests in header \"GET /506/903.html\"\n Found http requests in header \"GET /881/70.html\"\n Found http requests in header \"GET /91/622.html\"\n Found http requests in header \"GET /922/654.html\"\n Found http requests in header \"GET /851/52.html\"\n Found http requests in header \"GET /683/84.html\"\n Found http requests in header \"GET /514/116.html\"\n Found http requests in header \"GET /349/128.html\"\n Found http requests in header \"GET /949/928.html\"\n Found http requests in header \"GET /968/369.html\"",
+      "origin": "Network Traffic",
+      "attck_id": "T1071.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1071/001"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Network Related",
+      "identifier": "api-118",
+      "type": 6,
+      "relevance": 3,
+      "name": "Calls an API typically used to retrieve the URL data",
+      "description": "\"ewiuer2.exe\" called \"InternetReadFile\" with parameter 4096 (UID: 00000000-00003444)\n \"ewiuer2.exe\" called \"InternetReadFile\" with parameter 4096 (UID: 00000000-00004444)\n \"ewiuer2.exe\" called \"InternetReadFile\" with parameter 4096 (UID: 00000000-00005220)",
+      "origin": "API Call",
+      "attck_id": "T1105",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1105"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Cryptographic Related",
+      "identifier": "network-60",
+      "type": 7,
+      "relevance": 1,
+      "name": "HTTP requests contain Base64 strings",
+      "description": "Contains base64 string in header \"/457/533\" in header \"GET /457/533.html HTTP/1.1From: 133833028898974522Via: bjledplYpdq;225]^mc`;4Yn`m_l8//+./.0]jq<1/0,\\j`w<-d4\\78_.a/08^/d0413_7\\aa__`,6ea1Host: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"html\" in header \"GET /457/533.html HTTP/1.1From: 133833028898974522Via: bjledplYpdq;225]^mc`;4Yn`m_l8//+./.0]jq<1/0,\\j`w<-d4\\78_.a/08^/d0413_7\\aa__`,6ea1Host: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"a/08\" in header \"GET /457/533.html HTTP/1.1From: 133833028898974522Via: bjledplYpdq;225]^mc`;4Yn`m_l8//+./.0]jq<1/0,\\j`w<-d4\\78_.a/08^/d0413_7\\aa__`,6ea1Host: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"6ea1Host\" in header \"GET /457/533.html HTTP/1.1From: 133833028898974522Via: bjledplYpdq;225]^mc`;4Yn`m_l8//+./.0]jq<1/0,\\j`w<-d4\\78_.a/08^/d0413_7\\aa__`,6ea1Host: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"Keep\" in header \"GET /457/533.html HTTP/1.1From: 133833028898974522Via: bjledplYpdq;225]^mc`;4Yn`m_l8//+./.0]jq<1/0,\\j`w<-d4\\78_.a/08^/d0413_7\\aa__`,6ea1Host: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"html\" in header \"GET /34/993.html HTTP/1.1From: 133833028898974522Via: bjledplYpdq;225]^mc`;4Yn`m_l8//+./.0]jq<1/0,\\j`w<-d4\\78_.a/08^/d0413_7\\aa__`,6ea1Host: ow5dirasuek.comConnection: Keep-Alive\"\n Contains base64 string in header \"a/08\" in header \"GET /34/993.html HTTP/1.1From: 133833028898974522Via: bjledplYpdq;225]^mc`;4Yn`m_l8//+./.0]jq<1/0,\\j`w<-d4\\78_.a/08^/d0413_7\\aa__`,6ea1Host: ow5dirasuek.comConnection: Keep-Alive\"\n Contains base64 string in header \"6ea1Host\" in header \"GET /34/993.html HTTP/1.1From: 133833028898974522Via: bjledplYpdq;225]^mc`;4Yn`m_l8//+./.0]jq<1/0,\\j`w<-d4\\78_.a/08^/d0413_7\\aa__`,6ea1Host: ow5dirasuek.comConnection: Keep-Alive\"\n Contains base64 string in header \"Keep\" in header \"GET /34/993.html HTTP/1.1From: 133833028898974522Via: bjledplYpdq;225]^mc`;4Yn`m_l8//+./.0]jq<1/0,\\j`w<-d4\\78_.a/08^/d0413_7\\aa__`,6ea1Host: ow5dirasuek.comConnection: Keep-Alive\"\n Contains base64 string in header \"/939/382\" in header \"GET /939/382.html HTTP/1.1From: 133833046141054708Via: emohgso\\sgt>558`apfc>7\\qcpbo;22.1213`mt?423/_mcz?568`75cb6d6hc78a79af35de0b54f3/5Host: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"html\" in header \"GET /939/382.html HTTP/1.1From: 133833046141054708Via: emohgso\\sgt>558`apfc>7\\qcpbo;22.1213`mt?423/_mcz?568`75cb6d6hc78a79af35de0b54f3/5Host: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"apfc\" in header \"GET /939/382.html HTTP/1.1From: 133833046141054708Via: emohgso\\sgt>558`apfc>7\\qcpbo;22.1213`mt?423/_mcz?568`75cb6d6hc78a79af35de0b54f3/5Host: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"1213\" in header \"GET /939/382.html HTTP/1.1From: 133833046141054708Via: emohgso\\sgt>558`apfc>7\\qcpbo;22.1213`mt?423/_mcz?568`75cb6d6hc78a79af35de0b54f3/5Host: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"423/\" in header \"GET /939/382.html HTTP/1.1From: 133833046141054708Via: emohgso\\sgt>558`apfc>7\\qcpbo;22.1213`mt?423/_mcz?568`75cb6d6hc78a79af35de0b54f3/5Host: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"75cb6d6hc78a79af35de0b54f3/5Host\" in header \"GET /939/382.html HTTP/1.1From: 133833046141054708Via: emohgso\\sgt>558`apfc>7\\qcpbo;22.1213`mt?423/_mcz?568`75cb6d6hc78a79af35de0b54f3/5Host: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"Keep\" in header \"GET /939/382.html HTTP/1.1From: 133833046141054708Via: emohgso\\sgt>558`apfc>7\\qcpbo;22.1213`mt?423/_mcz?568`75cb6d6hc78a79af35de0b54f3/5Host: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"/644/428\" in header \"GET /644/428.html HTTP/1.1From: 133833046141054708Via: emohgso\\sgt>558`apfc>7\\qcpbo;22.1213`mt?423/_mcz?568`75cb6d6hc78a79af35de0b54f3/5Host: ow5dirasuek.comConnection: Keep-AliveCookie: btst=f8b57a425714546c965f91b67aa30a59|<IPv4>|1738832899|1738832899|0|1|0; snkz=<IPv4>\"\n Contains base64 string in header \"html\" in header \"GET /644/428.html HTTP/1.1From: 133833046141054708Via: emohgso\\sgt>558`apfc>7\\qcpbo;22.1213`mt?423/_mcz?568`75cb6d6hc78a79af35de0b54f3/5Host: ow5dirasuek.comConnection: Keep-AliveCookie: btst=f8b57a425714546c965f91b67aa30a59|<IPv4>|1738832899|1738832899|0|1|0; snkz=<IPv4>\"\n Contains base64 string in header \"apfc\" in header \"GET /644/428.html HTTP/1.1From: 133833046141054708Via: emohgso\\sgt>558`apfc>7\\qcpbo;22.1213`mt?423/_mcz?568`75cb6d6hc78a79af35de0b54f3/5Host: ow5dirasuek.comConnection: Keep-AliveCookie: btst=f8b57a425714546c965f91b67aa30a59|<IPv4>|1738832899|1738832899|0|1|0; snkz=<IPv4>\"\n Contains base64 string in header \"1213\" in header \"GET /644/428.html HTTP/1.1From: 133833046141054708Via: emohgso\\sgt>558`apfc>7\\qcpbo;22.1213`mt?423/_mcz?568`75cb6d6hc78a79af35de0b54f3/5Host: ow5dirasuek.comConnection: Keep-AliveCookie: btst=f8b57a425714546c965f91b67aa30a59|<IPv4>|1738832899|1738832899|0|1|0; snkz=<IPv4>\"\n Contains base64 string in header \"423/\" in header \"GET /644/428.html HTTP/1.1From: 133833046141054708Via: emohgso\\sgt>558`apfc>7\\qcpbo;22.1213`mt?423/_mcz?568`75cb6d6hc78a79af35de0b54f3/5Host: ow5dirasuek.comConnection: Keep-AliveCookie: btst=f8b57a425714546c965f91b67aa30a59|<IPv4>|1738832899|1738832899|0|1|0; snkz=<IPv4>\"\n Contains base64 string in header \"75cb6d6hc78a79af35de0b54f3/5Host\" in header \"GET /644/428.html HTTP/1.1From: 133833046141054708Via: emohgso\\sgt>558`apfc>7\\qcpbo;22.1213`mt?423/_mcz?568`75cb6d6hc78a79af35de0b54f3/5Host: ow5dirasuek.comConnection: Keep-AliveCookie: btst=f8b57a425714546c965f91b67aa30a59|<IPv4>|1738832899|1738832899|0|1|0; snkz=<IPv4>\"\n Contains base64 string in header \"Keep\" in header \"GET /644/428.html HTTP/1.1From: 133833046141054708Via: emohgso\\sgt>558`apfc>7\\qcpbo;22.1213`mt?423/_mcz?568`75cb6d6hc78a79af35de0b54f3/5Host: ow5dirasuek.comConnection: Keep-AliveCookie: btst=f8b57a425714546c965f91b67aa30a59|<IPv4>|1738832899|1738832899|0|1|0; snkz=<IPv4>\"\n Contains base64 string in header \"f8b57a425714546c965f91b67aa30a59\" in header \"GET /644/428.html HTTP/1.1From: 133833046141054708Via: emohgso\\sgt>558`apfc>7\\qcpbo;22.1213`mt?423/_mcz?568`75cb6d6hc78a79af35de0b54f3/5Host: ow5dirasuek.comConnection: Keep-AliveCookie: btst=f8b57a425714546c965f91b67aa30a59|<IPv4>|1738832899|1738832899|0|1|0; snkz=<IPv4>\"\n Contains base64 string in header \"/987/678\" in header \"GET /987/678.html HTTP/1.1From: 133833046141054708Via: emohgso\\sgt>558`apfc>7\\qcpbo;32.1213`mt?423/_mcz?04g37g_g;722166`ee32c115`4;11432Host: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"html\" in header \"GET /987/678.html HTTP/1.1From: 133833046141054708Via: emohgso\\sgt>558`apfc>7\\qcpbo;32.1213`mt?423/_mcz?04g37g_g;722166`ee32c115`4;11432Host: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"apfc\" in header \"GET /987/678.html HTTP/1.1From: 133833046141054708Via: emohgso\\sgt>558`apfc>7\\qcpbo;32.1213`mt?423/_mcz?04g37g_g;722166`ee32c115`4;11432Host: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"1213\" in header \"GET /987/678.html HTTP/1.1From: 133833046141054708Via: emohgso\\sgt>558`apfc>7\\qcpbo;32.1213`mt?423/_mcz?04g37g_g;722166`ee32c115`4;11432Host: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"423/\" in header \"GET /987/678.html HTTP/1.1From: 133833046141054708Via: emohgso\\sgt>558`apfc>7\\qcpbo;32.1213`mt?423/_mcz?04g37g_g;722166`ee32c115`4;11432Host: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"ee32c115\" in header \"GET /987/678.html HTTP/1.1From: 133833046141054708Via: emohgso\\sgt>558`apfc>7\\qcpbo;32.1213`mt?423/_mcz?04g37g_g;722166`ee32c115`4;11432Host: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"Keep\" in header \"GET /987/678.html HTTP/1.1From: 133833046141054708Via: emohgso\\sgt>558`apfc>7\\qcpbo;32.1213`mt?423/_mcz?04g37g_g;722166`ee32c115`4;11432Host: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"html\" in header \"GET /88/452.html HTTP/1.1From: 133833046141054708Via: emohgso\\sgt>558`apfc>7\\qcpbo;32.1213`mt?423/_mcz?04g37g_g;722166`ee32c115`4;11432Host: ow5dirasuek.comConnection: Keep-AliveCookie: btst=f8b57a425714546c965f91b67aa30a59|<IPv4>|1738832908|1738832899|4|2|0; snkz=<IPv4>\"\n Contains base64 string in header \"apfc\" in header \"GET /88/452.html HTTP/1.1From: 133833046141054708Via: emohgso\\sgt>558`apfc>7\\qcpbo;32.1213`mt?423/_mcz?04g37g_g;722166`ee32c115`4;11432Host: ow5dirasuek.comConnection: Keep-AliveCookie: btst=f8b57a425714546c965f91b67aa30a59|<IPv4>|1738832908|1738832899|4|2|0; snkz=<IPv4>\"\n Contains base64 string in header \"1213\" in header \"GET /88/452.html HTTP/1.1From: 133833046141054708Via: emohgso\\sgt>558`apfc>7\\qcpbo;32.1213`mt?423/_mcz?04g37g_g;722166`ee32c115`4;11432Host: ow5dirasuek.comConnection: Keep-AliveCookie: btst=f8b57a425714546c965f91b67aa30a59|<IPv4>|1738832908|1738832899|4|2|0; snkz=<IPv4>\"\n Contains base64 string in header \"423/\" in header \"GET /88/452.html HTTP/1.1From: 133833046141054708Via: emohgso\\sgt>558`apfc>7\\qcpbo;32.1213`mt?423/_mcz?04g37g_g;722166`ee32c115`4;11432Host: ow5dirasuek.comConnection: Keep-AliveCookie: btst=f8b57a425714546c965f91b67aa30a59|<IPv4>|1738832908|1738832899|4|2|0; snkz=<IPv4>\"\n Contains base64 string in header \"ee32c115\" in header \"GET /88/452.html HTTP/1.1From: 133833046141054708Via: emohgso\\sgt>558`apfc>7\\qcpbo;32.1213`mt?423/_mcz?04g37g_g;722166`ee32c115`4;11432Host: ow5dirasuek.comConnection: Keep-AliveCookie: btst=f8b57a425714546c965f91b67aa30a59|<IPv4>|1738832908|1738832899|4|2|0; snkz=<IPv4>\"\n Contains base64 string in header \"Keep\" in header \"GET /88/452.html HTTP/1.1From: 133833046141054708Via: emohgso\\sgt>558`apfc>7\\qcpbo;32.1213`mt?423/_mcz?04g37g_g;722166`ee32c115`4;11432Host: ow5dirasuek.comConnection: Keep-AliveCookie: btst=f8b57a425714546c965f91b67aa30a59|<IPv4>|1738832908|1738832899|4|2|0; snkz=<IPv4>\"\n Contains base64 string in header \"f8b57a425714546c965f91b67aa30a59\" in header \"GET /88/452.html HTTP/1.1From: 133833046141054708Via: emohgso\\sgt>558`apfc>7\\qcpbo;32.1213`mt?423/_mcz?04g37g_g;722166`ee32c115`4;11432Host: ow5dirasuek.comConnection: Keep-AliveCookie: btst=f8b57a425714546c965f91b67aa30a59|<IPv4>|1738832908|1738832899|4|2|0; snkz=<IPv4>\"\n Contains base64 string in header \"/619/651\" in header \"GET /619/651.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>ha4:37;.:g56f1gd49ead9278.bca28bHost: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"html\" in header \"GET /619/651.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>ha4:37;.:g56f1gd49ead9278.bca28bHost: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"8/23\" in header \"GET /619/651.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>ha4:37;.:g56f1gd49ead9278.bca28bHost: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"g56f1gd49ead9278\" in header \"GET /619/651.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>ha4:37;.:g56f1gd49ead9278.bca28bHost: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"Keep\" in header \"GET /619/651.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>ha4:37;.:g56f1gd49ead9278.bca28bHost: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"/883/315\" in header \"GET /883/315.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>ha4:37;.:g56f1gd49ead9278.bca28bHost: ow5dirasuek.comConnection: Keep-AliveCookie: btst=f8b57a425714546c965f91b67aa30a59|<IPv4>|1738832914|1738832899|5|3|0; snkz=<IPv4>\"\n Contains base64 string in header \"html\" in header \"GET /883/315.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>ha4:37;.:g56f1gd49ead9278.bca28bHost: ow5dirasuek.comConnection: Keep-AliveCookie: btst=f8b57a425714546c965f91b67aa30a59|<IPv4>|1738832914|1738832899|5|3|0; snkz=<IPv4>\"\n Contains base64 string in header \"8/23\" in header \"GET /883/315.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>ha4:37;.:g56f1gd49ead9278.bca28bHost: ow5dirasuek.comConnection: Keep-AliveCookie: btst=f8b57a425714546c965f91b67aa30a59|<IPv4>|1738832914|1738832899|5|3|0; snkz=<IPv4>\"\n Contains base64 string in header \"g56f1gd49ead9278\" in header \"GET /883/315.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>ha4:37;.:g56f1gd49ead9278.bca28bHost: ow5dirasuek.comConnection: Keep-AliveCookie: btst=f8b57a425714546c965f91b67aa30a59|<IPv4>|1738832914|1738832899|5|3|0; snkz=<IPv4>\"\n Contains base64 string in header \"Keep\" in header \"GET /883/315.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>ha4:37;.:g56f1gd49ead9278.bca28bHost: ow5dirasuek.comConnection: Keep-AliveCookie: btst=f8b57a425714546c965f91b67aa30a59|<IPv4>|1738832914|1738832899|5|3|0; snkz=<IPv4>\"\n Contains base64 string in header \"f8b57a425714546c965f91b67aa30a59\" in header \"GET /883/315.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>ha4:37;.:g56f1gd49ead9278.bca28bHost: ow5dirasuek.comConnection: Keep-AliveCookie: btst=f8b57a425714546c965f91b67aa30a59|<IPv4>|1738832914|1738832899|5|3|0; snkz=<IPv4>\"\n Contains base64 string in header \"html\" in header \"GET /22/867.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>56g;638/1:_c35c7a9f0c87ghaf41:6a_pmdtwqvHost: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"8/23\" in header \"GET /22/867.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>56g;638/1:_c35c7a9f0c87ghaf41:6a_pmdtwqvHost: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"Keep\" in header \"GET /22/867.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>56g;638/1:_c35c7a9f0c87ghaf41:6a_pmdtwqvHost: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"/506/903\" in header \"GET /506/903.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>4cg809417c24h/6f.97038b2f5b22b;6_pmdtwqvHost: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"html\" in header \"GET /506/903.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>4cg809417c24h/6f.97038b2f5b22b;6_pmdtwqvHost: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"8/23\" in header \"GET /506/903.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>4cg809417c24h/6f.97038b2f5b22b;6_pmdtwqvHost: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"4cg809417c24h/6f\" in header \"GET /506/903.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>4cg809417c24h/6f.97038b2f5b22b;6_pmdtwqvHost: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"Keep\" in header \"GET /506/903.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>4cg809417c24h/6f.97038b2f5b22b;6_pmdtwqvHost: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"html\" in header \"GET /881/70.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>d6dg.:;55g68:4b81d92451c759d238__pmdtwqvHost: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"8/23\" in header \"GET /881/70.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>d6dg.:;55g68:4b81d92451c759d238__pmdtwqvHost: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"d6dg\" in header \"GET /881/70.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>d6dg.:;55g68:4b81d92451c759d238__pmdtwqvHost: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"Keep\" in header \"GET /881/70.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>d6dg.:;55g68:4b81d92451c759d238__pmdtwqvHost: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"html\" in header \"GET /91/622.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>e6:fbg7.9;34c7g37163gg.fg4g;6g5c_pmdtwqvHost: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"8/23\" in header \"GET /91/622.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>e6:fbg7.9;34c7g37163gg.fg4g;6g5c_pmdtwqvHost: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"fbg7\" in header \"GET /91/622.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>e6:fbg7.9;34c7g37163gg.fg4g;6g5c_pmdtwqvHost: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"34c7g37163gg\" in header \"GET /91/622.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>e6:fbg7.9;34c7g37163gg.fg4g;6g5c_pmdtwqvHost: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"fg4g\" in header \"GET /91/622.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>e6:fbg7.9;34c7g37163gg.fg4g;6g5c_pmdtwqvHost: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"6g5c\" in header \"GET /91/622.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>e6:fbg7.9;34c7g37163gg.fg4g;6g5c_pmdtwqvHost: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"Keep\" in header \"GET /91/622.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>e6:fbg7.9;34c7g37163gg.fg4g;6g5c_pmdtwqvHost: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"/922/654\" in header \"GET /922/654.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>h67haed7b9/:2`6c1:;0::2fhdc47:h._pmdtwqvHost: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"html\" in header \"GET /922/654.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>h67haed7b9/:2`6c1:;0::2fhdc47:h._pmdtwqvHost: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"8/23\" in header \"GET /922/654.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>h67haed7b9/:2`6c1:;0::2fhdc47:h._pmdtwqvHost: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"Keep\" in header \"GET /922/654.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>h67haed7b9/:2`6c1:;0::2fhdc47:h._pmdtwqvHost: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"html\" in header \"GET /851/52.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>2/56c242c:3fg_c7/d2b965g72bfaf5b_pmdtwqvHost: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"8/23\" in header \"GET /851/52.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>2/56c242c:3fg_c7/d2b965g72bfaf5b_pmdtwqvHost: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"Keep\" in header \"GET /851/52.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>2/56c242c:3fg_c7/d2b965g72bfaf5b_pmdtwqvHost: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"html\" in header \"GET /683/84.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>867:2ee1b3bg614gdg:`6:a9771246;1_pmdtwqvHost: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"8/23\" in header \"GET /683/84.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>867:2ee1b3bg614gdg:`6:a9771246;1_pmdtwqvHost: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"a9771246\" in header \"GET /683/84.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>867:2ee1b3bg614gdg:`6:a9771246;1_pmdtwqvHost: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"Keep\" in header \"GET /683/84.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>867:2ee1b3bg614gdg:`6:a9771246;1_pmdtwqvHost: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"/514/116\" in header \"GET /514/116.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>62bc6g8c2603e127/ec1b4434b5814fc_pmdtwqvHost: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"html\" in header \"GET /514/116.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>62bc6g8c2603e127/ec1b4434b5814fc_pmdtwqvHost: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"8/23\" in header \"GET /514/116.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>62bc6g8c2603e127/ec1b4434b5814fc_pmdtwqvHost: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"62bc6g8c2603e127/ec1b4434b5814fc\" in header \"GET /514/116.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>62bc6g8c2603e127/ec1b4434b5814fc_pmdtwqvHost: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"Keep\" in header \"GET /514/116.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>62bc6g8c2603e127/ec1b4434b5814fc_pmdtwqvHost: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"/349/128\" in header \"GET /349/128.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>7b2f2b:6cdbgc4e:55;c76`59db218g5_pmdtwqvHost: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"html\" in header \"GET /349/128.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>7b2f2b:6cdbgc4e:55;c76`59db218g5_pmdtwqvHost: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"8/23\" in header \"GET /349/128.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>7b2f2b:6cdbgc4e:55;c76`59db218g5_pmdtwqvHost: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"6cdbgc4e\" in header \"GET /349/128.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>7b2f2b:6cdbgc4e:55;c76`59db218g5_pmdtwqvHost: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"Keep\" in header \"GET /349/128.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>7b2f2b:6cdbgc4e:55;c76`59db218g5_pmdtwqvHost: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"/949/928\" in header \"GET /949/928.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>d146789_:c`ge553c6;4e3b94b6c4c97_pmdtwqvHost: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"html\" in header \"GET /949/928.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>d146789_:c`ge553c6;4e3b94b6c4c97_pmdtwqvHost: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"8/23\" in header \"GET /949/928.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>d146789_:c`ge553c6;4e3b94b6c4c97_pmdtwqvHost: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"Keep\" in header \"GET /949/928.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>d146789_:c`ge553c6;4e3b94b6c4c97_pmdtwqvHost: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"/968/369\" in header \"GET /968/369.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>6147bge`2f77259fab6.28.5f5:9`39b_pmdtwqvHost: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"html\" in header \"GET /968/369.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>6147bge`2f77259fab6.28.5f5:9`39b_pmdtwqvHost: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"8/23\" in header \"GET /968/369.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>6147bge`2f77259fab6.28.5f5:9`39b_pmdtwqvHost: mkkuei4kdsz.comConnection: Keep-Alive\"\n Contains base64 string in header \"Keep\" in header \"GET /968/369.html HTTP/1.1From: 133833046141054708Via: lmc`pfx;495_qq>8/23\\lgw>6147bge`2f77259fab6.28.5f5:9`39b_pmdtwqvHost: mkkuei4kdsz.comConnection: Keep-Alive\"",
+      "origin": "Network Traffic",
+      "attck_id": "T1132",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1132"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "System Security",
+      "identifier": "registry-173",
+      "type": 3,
+      "relevance": 1,
+      "name": "Queries services related registry keys",
+      "description": "\"ewiuer2.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\WINSOCK\\PARAMETERS\"; Key: \"TRANSPORTS\"; Value: \"\")\n \"ewiuer2.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\TCPIP6\\PARAMETERS\\WINSOCK\"; Key: \"MAPPING\"; Value: \"\")\n \"ewiuer2.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\WINSOCK\\SETUP MIGRATION\\PROVIDERS\\TCPIP6\"; Key: \"WINSOCK 2.0 PROVIDER ID\"; Value: \"\")\n \"ewiuer2.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\TCPIP6\\PARAMETERS\\WINSOCK\"; Key: \"MINSOCKADDRLENGTH\"; Value: \"\")\n \"ewiuer2.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\TCPIP6\\PARAMETERS\\WINSOCK\"; Key: \"MAXSOCKADDRLENGTH\"; Value: \"\")\n \"ewiuer2.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\TCPIP6\\PARAMETERS\\WINSOCK\"; Key: \"USEDELAYEDACCEPTANCE\"; Value: \"\")\n \"ewiuer2.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\TCPIP6\\PARAMETERS\\WINSOCK\"; Key: \"HELPERDLLNAME\"; Value: \"\")\n \"ewiuer2.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\WINSOCK2\\PARAMETERS\"; Key: \"WINSOCK_REGISTRY_VERSION\"; Value: \"\")\n \"ewiuer2.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\WINSOCK2\\PARAMETERS\"; Key: \"NAMESPACE_CALLOUT\"; Value: \"\")\n \"ewiuer2.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\WINSOCK2\\PARAMETERS\\PROTOCOL_CATALOG9\"; Key: \"SERIAL_ACCESS_NUM\"; Value: \"\")\n \"ewiuer2.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\WINSOCK2\\PARAMETERS\\PROTOCOL_CATALOG9\"; Key: \"NEXT_CATALOG_ENTRY_ID\"; Value: \"\")\n \"ewiuer2.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\WINSOCK2\\PARAMETERS\\PROTOCOL_CATALOG9\"; Key: \"NUM_CATALOG_ENTRIES\"; Value: \"\")\n \"ewiuer2.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\WINSOCK2\\PARAMETERS\\PROTOCOL_CATALOG9\\CATALOG_ENTRIES\\000000000001\"; Key: \"PACKEDCATALOGITEM\"; Value: \"\")\n \"ewiuer2.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\WINSOCK2\\PARAMETERS\\PROTOCOL_CATALOG9\\CATALOG_ENTRIES\\000000000002\"; Key: \"PACKEDCATALOGITEM\"; Value: \"\")\n \"ewiuer2.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\WINSOCK2\\PARAMETERS\\PROTOCOL_CATALOG9\\CATALOG_ENTRIES\\000000000003\"; Key: \"PACKEDCATALOGITEM\"; Value: \"\")\n \"ewiuer2.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\WINSOCK2\\PARAMETERS\\PROTOCOL_CATALOG9\\CATALOG_ENTRIES\\000000000004\"; Key: \"PACKEDCATALOGITEM\"; Value: \"\")",
+      "origin": "Registry Access",
+      "attck_id": "T1007",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1007"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "System Security",
+      "identifier": "api-37",
+      "type": 6,
+      "relevance": 10,
+      "name": "Opens the Kernel Security Device Driver (KsecDD) of Windows",
+      "description": "\"ewiuer2.exe\" opened \"\\Device\\KsecDD\"",
+      "origin": "API Call"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "System Security",
+      "identifier": "registry-67",
+      "type": 3,
+      "relevance": 10,
+      "name": "Creates or modifies windows services",
+      "description": "\"ewiuer2.exe\" (Access type: \"CREATE\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\TCPIP\\PARAMETERS\")",
+      "origin": "Registry Access",
+      "attck_id": "T1543.003",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1543/003"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "Installation/Persistence",
+      "identifier": "binary-1",
+      "type": 8,
+      "relevance": 10,
+      "name": "Drops executable files",
+      "description": "\"ewiuer2.exe\" has type \"PE32 executable (GUI) Intel 80386 for MS Windows\"- Location: [%APPDATA%\\ewiuer2.exe]- [targetUID: 00000000-00004444]\n \"EWIUER2.EXE.67A482B6.bin\" has type \"PE32 executable (GUI) Intel 80386 for MS Windows\"- [targetUID: N/A]\n \"ewiuer2.exe\" has type \"PE32 executable (GUI) Intel 80386 for MS Windows\"- Location: [%WINDIR%\\System32\\ewiuer2.exe]- [targetUID: 00000000-00004444]",
+      "origin": "Binary File",
+      "attck_id": "T1105",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1105"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "Installation/Persistence",
+      "identifier": "api-43",
+      "type": 6,
+      "relevance": 10,
+      "name": "Writes a PE file header to disc",
+      "description": "\"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" wrote 63049 bytes starting with PE header signature to file \"C:\\Users\\%OSUSER%\\AppData\\Roaming\\ewiuer2.exe\": 4d5aff000300000004000000ffff0000ff00000000000000400000000000000000000000000000000000000000000000000000000000000000000000ff0000000e1fff0e00ff09ff21ff014cff21546869732070726f6772616d2063616e6e6f742062652072756e20696e20444f53206d6f64652e0d0d0a2400000000000000 ...\n \"ewiuer2.exe\" wrote 63049 bytes starting with PE header signature to file \"C:\\Windows\\System32\\ewiuer2.exe\": 4d5aff000300000004000000ffff0000ff00000000000000400000000000000000000000000000000000000000000000000000000000000000000000ff0000000e1fff0e00ff09ff21ff014cff21546869732070726f6772616d2063616e6e6f742062652072756e20696e20444f53206d6f64652e0d0d0a2400000000000000 ...",
+      "origin": "API Call",
+      "attck_id": "T1105",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1105"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "Ransomware/Banking",
+      "identifier": "registry-9",
+      "type": 3,
+      "relevance": 7,
+      "name": "Checks warning level of secure to non-secure traffic redirection",
+      "description": "\"ewiuer2.exe\" (Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\INTERNET SETTINGS\"; Key: \"WARNONHTTPSTOHTTPREDIRECT\")",
+      "origin": "Registry Access",
+      "attck_id": "T1012",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1012"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "Network Related",
+      "identifier": "network-23",
+      "type": 7,
+      "relevance": 5,
+      "name": "Sends traffic on typical HTTP outbound port, but without HTTP header",
+      "description": "TCP traffic to <IPv4> on port 80 is sent without HTTP header\n TCP traffic to <IPv4> on port 80 is sent without HTTP header",
+      "origin": "Network Traffic",
+      "attck_id": "T1071.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1071/001"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "System Security",
+      "identifier": "registry-27",
+      "type": 3,
+      "relevance": 10,
+      "name": "Modifies proxy settings",
+      "description": "\"ewiuer2.exe\" (Access type: \"SETVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\INTERNET SETTINGS\"; Key: \"PROXYENABLE\"; Value: \"00000000\")\n \"ewiuer2.exe\" (Access type: \"DELETEVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\INTERNET SETTINGS\"; Key: \"PROXYSERVER\")\n \"ewiuer2.exe\" (Access type: \"DELETEVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\INTERNET SETTINGS\"; Key: \"PROXYOVERRIDE\")\n \"ewiuer2.exe\" (Access type: \"DELETEVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\INTERNET SETTINGS\\ZONEMAP\"; Key: \"PROXYBYPASS\")\n \"ewiuer2.exe\" (Access type: \"DELETEVAL\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\INTERNET SETTINGS\\ZONEMAP\"; Key: \"PROXYBYPASS\")",
+      "origin": "Registry Access",
+      "attck_id": "T1112",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1112"
+    },
+    {
+      "threat_level": 2,
+      "threat_level_human": "malicious",
+      "category": "Installation/Persistence",
+      "identifier": "api-0",
+      "type": 6,
+      "relevance": 6,
+      "name": "Writes data to a remote process",
+      "description": "\"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" wrote 32 bytes to a remote process \"C:\\Users\\%OSUSER%\\AppData\\Roaming\\ewiuer2.exe\" (Handle: 160)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" wrote 52 bytes to a remote process \"C:\\Users\\%OSUSER%\\AppData\\Roaming\\ewiuer2.exe\" (Handle: 160)\n \"ecc618e36c19c2986389dfd687efb10cbfde125cf66fef09f7fad4cbc63d7cda.exe\" wrote 4 bytes to a remote process \"C:\\Users\\%OSUSER%\\AppData\\Roaming\\ewiuer2.exe\" (Handle: 160)\n \"ewiuer2.exe\" wrote 32 bytes to a remote process \"C:\\Windows\\System32\\ewiuer2.exe\" (Handle: 728)\n \"ewiuer2.exe\" wrote 52 bytes to a remote process \"C:\\Windows\\System32\\ewiuer2.exe\" (Handle: 728)\n \"ewiuer2.exe\" wrote 4 bytes to a remote process \"C:\\Windows\\System32\\ewiuer2.exe\" (Handle: 728)\n \"ewiuer2.exe\" wrote 32 bytes to a remote process \"C:\\Windows\\System32\\ewiuer2.exe\" (Handle: 576)\n \"ewiuer2.exe\" wrote 52 bytes to a remote process \"C:\\Windows\\System32\\ewiuer2.exe\" (Handle: 576)\n \"ewiuer2.exe\" wrote 4 bytes to a remote process \"C:\\Windows\\System32\\ewiuer2.exe\" (Handle: 576)",
+      "origin": "API Call",
+      "attck_id": "T1055",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055"
+    },
+    {
+      "threat_level": 2,
+      "threat_level_human": "malicious",
+      "category": "Installation/Persistence",
+      "identifier": "api-20",
+      "type": 6,
+      "relevance": 7,
+      "name": "Allocates virtual memory in a remote process",
+      "description": "\"ewiuer2.exe\" allocated memory in \"%WINDIR%\\System32\\ewiuer2.exe\"",
+      "origin": "API Call",
+      "attck_id": "T1055",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055"
+    },
+    {
+      "threat_level": 2,
+      "threat_level_human": "malicious",
+      "category": "External Systems",
+      "identifier": "suricata-2",
+      "type": 18,
+      "relevance": 10,
+      "name": "Detected Suricata Alert",
+      "description": "Detected alert \"ET MALWARE Ransom.Win32.Birele.gsg Checkin\" (SID: 2015786, Rev: 7, Severity: 1) categorized as \"Malware Command and Control Activity Detected\" (PUA/PUP/Adware)\n Detected alert \"ET MALWARE Possible Compromised Host AnubisNetworks Sinkhole Cookie Value btst\" (SID: 2037771, Rev: 2, Severity: 1) categorized as \"A Network Trojan was detected\" (PUA/PUP/Adware)\n Detected alert \"ET MALWARE Possible Compromised Host AnubisNetworks Sinkhole Cookie Value Snkz\" (SID: 2018141, Rev: 6, Severity: 1) categorized as \"A Network Trojan was detected\" (PUA/PUP/Adware)",
+      "origin": "Suricata Alerts"
+    },
+    {
+      "threat_level": 2,
+      "threat_level_human": "malicious",
+      "category": "External Systems",
+      "identifier": "avtest-8",
+      "type": 12,
+      "relevance": 10,
+      "name": "Sample detected by CrowdStrike Static Analysis and ML with relatively high confidence",
+      "description": "CrowdStrike Static Analysis and ML (QuickScan) yielded detection: win/malicious_confidence_100% (W)",
+      "origin": "External System"
+    }
+  ]
+}

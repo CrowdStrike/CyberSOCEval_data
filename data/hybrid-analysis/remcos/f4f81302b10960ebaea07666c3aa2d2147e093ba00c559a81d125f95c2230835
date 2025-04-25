@@ -1,0 +1,740 @@
+{
+  "size": 1252864,
+  "type": "Composite Document File V2 Document, Little Endian, Os: Windows, Version 6.2, Code page: 1252, Name of Creating Application: Microsoft Excel, Create Time/Date: Sat Sep 16 00:00:00 2006, Last Saved Time/Date: Tue Feb  4 06:23:53 2025, Security: 1",
+  "submit_name": "f4f81302b10960ebaea07666c3aa2d2147e093ba00c559a81d125f95c2230835",
+  "sha256": "f4f81302b10960ebaea07666c3aa2d2147e093ba00c559a81d125f95c2230835",
+  "av_detect": 70,
+  "vx_family": "CVE-2017-0199",
+  "threat_score": 100,
+  "threat_level": 2,
+  "verdict": "malicious",
+  "total_network_connections": 3,
+  "total_processes": 1,
+  "total_signatures": 48,
+  "extracted_files": [
+    {
+      "name": "f4f81302b10960ebaea07666c3aa2d2147e093ba00c559a81d125f95c2230835.xls.LNK",
+      "file_path": "%APPDATA%\\Microsoft\\Office\\Recent\\f4f81302b10960ebaea07666c3aa2d2147e093ba00c559a81d125f95c2230835.xls.LNK",
+      "file_size": 733,
+      "sha256": "c6c14e4a0ef57e190c9181a2c9002c3fed1ec800194ac20095b8aeca4adf51f9",
+      "type_tags": [
+        "lnk"
+      ],
+      "description": "MS Windows shortcut, Item id list present, Points to a file or directory, Has Relative path, Archive, ctime=Mon Feb 10 08:54:22 2025, mtime=Mon Feb 10 08:54:22 2025, atime=Mon Feb 10 07:54:20 2025, length=1252864, window=hide",
+      "runtime_process": "EXCEL.EXE (PID: 5852)",
+      "threat_level_readable": "no specific threat",
+      "file_available_to_download": true
+    },
+    {
+      "name": "index.dat",
+      "file_path": "%APPDATA%\\Microsoft\\Office\\Recent\\index.dat",
+      "file_size": 232,
+      "sha256": "aeacfd720fb8ee8e12944c42192b31fba079ba7a7d461669084cd4306cf7cce7",
+      "type_tags": [
+        "data"
+      ],
+      "description": "data",
+      "runtime_process": "EXCEL.EXE (PID: 5852)",
+      "threat_level_readable": "no specific threat",
+      "file_available_to_download": true
+    },
+    {
+      "name": "6B235454.emf",
+      "file_path": "%LOCALAPPDATA%\\Microsoft\\Windows\\Temporary Internet Files\\Content.MSO\\6B235454.emf",
+      "file_size": 2516184,
+      "sha256": "f7c73aa536e7658b87cf7aa12c7612fd92bcf5b8ebf5f1cba97d72657da9c3c2",
+      "type_tags": [
+        "img",
+        "image"
+      ],
+      "description": "Windows Enhanced Metafile (EMF) image data version 0x10000",
+      "runtime_process": "EXCEL.EXE (PID: 5852)",
+      "threat_level_readable": "no specific threat",
+      "file_available_to_download": true
+    },
+    {
+      "name": "C098C045.emf",
+      "file_path": "%LOCALAPPDATA%\\Microsoft\\Windows\\Temporary Internet Files\\Content.MSO\\C098C045.emf",
+      "file_size": 250880,
+      "sha256": "3de337b08bf53bbb874375562451bd8cc7deb66b445473e11bd34fb653930374",
+      "type_tags": [
+        "img",
+        "image"
+      ],
+      "description": "Windows Enhanced Metafile (EMF) image data version 0x10000",
+      "runtime_process": "EXCEL.EXE (PID: 5852)",
+      "threat_level_readable": "no specific threat",
+      "file_available_to_download": true
+    }
+  ],
+  "processes": [
+    {
+      "uid": "00000000-00005852",
+      "name": "EXCEL.EXE",
+      "normalized_path": "%PROGRAMFILES%\\Microsoft Office\\Office14\\EXCEL.EXE",
+      "command_line": "/dde",
+      "sha256": "1c5409ec2a4b9d9ead080b65fc9aff4ce8dc276d922f14859de8661f5911bd79"
+    }
+  ],
+  "mitre_attcks": [
+    {
+      "tactic": "Resource Development",
+      "technique": "Domains",
+      "attck_id": "T1583.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1583/001",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Acquire Infrastructure",
+        "attck_id": "T1583",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1583"
+      }
+    },
+    {
+      "tactic": "Initial Access",
+      "technique": "Phishing",
+      "attck_id": "T1566",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1566",
+      "malicious_identifiers_count": 1
+    },
+    {
+      "tactic": "Execution",
+      "technique": "Shared Modules",
+      "attck_id": "T1129",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1129",
+      "informative_identifiers_count": 2
+    },
+    {
+      "tactic": "Execution",
+      "technique": "User Execution",
+      "attck_id": "T1204",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1204",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Execution",
+      "technique": "Exploitation for Client Execution",
+      "attck_id": "T1203",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1203",
+      "malicious_identifiers_count": 1
+    },
+    {
+      "tactic": "Persistence",
+      "technique": "Shortcut Modification",
+      "attck_id": "T1547.009",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1547/009",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Boot or Logon Autostart Execution",
+        "attck_id": "T1547",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1547"
+      }
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "Shortcut Modification",
+      "attck_id": "T1547.009",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1547/009",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Boot or Logon Autostart Execution",
+        "attck_id": "T1547",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1547"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Obfuscated Files or Information",
+      "attck_id": "T1027",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1027",
+      "informative_identifiers_count": 4
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Masquerading",
+      "attck_id": "T1036",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1036",
+      "informative_identifiers_count": 2
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Code Signing",
+      "attck_id": "T1553.002",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1553/002",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Subvert Trust Controls",
+        "attck_id": "T1553",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1553"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Modify Registry",
+      "attck_id": "T1112",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1112",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Deobfuscate/Decode Files or Information",
+      "attck_id": "T1140",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1140",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "Query Registry",
+      "attck_id": "T1012",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1012",
+      "informative_identifiers_count": 2
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "File and Directory Discovery",
+      "attck_id": "T1083",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1083",
+      "informative_identifiers_count": 2
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "System Owner/User Discovery",
+      "attck_id": "T1033",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1033",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "System Service Discovery",
+      "attck_id": "T1007",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1007",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Collection",
+      "technique": "Local Data Staging",
+      "attck_id": "T1074.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1074/001",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Data Staged",
+        "attck_id": "T1074",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1074"
+      }
+    },
+    {
+      "tactic": "Collection",
+      "technique": "Data from Local System",
+      "attck_id": "T1005",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1005",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Command and Control",
+      "technique": "Application Layer Protocol",
+      "attck_id": "T1071",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1071",
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 5
+    },
+    {
+      "tactic": "Command and Control",
+      "technique": "Web Protocols",
+      "attck_id": "T1071.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1071/001",
+      "malicious_identifiers_count": 1,
+      "suspicious_identifiers_count": 2,
+      "informative_identifiers_count": 4,
+      "parent": {
+        "technique": "Application Layer Protocol",
+        "attck_id": "T1071",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1071"
+      }
+    },
+    {
+      "tactic": "Command and Control",
+      "technique": "Encrypted Channel",
+      "attck_id": "T1573",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1573",
+      "informative_identifiers_count": 2
+    },
+    {
+      "tactic": "Command and Control",
+      "technique": "Data Encoding",
+      "attck_id": "T1132",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1132",
+      "informative_identifiers_count": 2
+    },
+    {
+      "tactic": "Command and Control",
+      "technique": "DNS",
+      "attck_id": "T1071.004",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1071/004",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Application Layer Protocol",
+        "attck_id": "T1071",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1071"
+      }
+    },
+    {
+      "tactic": "Command and Control",
+      "technique": "Ingress Tool Transfer",
+      "attck_id": "T1105",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1105",
+      "informative_identifiers_count": 1
+    }
+  ],
+  "network_mode": "default",
+  "signatures": [
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "mutant-0",
+      "type": 4,
+      "relevance": 3,
+      "name": "Creates mutants",
+      "description": "\"\\Sessions\\1\\BaseNamedObjects\\Local\\10MU_ACBPIDS_S-1-5-5-0-91343\"\n \"\\Sessions\\1\\BaseNamedObjects\\Local\\10MU_ACB10_S-1-5-5-0-91343\"\n \"\\Sessions\\1\\BaseNamedObjects\\Global\\552FFA80-3393-423d-8671-7BA046BB5906\"\n \"\\Sessions\\1\\BaseNamedObjects\\Local\\ZonesCacheCounterMutex\"\n \"\\Sessions\\1\\BaseNamedObjects\\Local\\ZonesLockedCacheCounterMutex\"\n \"\\Sessions\\1\\BaseNamedObjects\\Global\\MTX_MSO_Formal1_S-1-5-21-2092356043-4041700817-663127204-1001\"\n \"\\Sessions\\1\\BaseNamedObjects\\Global\\MTX_MSO_AdHoc1_S-1-5-21-2092356043-4041700817-663127204-1001\"\n \"\\Sessions\\1\\BaseNamedObjects\\KYIMEShareCachedData.MutexObject.%OSUSER%\"\n \"\\Sessions\\1\\BaseNamedObjects\\KYTransactionServer.MutexObject.%OSUSER%\"\n \"\\Sessions\\1\\BaseNamedObjects\\Global\\MsoShellExtRegAccess_S-1-5-21-2092356043-4041700817-663127204-1001\"\n \"Local\\10MU_ACB10_S-1-5-5-0-91343\"\n \"Global\\552FFA80-3393-423d-8671-7BA046BB5906\"\n \"KYTransactionServer.MutexObject.%OSUSER%\"\n \"Global\\MTX_MSO_Formal1_S-1-5-21-2092356043-4041700817-663127204-1001\"\n \"Local\\ZonesCacheCounterMutex\"\n \"Local\\10MU_ACBPIDS_S-1-5-5-0-91343\"\n \"KYIMEShareCachedData.MutexObject.%OSUSER%\"\n \"Global\\MTX_MSO_AdHoc1_S-1-5-21-2092356043-4041700817-663127204-1001\"\n \"Global\\MsoShellExtRegAccess_S-1-5-21-2092356043-4041700817-663127204-1001\"\n \"Local\\ZonesLockedCacheCounterMutex\"",
+      "origin": "Created Mutant"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "certificate-0",
+      "type": 17,
+      "relevance": 10,
+      "name": "The input sample is signed with a certificate",
+      "description": "The input sample is signed with a certificate issued by \"CN=R10, O=Let's Encrypt, C=US\" (SHA1: 42:28:B4:44:9D:4E:F8:22:EB:07:D7:75:BA:8C:2D:E3:0A:9A:A9:82; see report for more information)\n The input sample is signed with a certificate issued by \"CN=ISRG Root X1, O=Internet Security Research Group, C=US\" (SHA1: 00:AB:EF:D0:55:F9:A9:C7:84:FF:DE:AB:D1:DC:DD:8F:ED:74:14:36; see report for more information)\n The input sample is signed with a certificate issued by \"CN=WE1, O=Google Trust Services, C=US\" (SHA1: DB:49:8C:37:9C:5B:0E:5C:AE:BA:6E:F1:E6:3A:B6:8F:89:F1:64:A2; see report for more information)\n The input sample is signed with a certificate issued by \"CN=GTS Root R4, O=Google Trust Services LLC, C=US\" (SHA1: 10:8F:BF:79:4E:18:EC:53:47:A4:14:E4:37:0C:C4:50:6C:29:7A:B2; see report for more information)\n The input sample is signed with a certificate issued by \"CN=GlobalSign Root CA, OU=Root CA, O=GlobalSign nv-sa, C=BE\" (SHA1: 93:2B:ED:33:9A:A6:92:12:C8:93:75:B7:93:04:B4:75:49:0B:89:A0; see report for more information)",
+      "origin": "Certificate Data",
+      "attck_id": "T1553.002",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1553/002"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "api-7",
+      "type": 6,
+      "relevance": 1,
+      "name": "Loads modules at runtime",
+      "description": "\"EXCEL.EXE\" loaded module \"API-MS-WIN-CORE-SYNCH-L1-2-0\" at base 70a80000\n \"EXCEL.EXE\" loaded module \"API-MS-WIN-CORE-FIBERS-L1-1-1\" at base 0\n \"EXCEL.EXE\" loaded module \"KERNEL32\" at base 77070000\n \"EXCEL.EXE\" loaded module \"API-MS-WIN-CORE-LOCALIZATION-L1-2-1\" at base 0\n \"EXCEL.EXE\" loaded module \"%WINDIR%\\TEMP\\VXOLE32.DLL\" at base 6b510000\n \"EXCEL.EXE\" loaded module \"COMCTL32.DLL\" at base 74610000\n \"EXCEL.EXE\" loaded module \"MSO.DLL\" at base 68a40000\n \"EXCEL.EXE\" loaded module \"KERNEL32.DLL\" at base 77070000\n \"EXCEL.EXE\" loaded module \"%COMMONPROGRAMFILES%\\MICROSOFT SHARED\\OFFICE14\\CULTURES\\OFFICE.ODF\" at base 6efe0000\n \"EXCEL.EXE\" loaded module \"%WINDIR%\\SYSTEM32\\UXTHEME.DLL\" at base 74290000\n \"EXCEL.EXE\" loaded module \"DWMAPI.DLL\" at base 73ff0000\n \"EXCEL.EXE\" loaded module \"ADVAPI32.DLL\" at base 77380000\n \"EXCEL.EXE\" loaded module \"%COMMONPROGRAMFILES%\\MICROSOFT SHARED\\OFFICE14\\1033\\MSOINTL.DLL\" at base 63c30000\n \"EXCEL.EXE\" loaded module \"%COMMONPROGRAMFILES%\\MICROSOFT SHARED\\OFFICE14\\MSORES.DLL\" at base 5f700000\n \"EXCEL.EXE\" loaded module \"CRYPTBASE.DLL\" at base 75610000\n \"EXCEL.EXE\" loaded module \"IMM32.DLL\" at base 75fb0000\n \"EXCEL.EXE\" loaded module \"CLBCATQ.DLL\" at base 75a80000\n \"EXCEL.EXE\" loaded module \"%WINDIR%\\SYSTEM32\\MSIMTF.DLL\" at base 6d270000\n \"EXCEL.EXE\" loaded module \"%COMMONPROGRAMFILES%\\MICROSOFT SHARED\\OFFICE14\\RICHED20.DLL\" at base 6a370000\n \"EXCEL.EXE\" loaded module \"GDIPLUS.DLL\" at base 740d0000\n \"EXCEL.EXE\" loaded module \"%WINDIR%\\WINSXS\\X86_MICROSOFT.WINDOWS.GDIPLUS_6595B64144CCF1DF_1.1.7601.23894_NONE_5C0BE957A009922E\\GDIPLUS.DLL\" at base 740d0000\n \"EXCEL.EXE\" loaded module \"%WINDIR%\\SYSTEM32\\MSCOREE.DLL\" at base 6c2d0000\n \"EXCEL.EXE\" loaded module \"%WINDIR%\\MICROSOFT.NET\\FRAMEWORK\\V4.0.30319\\MSCOREEI.DLL\" at base 6c240000\n \"EXCEL.EXE\" loaded module \"SHLWAPI.DLL\" at base 77a00000\n \"EXCEL.EXE\" loaded module \"API-MS-WIN-APPMODEL-RUNTIME-L1-1-2.DLL\" at base 0\n \"EXCEL.EXE\" loaded module \"API-MS-WIN-APPMODEL-RUNTIME-L1-1-0.DLL\" at base 0\n \"EXCEL.EXE\" loaded module \"VERSION.DLL\" at base 74bb0000\n \"EXCEL.EXE\" loaded module \"%COMMONPROGRAMFILES%\\MICROSOFT SHARED\\OFFICESOFTWAREPROTECTIONPLATFORM\\OSPPC.DLL\" at base 6cfc0000\n \"EXCEL.EXE\" loaded module \"RPCRT4.DLL\" at base 75eb0000\n \"EXCEL.EXE\" loaded module \"UXTHEME.DLL\" at base 74290000\n \"EXCEL.EXE\" loaded module \"API-MS-WIN-CORE-LOCALREGISTRY-L1-1-0.DLL\" at base 77070000\n \"EXCEL.EXE\" loaded module \"POWRPROF.DLL\" at base 745d0000\n \"EXCEL.EXE\" loaded module \"USER32.DLL\" at base 77740000\n \"EXCEL.EXE\" loaded module \"COMCTL32\" at base 74610000\n \"EXCEL.EXE\" loaded module \"%WINDIR%\\SYSTEM32\\OLE32.DLL\" at base 77150000\n \"EXCEL.EXE\" loaded module \"API-MS-WIN-SECURITY-LSALOOKUP-L1-1-0.DLL\" at base 77620000\n \"EXCEL.EXE\" loaded module \"CRYPTSP.DLL\" at base 75120000\n \"EXCEL.EXE\" loaded module \"%WINDIR%\\SYSTEM32\\RSAENH.DLL\" at base 74eb0000\n \"EXCEL.EXE\" loaded module \"RPCRTREMOTE.DLL\" at base 756b0000\n \"EXCEL.EXE\" loaded module \"WTSAPI32.DLL\" at base 73c60000\n \"EXCEL.EXE\" loaded module \"WINSTA.DLL\" at base 75680000\n \"EXCEL.EXE\" loaded module \"SHELL32.DLL\" at base 75fd0000\n \"EXCEL.EXE\" loaded module \"OLE32.DLL\" at base 77150000\n \"EXCEL.EXE\" loaded module \"OLEAUT32.DLL\" at base 77430000\n \"EXCEL.EXE\" loaded module \"SETUPAPI.DLL\" at base 76ed0000\n \"EXCEL.EXE\" loaded module \"%WINDIR%\\SYSTEM32\\PROPSYS.DLL\" at base 743c0000\n \"EXCEL.EXE\" loaded module \"NTMARTA.DLL\" at base 74b80000\n \"EXCEL.EXE\" loaded module \"API-MS-WIN-SECURITY-SDDL-L1-1-0.DLL\" at base 77620000\n \"EXCEL.EXE\" loaded module \"PROFAPI.DLL\" at base 75730000\n \"EXCEL.EXE\" loaded module \"API-MS-WIN-DOWNLEVEL-ADVAPI32-L1-1-0.DLL\" at base 759b0000\n \"EXCEL.EXE\" loaded module \"%WINDIR%\\SYSTEM32\\URLMON.DLL\" at base 774d0000\n \"EXCEL.EXE\" loaded module \"API-MS-WIN-DOWNLEVEL-SHLWAPI-L1-1-0.DLL\" at base 75a40000\n \"EXCEL.EXE\" loaded module \"SECUR32.DLL\" at base 75440000\n \"EXCEL.EXE\" loaded module \"API-MS-WIN-DOWNLEVEL-ADVAPI32-L2-1-0.DLL\" at base 71aa0000\n \"EXCEL.EXE\" loaded module \"MPR.DLL\" at base 71e70000\n \"EXCEL.EXE\" loaded module \"%WINDIR%\\SYSTEM32\\MSXML6.DLL\" at base 71190000\n \"EXCEL.EXE\" loaded module \"GDI32.DLL\" at base 77970000\n \"EXCEL.EXE\" loaded module \"%WINDIR%\\SYSTEM32\\MSCTF.DLL\" at base 772b0000\n \"EXCEL.EXE\" loaded module \"API-MS-WIN-DOWNLEVEL-SHLWAPI-L2-1-0.DLL\" at base 72720000\n \"EXCEL.EXE\" loaded module \"API-MS-WIN-DOWNLEVEL-OLE32-L1-1-0.DLL\" at base 759c0000\n \"EXCEL.EXE\" loaded module \"WS2_32.DLL\" at base 779c0000\n \"EXCEL.EXE\" loaded module \"WINHTTP.DLL\" at base 71680000\n \"EXCEL.EXE\" loaded module \"%WINDIR%\\SYSTEM32\\MSWSOCK.DLL\" at base 750e0000\n \"EXCEL.EXE\" loaded module \"%WINDIR%\\SYSTEM32\\WSHIP6.DLL\" at base 750d0000\n \"EXCEL.EXE\" loaded module \"IPHLPAPI.DLL\" at base 73a70000\n \"EXCEL.EXE\" loaded module \"CRYPT32.DLL\" at base 75750000\n \"EXCEL.EXE\" loaded module \"USERENV.DLL\" at base 75a20000\n \"EXCEL.EXE\" loaded module \"DNSAPI.DLL\" at base 74fa0000\n \"EXCEL.EXE\" loaded module \"DHCPCSVC6.DLL\" at base 73980000\n \"EXCEL.EXE\" loaded module \"%WINDIR%\\SYSTEM32\\NETPROFM.DLL\" at base 6d680000\n \"EXCEL.EXE\" loaded module \"%WINDIR%\\SYSTEM32\\WSHTCPIP.DLL\" at base 74c40000\n \"EXCEL.EXE\" loaded module \"DHCPCSVC.DLL\" at base 738a0000\n \"EXCEL.EXE\" loaded module \"RASADHLP.DLL\" at base 71e60000\n \"EXCEL.EXE\" loaded module \"%WINDIR%\\SYSTEM32\\NPMPROXY.DLL\" at base 6ca30000\n \"EXCEL.EXE\" loaded module \"URLMON.DLL\" at base 774d0000\n \"EXCEL.EXE\" loaded module \"%WINDIR%\\SYSTEM32\\OLEAUT32.DLL\" at base 77430000\n \"EXCEL.EXE\" loaded module \"SXS.DLL\" at base 75620000\n \"EXCEL.EXE\" loaded module \"%WINDIR%\\SYSTEM32\\WININET.DLL\" at base 76c20000\n \"EXCEL.EXE\" loaded module \"%WINDIR%\\SYSTEM32\\FWPUCLNT.DLL\" at base 739e0000\n \"EXCEL.EXE\" loaded module \"%WINDIR%\\SYSTEM32\\WS2_32\" at base 779c0000\n \"EXCEL.EXE\" loaded module \"CREDSSP.DLL\" at base 74de0000\n \"EXCEL.EXE\" loaded module \"%WINDIR%\\SYSTEM32\\SCHANNEL.DLL\" at base 74f20000\n \"EXCEL.EXE\" loaded module \"NCRYPT.DLL\" at base 75250000\n \"EXCEL.EXE\" loaded module \"%WINDIR%\\SYSTEM32\\BCRYPTPRIMITIVES.DLL\" at base 74df0000\n \"EXCEL.EXE\" loaded module \"WINTRUST.DLL\" at base 75880000\n \"EXCEL.EXE\" loaded module \"GPAPI.DLL\" at base 74cf0000\n \"EXCEL.EXE\" loaded module \"API-MS-WIN-SERVICE-MANAGEMENT-L1-1-0.DLL\" at base 77620000\n \"EXCEL.EXE\" loaded module \"API-MS-WIN-SERVICE-MANAGEMENT-L2-1-0.DLL\" at base 77620000\n \"EXCEL.EXE\" loaded module \"%WINDIR%\\SYSTEM32\\ADVAPI32.DLL\" at base 77380000\n \"EXCEL.EXE\" loaded module \"%WINDIR%\\SYSTEM32\\SHELL32.DLL\" at base 75fd0000\n \"EXCEL.EXE\" loaded module \"APPHELP.DLL\" at base 755c0000\n \"EXCEL.EXE\" loaded module \"%WINDIR%\\SYSTEM32\\IEFRAME.DLL\" at base 6a790000\n \"EXCEL.EXE\" loaded module \"LINKINFO.DLL\" at base 6e690000\n \"EXCEL.EXE\" loaded module \"%WINDIR%\\SYSTEM32\\KERNEL32.DLL\" at base 77070000\n \"EXCEL.EXE\" loaded module \"NTSHRUI.DLL\" at base 72180000\n \"EXCEL.EXE\" loaded module \"SRVCLI.DLL\" at base 75310000\n \"EXCEL.EXE\" loaded module \"CSCAPI.DLL\" at base 70ac0000\n \"EXCEL.EXE\" loaded module \"SLC.DLL\" at base 73ac0000\n \"EXCEL.EXE\" loaded module \"%COMMONPROGRAMFILES%\\MICROSOFT SHARED\\OFFICESOFTWAREPROTECTIONPLATFORM\\OSPPCEXT.DLL\" at base 68870000\n \"EXCEL.EXE\" loaded module \"%PROGRAMFILES%\\MICROSOFT OFFICE\\OFFICE14\\MSOSTYLE.DLL\" at base 6d150000\n \"EXCEL.EXE\" loaded module \"SSPICLI.DLL\" at base 755a0000\n \"EXCEL.EXE\" loaded module \"NETUTILS.DLL\" at base 73f60000",
+      "origin": "API Call",
+      "attck_id": "T1129",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1129"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "static-157",
+      "name": "Matched Compiler/Packer signature (DIE)",
+      "description": "\"f4f81302b10960ebaea07666c3aa2d2147e093ba00c559a81d125f95c2230835\" was detected as \"Microsoft Compound\"  and name: \"Archive\"\n \"f4f81302b10960ebaea07666c3aa2d2147e093ba00c559a81d125f95c2230835\" was detected as \"Microsoft Compound\"  and name: \"Data\"",
+      "origin": "Static Parser",
+      "attck_id": "T1027",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1027"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "api-248",
+      "type": 6,
+      "relevance": 2,
+      "name": "Tries to open documents files",
+      "description": "\"EXCEL.EXE\" opens a file C:\\f4f81302b10960ebaea07666c3aa2d2147e093ba00c559a81d125f95c2230835.xls (UID: 00000000-00005852)",
+      "origin": "API Call",
+      "attck_id": "T1005",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1005"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "module-2",
+      "type": 10,
+      "name": "Loads rich edit control libraries",
+      "description": "\"EXCEL.EXE\" loaded module \"%COMMONPROGRAMFILES%\\microsoft shared\\OFFICE14\\RICHED20.DLL\" at 6A370000",
+      "origin": "Loaded Module",
+      "attck_id": "T1129",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1129"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "network-1",
+      "type": 7,
+      "relevance": 1,
+      "name": "Contacts server",
+      "description": "\"<IPv4>:443\"\n \"<IPv4>:443\"\n \"<IPv4>:80\"",
+      "origin": "Network Traffic",
+      "attck_id": "T1071",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1071"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "network-3",
+      "type": 7,
+      "relevance": 5,
+      "name": "Tries to GET non-existent files from a webserver",
+      "description": "\"GET /430/nhu/sheisbestforbetterforgoodthingstogetbackbetterthingsforgood.hta HTTP/1.1\nAccept: */*\nAccept-Encoding: gzip, deflate\nUser-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3)\nConnection: Keep-Alive\nHost: <IPv4>\"",
+      "origin": "Network Traffic",
+      "attck_id": "T1071.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1071/001"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "network-51",
+      "type": 7,
+      "relevance": 1,
+      "name": "Queries DNS server",
+      "description": "\"link.emcdn.ru\"\n \"loooooooooooooooooooog.com\"",
+      "origin": "Network Traffic",
+      "attck_id": "T1071.004",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1071/004"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Unusual Characteristics",
+      "identifier": "binary-37",
+      "type": 8,
+      "relevance": 3,
+      "name": "Drops files inside appdata directory",
+      "description": "Dropped file: \"f4f81302b10960ebaea07666c3aa2d2147e093ba00c559a81d125f95c2230835.xls.LNK\"  - Location: [%APPDATA%\\Microsoft\\Office\\Recent\\f4f81302b10960ebaea07666c3aa2d2147e093ba00c559a81d125f95c2230835.xls.LNK]- [targetUID: 00000000-00005852]\n Dropped file: \"6B235454.emf\"  - Location: [%LOCALAPPDATA%\\Microsoft\\Windows\\Temporary Internet Files\\Content.MSO\\6B235454.emf]- [targetUID: 00000000-00005852]\n Dropped file: \"C098C045.emf\"  - Location: [%LOCALAPPDATA%\\Microsoft\\Windows\\Temporary Internet Files\\Content.MSO\\C098C045.emf]- [targetUID: 00000000-00005852]\n Dropped file: \"index.dat\"  - Location: [%APPDATA%\\Microsoft\\Office\\Recent\\index.dat]- [targetUID: 00000000-00005852]",
+      "origin": "Binary File",
+      "attck_id": "T1036",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1036"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "api-204",
+      "type": 6,
+      "relevance": 3,
+      "name": "Creates/edits LNK file (Windows shortcut)",
+      "description": "\"EXCEL.EXE\" writes to LNK file \"C:\\Users\\%OSUSER%\\AppData\\Roaming\\Microsoft\\Office\\Recent\\f4f81302b10960ebaea07666c3aa2d2147e093ba00c559a81d125f95c2230835.xls.LNK\"\n \"EXCEL.EXE\" writes to LNK file \"%APPDATA%\\Microsoft\\Office\\Recent\\f4f81302b10960ebaea07666c3aa2d2147e093ba00c559a81d125f95c2230835.xls.LNK\"",
+      "origin": "API Call",
+      "attck_id": "T1547.009",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1547/009"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "api-159",
+      "type": 6,
+      "relevance": 1,
+      "name": "Writes log files",
+      "description": "\"EXCEL.EXE\" writes a file \"C:\\Users\\%OSUSER%\\AppData\\Roaming\\Microsoft\\Office\\Recent\\index.dat\"\n \"EXCEL.EXE\" writes a file \"%APPDATA%\\Microsoft\\Office\\Recent\\index.dat\"",
+      "origin": "API Call",
+      "attck_id": "T1074.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1074/001"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "registry-177",
+      "type": 3,
+      "relevance": 1,
+      "name": "Opens registry keys",
+      "description": "\"EXCEL.EXE\" (Access type: \"OPEN\"; Path: \"HKCU\\SOFTWARE\\POLICIES\\MICROSOFT\\OFFICE\\14.0\\COMMON\\SHIPASSERTS\"; Key: \"\"; Value: \"\")\n \"EXCEL.EXE\" (Access type: \"OPEN\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\OFFICE\\14.0\\COMMON\\SHIPASSERTS\"; Key: \"\"; Value: \"\")\n \"EXCEL.EXE\" (Access type: \"OPEN\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\EXPLORER\\MOUNTPOINTS2\\CPC\\VOLUME\"; Key: \"\"; Value: \"\")\n \"EXCEL.EXE\" (Access type: \"OPEN\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\EXPLORER\\MOUNTPOINTS2\\CPC\\VOLUME\\{DCBFAAC4-D863-11E7-B9FF-806E6F6E6963}\\\"; Key: \"\"; Value: \"\")\n \"EXCEL.EXE\" (Access type: \"OPEN\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\POLICIES\\EXPLORER\"; Key: \"\"; Value: \"\")\n \"EXCEL.EXE\" (Access type: \"OPEN\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\POLICIES\\EXPLORER\"; Key: \"\"; Value: \"\")\n \"EXCEL.EXE\" (Access type: \"OPEN\"; Path: \"HKCU\\SOFTWARE\\POLICIES\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\POLICIES\\EXPLORER\"; Key: \"\"; Value: \"\")\n \"EXCEL.EXE\" (Access type: \"OPEN\"; Path: \"HKCU\\SOFTWARE\\POLICIES\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\POLICIES\\COMDLG32\"; Key: \"\"; Value: \"\")\n \"EXCEL.EXE\" (Access type: \"OPEN\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\POLICIES\\COMDLG32\"; Key: \"\"; Value: \"\")\n \"EXCEL.EXE\" (Access type: \"OPEN\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\WINDOWS NT\\CURRENTVERSION\\PROFILELIST\\S-1-5-21-2092356043-4041700817-663127204-1001\"; Key: \"\"; Value: \"\")\n \"EXCEL.EXE\" (Access type: \"OPEN\"; Path: \"HKCU\\SOFTWARE\\POLICIES\\MICROSOFT\\OFFICE\\14.0\\COMMON\\GENERAL\"; Key: \"\"; Value: \"\")\n \"EXCEL.EXE\" (Access type: \"OPEN\"; Path: \"HKCU\\.XLS\"; Key: \"\"; Value: \"\")\n \"EXCEL.EXE\" (Access type: \"OPEN\"; Path: \"HKLM\\SOFTWARE\\CLASSES\\.XLS\"; Key: \"\"; Value: \"\")\n \"EXCEL.EXE\" (Access type: \"OPEN\"; Path: \"HKCU\\.XLS\\OPENWITHPROGIDS\"; Key: \"\"; Value: \"\")\n \"EXCEL.EXE\" (Access type: \"OPEN\"; Path: \"HKLM\\SOFTWARE\\CLASSES\\.XLS\\OPENWITHPROGIDS\"; Key: \"\"; Value: \"\")\n \"EXCEL.EXE\" (Access type: \"OPEN\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\EXPLORER\\FILEEXTS\\.XLS\\OPENWITHPROGIDS\"; Key: \"\"; Value: \"\")\n \"EXCEL.EXE\" (Access type: \"OPEN\"; Path: \"HKLM\\SOFTWARE\\CLASSES\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\EXPLORER\\FILEEXTS\\.XLS\\OPENWITHPROGIDS\"; Key: \"\"; Value: \"\")",
+      "origin": "Registry Access",
+      "attck_id": "T1012",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1012"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "registry-172",
+      "type": 3,
+      "relevance": 1,
+      "name": "Queries registry keys",
+      "description": "\"EXCEL.EXE\" (Access type: \"QUERYVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\EXPLORER\\MOUNTPOINTS2\\CPC\\VOLUME\\{DCBFAAC4-D863-11E7-B9FF-806E6F6E6963}\"; Key: \"GENERATION\"; Value: \"\")\n \"EXCEL.EXE\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\WINDOWS NT\\CURRENTVERSION\\PROFILELIST\\S-1-5-21-2092356043-4041700817-663127204-1001\"; Key: \"PROFILEIMAGEPATH\"; Value: \"\")\n \"EXCEL.EXE\" (Access type: \"QUERYVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\OFFICE\\14.0\\COMMON\\GENERAL\"; Key: \"RECENTFILES\"; Value: \"\")\n \"EXCEL.EXE\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\CLASSES\\.XLS\"; Key: \"\"; Value: \"\")\n \"EXCEL.EXE\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\CLASSES\\.XLS\"; Key: \"PERCEIVEDTYPE\"; Value: \"\")\n \"EXCEL.EXE\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\CLASSES\\SYSTEMFILEASSOCIATIONS\\.XLS\"; Key: \"PERCEIVEDTYPE\"; Value: \"\")\n \"EXCEL.EXE\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\CLASSES\\EXCEL.SHEET.8\"; Key: \"DOCOBJECT\"; Value: \"\")\n \"EXCEL.EXE\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\CLASSES\\EXCEL.SHEET.8\\DOCOBJECT\"; Key: \"\"; Value: \"\")\n \"EXCEL.EXE\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\CLASSES\\EXCEL.SHEET.8\\CLSID\"; Key: \"\"; Value: \"\")\n \"EXCEL.EXE\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\CLASSES\\EXCEL.SHEET.8\"; Key: \"ISSHORTCUT\"; Value: \"\")\n \"EXCEL.EXE\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\CLASSES\\SYSTEMFILEASSOCIATIONS\\.XLS\"; Key: \"ISSHORTCUT\"; Value: \"\")\n \"EXCEL.EXE\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\CLASSES\\EXCEL.SHEET.8\"; Key: \"ALWAYSSHOWEXT\"; Value: \"\")\n \"EXCEL.EXE\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\CLASSES\\SYSTEMFILEASSOCIATIONS\\.XLS\"; Key: \"ALWAYSSHOWEXT\"; Value: \"\")\n \"EXCEL.EXE\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\CLASSES\\EXCEL.SHEET.8\"; Key: \"NEVERSHOWEXT\"; Value: \"\")\n \"EXCEL.EXE\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\CLASSES\\SYSTEMFILEASSOCIATIONS\\.XLS\"; Key: \"NEVERSHOWEXT\"; Value: \"\")\n \"EXCEL.EXE\" (Access type: \"QUERYVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\OFFICE\\14.0\\COMMON\"; Key: \"QMENABLE\"; Value: \"\")\n \"EXCEL.EXE\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\CLASSES\\CLSID\\{00021401-0000-0000-C000-000000000046}\\PROGID\"; Key: \"\"; Value: \"\")\n \"EXCEL.EXE\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\CLASSES\\CLSID\\{00021401-0000-0000-C000-000000000046}\"; Key: \"\"; Value: \"\")\n \"EXCEL.EXE\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\CLASSES\\CLSID\\{00021401-0000-0000-C000-000000000046}\\INPROCSERVER32\"; Key: \"INPROCSERVER32\"; Value: \"\")\n \"EXCEL.EXE\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\CLASSES\\CLSID\\{00021401-0000-0000-C000-000000000046}\\INPROCSERVER32\"; Key: \"\"; Value: \"\")",
+      "origin": "Registry Access",
+      "attck_id": "T1012",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1012"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "api-263",
+      "type": 6,
+      "relevance": 1,
+      "name": "Touches files",
+      "description": "\"EXCEL.EXE\" trying to touch file \"C:\\Windows\\AppPatch\\sysmain.sdb\"\n \"EXCEL.EXE\" trying to touch file \"\\FileSystem\\Filters\\FltMgrMsg\"\n \"EXCEL.EXE\" trying to touch file \"C:\\Windows\\Microsoft.NET\\Framework\\v1.0.3705\\clr.dll\"\n \"EXCEL.EXE\" trying to touch file \"C:\\Windows\\Microsoft.NET\\Framework\\v1.0.3705\\mscorwks.dll\"\n \"EXCEL.EXE\" trying to touch file \"C:\\Windows\\Microsoft.NET\\Framework\\v1.1.4322\\clr.dll\"\n \"EXCEL.EXE\" trying to touch file \"C:\\Windows\\Microsoft.NET\\Framework\\v1.1.4322\\mscorwks.dll\"\n \"EXCEL.EXE\" trying to touch file \"C:\\Windows\\Microsoft.NET\\Framework\\v2.0.50727\\clr.dll\"\n \"EXCEL.EXE\" trying to touch file \"C:\\Program Files\\Microsoft Office\\Office14\\EXCEL.EXE.config\"\n \"EXCEL.EXE\" trying to touch file \"\\Device\\MountPointManager\"\n \"EXCEL.EXE\" trying to touch file \"C:\"\n \"EXCEL.EXE\" trying to touch file \"C:\\Users\\%OSUSER%\\AppData\\Roaming\\Microsoft\\Office\\review.rcd\"\n \"EXCEL.EXE\" trying to touch file \"C:\\Users\\%OSUSER%\\AppData\\Roaming\\Microsoft\\Office\\adhoc.rcd\"\n \"EXCEL.EXE\" trying to touch file \"\\Device\\Afd\"\n \"EXCEL.EXE\" trying to touch file \"\\Device\\Nsi\"",
+      "origin": "API Call",
+      "attck_id": "T1083",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1083"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "binary-0",
+      "type": 8,
+      "relevance": 3,
+      "name": "Dropped files",
+      "description": "\"f4f81302b10960ebaea07666c3aa2d2147e093ba00c559a81d125f95c2230835.xls.LNK\" has type \"MS Windows shortcut Item id list present Points to a file or directory Has Relative path Archive ctime=Mon Feb 10 08:54:22 2025 mtime=Mon Feb 10 08:54:22 2025 atime=Mon Feb 10 07:54:20 2025 length=1252864 window=hide\"- Location: [%APPDATA%\\Microsoft\\Office\\Recent\\f4f81302b10960ebaea07666c3aa2d2147e093ba00c559a81d125f95c2230835.xls.LNK]- [targetUID: 00000000-00005852]\n \"6B235454.emf\" has type \"Windows Enhanced Metafile (EMF) image data version 0x10000\"- Location: [%LOCALAPPDATA%\\Microsoft\\Windows\\Temporary Internet Files\\Content.MSO\\6B235454.emf]- [targetUID: 00000000-00005852]\n \"C098C045.emf\" has type \"Windows Enhanced Metafile (EMF) image data version 0x10000\"- Location: [%LOCALAPPDATA%\\Microsoft\\Windows\\Temporary Internet Files\\Content.MSO\\C098C045.emf]- [targetUID: 00000000-00005852]\n \"index.dat\" has type \"data\"- Location: [%APPDATA%\\Microsoft\\Office\\Recent\\index.dat]- [targetUID: 00000000-00005852]",
+      "origin": "Binary File",
+      "attck_id": "T1105",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1105"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Anti-Detection/Stealthyness",
+      "identifier": "api-162",
+      "type": 6,
+      "relevance": 1,
+      "name": "Renames files",
+      "description": "\"EXCEL.EXE\" renamed original file\"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\CVRACE1.tmp\" to \"%TEMP%\\CVRACE1.tmp.cvr\"",
+      "origin": "API Call",
+      "attck_id": "T1036",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1036"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Environment Awareness",
+      "identifier": "api-148",
+      "type": 6,
+      "relevance": 3,
+      "name": "Calls an API typically used to retrieve account information for specified SID",
+      "description": "\"EXCEL.EXE\" called \"LookupAccountSidW\" with param Name %OSUSER% (UID: 00000000-00005852)\n \"EXCEL.EXE\" called \"LookupAccountSidW\" with param Name SYSTEM (UID: 00000000-00005852)\n \"EXCEL.EXE\" called \"LookupAccountSidW\" with param Name NETWORK SERVICE (UID: 00000000-00005852)",
+      "origin": "API Call",
+      "attck_id": "T1033",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1033"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Network Related",
+      "identifier": "certificate-3",
+      "type": 17,
+      "relevance": 5,
+      "name": "Short-term SSL certificate detected",
+      "description": "Short term registered certificate: \"link.emcdn.ru\" (89 days old)\n Short term registered certificate: \"loooooooooooooooooooog.com\" (90 days old)",
+      "origin": "Certificate Data",
+      "attck_id": "T1583.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1583/001"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Network Related",
+      "identifier": "api-199",
+      "type": 6,
+      "relevance": 1,
+      "name": "Calls an API used to connect to internet",
+      "description": "\"EXCEL.EXE\" called \"InternetOpenA with parameter Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3)\" (UID: 00000000-00005852)\n \"EXCEL.EXE\" called \"InternetOpenW with parameter Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729;\" (UID: 00000000-00005852)",
+      "origin": "API Call",
+      "attck_id": "T1071.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1071/001"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Network Related",
+      "identifier": "api-215",
+      "type": 6,
+      "relevance": 3,
+      "name": "Calls an API typically used to create a HTTP or FTP session",
+      "description": "\"EXCEL.EXE\" called \"InternetConnectW\" to server \"loooooooooooooooooooog.com\" on port 443 (UID: 00000000-00005852)",
+      "origin": "API Call",
+      "attck_id": "T1071",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1071"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Network Related",
+      "identifier": "api-143",
+      "type": 6,
+      "relevance": 3,
+      "name": "Calls an API typically used to create a new HTTP request",
+      "description": "\"EXCEL.EXE\" called \"HttpOpenRequestW\" with parameter HTTP method:\"GET\" object: /Biki\" - (UID: 00000000-00005852)",
+      "origin": "API Call",
+      "attck_id": "T1071",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1071"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Network Related",
+      "identifier": "network-38",
+      "type": 7,
+      "relevance": 3,
+      "name": "Uses HTTPS for communication",
+      "description": "HTTPS traffic to \"<IPv4>\" on port \"443\"\n HTTPS traffic to \"<IPv4>\" on port \"443\"",
+      "origin": "Network Traffic",
+      "attck_id": "T1573",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1573"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Network Related",
+      "identifier": "network-78",
+      "type": 7,
+      "relevance": 1,
+      "name": "HTTP requests contain custom Base62 strings",
+      "description": "Contains base62 string in header \"sheisbestforbetterforgoodthingsto\" in header \"GET /430/nhu/sheisbestforbetterforgoodthingstogetbackbetterthingsforgood.hta HTTP/1.1Accept: */*Accept-Encoding: gzip, deflateUser-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3)Connection: Keep-AliveHost: <IPv4>\"",
+      "origin": "Network Traffic",
+      "attck_id": "T1132",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1132"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Network Related",
+      "identifier": "network-62",
+      "type": 7,
+      "relevance": 1,
+      "name": "Communicates with HTTP webserver (GET/POST requests)",
+      "description": "Found http requests in header \"GET /430/nhu/sheisbestforbetterforgoodthingstogetbackbetterthingsforgood.hta\"",
+      "origin": "Network Traffic",
+      "attck_id": "T1071.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1071/001"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Network Related",
+      "identifier": "network-55",
+      "type": 7,
+      "relevance": 1,
+      "name": "JA3 SSL client fingerprint",
+      "description": "Observed JA3 fingerprint: 7dcce5b76c8b17472d024758970a406b\n Observed JA3 fingerprint: 05af1f5ca1b87cc9cc9b25185115607d\n Observed JA3 fingerprint: db95a4cb23548a635a1dfebcee9991cb",
+      "origin": "Network Traffic"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Network Related",
+      "identifier": "network-54",
+      "type": 7,
+      "relevance": 1,
+      "name": "Making HTTPS connections using secure TLS/SSL version",
+      "description": "Connection was made using TLSv1.2 [tls.handshake.version: 0x0303]",
+      "origin": "Network Traffic",
+      "attck_id": "T1573",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1573"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Cryptographic Related",
+      "identifier": "network-60",
+      "type": 7,
+      "relevance": 1,
+      "name": "HTTP requests contain Base64 strings",
+      "description": "Contains base64 string in header \"/430/nhu/sheisbestforbetterforgoodthingstogetbackbetterthingsforgood\" in header \"GET /430/nhu/sheisbestforbetterforgoodthingstogetbackbetterthingsforgood.hta HTTP/1.1Accept: */*Accept-Encoding: gzip, deflateUser-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3)Connection: Keep-AliveHost: <IPv4>\"\n Contains base64 string in header \"Encoding\" in header \"GET /430/nhu/sheisbestforbetterforgoodthingstogetbackbetterthingsforgood.hta HTTP/1.1Accept: */*Accept-Encoding: gzip, deflateUser-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3)Connection: Keep-AliveHost: <IPv4>\"\n Contains base64 string in header \"gzip\" in header \"GET /430/nhu/sheisbestforbetterforgoodthingstogetbackbetterthingsforgood.hta HTTP/1.1Accept: */*Accept-Encoding: gzip, deflateUser-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3)Connection: Keep-AliveHost: <IPv4>\"\n Contains base64 string in header \"MSIE\" in header \"GET /430/nhu/sheisbestforbetterforgoodthingstogetbackbetterthingsforgood.hta HTTP/1.1Accept: */*Accept-Encoding: gzip, deflateUser-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3)Connection: Keep-AliveHost: <IPv4>\"\n Contains base64 string in header \"NET4\" in header \"GET /430/nhu/sheisbestforbetterforgoodthingstogetbackbetterthingsforgood.hta HTTP/1.1Accept: */*Accept-Encoding: gzip, deflateUser-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3)Connection: Keep-AliveHost: <IPv4>\"\n Contains base64 string in header \"InfoPath\" in header \"GET /430/nhu/sheisbestforbetterforgoodthingstogetbackbetterthingsforgood.hta HTTP/1.1Accept: */*Accept-Encoding: gzip, deflateUser-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3)Connection: Keep-AliveHost: <IPv4>\"\n Contains base64 string in header \"Keep\" in header \"GET /430/nhu/sheisbestforbetterforgoodthingstogetbackbetterthingsforgood.hta HTTP/1.1Accept: */*Accept-Encoding: gzip, deflateUser-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3)Connection: Keep-AliveHost: <IPv4>\"",
+      "origin": "Network Traffic",
+      "attck_id": "T1132",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1132"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Cryptographic Related",
+      "identifier": "binary-71",
+      "type": 8,
+      "relevance": 1,
+      "name": "Sample file has high entropy (likely encrypted/compressed content)",
+      "description": "Sample file \"sample.bin\" has high entropy 7.639972441557342",
+      "origin": "Binary File",
+      "attck_id": "T1027",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1027"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "System Security",
+      "identifier": "registry-136",
+      "type": 3,
+      "relevance": 3,
+      "name": "Writes registry keys",
+      "description": "\"EXCEL.EXE\" (Access type: \"SETVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\INTERNET SETTINGS\\WPAD\\{4B4C841F-03FF-4CF0-BCB0-CC5C7DA60873}\"; Key: \"WPADDECISIONREASON\"; Value: \"01000000\")\n \"EXCEL.EXE\" (Access type: \"SETVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\INTERNET SETTINGS\\WPAD\\{4B4C841F-03FF-4CF0-BCB0-CC5C7DA60873}\"; Key: \"WPADDECISIONTIME\"; Value: \"2FBFA41C917BDB01\")\n \"EXCEL.EXE\" (Access type: \"SETVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\INTERNET SETTINGS\\WPAD\\{4B4C841F-03FF-4CF0-BCB0-CC5C7DA60873}\"; Key: \"WPADDECISION\"; Value: \"00000000\")\n \"EXCEL.EXE\" (Access type: \"SETVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\INTERNET SETTINGS\\WPAD\\{4B4C841F-03FF-4CF0-BCB0-CC5C7DA60873}\"; Key: \"WPADNETWORKNAME\"; Value: \"Network  8\")\n \"EXCEL.EXE\" (Access type: \"SETVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\INTERNET SETTINGS\\WPAD\\00-50-56-91-4F-96\"; Key: \"WPADDECISIONREASON\"; Value: \"01000000\")\n \"EXCEL.EXE\" (Access type: \"SETVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\INTERNET SETTINGS\\WPAD\\00-50-56-91-4F-96\"; Key: \"WPADDECISIONTIME\"; Value: \"2FBFA41C917BDB01\")\n \"EXCEL.EXE\" (Access type: \"SETVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\INTERNET SETTINGS\\WPAD\\00-50-56-91-4F-96\"; Key: \"WPADDECISION\"; Value: \"00000000\")\n \"EXCEL.EXE\" (Access type: \"SETVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\INTERNET SETTINGS\\WPAD\\{4B4C841F-03FF-4CF0-BCB0-CC5C7DA60873}\"; Key: \"WPADDECISIONTIME\"; Value: \"0E9B9D1C917BDB01\")\n \"EXCEL.EXE\" (Access type: \"SETVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\INTERNET SETTINGS\\WPAD\\00-50-56-91-4F-96\"; Key: \"WPADDECISIONTIME\"; Value: \"0E9B9D1C917BDB01\")\n \"EXCEL.EXE\" (Access type: \"SETVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\OFFICE\\14.0\\EXCEL\\RESILIENCY\\STARTUPITEMS\"; Key: \"PT,\"; Value: \"pt,\")\n \"EXCEL.EXE\" (Access type: \"SETVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\OFFICE\\14.0\\COMMON\\LANGUAGERESOURCES\\ENABLEDLANGUAGES\"; Key: \"1033\"; Value: \"Off\")\n \"EXCEL.EXE\" (Access type: \"SETVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\OFFICE\\14.0\\COMMON\\LANGUAGERESOURCES\\ENABLEDLANGUAGES\"; Key: \"1033\"; Value: \"4F006E000000\")\n \"EXCEL.EXE\" (Access type: \"SETVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\OFFICE\\14.0\\EXCEL\"; Key: \"MTTT\"; Value: \"DC160000E8D57810917BDB0100000000\")\n \"EXCEL.EXE\" (Access type: \"SETVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\INTERNET SETTINGS\\ZONEMAP\"; Key: \"UNCASINTRANET\"; Value: \"00000000\")\n \"EXCEL.EXE\" (Access type: \"SETVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\INTERNET SETTINGS\\ZONEMAP\"; Key: \"AUTODETECT\"; Value: \"01000000\")\n \"EXCEL.EXE\" (Access type: \"SETVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\OFFICE\\14.0\\EXCEL\\RESILIENCY\\DOCUMENTRECOVERY\\36156515\"; Key: \"36156515\"; Value: \"04000000DC1600004700000043003A005C0066003400660038003100330030003200620031003000390036003000650062006100650061003000370036003600360063003300610061003200640032003100340037006500300039003300620061003000300063003500350039006100380031006400310032003500660039003500630032003200330030003800330035002E0078006C007300000000000300000043003A005C0001000000000000009042CB18917BDB01156515361565153600000000AC020000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\")\n \"EXCEL.EXE\" (Access type: \"SETVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\OFFICE\\14.0\\EXCEL\\RESILIENCY\\DOCUMENTRECOVERY\\36156515\"; Key: \"36156515\"; Value: \"04000000DC1600004700000043003A005C0066003400660038003100330030003200620031003000390036003000650062006100650061003000370036003600360063003300610061003200640032003100340037006500300039003300620061003000300063003500350039006100380031006400310032003500660039003500630032003200330030003800330035002E0078006C007300000000000300000043003A005C0001000000000000009042CB18917BDB01156515361565153600000000AC020000001800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\")\n \"EXCEL.EXE\" (Access type: \"SETVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\OFFICE\\14.0\\COMMON\\REVIEWCYCLE\"; Key: \"REVIEWTOKEN\"; Value: \"{3982D39F-5BB4-4F79-831F-3EC2432DA25F}\")\n \"EXCEL.EXE\" (Access type: \"SETVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\INTERNET SETTINGS\"; Key: \"PROXYENABLE\"; Value: \"00000000\")\n \"EXCEL.EXE\" (Access type: \"SETVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\INTERNET SETTINGS\\CONNECTIONS\"; Key: \"SAVEDLEGACYSETTINGS\"; Value: \"460000000E0200000900000000000000000000000000000004000000000000003071E4E2286CD3010000000000000000000000000100000002000000C0A8F1FC000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\")\n \"EXCEL.EXE\" (Access type: \"SETVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\INTERNET SETTINGS\\5.0\\CACHE\\CONTENT\"; Key: \"CACHEPREFIX\"; Value: \"0000\")\n \"EXCEL.EXE\" (Access type: \"SETVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\INTERNET SETTINGS\\5.0\\CACHE\\COOKIES\"; Key: \"CACHEPREFIX\"; Value: \"Cookie:\")\n \"EXCEL.EXE\" (Access type: \"SETVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\INTERNET SETTINGS\\5.0\\CACHE\\HISTORY\"; Key: \"CACHEPREFIX\"; Value: \"Visited:\")\n \"EXCEL.EXE\" (Access type: \"SETVAL\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\INSTALLER\\USERDATA\\S-1-5-18\\PRODUCTS\\00004109110000000000000000F01FEC\\USAGE\"; Key: \"EXCELFILES\"; Value: \"08004A5A\")\n \"EXCEL.EXE\" (Access type: \"SETVAL\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\INSTALLER\\USERDATA\\S-1-5-18\\PRODUCTS\\00004109110000000000000000F01FEC\\USAGE\"; Key: \"PRODUCTFILES\"; Value: \"01004A5A\")\n \"EXCEL.EXE\" (Access type: \"SETVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\OFFICE\\14.0\\EXCEL\\RESILIENCY\\DOCUMENTRECOVERY\\36159365\"; Key: \"36159365\"; Value: \"04000000DC1600004700000043003A005C0066003400660038003100330030003200620031003000390036003000650062006100650061003000370036003600360063003300610061003200640032003100340037006500300039003300620061003000300063003500350039006100380031006400310032003500660039003500630032003200330030003800330035002E0078006C007300000000000300000043003A005C000100000001000000009EBBFD907BDB01659315366593153600000000AC0200006E0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\")\n \"EXCEL.EXE\" (Access type: \"SETVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\OFFICE\\14.0\\EXCEL\\PLACE MRU\"; Key: \"MAX DISPLAY\"; Value: \"19000000\")\n \"EXCEL.EXE\" (Access type: \"SETVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\OFFICE\\14.0\\EXCEL\\PLACE MRU\"; Key: \"ITEM 1\"; Value: \"[F00000000][T01DB7B911FFD9B30][O00000000]*C:\\\")\n \"EXCEL.EXE\" (Access type: \"SETVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\OFFICE\\14.0\\EXCEL\\FILE MRU\"; Key: \"MAX DISPLAY\"; Value: \"19000000\")\n \"EXCEL.EXE\" (Access type: \"SETVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\OFFICE\\14.0\\EXCEL\\FILE MRU\"; Key: \"ITEM 1\"; Value: \"[F00000000][T01DB7B911FFD9B30][O00000000]*C:\\f4f81302b10960ebaea07666c3aa2d2147e093ba00c559a81d125f95c2230835.xls\")\n \"EXCEL.EXE\" (Access type: \"SETVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\OFFICE\\14.0\\COMMON\\LICENSING\"; Key: \"538F6C892AD540068154C6670774E980\"; Value: \"09000000270000007B39303134303030302D303031312D303030302D303030302D3030303030303046463143457D00580000004F00660066006900630065002000310034002C0020004F0066006600690063006500500072006F0050006C00750073002D004B004D0053005F0043006C00690065006E0074002000650064006900740069006F006E000000\")\n \"EXCEL.EXE\" (Access type: \"SETVAL\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\INSTALLER\\USERDATA\\S-1-5-18\\PRODUCTS\\00004109110000000000000000F01FEC\\USAGE\"; Key: \"PRODUCTFILES\"; Value: \"02004A5A\")\n \"EXCEL.EXE\" (Access type: \"SETVAL\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\INSTALLER\\USERDATA\\S-1-5-18\\PRODUCTS\\00004109110000000000000000F01FEC\\USAGE\"; Key: \"PRODUCTFILES\"; Value: \"03004A5A\")\n \"EXCEL.EXE\" (Access type: \"SETVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\OFFICE\\14.0\\EXCEL\"; Key: \"MTTF\"; Value: \"B9000000\")\n \"EXCEL.EXE\" (Access type: \"SETVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\OFFICE\\14.0\\EXCEL\"; Key: \"MTTA\"; Value: \"B9000000\")\n \"EXCEL.EXE\" (Access type: \"SETVAL\"; Path: \"HKCU\\LOCAL SETTINGS\\MUICACHE\\137\\52C64B7E\"; Key: \"LANGUAGELIST\"; Value: \"en-US\")\n \"EXCEL.EXE\" (Access type: \"SETVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\OFFICE\\14.0\\EXCEL\\SECURITY\\TRUSTED DOCUMENTS\"; Key: \"LASTPURGETIME\"; Value: \"7D4BBA01\")",
+      "origin": "Registry Access",
+      "attck_id": "T1112",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1112"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "System Security",
+      "identifier": "registry-173",
+      "type": 3,
+      "relevance": 1,
+      "name": "Queries services related registry keys",
+      "description": "\"EXCEL.EXE\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\LANMANWORKSTATION\\PARAMETERS\"; Key: \"RPCCACHETIMEOUT\"; Value: \"\")\n \"EXCEL.EXE\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\WINSOCK\\PARAMETERS\"; Key: \"TRANSPORTS\"; Value: \"\")\n \"EXCEL.EXE\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\TCPIP6\\PARAMETERS\\WINSOCK\"; Key: \"MAPPING\"; Value: \"\")\n \"EXCEL.EXE\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\WINSOCK\\SETUP MIGRATION\\PROVIDERS\\TCPIP6\"; Key: \"WINSOCK 2.0 PROVIDER ID\"; Value: \"\")\n \"EXCEL.EXE\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\TCPIP6\\PARAMETERS\\WINSOCK\"; Key: \"MINSOCKADDRLENGTH\"; Value: \"\")\n \"EXCEL.EXE\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\TCPIP6\\PARAMETERS\\WINSOCK\"; Key: \"MAXSOCKADDRLENGTH\"; Value: \"\")\n \"EXCEL.EXE\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\TCPIP6\\PARAMETERS\\WINSOCK\"; Key: \"USEDELAYEDACCEPTANCE\"; Value: \"\")\n \"EXCEL.EXE\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\TCPIP6\\PARAMETERS\\WINSOCK\"; Key: \"HELPERDLLNAME\"; Value: \"\")\n \"EXCEL.EXE\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\TCPIP\\PARAMETERS\\INTERFACES\\{07B41F79-1AEC-4782-A6E8-8C28FFBA35ED}\"; Key: \"ENABLEDHCP\"; Value: \"\")\n \"EXCEL.EXE\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\TCPIP\\PARAMETERS\\INTERFACES\\{07B41F79-1AEC-4782-A6E8-8C28FFBA35ED}\"; Key: \"REGISTRATIONENABLED\"; Value: \"\")\n \"EXCEL.EXE\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\TCPIP\\PARAMETERS\\INTERFACES\\{07B41F79-1AEC-4782-A6E8-8C28FFBA35ED}\"; Key: \"REGISTERADAPTERNAME\"; Value: \"\")\n \"EXCEL.EXE\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\TCPIP\\PARAMETERS\\INTERFACES\\{07B41F79-1AEC-4782-A6E8-8C28FFBA35ED}\"; Key: \"DOMAIN\"; Value: \"\")\n \"EXCEL.EXE\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\TCPIP\\PARAMETERS\\INTERFACES\\{07B41F79-1AEC-4782-A6E8-8C28FFBA35ED}\"; Key: \"DHCPDOMAIN\"; Value: \"\")\n \"EXCEL.EXE\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\TCPIP6\\PARAMETERS\\INTERFACES\\{07B41F79-1AEC-4782-A6E8-8C28FFBA35ED}\"; Key: \"DHCPV6DOMAIN\"; Value: \"\")\n \"EXCEL.EXE\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\TCPIP\\PARAMETERS\\INTERFACES\\{E29AC6C2-7037-11DE-816D-806E6F6E6963}\"; Key: \"ENABLEDHCP\"; Value: \"\")\n \"EXCEL.EXE\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\TCPIP\\PARAMETERS\\INTERFACES\\{E29AC6C2-7037-11DE-816D-806E6F6E6963}\"; Key: \"REGISTRATIONENABLED\"; Value: \"\")\n \"EXCEL.EXE\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\TCPIP\\PARAMETERS\\INTERFACES\\{E29AC6C2-7037-11DE-816D-806E6F6E6963}\"; Key: \"REGISTERADAPTERNAME\"; Value: \"\")\n \"EXCEL.EXE\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\TCPIP\\PARAMETERS\\INTERFACES\\{E29AC6C2-7037-11DE-816D-806E6F6E6963}\"; Key: \"DOMAIN\"; Value: \"\")\n \"EXCEL.EXE\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\TCPIP\\PARAMETERS\\INTERFACES\\{E29AC6C2-7037-11DE-816D-806E6F6E6963}\"; Key: \"DHCPDOMAIN\"; Value: \"\")\n \"EXCEL.EXE\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\TCPIP\\LINKAGE\"; Key: \"BIND\"; Value: \"\")",
+      "origin": "Registry Access",
+      "attck_id": "T1007",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1007"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "Network Related",
+      "identifier": "network-23",
+      "type": 7,
+      "relevance": 5,
+      "name": "Sends traffic on typical HTTP outbound port, but without HTTP header",
+      "description": "TCP traffic to <IPv4> on port 443 is sent without HTTP header\n TCP traffic to <IPv4> on port 443 is sent without HTTP header\n TCP traffic to <IPv4> on port 80 is sent without HTTP header",
+      "origin": "Network Traffic",
+      "attck_id": "T1071.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1071/001"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "Network Related",
+      "identifier": "network-22",
+      "type": 7,
+      "relevance": 10,
+      "name": "Uses a browser-related user-agent without launching browser",
+      "description": "Found user-agent(s): Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3)",
+      "origin": "Network Traffic",
+      "attck_id": "T1071.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1071/001"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "External Systems",
+      "identifier": "suricata-1",
+      "type": 18,
+      "relevance": 10,
+      "name": "Detected Suricata Alert",
+      "description": "Detected alert \"ET INFO Possible HTA Application Download\" (SID: 2022520, Rev: 6, Severity: 2) categorized as \"Potentially Bad Traffic\"",
+      "origin": "Suricata Alerts"
+    },
+    {
+      "threat_level": 2,
+      "threat_level_human": "malicious",
+      "category": "General",
+      "identifier": "network-16",
+      "type": 7,
+      "relevance": 10,
+      "name": "GETs files from a webserver",
+      "description": "\"GET /430/nhu/sheisbestforbetterforgoodthingstogetbackbetterthingsforgood.hta HTTP/1.1\nAccept: */*\nAccept-Encoding: gzip, deflate\nUser-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3)\nConnection: Keep-Alive\nHost: <IPv4>\" Response ==> HTTP/1.1 404 Not Found\nDate: Mon\n 10 Feb 2025 08:55:14 GMT\nServer: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.1.25\nContent-Length: 298\nKeep-Alive: timeout=5\n max=100\nConnection: Keep-Alive\nContent-Type: text/html; charset=iso-8859-1 with response body ==>3C21444F43545950452048544D4C205055424C494320222D2F2F494554462F2F4454442048544D4C20322E302F2F454E223E0A3C68746D6C3E3C686561643E0A.......",
+      "origin": "Network Traffic",
+      "attck_id": "T1071.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1071/001"
+    },
+    {
+      "threat_level": 2,
+      "threat_level_human": "malicious",
+      "category": "Network Related",
+      "identifier": "network-88",
+      "type": 7,
+      "relevance": 10,
+      "name": "Application communicates with a malicious domain",
+      "description": "Contacted Domain: \"loooooooooooooooooooog.com\" has been identified as malicious",
+      "origin": "Network Traffic",
+      "attck_id": "T1566",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1566"
+    },
+    {
+      "threat_level": 2,
+      "threat_level_human": "malicious",
+      "category": "External Systems",
+      "identifier": "suricata-2",
+      "type": 18,
+      "relevance": 10,
+      "name": "Detected Suricata Alert",
+      "description": "Detected alert \"ET EXPLOIT SUSPICIOUS Possible CVE-2017-0199 IE7/NoCookie/Referer HTA dl\" (SID: 2024449, Rev: 7, Severity: 1) categorized as \"Attempted User Privilege Gain\"",
+      "origin": "Suricata Alerts"
+    },
+    {
+      "threat_level": 2,
+      "threat_level_human": "malicious",
+      "category": "External Systems",
+      "identifier": "avtest-8",
+      "type": 12,
+      "relevance": 10,
+      "name": "Sample detected by CrowdStrike Static Analysis and ML with relatively high confidence",
+      "description": "CrowdStrike Static Analysis and ML (QuickScan) yielded detection: msoffice/malicious_confidence_100% (W)",
+      "origin": "External System"
+    }
+  ]
+}

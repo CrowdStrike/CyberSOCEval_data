@@ -1,0 +1,719 @@
+{
+  "size": 187392,
+  "type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+  "submit_name": "o.exe",
+  "sha256": "d77378dcc42b912e514d3bd4466cdda050dda9b57799a6c97f70e8489dd8c8d0",
+  "av_detect": 93,
+  "vx_family": "Ransom.GandCrab4.Generic",
+  "threat_score": 100,
+  "threat_level": 2,
+  "verdict": "malicious",
+  "certificates_validation_message": "No signature was present in the subject. (0x800b0100)",
+  "total_network_connections": 3,
+  "total_processes": 1,
+  "total_signatures": 39,
+  "extracted_files": [
+    {
+      "name": "ZFLXA-DECRYPT.html",
+      "file_size": 66774,
+      "sha256": "fb5f6c041ed4833ec9ab15266c78662d88078a334e271d8ecac60a7a5d4626ed",
+      "type_tags": [
+        "html"
+      ],
+      "description": "HTML document, Little-endian UTF-16 Unicode text, with very long lines, with CRLF line terminators",
+      "runtime_process": "o.exe (PID: 1136)",
+      "threat_level_readable": "no specific threat"
+    },
+    {
+      "name": "0YdED8h4YnKljVf.doc",
+      "file_size": 258588,
+      "sha256": "cda730001735e07dc0a81657d31a1a5a728946cd3c1dd46b242e7ddb11f4ab0b",
+      "type_tags": [
+        "data"
+      ],
+      "description": "data",
+      "runtime_process": "o.exe (PID: 1136)",
+      "threat_level_readable": "no specific threat"
+    },
+    {
+      "name": "xulstore.json",
+      "file_size": 1426,
+      "sha256": "37ccae873f2484f49d38847f12c91af523ff084e65c69a7658e83ab8e3af9126",
+      "type_tags": [
+        "data"
+      ],
+      "description": "data",
+      "runtime_process": "o.exe (PID: 1136)",
+      "threat_level_readable": "no specific threat"
+    },
+    {
+      "name": "ZFLXA-DECRYPT.html",
+      "file_size": 66774,
+      "sha256": "fb5f6c041ed4833ec9ab15266c78662d88078a334e271d8ecac60a7a5d4626ed",
+      "type_tags": [
+        "html"
+      ],
+      "description": "HTML document, Little-endian UTF-16 Unicode text, with very long lines, with CRLF line terminators",
+      "runtime_process": "o.exe (PID: 1136)",
+      "threat_level_readable": "no specific threat"
+    },
+    {
+      "name": "f5c2c82f-46fd-4d42-a968-97978822fc7a",
+      "file_size": 1008,
+      "sha256": "89969f90dd651ffa14af68a094754470548ab2f9683f985505478a4b1fa0f517",
+      "type_tags": [
+        "data"
+      ],
+      "description": "data",
+      "runtime_process": "o.exe (PID: 1136)",
+      "threat_level_readable": "no specific threat"
+    },
+    {
+      "name": "1553114907600.6395efa4-e025-4686-8768-be417a45a55a.modules.jsonlz4",
+      "file_size": 12324,
+      "sha256": "46bab46a7429f82674ffbb87850f95e7e0dbb7d33d907d4f861590b6d9d7791e",
+      "type_tags": [
+        "data"
+      ],
+      "description": "data",
+      "runtime_process": "o.exe (PID: 1136)",
+      "threat_level_readable": "no specific threat"
+    },
+    {
+      "name": "LICENSE.txt",
+      "file_size": 1019,
+      "sha256": "9ff65d59651606c92bde5db81da85f8b4d5303f2477fdbe38a1daf03c89885f8",
+      "type_tags": [
+        "data"
+      ],
+      "description": "data",
+      "runtime_process": "o.exe (PID: 1136)",
+      "threat_level_readable": "no specific threat"
+    },
+    {
+      "name": "revocations.txt",
+      "file_size": 47107,
+      "sha256": "97e23d892d1adf6c214dbab6a1ced726baaa89467937bac10ecb08e74e3a23e8",
+      "type_tags": [
+        "data"
+      ],
+      "description": "data",
+      "runtime_process": "o.exe (PID: 1136)",
+      "threat_level_readable": "no specific threat"
+    },
+    {
+      "name": "RevocationCacheFile.dat",
+      "file_size": 1564,
+      "sha256": "cbfd7e8d57944981eb40d35fa7c030f2835c7461225087eaf7c99ef30e0a71d5",
+      "type_tags": [
+        "data"
+      ],
+      "description": "data",
+      "runtime_process": "o.exe (PID: 1136)",
+      "threat_level_readable": "no specific threat"
+    },
+    {
+      "name": ".metadata-v2",
+      "file_size": 662,
+      "sha256": "a3aafe7fe589f75e1e99c3386139aac20b52c2e105c986aa59d7bffd1e3c85ec",
+      "type_tags": [
+        "data"
+      ],
+      "description": "data",
+      "runtime_process": "o.exe (PID: 1136)",
+      "threat_level_readable": "no specific threat"
+    },
+    {
+      "name": "6TNRAzWB1pG3.txt",
+      "file_size": 101916,
+      "sha256": "1ad73ea8549a8e75c77ff8625c3bb2cf6890bf45a670304809c67f94edac7039",
+      "type_tags": [
+        "unknown"
+      ],
+      "description": "PGP\\011Secret Sub-key -",
+      "runtime_process": "o.exe (PID: 1136)",
+      "threat_level_readable": "no specific threat"
+    },
+    {
+      "name": "TM01793058_fn_Median_.dotx",
+      "file_size": 58605,
+      "sha256": "2b04118c62642c0d5781c190a52c9ded2664ed944ea6609a159a1aeb8bdf8c03",
+      "type_tags": [
+        "data"
+      ],
+      "description": "data",
+      "runtime_process": "o.exe (PID: 1136)",
+      "threat_level_readable": "no specific threat"
+    },
+    {
+      "name": "recovery.jsonlz4",
+      "file_size": 10300,
+      "sha256": "d6589f6c32410b6837a8d52e098633b48238aeed8a940659ad32119aa76a0267",
+      "type_tags": [
+        "data"
+      ],
+      "description": "data",
+      "runtime_process": "o.exe (PID: 1136)",
+      "threat_level_readable": "no specific threat"
+    },
+    {
+      "name": "3312185054sbndi_pspte.sqlite",
+      "file_size": 238108,
+      "sha256": "ac6dcd61feb92353d76cdc788ba5210d8f98ec27c2152ca0d593d07536fc77dc",
+      "type_tags": [
+        "data"
+      ],
+      "description": "data",
+      "runtime_process": "o.exe (PID: 1136)",
+      "threat_level_readable": "no specific threat"
+    },
+    {
+      "name": "store.json.mozlz4",
+      "file_size": 606,
+      "sha256": "15a85cb39579bf85907cca0a4169e20471e017344647d64e8bc7fd41c3546458",
+      "type_tags": [
+        "data"
+      ],
+      "description": "data",
+      "runtime_process": "o.exe (PID: 1136)",
+      "threat_level_readable": "no specific threat"
+    },
+    {
+      "name": "Normal.dotm",
+      "file_size": 21057,
+      "sha256": "30fab8c2b4a488d3532a9962c98be014580986b94d5e7953f31d34b518064c5a",
+      "type_tags": [
+        "unknown"
+      ],
+      "description": "Unknown",
+      "runtime_process": "o.exe (PID: 1136)",
+      "threat_level_readable": "no specific threat"
+    },
+    {
+      "name": "TM01793060_fn_Origin_.dotx",
+      "file_size": 53843,
+      "sha256": "ba7cf4c3f6a0ef81c9ff3df6795c5e3f2f6c222ed005b04b6fcd238dac54a491",
+      "type_tags": [
+        "unknown"
+      ],
+      "description": "Unknown",
+      "runtime_process": "o.exe (PID: 1136)",
+      "threat_level_readable": "no specific threat"
+    },
+    {
+      "name": "Built-In Building Blocks.dotx",
+      "file_size": 4187847,
+      "sha256": "7e84ed2d9e3784967576c8ab209758d4bc703114cdc3404e3509b8575c994b9c",
+      "type_tags": [
+        "unknown"
+      ],
+      "description": "Unknown",
+      "runtime_process": "o.exe (PID: 1136)",
+      "threat_level_readable": "no specific threat"
+    },
+    {
+      "name": "TM01793064_fn_Equity_.dotx",
+      "file_size": 32558,
+      "sha256": "92e121bb9373971112df089766c9e681e75dc034056c47a4a2ed06ccc33c174a",
+      "type_tags": [
+        "unknown"
+      ],
+      "description": "Unknown",
+      "runtime_process": "o.exe (PID: 1136)",
+      "threat_level_readable": "no specific threat"
+    },
+    {
+      "name": "TM01840907_fn_Equations_.dotx",
+      "file_size": 52366,
+      "sha256": "1119679242d91dcd5ce9e5c7aee862e236aa440c46be91bc63ffc1388ec0d18a",
+      "type_tags": [
+        "unknown"
+      ],
+      "description": "Unknown",
+      "runtime_process": "o.exe (PID: 1136)",
+      "threat_level_readable": "no specific threat"
+    },
+    {
+      "name": "NormalOld.dotm",
+      "file_size": 18518,
+      "sha256": "49fc6e91319ed1b3a67c3a26727564cae428f849ef4efed63522690ec27ed3c4",
+      "type_tags": [
+        "unknown"
+      ],
+      "description": "Unknown",
+      "runtime_process": "o.exe (PID: 1136)",
+      "threat_level_readable": "no specific threat"
+    }
+  ],
+  "file_metadata": {
+    "file_compositions": [
+      "1 .OBJ Files (COFF) linked with LINK.EXE 12.00 (Visual Studio UNRELEASED) (build: 21005)",
+      "1 .RES Files linked with CVTRES.EXE 12.00 (Visual Studio UNRELEASED)! (build: 21005)",
+      "3 .ASM Files assembled with MASM 12.00 (Visual Studio UNRELEASED) (build: 21005)",
+      "27 .CPP Files (with LTCG) compiled with CL.EXE 18.00 (Visual Studio UNRELEASED) (build: 21005)"
+    ],
+    "imported_objects": [
+      "21 .LIB Files generated with LIB.EXE 9.00 (Visual Studio 2008) (build: 30729)",
+      "97   .C Files compiled with CL.EXE 18.00 (Visual Studio UNRELEASED) (build: 20806)",
+      "16 .ASM Files assembled with MASM 12.00 (Visual Studio UNRELEASED) (build: 20806)",
+      "23 .CPP Files compiled with CL.EXE 18.00 (Visual Studio UNRELEASED) (build: 20806)"
+    ],
+    "file_analysis": [
+      "File contains C++ code",
+      "File contains assembly code",
+      "File appears to contain raw COFF/OMF content",
+      "File was optimized using LTCG and/or POGO",
+      "File is the product of a medium codebase (30 files)"
+    ],
+    "total_file_compositions_imports": 206
+  },
+  "processes": [
+    {
+      "uid": "00000000-00001136",
+      "name": "o.exe",
+      "normalized_path": "C:\\o.exe",
+      "sha256": "d77378dcc42b912e514d3bd4466cdda050dda9b57799a6c97f70e8489dd8c8d0",
+      "av_label": "Generic.Ransom.GandCrab4",
+      "av_matched": 55,
+      "av_total": 67
+    }
+  ],
+  "mitre_attcks": [
+    {
+      "tactic": "Persistence",
+      "technique": "Kernel Modules and Extensions",
+      "attck_id": "T1547.006",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1547/006",
+      "malicious_identifiers_count": 1,
+      "parent": {
+        "technique": "Boot or Logon Autostart Execution",
+        "attck_id": "T1547",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1547"
+      }
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "Kernel Modules and Extensions",
+      "attck_id": "T1547.006",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1547/006",
+      "malicious_identifiers_count": 1,
+      "parent": {
+        "technique": "Boot or Logon Autostart Execution",
+        "attck_id": "T1547",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1547"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Time Based Evasion",
+      "attck_id": "T1497.003",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1497/003",
+      "suspicious_identifiers_count": 1,
+      "parent": {
+        "technique": "Virtualization/Sandbox Evasion",
+        "attck_id": "T1497",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1497"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "File Deletion",
+      "attck_id": "T1070.004",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1070/004",
+      "suspicious_identifiers_count": 2,
+      "parent": {
+        "technique": "Indicator Removal on Host",
+        "attck_id": "T1070",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1070"
+      }
+    },
+    {
+      "tactic": "Credential Access",
+      "technique": "Credential API Hooking",
+      "attck_id": "T1056.004",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1056/004",
+      "suspicious_identifiers_count": 1,
+      "parent": {
+        "technique": "Input Capture",
+        "attck_id": "T1056",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1056"
+      }
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "Query Registry",
+      "attck_id": "T1012",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1012",
+      "suspicious_identifiers_count": 1
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "Security Software Discovery",
+      "attck_id": "T1518.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1518/001",
+      "suspicious_identifiers_count": 2,
+      "parent": {
+        "technique": "Software Discovery",
+        "attck_id": "T1518",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1518"
+      }
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "Time Based Evasion",
+      "attck_id": "T1497.003",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1497/003",
+      "suspicious_identifiers_count": 1,
+      "parent": {
+        "technique": "Virtualization/Sandbox Evasion",
+        "attck_id": "T1497",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1497"
+      }
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "Peripheral Device Discovery",
+      "attck_id": "T1120",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1120",
+      "informative_identifiers_count": 2
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "Process Discovery",
+      "attck_id": "T1057",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1057",
+      "suspicious_identifiers_count": 1
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "File and Directory Discovery",
+      "attck_id": "T1083",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1083",
+      "malicious_identifiers_count": 1
+    },
+    {
+      "tactic": "Collection",
+      "technique": "Local Email Collection",
+      "attck_id": "T1114.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1114/001",
+      "malicious_identifiers_count": 1,
+      "parent": {
+        "technique": "Email Collection",
+        "attck_id": "T1114",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1114"
+      }
+    },
+    {
+      "tactic": "Collection",
+      "technique": "Credential API Hooking",
+      "attck_id": "T1056.004",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1056/004",
+      "suspicious_identifiers_count": 1,
+      "parent": {
+        "technique": "Input Capture",
+        "attck_id": "T1056",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1056"
+      }
+    }
+  ],
+  "network_mode": "simulated",
+  "signatures": [
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "mutant-0",
+      "type": 4,
+      "relevance": 3,
+      "name": "Creates mutants",
+      "description": "\"\\Sessions\\1\\BaseNamedObjects\\Local\\ZonesCacheCounterMutex\"\n \"\\Sessions\\1\\BaseNamedObjects\\Local\\ZonesLockedCacheCounterMutex\"\n \"Local\\ZonesLockedCacheCounterMutex\"\n \"Global\\885BABB9E36E1507B5F3.lock\"\n \"Local\\ZonesCacheCounterMutex\"\n \"\\Sessions\\1\\BaseNamedObjects\\Global\\885BABB9E36E1507B5F3.lock\"",
+      "origin": "Created Mutant"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "network-1",
+      "type": 7,
+      "relevance": 1,
+      "name": "Contacts server",
+      "description": "\"<IPv4>:80\"\n \"<IPv4>:80\"\n \"<IPv4>:80\"",
+      "origin": "Network Traffic"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "network-0",
+      "type": 7,
+      "relevance": 1,
+      "name": "Contacts domains",
+      "description": "\"500flats.com\"\n \"alatkeselamatankerja.co\"\n \"aldrovanaluxe.lviv.ua\"\n \"alem.be\"\n \"ananas.kiev.ua\"\n \"aurumwedding.ru\"\n \"babiceresa.com\"\n \"barvybud.com\"\n \"bellytobabyphotographyseattle.com\"\n \"bloghalm.eu\"\n \"canhoopalcity.top\"\n \"carillon7tanphu.com\"\n \"cocnguyetsanthaomeo.com\"\n \"devdev.com.br\"\n \"dutchtraditions.nl\"\n \"ecart.nu\"\n \"evotech.lu\"\n \"faculdadesenacpe.edu.br\"\n \"gofootball24h.com\"\n \"goodapd.website\"",
+      "origin": "Network Traffic"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "api-55",
+      "type": 6,
+      "relevance": 7,
+      "name": "Touches files in the Windows directory",
+      "description": "\"o.exe\" touched file \"C:\\Windows\\winsxs\\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.18837_none_41e855142bd5705d\\comctl32.dll\"\n \"o.exe\" touched file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\counters.dat\"\n \"o.exe\" touched file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\QQW0X29Y\\dazuru[1].gif\"\n \"o.exe\" touched file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\QQW0X29Y\\immeso[1].jpg\"\n \"o.exe\" touched file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\QQW0X29Y\\BREQ4FKZ.htm\"\n \"o.exe\" touched file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\QQW0X29Y\\deamhemehe[1].jpg\"\n \"o.exe\" touched file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\QQW0X29Y\\X72GEHSB.htm\"\n \"o.exe\" touched file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\QQW0X29Y\\sosoamseru[1].jpg\"\n \"o.exe\" touched file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\QQW0X29Y\\EO298CVA.htm\"\n \"o.exe\" touched file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\QQW0X29Y\\rusoesam[1].jpg\"\n \"o.exe\" touched file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\QQW0X29Y\\9UV0TTH5.htm\"\n \"o.exe\" touched file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\QQW0X29Y\\fukakekada[1].jpg\"\n \"o.exe\" touched file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\QQW0X29Y\\7XT1H2YZ.htm\"\n \"o.exe\" touched file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\QQW0X29Y\\momohe[1].jpg\"\n \"o.exe\" touched file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\QQW0X29Y\\WFV53UIL.htm\"\n \"o.exe\" touched file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\QQW0X29Y\\amfuzuhe[1].gif\"\n \"o.exe\" touched file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\QQW0X29Y\\TUHEJLB6.htm\"\n \"o.exe\" touched file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\QQW0X29Y\\63TMM885.htm\"",
+      "origin": "API Call"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "binary-0",
+      "type": 8,
+      "relevance": 3,
+      "name": "Dropped files",
+      "description": "\"0YdED8h4YnKljVf.doc\" has type \"data\"\n \"xulstore.json\" has type \"data\"\n \"ZFLXA-DECRYPT.html\" has type \"HTML document Little-endian UTF-16 Unicode text with very long lines with CRLF line terminators\"\n \"f5c2c82f-46fd-4d42-a968-97978822fc7a\" has type \"data\"\n \"1553114907600.6395efa4-e025-4686-8768-be417a45a55a.modules.jsonlz4\" has type \"data\"\n \"LICENSE.txt\" has type \"data\"\n \"revocations.txt\" has type \"data\"\n \"RevocationCacheFile.dat\" has type \"data\"\n \".metadata-v2\" has type \"data\"\n \"6TNRAzWB1pG3.txt\" has type \"PGP\\011Secret Sub-key -\"\n \"TM01793058_fn_Median_.dotx\" has type \"data\"\n \"recovery.jsonlz4\" has type \"data\"\n \"3312185054sbndi_pspte.sqlite\" has type \"data\"\n \"store.json.mozlz4\" has type \"data\"",
+      "origin": "Binary File"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Environment Awareness",
+      "identifier": "api-11",
+      "type": 6,
+      "relevance": 2,
+      "name": "Queries volume information",
+      "description": "\"o.exe\" queries volume information of \"C:\\\" at 00000000-00001136-0000010C-2509417\n \"o.exe\" queries volume information of \"C:\\\" at 00000000-00001136-0000010C-2519244\n \"o.exe\" queries volume information of \"C:\\\" at 00000000-00001136-0000010C-2538057\n \"o.exe\" queries volume information of \"C:\\\" at 00000000-00001136-0000010C-2712414\n \"o.exe\" queries volume information of \"C:\\\" at 00000000-00001136-0000010C-2720385\n \"o.exe\" queries volume information of \"C:\\\" at 00000000-00001136-0000010C-2726228\n \"o.exe\" queries volume information of \"C:\\\" at 00000000-00001136-0000010C-2728359\n \"o.exe\" queries volume information of \"C:\\\" at 00000000-00001136-0000010C-2739393\n \"o.exe\" queries volume information of \"C:\\\" at 00000000-00001136-0000010C-2746094\n \"o.exe\" queries volume information of \"C:\\\" at 00000000-00001136-0000010C-7296095\n \"o.exe\" queries volume information of \"C:\\\" at 00000000-00001136-0000010C-7354386\n \"o.exe\" queries volume information of \"C:\\\" at 00000000-00001136-0000010C-7379742\n \"o.exe\" queries volume information of \"C:\\\" at 00000000-00001136-0000010C-7410849\n \"o.exe\" queries volume information of \"C:\\\" at 00000000-00001136-0000010C-7589138\n \"o.exe\" queries volume information of \"C:\\\" at 00000000-00001136-0000010C-7652334\n \"o.exe\" queries volume information of \"C:\\\" at 00000000-00001136-0000010C-7731315\n \"o.exe\" queries volume information of \"C:\\\" at 00000000-00001136-0000010C-7763923\n \"o.exe\" queries volume information of \"C:\\\" at 00000000-00001136-0000010C-7951826\n \"o.exe\" queries volume information of \"C:\\\" at 00000000-00001136-0000010C-7978790\n \"o.exe\" queries volume information of \"C:\\\" at 00000000-00001136-0000010C-7993877",
+      "origin": "API Call",
+      "attck_id": "T1120",
+      "capec_id": "CAPEC-646",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1120"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Environment Awareness",
+      "identifier": "api-39",
+      "type": 6,
+      "relevance": 8,
+      "name": "Queries volume information of an entire harddrive",
+      "description": "\"o.exe\" queries volume information of \"C:\\\" at 00000000-00001136-0000010C-2509417\n \"o.exe\" queries volume information of \"C:\\\" at 00000000-00001136-0000010C-2519244\n \"o.exe\" queries volume information of \"C:\\\" at 00000000-00001136-0000010C-2538057\n \"o.exe\" queries volume information of \"C:\\\" at 00000000-00001136-0000010C-2712414\n \"o.exe\" queries volume information of \"C:\\\" at 00000000-00001136-0000010C-2720385\n \"o.exe\" queries volume information of \"C:\\\" at 00000000-00001136-0000010C-2726228\n \"o.exe\" queries volume information of \"C:\\\" at 00000000-00001136-0000010C-2728359\n \"o.exe\" queries volume information of \"C:\\\" at 00000000-00001136-0000010C-2739393\n \"o.exe\" queries volume information of \"C:\\\" at 00000000-00001136-0000010C-2746094\n \"o.exe\" queries volume information of \"C:\\\" at 00000000-00001136-0000010C-7296095\n \"o.exe\" queries volume information of \"C:\\\" at 00000000-00001136-0000010C-7354386\n \"o.exe\" queries volume information of \"C:\\\" at 00000000-00001136-0000010C-7379742\n \"o.exe\" queries volume information of \"C:\\\" at 00000000-00001136-0000010C-7410849\n \"o.exe\" queries volume information of \"C:\\\" at 00000000-00001136-0000010C-7589138\n \"o.exe\" queries volume information of \"C:\\\" at 00000000-00001136-0000010C-7652334\n \"o.exe\" queries volume information of \"C:\\\" at 00000000-00001136-0000010C-7731315\n \"o.exe\" queries volume information of \"C:\\\" at 00000000-00001136-0000010C-7763923\n \"o.exe\" queries volume information of \"C:\\\" at 00000000-00001136-0000010C-7951826\n \"o.exe\" queries volume information of \"C:\\\" at 00000000-00001136-0000010C-7978790\n \"o.exe\" queries volume information of \"C:\\\" at 00000000-00001136-0000010C-7993877",
+      "origin": "API Call",
+      "attck_id": "T1120",
+      "capec_id": "CAPEC-646",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1120"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "System Security",
+      "identifier": "api-37",
+      "type": 6,
+      "relevance": 10,
+      "name": "Opens the Kernel Security Device Driver (KsecDD) of Windows",
+      "description": "\"o.exe\" opened \"\\Device\\KsecDD\"",
+      "origin": "API Call"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "General",
+      "identifier": "api-6",
+      "type": 6,
+      "relevance": 4,
+      "name": "Reads configuration files",
+      "description": "\"o.exe\" read file \"%APPDATA%\\Mozilla\\Firefox\\Profiles\\g4h7miqt.default\\compatibility.ini\"\n \"o.exe\" read file \"%APPDATA%\\Mozilla\\Firefox\\profiles.ini\"",
+      "origin": "API Call"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "Unusual Characteristics",
+      "identifier": "hooks-8",
+      "type": 11,
+      "relevance": 10,
+      "name": "Installs hooks/patches the running process",
+      "description": "\"o.exe\" wrote bytes \"c04e257720542677e0652677b53827770000000000d0417600000000c5ea41760000000088ea417600000000e968157582282777ee29277700000000d2691575000000007dbb41760000000009be157500000000ba18417600000000\" to virtual address \"0x76C01000\" (part of module \"NSI.DLL\")\n \"o.exe\" wrote bytes \"fae62277e1a627772e712777ee29277785e222776da0277726e42277d16d2777003d2577804b257700000000ad3774758b2d7475b641747500000000\" to virtual address \"0x745A1000\" (part of module \"WSHTCPIP.DLL\")\n \"o.exe\" wrote bytes \"e7392377e1a627772e712777ee29277785e222776da02777906426773ad52d7726e42277d16d2777003d2577804b257700000000ad3774758b2d7475b641747500000000\" to virtual address \"0x74AE1000\" (part of module \"WSHIP6.DLL\")",
+      "origin": "Hook Detection",
+      "attck_id": "T1056.004",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1056/004"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "Installation/Persistence",
+      "identifier": "api-12",
+      "type": 6,
+      "relevance": 4,
+      "name": "Monitors specific registry key for changes",
+      "description": "\"o.exe\" monitors \"\\REGISTRY\\MACHINE\\SYSTEM\\ControlSet001\\services\\WinSock2\\Parameters\\Protocol_Catalog9\" (Filter: 1; Subtree: 0)\n \"o.exe\" monitors \"\\REGISTRY\\MACHINE\\SYSTEM\\ControlSet001\\services\\WinSock2\\Parameters\\NameSpace_Catalog5\" (Filter: 1; Subtree: 0)\n \"o.exe\" monitors \"\\REGISTRY\\MACHINE\\SYSTEM\\ControlSet001\\Control\\NetworkProvider\\HwOrder\" (Filter: 4; Subtree: 0)",
+      "origin": "API Call",
+      "attck_id": "T1012",
+      "capec_id": "CAPEC-647",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1012"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "Installation/Persistence",
+      "identifier": "api-53",
+      "type": 6,
+      "relevance": 10,
+      "name": "Writes a file to the start menu",
+      "description": "\"o.exe\" wrote to file \"%APPDATA%\\Microsoft\\Windows\\Start Menu\\ZFLXA-DECRYPT.html\"",
+      "origin": "API Call"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "Network Related",
+      "identifier": "network-23",
+      "type": 7,
+      "relevance": 5,
+      "name": "Sends traffic on typical HTTP outbound port, but without HTTP header",
+      "description": "TCP traffic to <IPv4> on port 80 is sent without HTTP header\n TCP traffic to <IPv4> on port 80 is sent without HTTP header\n TCP traffic to <IPv4> on port 80 is sent without HTTP header",
+      "origin": "Network Traffic"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "Network Related",
+      "identifier": "network-34",
+      "type": 7,
+      "relevance": 10,
+      "name": "Detected very many DNS queries for domains that cannot be resolved",
+      "description": "\"500flats.com\"\n \"alatkeselamatankerja.co\"\n \"aldrovanaluxe.lviv.ua\"\n \"alem.be\"\n \"ananas.kiev.ua\"\n \"aurumwedding.ru\"\n \"babiceresa.com\"\n \"barvybud.com\"\n \"bellytobabyphotographyseattle.com\"\n \"bloghalm.eu\"\n \"canhoopalcity.top\"\n \"carillon7tanphu.com\"\n \"cocnguyetsanthaomeo.com\"\n \"devdev.com.br\"\n \"dutchtraditions.nl\"\n \"ecart.nu\"\n \"evotech.lu\"\n \"faculdadesenacpe.edu.br\"\n \"gofootball24h.com\"\n \"goodapd.website\"\n \"graftedinn.us\"\n \"gstelecom.cf\"\n \"hanaglobalholding.com\"\n \"heartsongroup.com\"\n \"hoteltravel2018.com\"\n \"inescogroup.com\"\n \"ioae.com.vn\"\n \"jamgonkongtrul.org.tw\"\n \"koloritplus.ru\"\n \"krasnaypolyana123.ru\"",
+      "origin": "Network Traffic"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "Network Related",
+      "identifier": "network-6",
+      "type": 7,
+      "relevance": 5,
+      "name": "Contacts Random Domain Names",
+      "description": "\"aurumwedding.ru\" seems to be random\n \"barvybud.com\" seems to be random\n \"bloghalm.eu\" seems to be random\n \"parsmoviez.com\" seems to be random\n \"picusglancus.pl\" seems to be random\n \"www.groupwine.fr\" seems to be random\n \"www.himmerlandgolf.dk\" seems to be random\n \"www.krishnagrp.com\" seems to be random\n \"www.n2plus.co.th\" seems to be random\n \"www.reusa.com.br\" seems to be random\n \"www.tikura.com.br\" seems to be random",
+      "origin": "Network Traffic"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "System Destruction",
+      "identifier": "api-26",
+      "type": 6,
+      "relevance": 10,
+      "name": "Marks file for deletion",
+      "description": "\"C:\\o.exe\" marked \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\QQW0X29Y\\dazuru[1].gif\" for deletion\n \"C:\\o.exe\" marked \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\QQW0X29Y\\immeso[1].jpg\" for deletion\n \"C:\\o.exe\" marked \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\QQW0X29Y\\BREQ4FKZ.htm\" for deletion\n \"C:\\o.exe\" marked \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\QQW0X29Y\\deamhemehe[1].jpg\" for deletion\n \"C:\\o.exe\" marked \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\QQW0X29Y\\X72GEHSB.htm\" for deletion\n \"C:\\o.exe\" marked \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\QQW0X29Y\\sosoamseru[1].jpg\" for deletion\n \"C:\\o.exe\" marked \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\QQW0X29Y\\EO298CVA.htm\" for deletion\n \"C:\\o.exe\" marked \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\QQW0X29Y\\rusoesam[1].jpg\" for deletion\n \"C:\\o.exe\" marked \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\QQW0X29Y\\9UV0TTH5.htm\" for deletion\n \"C:\\o.exe\" marked \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\QQW0X29Y\\fukakekada[1].jpg\" for deletion\n \"C:\\o.exe\" marked \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\QQW0X29Y\\7XT1H2YZ.htm\" for deletion\n \"C:\\o.exe\" marked \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\QQW0X29Y\\WFV53UIL.htm\" for deletion\n \"C:\\o.exe\" marked \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\QQW0X29Y\\amfuzuhe[1].gif\" for deletion\n \"C:\\o.exe\" marked \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\QQW0X29Y\\TUHEJLB6.htm\" for deletion\n \"C:\\o.exe\" marked \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\QQW0X29Y\\63TMM885.htm\" for deletion\n \"C:\\o.exe\" marked \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\QQW0X29Y\\moamdahe[1].bmp\" for deletion\n \"C:\\o.exe\" marked \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\QQW0X29Y\\MDCB6VPD.htm\" for deletion\n \"C:\\o.exe\" marked \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\QQW0X29Y\\sethfuzu[1].png\" for deletion\n \"C:\\o.exe\" marked \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\QQW0X29Y\\RTFWXF6H.htm\" for deletion\n \"C:\\o.exe\" marked \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\QQW0X29Y\\ruheim[1].jpg\" for deletion",
+      "origin": "API Call",
+      "attck_id": "T1070.004",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1070/004"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "System Destruction",
+      "identifier": "api-25",
+      "type": 6,
+      "relevance": 7,
+      "name": "Opens file with deletion access rights",
+      "description": "\"o.exe\" opened \"C:\\Recovery\\cf812052-d863-11e7-ae2b-a9d1a6f40333\\boot.sdi\" with delete access\n \"o.exe\" opened \"C:\\Recovery\\cf812052-d863-11e7-ae2b-a9d1a6f40333\\Winre.wim\" with delete access\n \"o.exe\" opened \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\QQW0X29Y\\dazuru[1].gif\" with delete access\n \"o.exe\" opened \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\QQW0X29Y\\immeso[1].jpg\" with delete access\n \"o.exe\" opened \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\QQW0X29Y\\BREQ4FKZ.htm\" with delete access\n \"o.exe\" opened \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\QQW0X29Y\\deamhemehe[1].jpg\" with delete access\n \"o.exe\" opened \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\QQW0X29Y\\X72GEHSB.htm\" with delete access\n \"o.exe\" opened \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\QQW0X29Y\\sosoamseru[1].jpg\" with delete access\n \"o.exe\" opened \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\QQW0X29Y\\EO298CVA.htm\" with delete access\n \"o.exe\" opened \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\QQW0X29Y\\rusoesam[1].jpg\" with delete access\n \"o.exe\" opened \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\QQW0X29Y\\9UV0TTH5.htm\" with delete access\n \"o.exe\" opened \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\QQW0X29Y\\fukakekada[1].jpg\" with delete access\n \"o.exe\" opened \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\QQW0X29Y\\7XT1H2YZ.htm\" with delete access\n \"o.exe\" opened \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\QQW0X29Y\\momohe[1].jpg\" with delete access\n \"o.exe\" opened \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\QQW0X29Y\\WFV53UIL.htm\" with delete access\n \"o.exe\" opened \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\QQW0X29Y\\amfuzuhe[1].gif\" with delete access\n \"o.exe\" opened \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\QQW0X29Y\\TUHEJLB6.htm\" with delete access\n \"o.exe\" opened \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\QQW0X29Y\\63TMM885.htm\" with delete access\n \"o.exe\" opened \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\QQW0X29Y\\moamdahe[1].bmp\" with delete access\n \"o.exe\" opened \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\QQW0X29Y\\MDCB6VPD.htm\" with delete access",
+      "origin": "API Call",
+      "attck_id": "T1070.004",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1070/004"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "External Systems",
+      "identifier": "avtest-0",
+      "type": 12,
+      "name": "Sample was identified as malicious by at least one Antivirus engine",
+      "description": "55/67 Antivirus vendors marked sample as malicious (82% detection rate)",
+      "origin": "External System"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "External Systems",
+      "identifier": "suricata-1",
+      "type": 18,
+      "relevance": 10,
+      "name": "Detected Suricata Alert",
+      "description": "Detected alert \"ET DNS Query to a *.top domain - Likely Hostile\" (SID: 2023883, Rev: 3, Severity: 2) categorized as \"Potentially Bad Traffic\"\n Detected alert \"ET INFO DNS Query for Suspicious .ga Domain\" (SID: 2025105, Rev: 3, Severity: 2) categorized as \"Potentially Bad Traffic\"\n Detected alert \"ET INFO DNS Query for Suspicious .cf Domain\" (SID: 2025107, Rev: 3, Severity: 2) categorized as \"Potentially Bad Traffic\"",
+      "origin": "Suricata Alerts"
+    },
+    {
+      "threat_level": 2,
+      "threat_level_human": "malicious",
+      "category": "Unusual Characteristics",
+      "identifier": "api-31",
+      "type": 6,
+      "relevance": 9,
+      "name": "Tries to access unusual system drive letters",
+      "description": "\"o.exe\" touched \"K:\"\n \"o.exe\" touched \"L:\"\n \"o.exe\" touched \"M:\"\n \"o.exe\" touched \"N:\"\n \"o.exe\" touched \"O:\"\n \"o.exe\" touched \"P:\"\n \"o.exe\" touched \"Q:\"\n \"o.exe\" touched \"R:\"\n \"o.exe\" touched \"S:\"\n \"o.exe\" touched \"T:\"\n \"o.exe\" touched \"U:\"\n \"o.exe\" touched \"V:\"\n \"o.exe\" touched \"W:\"\n \"o.exe\" touched \"X:\"\n \"o.exe\" touched \"Y:\"",
+      "origin": "API Call",
+      "attck_id": "T1083",
+      "capec_id": "CAPEC-497",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1083"
+    },
+    {
+      "threat_level": 2,
+      "threat_level_human": "malicious",
+      "category": "Spyware/Information Retrieval",
+      "identifier": "api-52",
+      "type": 6,
+      "relevance": 5,
+      "name": "Reads mail related files",
+      "description": "\"o.exe\" read 1048576 bytes from file \"%APPDATA%\\Microsoft\\Outlook\\Outlook.srs\"\n \"o.exe\" read 1048576 bytes from file \"%APPDATA%\\Microsoft\\Outlook\\Outlook.xml\"",
+      "origin": "API Call",
+      "attck_id": "T1114.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1114/001"
+    },
+    {
+      "threat_level": 2,
+      "threat_level_human": "malicious",
+      "category": "Network Related",
+      "identifier": "network-21",
+      "type": 7,
+      "relevance": 10,
+      "name": "Malicious artifacts seen in the context of a contacted host",
+      "description": "Found malicious artifacts related to \"<IPv4>\": ...\n\n URL: http://<IPv4>:8074/jaisal/Angular_Fitmatch/dist/ (AV positives: 1/93 scanned on 02/07/2022 19:44:08)\n URL: http://<IPv4>/kostenaufstellung.781717582838100889095461.php (AV positives: 1/91 scanned on 10/25/2021 10:43:03)\n URL: http://<IPv4>/ (AV positives: 2/88 scanned on 06/30/2021 06:35:16)\n URL: http://<IPv4>/design/cityfurnish/email/images/logo.png (AV positives: 2/72 scanned on 01/13/2020 11:47:48)\n URL: http://<IPv4>/l8387281564455991793.zip (AV positives: 2/66 scanned on 04/17/2019 09:09:55)\n File SHA256: 1bfba15c5ddf08da9f0dafbe7569f7c31a3904e07cda9da1bfb25777f154a9f3 (AV positives: 3/71 scanned on 06/06/2019 23:50:21)\n File SHA256: fddada15817b6bdbae8d166a021822abe6aaabae9dfd4362acefc19243e5246c (AV positives: 30/60 scanned on 09/13/2018 15:30:54)\n Found malicious artifacts related to \"<IPv4>\": ...\n\n URL: http://<IPv4>/ (AV positives: 4/88 scanned on 06/30/2021 06:35:14)\n URL: https://<IPv4>/ (AV positives: 5/88 scanned on 06/27/2021 03:10:57)\n URL: http://<IPv4>/mpoezwri/uoiuryehr.php?jfs=opa-opa-opa-brazil-song (AV positives: 1/66 scanned on 12/10/2018 06:22:50)\n URL: http://<IPv4>/content/images/seheruesesim.gif (AV positives: 2/69 scanned on 12/06/2018 05:48:02)\n URL: http://<IPv4>/news/pictures/hesefuam.gif (AV positives: 2/69 scanned on 12/06/2018 05:37:02)\n File SHA256: 1ba5509373ed47e261ae5cd6e79147e710f0cd177ab1afaf95ed172caefb3035 (AV positives: 38/60 scanned on 06/25/2018 13:19:43)",
+      "origin": "Network Traffic"
+    },
+    {
+      "threat_level": 2,
+      "threat_level_human": "malicious",
+      "category": "Network Related",
+      "identifier": "network-27",
+      "type": 7,
+      "relevance": 10,
+      "name": "Multiple malicious artifacts seen in the context of different hosts",
+      "description": "Found malicious artifacts related to \"<IPv4>\": ...\n\n URL: http://<IPv4>:8074/jaisal/Angular_Fitmatch/dist/ (AV positives: 1/93 scanned on 02/07/2022 19:44:08)\n URL: http://<IPv4>/kostenaufstellung.781717582838100889095461.php (AV positives: 1/91 scanned on 10/25/2021 10:43:03)\n URL: http://<IPv4>/ (AV positives: 2/88 scanned on 06/30/2021 06:35:16)\n URL: http://<IPv4>/design/cityfurnish/email/images/logo.png (AV positives: 2/72 scanned on 01/13/2020 11:47:48)\n URL: http://<IPv4>/l8387281564455991793.zip (AV positives: 2/66 scanned on 04/17/2019 09:09:55)\n File SHA256: 1bfba15c5ddf08da9f0dafbe7569f7c31a3904e07cda9da1bfb25777f154a9f3 (AV positives: 3/71 scanned on 06/06/2019 23:50:21)\n File SHA256: fddada15817b6bdbae8d166a021822abe6aaabae9dfd4362acefc19243e5246c (AV positives: 30/60 scanned on 09/13/2018 15:30:54)\n Found malicious artifacts related to \"<IPv4>\": ...\n\n URL: http://<IPv4>/ (AV positives: 4/88 scanned on 06/30/2021 06:35:14)\n URL: https://<IPv4>/ (AV positives: 5/88 scanned on 06/27/2021 03:10:57)\n URL: http://<IPv4>/mpoezwri/uoiuryehr.php?jfs=opa-opa-opa-brazil-song (AV positives: 1/66 scanned on 12/10/2018 06:22:50)\n URL: http://<IPv4>/content/images/seheruesesim.gif (AV positives: 2/69 scanned on 12/06/2018 05:48:02)\n URL: http://<IPv4>/news/pictures/hesefuam.gif (AV positives: 2/69 scanned on 12/06/2018 05:37:02)\n File SHA256: 1ba5509373ed47e261ae5cd6e79147e710f0cd177ab1afaf95ed172caefb3035 (AV positives: 38/60 scanned on 06/25/2018 13:19:43)",
+      "origin": "Network Traffic"
+    },
+    {
+      "threat_level": 2,
+      "threat_level_human": "malicious",
+      "category": "External Systems",
+      "identifier": "avtest-3",
+      "type": 12,
+      "relevance": 10,
+      "name": "Sample was identified as malicious by a large number of Antivirus engines",
+      "description": "55/67 Antivirus vendors marked sample as malicious (82% detection rate)",
+      "origin": "External System"
+    },
+    {
+      "threat_level": 2,
+      "threat_level_human": "malicious",
+      "category": "External Systems",
+      "identifier": "avtest-5",
+      "type": 12,
+      "relevance": 10,
+      "name": "Sample was identified as malicious by a trusted Antivirus engine",
+      "description": "No specific details available",
+      "origin": "External System"
+    },
+    {
+      "threat_level": 2,
+      "threat_level_human": "malicious",
+      "category": "External Systems",
+      "identifier": "avtest-8",
+      "type": 12,
+      "relevance": 10,
+      "name": "Sample detected by CrowdStrike Static Analysis and ML with relatively high confidence",
+      "description": "CrowdStrike Static Analysis and ML (QuickScan) yielded detection: win/malicious_confidence_100% (W)",
+      "origin": "External System"
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "size": 757760,
+  "type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+  "submit_name": "PICUS_e7d3181ef643d77bb33fe328d1ea58f512b4f27c8e6ed71935a2e7548f2facc0.exe",
+  "sha256": "e7d3181ef643d77bb33fe328d1ea58f512b4f27c8e6ed71935a2e7548f2facc0",
+  "av_detect": 83,
+  "vx_family": "Trojan.Generic",
+  "threat_score": 62,
+  "threat_level": 2,
+  "verdict": "malicious",
+  "total_processes": 1,
+  "total_signatures": 12,
+  "file_metadata": {
+    "file_compositions": [
+      "1 .RES Files linked with CVTRES.EXE 5.00 (Visual Studio 5) (build: 1720)",
+      "10 .CPP Files compiled with CL.EXE 12.00 (Visual Studio 6) (build: 8168)"
+    ],
+    "imported_objects": [
+      "5 .OBJ Files (COFF) linked with LINK.EXE 6.00 (Visual Studio 6) (build: 8168)",
+      "11   .C Files compiled with CL.EXE 12.00 (Visual Studio 6) (build: 8168)",
+      "1 .ASM Files assembled with MASM 6.13 (Visual Studio 6 SP1) (build: 7299)",
+      "4 .OBJ Files (COFF) linked with LINK.EXE 5.12 (Visual Studio 5 SP2) (build: 8034)"
+    ],
+    "file_analysis": [
+      "File contains C++ code",
+      "File is the product of a small codebase (10 files)"
+    ],
+    "total_file_compositions_imports": 342
+  },
+  "processes": [
+    {
+      "uid": "00044311-00002956",
+      "name": "PICUS_e7d3181ef643d77bb33fe328d1ea58f512b4f27c8e6ed71935a2e7548f2facc0.exe",
+      "normalized_path": "C:\\PICUS_e7d3181ef643d77bb33fe328d1ea58f512b4f27c8e6ed71935a2e7548f2facc0.exe",
+      "sha256": "e7d3181ef643d77bb33fe328d1ea58f512b4f27c8e6ed71935a2e7548f2facc0",
+      "av_label": "Trojan.TXGH",
+      "av_matched": 3,
+      "av_total": 14
+    }
+  ],
+  "mitre_attcks": [
+    {
+      "tactic": "Persistence",
+      "technique": "Kernel Modules and Extensions",
+      "attck_id": "T1215",
+      "attck_id_wiki": "https://attack.mitre.org/wiki/Technique/T1215",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Lateral Movement",
+      "technique": "Remote Desktop Protocol",
+      "attck_id": "T1076",
+      "attck_id_wiki": "https://attack.mitre.org/wiki/Technique/T1076",
+      "suspicious_identifiers_count": 1
+    },
+    {
+      "tactic": "Exfiltration",
+      "technique": "Data Compressed",
+      "attck_id": "T1002",
+      "attck_id_wiki": "https://attack.mitre.org/wiki/Technique/T1002",
+      "informative_identifiers_count": 1
+    }
+  ],
+  "network_mode": "default",
+  "signatures": [
+    {
+      "threat_level_human": "informative",
+      "category": "Unusual Characteristics",
+      "identifier": "static-18",
+      "relevance": 10,
+      "name": "Matched Compiler/Packer signature",
+      "description": "\"PICUS_e7d3181ef643d77bb33fe328d1ea58f512b4f27c8e6ed71935a2e7548f2facc0.exe.bin\" was detected as \"Microsoft visual C++ 5.0\"",
+      "origin": "Static Parser",
+      "attck_id": "T1002",
+      "attck_id_wiki": "https://attack.mitre.org/wiki/Technique/T1002"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistance",
+      "identifier": "api-16",
+      "type": 6,
+      "relevance": 1,
+      "name": "Connects to LPC ports",
+      "description": "\"<Input Sample>\" connecting to \"\\ThemeApiPort\"",
+      "origin": "API Call"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistance",
+      "identifier": "api-55",
+      "type": 6,
+      "relevance": 7,
+      "name": "Touches files in the Windows directory",
+      "description": "\"<Input Sample>\" touched file \"%WINDIR%\\System32\\en-US\\odbcint.dll.mui\"\n \"<Input Sample>\" touched file \"%WINDIR%\\System32\\en-US\\MFC42.dll.mui\"\n \"<Input Sample>\" touched file \"%WINDIR%\\System32\\ntdll.dll\"",
+      "origin": "API Call"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "System Security",
+      "identifier": "api-37",
+      "type": 6,
+      "relevance": 10,
+      "name": "Opens the Kernel Security Device Driver (KsecDD) of Windows",
+      "description": "\"<Input Sample>\" opened \"\\Device\\KsecDD\"",
+      "origin": "API Call",
+      "attck_id": "T1215",
+      "attck_id_wiki": "https://attack.mitre.org/wiki/Technique/T1215"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "Unusual Characteristics",
+      "identifier": "static-1",
+      "relevance": 1,
+      "name": "Imports suspicious APIs",
+      "description": "GetStartupInfoA\n GetProcAddress\n GetModuleHandleA\n GetModuleHandleW",
+      "origin": "Static Parser"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "Unusual Characteristics",
+      "identifier": "static-0",
+      "relevance": 10,
+      "name": "CRC value set in PE header does not match actual value",
+      "description": "\"PICUS_e7d3181ef643d77bb33fe328d1ea58f512b4f27c8e6ed71935a2e7548f2facc0.exe.bin\" claimed CRC 354997 while the actual is CRC 763389",
+      "origin": "Static Parser"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "Anti-Reverse Engineering",
+      "identifier": "static-6",
+      "relevance": 10,
+      "name": "PE file has unusual entropy sections",
+      "description": ".monor with unusual entropies 7.70282429977",
+      "origin": "Static Parser"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "Remote Access Related",
+      "identifier": "registry-61",
+      "type": 3,
+      "relevance": 10,
+      "name": "Reads terminal service related keys (often RDP related)",
+      "description": "\"<Input Sample>\" (Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\TERMINAL SERVER\"; Key: \"TSUSERENABLED\")",
+      "origin": "Registry Access",
+      "attck_id": "T1076",
+      "capec_id": "CAPEC-555",
+      "attck_id_wiki": "https://attack.mitre.org/wiki/Technique/T1076"
+    },
+    {
+      "threat_level": 2,
+      "threat_level_human": "malicious",
+      "category": "Unusual Characteristics",
+      "identifier": "stream-36",
+      "type": 1,
+      "relevance": 9,
+      "name": "Tries to hide a procedure lookup using single characters",
+      "description": "Found a lot of single characters ('2','2','V','i','r','t','u','a','l','P','r','o','t','e','c','t','k','e','r','n','e','l','3','2','.','d','l','l') being pushed to stack and GetProcAddress@KERNEL32.dll in the same context (relevant concatenated strings: 'VirtualProtect','kernel32.dll') at: 43364-448-0040148B\n Found a lot of single characters ('2','V','i','r','t','u','a','l','P','r','o','t','e','c','t','k','e','r','n','e','l','3','2','.','d','l','l') being pushed to stack and GetProcAddress@KERNEL32.DLL in the same context (relevant concatenated strings: 'VirtualProtect','kernel32.dll') at: 00044311-00002956-51494-59-0040148B",
+      "origin": "Hybrid Analysis Technology"
+    },
+    {
+      "threat_level": 2,
+      "threat_level_human": "malicious",
+      "category": "External Systems",
+      "identifier": "avtest-5",
+      "type": 12,
+      "relevance": 5,
+      "name": "Sample was identified as malicious by a trusted Antivirus engine",
+      "description": "No specific details available",
+      "origin": "External System"
+    },
+    {
+      "threat_level": 2,
+      "threat_level_human": "malicious",
+      "category": "External Systems",
+      "identifier": "avtest-0",
+      "type": 12,
+      "relevance": 8,
+      "name": "Sample was identified as malicious by at least one Antivirus engine",
+      "description": "3/14 Antivirus vendors marked sample as malicious (21% detection rate)",
+      "origin": "External System"
+    }
+  ]
+}

@@ -1,0 +1,2153 @@
+{
+  "size": 6227120,
+  "type": "PE32 executable (GUI) Intel 80386, for MS Windows, Nullsoft Installer self-extracting archive",
+  "submit_name": "fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24",
+  "sha256": "fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24",
+  "av_detect": 15,
+  "vx_family": "RiskWare[RemoteAdmin]/NetSup.gen",
+  "threat_score": 80,
+  "threat_level": 2,
+  "verdict": "malicious",
+  "certificates": [
+    {
+      "owner": "CN=GlobalSign GCC R45 EV CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE",
+      "issuer": "CN=GlobalSign Code Signing Root R45, O=GlobalSign nv-sa, C=BE",
+      "serial_number": "77bd0e05b7590bb61d4761531e3f75ed",
+      "md5": "E6:EB:41:AD:64:04:31:7A:F8:A1:8B:64:F9:8C:2B:CF",
+      "sha1": "C1:0B:B7:6A:D4:EE:81:52:42:40:6A:1E:3E:11:17:FF:EC:74:3D:4F",
+      "valid_from": "2020-07-28T00:00:00+00:00",
+      "valid_until": "2030-07-28T00:00:00+00:00"
+    },
+    {
+      "owner": "EMAILADDRESS=<email_address>, CN=MANH THAO NGUYEN COMPANY LIMITED, O=MANH THAO NGUYEN COMPANY LIMITED, STREET=\"Thon Thong, Xa Thanh Tam, Huyen Thanh Liem\", L=Ha Nam, ST=Ha Nam, C=VN, OID.<IPv4>.4.1.311.<IPv4>=Ha Nam, OID.<IPv4>.4.1.311.<IPv4>=VN, SERIALNUMBER=0700863851, OID.<IPv4>=Private Organization",
+      "issuer": "CN=GlobalSign GCC R45 EV CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE",
+      "serial_number": "27356f6b781b07d6f52ff68f",
+      "md5": "5E:43:E8:E3:9B:6C:C7:FB:25:1F:44:A7:0F:F0:18:01",
+      "sha1": "6E:0A:D8:7D:84:86:46:C9:6C:A2:54:DC:FA:FE:EA:02:0C:BD:4A:1C",
+      "valid_from": "2024-12-05T09:45:18+00:00",
+      "valid_until": "2025-12-06T09:45:18+00:00"
+    }
+  ],
+  "is_certificates_valid": true,
+  "total_processes": 3,
+  "total_signatures": 251,
+  "extracted_files": [
+    {
+      "name": "Setup.exe",
+      "file_path": "%TEMP%\\FutureApp\\0\\Setup.exe",
+      "file_size": 5227721,
+      "sha256": "3e8ffa82c91ff76ffa581c2f1bf70fd92fa9dca3f8980706a54f28062dc2de63",
+      "type_tags": [
+        "peexe",
+        "executable"
+      ],
+      "description": "PE32 executable (GUI) Intel 80386, for MS Windows",
+      "runtime_process": "Sibuia.exe (PID: 2688)",
+      "threat_level": 2,
+      "threat_level_readable": "malicious",
+      "file_available_to_download": true
+    },
+    {
+      "name": "333.exe",
+      "file_path": "%TEMP%\\FutureApp\\1\\333.exe",
+      "file_size": 331490,
+      "sha256": "0b8c0c908da39e77e0ef2f4b3b0eb96f3709d052252e0eae619790c61fc42b81",
+      "type_tags": [
+        "peexe",
+        "executable"
+      ],
+      "description": "PE32 executable (GUI) Intel 80386, for MS Windows",
+      "runtime_process": "fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe (PID: 4412)",
+      "threat_level": 2,
+      "threat_level_readable": "malicious",
+      "file_available_to_download": true
+    },
+    {
+      "name": "Ionic.Zip.dll",
+      "file_path": "%TEMP%\\FutureApp\\Ionic.Zip.dll",
+      "file_size": 430464,
+      "sha256": "35d73ec1b3bcdd743c951502aa5ac6bb756e6087311bfc9648587d6c94ca746f",
+      "type_tags": [
+        "pedll",
+        "executable"
+      ],
+      "description": "PE32 executable (DLL) (console) Intel 80386 Mono/.Net assembly, for MS Windows",
+      "runtime_process": "fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe (PID: 4412)",
+      "threat_level": 2,
+      "threat_level_readable": "malicious",
+      "file_available_to_download": true
+    },
+    {
+      "name": "Sibjs.exe",
+      "file_path": "%TEMP%\\FutureApp\\Sibjs.exe",
+      "file_size": 2163584,
+      "sha256": "94a297719f304bb12f650d693984db73c7a72685f28cdeeca2fa34a407808231",
+      "type_tags": [
+        "peexe",
+        "executable"
+      ],
+      "description": "PE32 executable (console) Intel 80386, for MS Windows",
+      "runtime_process": "Sibuia.exe (PID: 2688)",
+      "threat_level": 2,
+      "threat_level_readable": "malicious",
+      "file_available_to_download": true
+    },
+    {
+      "name": "Sibuia.exe",
+      "file_path": "%TEMP%\\FutureApp\\Sibuia.exe",
+      "file_size": 2289024,
+      "sha256": "845bb388322c35078cfc9d47d4d1752b62f796f4defa79215004547a040d0704",
+      "type_tags": [
+        "peexe",
+        "executable"
+      ],
+      "description": "PE32 executable (console) Intel 80386, for MS Windows",
+      "runtime_process": "fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe (PID: 4412)",
+      "threat_level": 2,
+      "threat_level_readable": "malicious",
+      "file_available_to_download": true
+    },
+    {
+      "name": "siblog.dll",
+      "file_path": "%TEMP%\\nsnAAD0.tmp\\siblog.dll",
+      "file_size": 150216,
+      "sha256": "d3289b09fc9c37a80f0215b5c8c7990b9d3353e0c27cc4689e806d6026b6dda7",
+      "type_tags": [
+        "pedll",
+        "executable"
+      ],
+      "description": "PE32 executable (DLL) (GUI) Intel 80386, for MS Windows",
+      "runtime_process": "fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe (PID: 4412)",
+      "threat_level": 2,
+      "threat_level_readable": "malicious",
+      "file_available_to_download": true
+    },
+    {
+      "name": "039F3.tmp",
+      "file_path": "%TEMP%\\FutureApp\\039F3.tmp",
+      "file_size": 4608,
+      "sha256": "39858473da9bedf8b5c0ffe9cd4763de4879e877e783fd038af3d93338fa9951",
+      "type_tags": [
+        "pedll",
+        "executable"
+      ],
+      "description": "PE32 executable (DLL) (console) Intel 80386 Mono/.Net assembly, for MS Windows",
+      "runtime_process": "fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe (PID: 4412)",
+      "threat_level_readable": "no specific threat",
+      "file_available_to_download": true
+    },
+    {
+      "name": "039F4.tmp",
+      "file_path": "%TEMP%\\FutureApp\\039F4.tmp",
+      "file_size": 6672,
+      "sha256": "36f86d18c21b93868bf43b3b7d20439d8cf9914c1b557e42f22addd84b4a6f72",
+      "type_tags": [
+        "doc",
+        "office"
+      ],
+      "description": "data",
+      "runtime_process": "fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe (PID: 4412)",
+      "threat_level_readable": "no specific threat",
+      "file_available_to_download": true
+    },
+    {
+      "name": "babka.cmd",
+      "file_path": "%TEMP%\\FutureApp\\2\\babka.cmd",
+      "file_size": 277,
+      "sha256": "70fc159c1040f7da1beaba2ca98004babbd2ae7e2957d7c0c2aa67ebc43a1457",
+      "type_tags": [
+        "text"
+      ],
+      "description": "DOS batch file, ASCII text, with CRLF line terminators",
+      "runtime_process": "fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe (PID: 4412)",
+      "threat_level_readable": "no specific threat",
+      "file_available_to_download": true
+    },
+    {
+      "name": "SibClr.dll",
+      "file_path": "%TEMP%\\FutureApp\\SibClr.dll",
+      "file_size": 68480,
+      "sha256": "ffc17acf3f3c8e73b944e279fee7ecaf6fac46ec4c305aedc1c51122db256e37",
+      "type_tags": [
+        "pedll",
+        "executable"
+      ],
+      "description": "PE32 executable (DLL) (console) Intel 80386 Mono/.Net assembly, for MS Windows",
+      "runtime_process": "sibjs.exe (PID: 4172)",
+      "threat_level_readable": "no specific threat",
+      "file_available_to_download": true
+    },
+    {
+      "name": "Zip.dll",
+      "file_path": "%TEMP%\\FutureApp\\Zip.dll",
+      "file_size": 28032,
+      "sha256": "fc66cd9add2a83dd2fb12cd908e8f70d54530d4dbf011e948c8adeaaa1dc975b",
+      "type_tags": [
+        "pedll",
+        "executable"
+      ],
+      "description": "PE32 executable (DLL) (console) Intel 80386 Mono/.Net assembly, for MS Windows",
+      "runtime_process": "fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe (PID: 4412)",
+      "threat_level_readable": "no specific threat",
+      "file_available_to_download": true
+    }
+  ],
+  "file_metadata": {
+    "file_compositions": [
+      "1 .RES Files linked with CVTRES.EXE 5.00 (Visual Studio 5) (build: 1735)",
+      "10   .C Files compiled with CL.EXE (Visual Studio 6 Processor Pack) (build: 9044)",
+      "15 .LIB Files generated with LIB.EXE 7.10 (Visual Studio .NET 2003) (build: 4035)"
+    ],
+    "imported_objects": [
+      "2   .C Files compiled with CL.EXE 13.10 (Visual Studio .NET 2003) (build: 4035)"
+    ],
+    "file_analysis": [
+      "File is the product of a small codebase (10 files)"
+    ],
+    "total_file_compositions_imports": 165
+  },
+  "processes": [
+    {
+      "uid": "00000000-00004412",
+      "name": "fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe",
+      "normalized_path": "C:\\fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe",
+      "sha256": "fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24",
+      "av_label": "Redcap.xjtlk",
+      "av_matched": 3,
+      "av_total": 22
+    },
+    {
+      "uid": "00000000-00002688",
+      "parentuid": "00000000-00004412",
+      "name": "Sibuia.exe",
+      "normalized_path": "%TEMP%\\FutureApp\\Sibuia.exe",
+      "command_line": "TRUE 111 0",
+      "sha256": "845bb388322c35078cfc9d47d4d1752b62f796f4defa79215004547a040d0704"
+    },
+    {
+      "uid": "00000000-00004172",
+      "parentuid": "00000000-00002688",
+      "name": "sibjs.exe",
+      "normalized_path": "%TEMP%\\FutureApp\\sibjs.exe",
+      "command_line": "TRUE 000 False cond_pkg",
+      "sha256": "94a297719f304bb12f650d693984db73c7a72685f28cdeeca2fa34a407808231"
+    }
+  ],
+  "mitre_attcks": [
+    {
+      "tactic": "Execution",
+      "technique": "Native API",
+      "attck_id": "T1106",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1106",
+      "suspicious_identifiers_count": 3,
+      "informative_identifiers_count": 18
+    },
+    {
+      "tactic": "Execution",
+      "technique": "PowerShell",
+      "attck_id": "T1059.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1059/001",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Command and Scripting Interpreter",
+        "attck_id": "T1059",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1059"
+      }
+    },
+    {
+      "tactic": "Execution",
+      "technique": "Inter-Process Communication",
+      "attck_id": "T1559",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1559",
+      "informative_identifiers_count": 2
+    },
+    {
+      "tactic": "Execution",
+      "technique": "Windows Command Shell",
+      "attck_id": "T1059.003",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1059/003",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Command and Scripting Interpreter",
+        "attck_id": "T1059",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1059"
+      }
+    },
+    {
+      "tactic": "Execution",
+      "technique": "Windows Management Instrumentation",
+      "attck_id": "T1047",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1047",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Execution",
+      "technique": "Shared Modules",
+      "attck_id": "T1129",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1129",
+      "informative_identifiers_count": 5
+    },
+    {
+      "tactic": "Execution",
+      "technique": "Service Execution",
+      "attck_id": "T1569.002",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1569/002",
+      "informative_identifiers_count": 2,
+      "parent": {
+        "technique": "System Services",
+        "attck_id": "T1569",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1569"
+      }
+    },
+    {
+      "tactic": "Persistence",
+      "technique": "Account Manipulation",
+      "attck_id": "T1098",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1098",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Persistence",
+      "technique": "Windows Service",
+      "attck_id": "T1543.003",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1543/003",
+      "informative_identifiers_count": 5,
+      "parent": {
+        "technique": "Create or Modify System Process",
+        "attck_id": "T1543",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1543"
+      }
+    },
+    {
+      "tactic": "Persistence",
+      "technique": "Create or Modify System Process",
+      "attck_id": "T1543",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1543",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Persistence",
+      "technique": "Boot or Logon Autostart Execution",
+      "attck_id": "T1547",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1547",
+      "suspicious_identifiers_count": 1
+    },
+    {
+      "tactic": "Persistence",
+      "technique": "Component Object Model Hijacking",
+      "attck_id": "T1546.015",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1546/015",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Event Triggered Execution",
+        "attck_id": "T1546",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1546"
+      }
+    },
+    {
+      "tactic": "Persistence",
+      "technique": "Registry Run Keys / Startup Folder",
+      "attck_id": "T1547.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1547/001",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Boot or Logon Autostart Execution",
+        "attck_id": "T1547",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1547"
+      }
+    },
+    {
+      "tactic": "Persistence",
+      "technique": "DLL Side-Loading",
+      "attck_id": "T1574.002",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1574/002",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Hijack Execution Flow",
+        "attck_id": "T1574",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1574"
+      }
+    },
+    {
+      "tactic": "Persistence",
+      "technique": "DLL Search Order Hijacking",
+      "attck_id": "T1574.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1574/001",
+      "suspicious_identifiers_count": 1,
+      "parent": {
+        "technique": "Hijack Execution Flow",
+        "attck_id": "T1574",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1574"
+      }
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "Token Impersonation/Theft",
+      "attck_id": "T1134.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1134/001",
+      "informative_identifiers_count": 3,
+      "parent": {
+        "technique": "Access Token Manipulation",
+        "attck_id": "T1134",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1134"
+      }
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "Dynamic-link Library Injection",
+      "attck_id": "T1055.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055/001",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Process Injection",
+        "attck_id": "T1055",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1055"
+      }
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "Account Manipulation",
+      "attck_id": "T1098",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1098",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "Access Token Manipulation",
+      "attck_id": "T1134",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1134",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "Thread Execution Hijacking",
+      "attck_id": "T1055.003",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055/003",
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 2,
+      "parent": {
+        "technique": "Process Injection",
+        "attck_id": "T1055",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1055"
+      }
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "Windows Service",
+      "attck_id": "T1543.003",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1543/003",
+      "informative_identifiers_count": 5,
+      "parent": {
+        "technique": "Create or Modify System Process",
+        "attck_id": "T1543",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1543"
+      }
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "Process Injection",
+      "attck_id": "T1055",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055",
+      "malicious_identifiers_count": 1,
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "ListPlanting",
+      "attck_id": "T1055.015",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055/015",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Process Injection",
+        "attck_id": "T1055",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1055"
+      }
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "Create or Modify System Process",
+      "attck_id": "T1543",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1543",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "Boot or Logon Autostart Execution",
+      "attck_id": "T1547",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1547",
+      "suspicious_identifiers_count": 1
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "Component Object Model Hijacking",
+      "attck_id": "T1546.015",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1546/015",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Event Triggered Execution",
+        "attck_id": "T1546",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1546"
+      }
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "Registry Run Keys / Startup Folder",
+      "attck_id": "T1547.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1547/001",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Boot or Logon Autostart Execution",
+        "attck_id": "T1547",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1547"
+      }
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "Extra Window Memory Injection",
+      "attck_id": "T1055.011",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055/011",
+      "suspicious_identifiers_count": 1,
+      "parent": {
+        "technique": "Process Injection",
+        "attck_id": "T1055",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1055"
+      }
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "Abuse Elevation Control Mechanism",
+      "attck_id": "T1548",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1548",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "DLL Side-Loading",
+      "attck_id": "T1574.002",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1574/002",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Hijack Execution Flow",
+        "attck_id": "T1574",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1574"
+      }
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "DLL Search Order Hijacking",
+      "attck_id": "T1574.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1574/001",
+      "suspicious_identifiers_count": 1,
+      "parent": {
+        "technique": "Hijack Execution Flow",
+        "attck_id": "T1574",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1574"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Token Impersonation/Theft",
+      "attck_id": "T1134.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1134/001",
+      "informative_identifiers_count": 3,
+      "parent": {
+        "technique": "Access Token Manipulation",
+        "attck_id": "T1134",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1134"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Modify Registry",
+      "attck_id": "T1112",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1112",
+      "suspicious_identifiers_count": 2,
+      "informative_identifiers_count": 5
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Debugger Evasion",
+      "attck_id": "T1622",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1622",
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 3
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Dynamic-link Library Injection",
+      "attck_id": "T1055.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055/001",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Process Injection",
+        "attck_id": "T1055",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1055"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "File and Directory Permissions Modification",
+      "attck_id": "T1222",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1222",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Time Based Evasion",
+      "attck_id": "T1497.003",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1497/003",
+      "informative_identifiers_count": 2,
+      "parent": {
+        "technique": "Virtualization/Sandbox Evasion",
+        "attck_id": "T1497",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1497"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Obfuscated Files or Information",
+      "attck_id": "T1027",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1027",
+      "suspicious_identifiers_count": 5,
+      "informative_identifiers_count": 8
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Access Token Manipulation",
+      "attck_id": "T1134",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1134",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Thread Execution Hijacking",
+      "attck_id": "T1055.003",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055/003",
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 2,
+      "parent": {
+        "technique": "Process Injection",
+        "attck_id": "T1055",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1055"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "File Deletion",
+      "attck_id": "T1070.004",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1070/004",
+      "suspicious_identifiers_count": 2,
+      "informative_identifiers_count": 2,
+      "parent": {
+        "technique": "Indicator Removal",
+        "attck_id": "T1070",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1070"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Timestomp",
+      "attck_id": "T1070.006",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1070/006",
+      "suspicious_identifiers_count": 2,
+      "informative_identifiers_count": 2,
+      "parent": {
+        "technique": "Indicator Removal",
+        "attck_id": "T1070",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1070"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Process Injection",
+      "attck_id": "T1055",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055",
+      "malicious_identifiers_count": 1,
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "User Activity Based Checks",
+      "attck_id": "T1497.002",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1497/002",
+      "informative_identifiers_count": 2,
+      "parent": {
+        "technique": "Virtualization/Sandbox Evasion",
+        "attck_id": "T1497",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1497"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Hide Artifacts",
+      "attck_id": "T1564",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1564",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Indicator Removal",
+      "attck_id": "T1070",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1070",
+      "suspicious_identifiers_count": 2
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Hidden Window",
+      "attck_id": "T1564.003",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1564/003",
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 2,
+      "parent": {
+        "technique": "Hide Artifacts",
+        "attck_id": "T1564",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1564"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "ListPlanting",
+      "attck_id": "T1055.015",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055/015",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Process Injection",
+        "attck_id": "T1055",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1055"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Masquerading",
+      "attck_id": "T1036",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1036",
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Execution Guardrails",
+      "attck_id": "T1480",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1480",
+      "informative_identifiers_count": 2
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Extra Window Memory Injection",
+      "attck_id": "T1055.011",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055/011",
+      "suspicious_identifiers_count": 1,
+      "parent": {
+        "technique": "Process Injection",
+        "attck_id": "T1055",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1055"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Abuse Elevation Control Mechanism",
+      "attck_id": "T1548",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1548",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Code Signing",
+      "attck_id": "T1553.002",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1553/002",
+      "informative_identifiers_count": 2,
+      "parent": {
+        "technique": "Subvert Trust Controls",
+        "attck_id": "T1553",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1553"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Embedded Payloads",
+      "attck_id": "T1027.009",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1027/009",
+      "suspicious_identifiers_count": 1,
+      "parent": {
+        "technique": "Obfuscated Files or Information",
+        "attck_id": "T1027",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1027"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Software Packing",
+      "attck_id": "T1027.002",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1027/002",
+      "suspicious_identifiers_count": 2,
+      "informative_identifiers_count": 2,
+      "parent": {
+        "technique": "Obfuscated Files or Information",
+        "attck_id": "T1027",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1027"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Virtualization/Sandbox Evasion",
+      "attck_id": "T1497",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1497",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "DLL Side-Loading",
+      "attck_id": "T1574.002",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1574/002",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Hijack Execution Flow",
+        "attck_id": "T1574",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1574"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Disable or Modify Tools",
+      "attck_id": "T1562.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1562/001",
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Impair Defenses",
+        "attck_id": "T1562",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1562"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "DLL Search Order Hijacking",
+      "attck_id": "T1574.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1574/001",
+      "suspicious_identifiers_count": 1,
+      "parent": {
+        "technique": "Hijack Execution Flow",
+        "attck_id": "T1574",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1574"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Reflective Code Loading",
+      "attck_id": "T1620",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1620",
+      "informative_identifiers_count": 2
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Dynamic API Resolution",
+      "attck_id": "T1027.007",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1027/007",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Obfuscated Files or Information",
+        "attck_id": "T1027",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1027"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Deobfuscate/Decode Files or Information",
+      "attck_id": "T1140",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1140",
+      "informative_identifiers_count": 2
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Indicator Removal from Tools",
+      "attck_id": "T1027.005",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1027/005",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Obfuscated Files or Information",
+        "attck_id": "T1027",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1027"
+      }
+    },
+    {
+      "tactic": "Credential Access",
+      "technique": "Keylogging",
+      "attck_id": "T1056.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1056/001",
+      "informative_identifiers_count": 2,
+      "parent": {
+        "technique": "Input Capture",
+        "attck_id": "T1056",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1056"
+      }
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "Debugger Evasion",
+      "attck_id": "T1622",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1622",
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 3
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "File and Directory Discovery",
+      "attck_id": "T1083",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1083",
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 15
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "System Information Discovery",
+      "attck_id": "T1082",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1082",
+      "informative_identifiers_count": 24
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "Query Registry",
+      "attck_id": "T1012",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1012",
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 6
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "Application Window Discovery",
+      "attck_id": "T1010",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1010",
+      "informative_identifiers_count": 2
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "System Owner/User Discovery",
+      "attck_id": "T1033",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1033",
+      "informative_identifiers_count": 2
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "Time Based Evasion",
+      "attck_id": "T1497.003",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1497/003",
+      "informative_identifiers_count": 2,
+      "parent": {
+        "technique": "Virtualization/Sandbox Evasion",
+        "attck_id": "T1497",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1497"
+      }
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "Process Discovery",
+      "attck_id": "T1057",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1057",
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 10
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "System Location Discovery",
+      "attck_id": "T1614",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1614",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "User Activity Based Checks",
+      "attck_id": "T1497.002",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1497/002",
+      "informative_identifiers_count": 2,
+      "parent": {
+        "technique": "Virtualization/Sandbox Evasion",
+        "attck_id": "T1497",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1497"
+      }
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "System Language Discovery",
+      "attck_id": "T1614.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1614/001",
+      "informative_identifiers_count": 2,
+      "parent": {
+        "technique": "System Location Discovery",
+        "attck_id": "T1614",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1614"
+      }
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "System Time Discovery",
+      "attck_id": "T1124",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1124",
+      "informative_identifiers_count": 2
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "System Service Discovery",
+      "attck_id": "T1007",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1007",
+      "informative_identifiers_count": 2
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "Network Share Discovery",
+      "attck_id": "T1135",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1135",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "Virtualization/Sandbox Evasion",
+      "attck_id": "T1497",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1497",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Lateral Movement",
+      "technique": "Lateral Tool Transfer",
+      "attck_id": "T1570",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1570",
+      "informative_identifiers_count": 2
+    },
+    {
+      "tactic": "Lateral Movement",
+      "technique": "Remote Services",
+      "attck_id": "T1021",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1021",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Collection",
+      "technique": "Local Data Staging",
+      "attck_id": "T1074.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1074/001",
+      "informative_identifiers_count": 2,
+      "parent": {
+        "technique": "Data Staged",
+        "attck_id": "T1074",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1074"
+      }
+    },
+    {
+      "tactic": "Collection",
+      "technique": "Screen Capture",
+      "attck_id": "T1113",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1113",
+      "informative_identifiers_count": 2
+    },
+    {
+      "tactic": "Collection",
+      "technique": "Clipboard Data",
+      "attck_id": "T1115",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1115",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Collection",
+      "technique": "Email Collection",
+      "attck_id": "T1114",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1114",
+      "suspicious_identifiers_count": 1
+    },
+    {
+      "tactic": "Collection",
+      "technique": "Keylogging",
+      "attck_id": "T1056.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1056/001",
+      "informative_identifiers_count": 2,
+      "parent": {
+        "technique": "Input Capture",
+        "attck_id": "T1056",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1056"
+      }
+    },
+    {
+      "tactic": "Collection",
+      "technique": "Data from Local System",
+      "attck_id": "T1005",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1005",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Collection",
+      "technique": "Archive via Library",
+      "attck_id": "T1560.002",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1560/002",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Archive Collected Data",
+        "attck_id": "T1560",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1560"
+      }
+    },
+    {
+      "tactic": "Command and Control",
+      "technique": "Application Layer Protocol",
+      "attck_id": "T1071",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1071",
+      "informative_identifiers_count": 6
+    },
+    {
+      "tactic": "Command and Control",
+      "technique": "Ingress Tool Transfer",
+      "attck_id": "T1105",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1105",
+      "suspicious_identifiers_count": 2,
+      "informative_identifiers_count": 6
+    },
+    {
+      "tactic": "Command and Control",
+      "technique": "Web Protocols",
+      "attck_id": "T1071.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1071/001",
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 6,
+      "parent": {
+        "technique": "Application Layer Protocol",
+        "attck_id": "T1071",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1071"
+      }
+    },
+    {
+      "tactic": "Command and Control",
+      "technique": "Non-Standard Port",
+      "attck_id": "T1571",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1571",
+      "suspicious_identifiers_count": 1
+    },
+    {
+      "tactic": "Command and Control",
+      "technique": "Symmetric Cryptography",
+      "attck_id": "T1573.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1573/001",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Encrypted Channel",
+        "attck_id": "T1573",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1573"
+      }
+    },
+    {
+      "tactic": "Exfiltration",
+      "technique": "Scheduled Transfer",
+      "attck_id": "T1029",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1029",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Exfiltration",
+      "technique": "Exfiltration Over C2 Channel",
+      "attck_id": "T1041",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1041",
+      "suspicious_identifiers_count": 1
+    },
+    {
+      "tactic": "Impact",
+      "technique": "Service Stop",
+      "attck_id": "T1489",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1489",
+      "suspicious_identifiers_count": 2,
+      "informative_identifiers_count": 4
+    },
+    {
+      "tactic": "Impact",
+      "technique": "System Shutdown/Reboot",
+      "attck_id": "T1529",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1529",
+      "informative_identifiers_count": 2
+    },
+    {
+      "tactic": "Impact",
+      "technique": "Data Encrypted for Impact",
+      "attck_id": "T1486",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1486",
+      "informative_identifiers_count": 1
+    }
+  ],
+  "network_mode": "default",
+  "signatures": [
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "api-138",
+      "type": 6,
+      "relevance": 3,
+      "name": "Calls an API typically used to create an instance of a named pipe",
+      "description": "\"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"NtCreateNamedPipeFile\" (UID: 00000000-00004412)",
+      "origin": "API Call",
+      "attck_id": "T1570",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1570"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "api-267",
+      "type": 6,
+      "relevance": 1,
+      "name": "Writes files in a temp directory",
+      "description": "\"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" writes to a file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\0\\Setup.exe\"",
+      "origin": "API Call",
+      "attck_id": "T1005",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1005"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "registry-72",
+      "type": 3,
+      "relevance": 3,
+      "name": "Overview of unique CLSIDs touched in registry",
+      "description": "\"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" touched \"Computer\" (Path: \"HKCU\\CLSID\\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\\SHELLFOLDER\")\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" touched \"Memory Mapped Cache Mgr\" (Path: \"HKCU\\CLSID\\{1F486A52-3CB1-48FD-8F50-B8DC300D9F9D}\")\n \"Sibuia.exe\" touched \"UIAutomation Client Central Class\" (Path: \"HKCU\\CLSID\\{FF48DBA4-60EF-4201-AA87-54103EEF594E}\")",
+      "origin": "Registry Access",
+      "attck_id": "T1546.015",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1546/015"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "module-3",
+      "type": 10,
+      "name": "Loads the .NET runtime environment",
+      "description": "\"sibjs.exe\" loaded module \"%WINDIR%\\assembly\\NativeImages_v4.0.30319_32\\mscorlib\\36eaccfde177c2e7b93b8dbdde4e012a\\mscorlib.ni.dll\" at 64450000",
+      "origin": "Loaded Module",
+      "attck_id": "T1129",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1129"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "mutant-0",
+      "type": 4,
+      "relevance": 3,
+      "name": "Creates mutants",
+      "description": "\"\\Sessions\\1\\BaseNamedObjects\\Local\\ZonesCacheCounterMutex\"\n \"\\Sessions\\1\\BaseNamedObjects\\Local\\ZonesLockedCacheCounterMutex\"\n \"Local\\ZonesCacheCounterMutex\"\n \"Local\\ZonesLockedCacheCounterMutex\"",
+      "origin": "Created Mutant",
+      "attck_id": "T1480",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1480"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "certificate-0",
+      "type": 17,
+      "relevance": 10,
+      "name": "The input sample is signed with a certificate",
+      "description": "The input sample is signed with a certificate issued by \"CN=GlobalSign Code Signing Root R45, O=GlobalSign nv-sa, C=BE\" (SHA1: C1:0B:B7:6A:D4:EE:81:52:42:40:6A:1E:3E:11:17:FF:EC:74:3D:4F; see report for more information)\n The input sample is signed with a certificate issued by \"CN=GlobalSign GCC R45 EV CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE\" (SHA1: 6E:0A:D8:7D:84:86:46:C9:6C:A2:54:DC:FA:FE:EA:02:0C:BD:4A:1C; see report for more information)",
+      "origin": "Certificate Data",
+      "attck_id": "T1553.002",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1553/002"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "static-153",
+      "name": "Uses 32 bit executable PE",
+      "description": "\"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24\" has flags like  IMAGE_FILE_32BIT_MACHINE\n IMAGE_FILE_EXECUTABLE\n \"Setup.exe\" has flags like  IMAGE_FILE_32BIT_MACHINE\n IMAGE_FILE_EXECUTABLE\n \"Sibuia.exe\" has flags like  IMAGE_FILE_32BIT_MACHINE\n IMAGE_FILE_EXECUTABLE\n \"Sibjs.exe\" has flags like  IMAGE_FILE_32BIT_MACHINE\n IMAGE_FILE_EXECUTABLE\n \"333.exe\" has flags like  IMAGE_FILE_32BIT_MACHINE\n IMAGE_FILE_EXECUTABLE\n \"siblog.dll\" has flags like  IMAGE_FILE_32BIT_MACHINE\n IMAGE_FILE_EXECUTABLE\n \"SibClr.dll\" has flags like  IMAGE_FILE_32BIT_MACHINE\n IMAGE_FILE_EXECUTABLE\n \"039F3.tmp\" has flags like  IMAGE_FILE_32BIT_MACHINE\n IMAGE_FILE_EXECUTABLE",
+      "origin": "Static Parser"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "static-96",
+      "name": "PE file entrypoint instructions",
+      "description": "\"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24\" file has an entrypoint instructions - \"push\tebp,mov\tebp, esp,sub\tesp, 0x3f4,push\tebx,push\tesi,push\tedi,push\t0x20,pop\tedi,xor\tebx, ebx,push\t0x8001,mov\tdword ptr [ebp - 0x14], ebx,mov\tdword ptr [ebp - 4], 0x40a2e0,mov\tdword ptr [ebp - 0x10], ebx,call\tdword ptr [0x4080cc],mov\tesi, dword ptr [0x4080d0],lea\teax, [ebp - 0x140],push\teax,mov\tdword ptr [ebp - 0x12c], ebx,mov\tdword ptr [ebp - 0x2c], ebx,mov\tdword ptr [ebp - 0x28], ebx,mov\tdword ptr [ebp - 0x140], 0x11c,call\tesi,test\teax, eax,jne\t0x4035b7,lea\teax, [ebp - 0x140],mov\tdword ptr [ebp - 0x140], 0x114,push\teax,\"\n \"Setup.exe\" file has an entrypoint instructions - \"push\tebp,mov\tebp, esp,add\tesp, -0x10,mov\teax, 0x66e544,call\t0x412804,mov\teax, dword ptr [0x682278],mov\teax, dword ptr [eax],call\t0x610684,mov\teax, dword ptr [0x682278],mov\teax, dword ptr [eax],mov\tedx, 0x677e30,call\t0x6100b8,mov\tecx, dword ptr [0x681ef0],mov\teax, dword ptr [0x682278],mov\teax, dword ptr [eax],mov\tedx, dword ptr [0x6401b0],call\t0x61069c,mov\teax, dword ptr [0x682278],mov\teax, dword ptr [eax],call\t0x6107fc,call\t0x40b14c,add\tbyte ptr [eax], al,mov\tal, 4,add\tal, byte ptr [eax],\"\n \"Sibuia.exe\" file has an entrypoint instructions - \"call\t0x56d5df,jmp\t0x56c810,mov\tecx, dword ptr [ebp - 0xc],mov\tdword ptr fs:[0], ecx,pop\tecx,pop\tedi,pop\tedi,pop\tesi,pop\tebx,mov\tesp, ebp,pop\tebp,push\tecx,ret\t,mov\tecx, dword ptr [ebp - 0x10],xor\tecx, ebp,call\t0x56c41b,jmp\t0x56c99c,mov\tecx, dword ptr [ebp - 0x14],xor\tecx, ebp,call\t0x56c41b,jmp\t0x56c99c,push\teax,push\tdword ptr fs:[0],lea\teax, [esp + 0xc],sub\tesp, dword ptr [esp + 0xc],push\tebx,push\tesi,push\tedi,mov\tdword ptr [eax], ebp,mov\tebp, eax,mov\teax, dword ptr [0x6021c0],xor\teax, ebp,push\teax,push\tdword ptr [ebp - 4],\"\n \"Sibjs.exe\" file has an entrypoint instructions - \"call\t0x556407,jmp\t0x5555e5,mov\tecx, dword ptr [ebp - 0xc],mov\tdword ptr fs:[0], ecx,pop\tecx,pop\tedi,pop\tedi,pop\tesi,pop\tebx,mov\tesp, ebp,pop\tebp,push\tecx,ret\t,mov\tecx, dword ptr [ebp - 0x10],xor\tecx, ebp,call\t0x555290,jmp\t0x555771,mov\tecx, dword ptr [ebp - 0x14],xor\tecx, ebp,call\t0x555290,jmp\t0x555771,push\teax,push\tdword ptr fs:[0],lea\teax, [esp + 0xc],sub\tesp, dword ptr [esp + 0xc],push\tebx,push\tesi,push\tedi,mov\tdword ptr [eax], ebp,mov\tebp, eax,mov\teax, dword ptr [0x5e3f80],xor\teax, ebp,push\teax,push\tdword ptr [ebp - 4],\"\n \"333.exe\" file has an entrypoint instructions - \"call\t0x41fa9b,jmp\t0x41f3b2,int3\t,int3\t,int3\t,int3\t,int3\t,int3\t,push\tebp,mov\tebp, esp,push\tesi,push\tdword ptr [ebp + 8],mov\tesi, ecx,call\t0x412210,mov\tdword ptr [esi], 0x4356d0,mov\teax, esi,pop\tesi,pop\tebp,ret\t4,and\tdword ptr [ecx + 4], 0,mov\teax, ecx,and\tdword ptr [ecx + 8], 0,mov\tdword ptr [ecx + 4], 0x4356d8,mov\tdword ptr [ecx], 0x4356d0,ret\t,int3\t,int3\t,int3\t,int3\t,int3\t,int3\t,int3\t,int3\t,int3\t,int3\t,int3\t,int3\t,int3\t,push\tebp,mov\tebp, esp,push\tesi,mov\tesi, ecx,lea\teax, [esi + 4],mov\tdword ptr [esi], 0x4356b8,push\teax,\"\n \"siblog.dll\" file has an entrypoint instructions - \"push\tebp,mov\tebp, esp,cmp\tdword ptr [ebp + 0xc], 1,jne\t0x10004eb1,call\t0x10005312,push\tdword ptr [ebp + 0x10],push\tdword ptr [ebp + 0xc],push\tdword ptr [ebp + 8],call\t0x10004d6d,add\tesp, 0xc,pop\tebp,ret\t0xc,ret\t0,mov\tecx, dword ptr [ebp - 0xc],mov\tdword ptr fs:[0], ecx,pop\tecx,pop\tedi,pop\tedi,pop\tesi,pop\tebx,mov\tesp, ebp,pop\tebp,push\tecx,ret\t,mov\tecx, dword ptr [ebp - 0x10],xor\tecx, ebp,call\t0x10004afa,jmp\t0x10004ec9,push\teax,push\tdword ptr fs:[0],lea\teax, [esp + 0xc],sub\tesp, dword ptr [esp + 0xc],push\tebx,push\tesi,push\tedi,mov\tdword ptr [eax], ebp,mov\tebp, eax,\"\n \"SibClr.dll\" file has an entrypoint instructions - \"jmp\tdword ptr [0x10002000],add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,\"\n \"Zip.dll\" file has an entrypoint instructions - \"jmp\tdword ptr [0x10002000],add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,\"\n \"039F3.tmp\" file has an entrypoint instructions - \"jmp\tdword ptr [0x402000],add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,\"",
+      "origin": "Static Parser"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "api-176",
+      "type": 6,
+      "relevance": 1,
+      "name": "Calls an API typically used to retrieve function addresses",
+      "description": "\"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter InitializeCriticalSectionEx (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter FlsAlloc (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter FlsSetValue (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter FlsGetValue (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter LCMapStringEx (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter FlsFree (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter InitOnceExecuteOnce (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter CreateEventExW (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter CreateSemaphoreW (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter CreateSemaphoreExW (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter CreateThreadpoolTimer (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter SetThreadpoolTimer (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter WaitForThreadpoolTimerCallbacks (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter CloseThreadpoolTimer (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter CreateThreadpoolWait (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter SetThreadpoolWait (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter CloseThreadpoolWait (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter FlushProcessWriteBuffers (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter FreeLibraryWhenCallbackReturns (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter GetCurrentProcessorNumber (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter CreateSymbolicLinkW (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter GetCurrentPackageId (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter GetTickCount64 (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter GetFileInformationByHandleEx (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter SetFileInformationByHandle (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter GetSystemTimePreciseAsFileTime (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter InitializeConditionVariable (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter WakeConditionVariable (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter WakeAllConditionVariable (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter SleepConditionVariableCS (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter InitializeSRWLock (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter AcquireSRWLockExclusive (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter TryAcquireSRWLockExclusive (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter ReleaseSRWLockExclusive (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter SleepConditionVariableSRW (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter CreateThreadpoolWork (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter SubmitThreadpoolWork (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter CloseThreadpoolWork (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter CompareStringEx (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter GetLocaleInfoEx (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter AreFileApisANSI (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter RtlGetVersion (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter RegisterTraceGuidsW (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter EventRegister (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter EventUnregister (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter EventEnabled (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter EventWrite (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter GetFileVersionInfoW (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter SHGetFolderPathW (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter ThemeInitApiHook (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter IsProcessDPIAware (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter CoTaskMemAlloc (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter LpkEditControl (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter OpenThreadToken (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter InitializeSecurityDescriptor (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter SetEntriesInAclW (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter GetMartaExtensionInterface (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter SetSecurityDescriptorDacl (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter GetUserDefaultUILanguage (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter GetTempPath2W (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter ProcessLogMessage (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter UnregisterTraceGuids (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetProcAddress\" with a parameter DecodePointer (UID: 00000000-00004412)\n \"Sibuia.exe\" called \"GetProcAddress\" with a parameter FlsGetValue (UID: 00000000-00002688)\n \"Sibuia.exe\" called \"GetProcAddress\" with a parameter ThemeInitApiHook (UID: 00000000-00002688)\n \"Sibuia.exe\" called \"GetProcAddress\" with a parameter IsProcessDPIAware (UID: 00000000-00002688)\n \"Sibuia.exe\" called \"GetProcAddress\" with a parameter OpenThreadToken (UID: 00000000-00002688)\n \"Sibuia.exe\" called \"GetProcAddress\" with a parameter RtlCompressBuffer (UID: 00000000-00002688)\n \"Sibuia.exe\" called \"GetProcAddress\" with a parameter RtlGetCompressionWorkSpaceSize (UID: 00000000-00002688)\n \"Sibuia.exe\" called \"GetProcAddress\" with a parameter RtlDecompressBuffer (UID: 00000000-00002688)\n \"Sibuia.exe\" called \"GetProcAddress\" with a parameter EventWrite (UID: 00000000-00002688)\n \"Sibuia.exe\" called \"GetProcAddress\" with a parameter EventRegister (UID: 00000000-00002688)\n \"Sibuia.exe\" called \"GetProcAddress\" with a parameter EventUnregister (UID: 00000000-00002688)\n \"Sibuia.exe\" called \"GetProcAddress\" with a parameter FlsFree (UID: 00000000-00002688)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter FlsGetValue (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter OpenThreadToken (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter RtlCompressBuffer (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter RtlGetCompressionWorkSpaceSize (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter RtlDecompressBuffer (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter FlsAlloc (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter FlsSetValue (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter FlsFree (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter EncodePointer (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter DecodePointer (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter CorBindToRuntimeEx (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter RegOpenKeyExW (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter RegQueryInfoKeyW (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter RegEnumKeyExW (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter RegEnumValueW (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter RegCloseKey (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter RegQueryValueExW (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter InitializeCriticalSectionEx (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter LCMapStringEx (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter AcquireSRWLockExclusive (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter ReleaseSRWLockExclusive (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter AddDllDirectory (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter EventRegister (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter EventSetInformation (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter RegisterShimImplCallback (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter RegisterShimImplCleanupCallback (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter SetShellShimInstance (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter OnShimDllMainCalled (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter CorBindToRuntimeEx_RetAddr (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter UrlIsW (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter GetFileVersionInfoSizeW (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter GetFileVersionInfoW (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter VerQueryValueW (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter InitializeConditionVariable (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter SleepConditionVariableCS (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter WakeAllConditionVariable (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter SetRuntimeInfo (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter GetProcessWindowStation (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter GetUserObjectInformationW (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter DllGetClassObjectInternal (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter CreateConfigStream (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter CreateConfigStream_RetAddr (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter GetNumaHighestNodeNumber (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter GetSystemWindowsDirectoryW (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter AllocateAndInitializeSid (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter OpenProcessToken (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter GetTokenInformation (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter InitializeAcl (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter AddAccessAllowedAce (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter FreeSid (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter AddSIDToBoundaryDescriptor (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter CreateBoundaryDescriptorW (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter CreatePrivateNamespaceW (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter OpenPrivateNamespaceW (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter DeleteBoundaryDescriptor (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter WerRegisterRuntimeExceptionModule (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter RaiseException (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter SetSystemFileCacheSize (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter NtSetSystemInformation (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter PrivIsDllSynchronizationHeld (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter GetProcessMemoryInfo (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter CoInitializeEx (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter CoUninitialize (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter GetProcessExecutableHeap (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter GetProcessExecutableHeap_RetAddr (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter CoGetContextToken (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter SysStringByteLen (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter CompareStringOrdinal (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter GetFullPathName (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter GetFullPathNameW (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter CoCreateGuid (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter GetLocaleInfoEx (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter LocaleNameToLCID (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter GetUserDefaultLocaleName (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter LCIDToLocaleName (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter GetUserPreferredUILanguages (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter SortGetHandle (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter SortCloseHandle (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter CryptGetDefaultProviderW (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter CryptAcquireContextW (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter EqualSid (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter SystemFunction036 (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter CryptGenRandom (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter GetEnabledXStateFeatures (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter sxsJitStartup (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter jitStartup (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter getJit (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter RegOpenKeyEx (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter RegisterTraceGuidsW (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter CheckTokenMembership (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter RegisterTraceGuidsA (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter CoInternetCreateSecurityManager (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter PathCreateFromUrlW (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter GetUserNameExW (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter SHGetFolderPathW (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter ConvertStringSidToSidW (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter UnregisterTraceGuids (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter CreateActCtxW (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter AddRefActCtx (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter ReleaseActCtx (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter ActivateActCtx (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter DeactivateActCtx (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter GetCurrentActCtx (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter QueryActCtxW (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetProcAddress\" with a parameter EventUnregister (UID: 00000000-00004172)",
+      "origin": "API Call",
+      "attck_id": "T1106",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1106"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "api-8",
+      "type": 6,
+      "relevance": 1,
+      "name": "Looks up procedures from modules (excluding apphelp.dll, kernel32.dll, user32.dll, gdi32.dll, ole32.dll, comctl32.dll, uxtheme.dll, oleaut32.dll, version.dll, msctfime.ime)",
+      "description": "\"15001600c03e196d@ADVAPI32.dll\"\n \"0e000f00703f196d@ADVAPI32.dll\"\n \"0e000f00cc3f196d@ADVAPI32.dll\"\n \"11001200b447196d@ADVAPI32.dll\"\n \"110012004848196d@ADVAPI32.dll\"\n \"120013008c48196d@ADVAPI32.dll\"\n \"12001300e448196d@ADVAPI32.dll\"\n \"14001500f86e196d@ADVAPI32.dll\"\n \"14001500106f196d@ADVAPI32.dll\"\n \"14001500286f196d@ADVAPI32.dll\"\n \"17001800406f196d@ADVAPI32.dll\"\n \"0d000e00586f196d@ADVAPI32.dll\"\n \"11001200686f196d@ADVAPI32.dll\"\n \"110012007c6f196d@ADVAPI32.dll\"\n \"0d000e003449196d@SHELL32.dll\"\n \"0d000e00b049196d@SHELL32.dll\"\n \"0f001000bc70196d@ADVAPI32.dll\"\n \"14001500fc70196d@ADVAPI32.dll\"\n \"140015001471196d@ADVAPI32.dll\"\n \"0c000d005c71196d@ADVAPI32.dll\"\n \"0c000d006c71196d@ADVAPI32.dll\"\n \"0e000f007c71196d@ADVAPI32.dll\"\n \"0e000f008c71196d@ADVAPI32.dll\"\n \"0b000c009c71196d@ADVAPI32.dll\"\n \"14001500d072196d@SETUPAPI.dll\"",
+      "origin": "API Call",
+      "attck_id": "T1129",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1129"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "api-122",
+      "type": 6,
+      "relevance": 3,
+      "name": "Calls an API typically used to create a directory",
+      "description": "\"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"CreateDirectoryW\" with parameter %LOCALAPPDATA%\\Microsoft\\Windows\\Caches (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"CreateDirectoryW\" with parameter %TEMP%\\ (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"CreateDirectoryW\" with parameter C:\\Users (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"CreateDirectoryW\" with parameter C:\\Users\\%OSUSER% (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"CreateDirectoryW\" with parameter %USERPROFILE%\\AppData (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"CreateDirectoryW\" with parameter %USERPROFILE%\\AppData\\Local (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"CreateDirectoryW\" with parameter %LOCALAPPDATA%\\Temp (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"CreateDirectoryW\" with parameter %TEMP%\\FutureApp (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"CreateDirectoryW\" with parameter %TEMP%\\FutureApp\\0 (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"CreateDirectoryW\" with parameter %TEMP%\\FutureApp\\1 (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"CreateDirectoryW\" with parameter %TEMP%\\FutureApp\\2 (UID: 00000000-00004412)",
+      "origin": "API Call",
+      "attck_id": "T1074.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1074/001"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "api-128",
+      "type": 6,
+      "relevance": 5,
+      "name": "Calls an API typically used to create a process",
+      "description": "\"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"CreateProcessW\" with parameter \"%TEMP%\\FutureApp\\Sibuia.exe TRUE 111 0\" - (UID: 00000000-00004412)\n \"Sibuia.exe\" called \"CreateProcessW\" with parameter \"\"%TEMP%\\FutureApp\\sibjs.exe\" TRUE 000 False cond_pkg\" - (UID: 00000000-00002688)\n \"Sibuia.exe\" called \"CreateProcessW\" with parameter \"\"%TEMP%\\FutureApp\\0\\Setup.exe\" -s\" - (UID: 00000000-00002688)",
+      "origin": "API Call",
+      "attck_id": "T1106",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1106"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "static-144",
+      "relevance": 1,
+      "name": "PE file contains COM data directory",
+      "description": "\"SibClr.dll\" has COM data directory \"IMAGE_DIRECTORY_ENTRY_COM_DESCRIPTOR\"\n \"Zip.dll\" has COM data directory \"IMAGE_DIRECTORY_ENTRY_COM_DESCRIPTOR\"\n \"039F3.tmp\" has COM data directory \"IMAGE_DIRECTORY_ENTRY_COM_DESCRIPTOR\"",
+      "origin": "Static Parser"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "static-138",
+      "relevance": 1,
+      "name": "Dotnet code contains ability to query registry",
+      "description": "Observed namespace \"Microsoft.Win32.RegistryKey\" and TypeReference \"GetSubKeyNames\" in \"SibClr.dll\"\n Observed namespace \"Microsoft.Win32.RegistryKey\" and TypeReference \"OpenSubKey\" in \"SibClr.dll\"\n Observed namespace \"Microsoft.Win32.RegistryKey\" and TypeReference \"GetValue\" in \"SibClr.dll\"",
+      "origin": "Static Parser",
+      "attck_id": "T1012",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1012"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "api-7",
+      "type": 6,
+      "relevance": 1,
+      "name": "Loads modules at runtime",
+      "description": "\"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" loaded module \"API-MS-WIN-CORE-SYNCH-L1-2-0\" at base 71170000\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" loaded module \"API-MS-WIN-CORE-FIBERS-L1-1-1\" at base 0\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" loaded module \"KERNEL32\" at base 76710000\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" loaded module \"API-MS-WIN-CORE-LOCALIZATION-L1-2-1\" at base 0\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" loaded module \"ADVAPI32.DLL\" at base 75c90000\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" loaded module \"%WINDIR%\\SYSTEM32\\PROPSYS.DLL\" at base 74330000\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" loaded module \"%WINDIR%\\SYSTEM32\\DWMAPI.DLL\" at base 742c0000\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" loaded module \"%WINDIR%\\SYSTEM32\\CRYPTBASE.DLL\" at base 756f0000\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" loaded module \"%WINDIR%\\SYSTEM32\\OLEACC.DLL\" at base 6bde0000\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" loaded module \"%WINDIR%\\SYSTEM32\\CLBCATQ.DLL\" at base 763d0000\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" loaded module \"%WINDIR%\\SYSTEM32\\NTMARTA.DLL\" at base 74c60000\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" loaded module \"%WINDIR%\\SYSTEM32\\VERSION.DLL\" at base 74c90000\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" loaded module \"%WINDIR%\\SYSTEM32\\SHFOLDER.DLL\" at base 6d3a0000\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" loaded module \"CRYPTBASE.DLL\" at base 756f0000\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" loaded module \"%WINDIR%\\SYSTEM32\\UXTHEME.DLL\" at base 745c0000\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" loaded module \"OLE32.DLL\" at base 75b30000\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" loaded module \"KERNEL32.DLL\" at base 76710000\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" loaded module \"COMCTL32.DLL\" at base 746c0000\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" loaded module \"OLEAUT32.DLL\" at base 77aa0000\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" loaded module \"SETUPAPI.DLL\" at base 76570000\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" loaded module \"RPCRT4.DLL\" at base 77590000\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" loaded module \"CLBCATQ.DLL\" at base 763d0000\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" loaded module \"NTMARTA.DLL\" at base 74c60000\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" loaded module \"API-MS-WIN-SECURITY-SDDL-L1-1-0.DLL\" at base 76290000\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" loaded module \"PROFAPI.DLL\" at base 75810000\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" loaded module \"%TEMP%\\NSNAAD0.TMP\\SIBLOG.DLL\" at base 6d070000\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" loaded module \"%WINDIR%\\SYSTEM32\\APPHELP.DLL\" at base 756a0000\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" loaded module \"API-MS-WIN-APPMODEL-RUNTIME-L1-1-2\" at base 0\n \"Sibuia.exe\" loaded module \"RPCRT4.DLL\" at base 77590000\n \"Sibuia.exe\" loaded module \"%WINDIR%\\SYSTEM32\\UXTHEME.DLL\" at base 745c0000\n \"Sibuia.exe\" loaded module \"OLE32.DLL\" at base 75b30000\n \"Sibuia.exe\" loaded module \"ADVAPI32.DLL\" at base 75c90000\n \"Sibuia.exe\" loaded module \"KERNEL32.DLL\" at base 76710000\n \"Sibuia.exe\" loaded module \"PROFAPI.DLL\" at base 75810000\n \"Sibuia.exe\" loaded module \"API-MS-WIN-APPMODEL-RUNTIME-L1-1-2\" at base 0\n \"Sibuia.exe\" loaded module \"CLBCATQ.DLL\" at base 763d0000\n \"Sibuia.exe\" loaded module \"%WINDIR%\\SYSTEM32\\UIAUTOMATIONCORE.DLL\" at base 6ab00000\n \"Sibuia.exe\" loaded module \"%WINDIR%\\SYSTEM32\\APPHELP.DLL\" at base 756a0000\n \"Sibuia.exe\" loaded module \"API-MS-WIN-CORE-SYSINFO-L1-2-1\" at base 0\n \"Sibuia.exe\" loaded module \"OLEAUT32.DLL\" at base 77aa0000\n \"sibjs.exe\" loaded module \"OLE32.DLL\" at base 75b30000\n \"sibjs.exe\" loaded module \"ADVAPI32.DLL\" at base 75c90000\n \"sibjs.exe\" loaded module \"KERNEL32.DLL\" at base 76710000\n \"sibjs.exe\" loaded module \"PROFAPI.DLL\" at base 75810000\n \"sibjs.exe\" loaded module \"API-MS-WIN-APPMODEL-RUNTIME-L1-1-2\" at base 0\n \"sibjs.exe\" loaded module \"MSCOREE.DLL\" at base 6cc20000\n \"sibjs.exe\" loaded module \"API-MS-WIN-CORE-SYNCH-L1-2-0\" at base 71170000\n \"sibjs.exe\" loaded module \"API-MS-WIN-CORE-FIBERS-L1-1-1\" at base 0\n \"sibjs.exe\" loaded module \"KERNEL32\" at base 76710000\n \"sibjs.exe\" loaded module \"API-MS-WIN-CORE-LOCALIZATION-L1-2-1\" at base 0\n \"sibjs.exe\" loaded module \"%WINDIR%\\MICROSOFT.NET\\FRAMEWORK\\V4.0.30319\\MSCOREEI.DLL\" at base 6aa70000\n \"sibjs.exe\" loaded module \"SHLWAPI.DLL\" at base 761e0000\n \"sibjs.exe\" loaded module \"API-MS-WIN-APPMODEL-RUNTIME-L1-1-2.DLL\" at base 0\n \"sibjs.exe\" loaded module \"API-MS-WIN-APPMODEL-RUNTIME-L1-1-0.DLL\" at base 0\n \"sibjs.exe\" loaded module \"VERSION.DLL\" at base 74c90000\n \"sibjs.exe\" loaded module \"%WINDIR%\\MICROSOFT.NET\\FRAMEWORK\\V4.0.30319\\CLR.DLL\" at base 69a30000\n \"sibjs.exe\" loaded module \"USER32.DLL\" at base 75e80000\n \"sibjs.exe\" loaded module \"API-MS-WIN-CORE-QUIRKS-L1-1-0.DLL\" at base 0\n \"sibjs.exe\" loaded module \"%WINDIR%\\MICROSOFT.NET\\FRAMEWORK\\V4.0.30319\\MSCOREE.DLL\" at base 0\n \"sibjs.exe\" loaded module \"%WINDIR%\\SYSTEM32\\COMBASE.DLL\" at base 0\n \"sibjs.exe\" loaded module \"PSAPI.DLL\" at base 77a60000\n \"sibjs.exe\" loaded module \"%WINDIR%\\SYSTEM32\\MSCOREE.DLL\" at base 6cc20000\n \"sibjs.exe\" loaded module \"%WINDIR%\\ASSEMBLY\\NATIVEIMAGES_V4.0.30319_32\\MSCORLIB\\36EACCFDE177C2E7B93B8DBDDE4E012A\\MSCORLIB.NI.DLL\" at base 64450000\n \"sibjs.exe\" loaded module \"%WINDIR%\\MICROSOFT.NET\\FRAMEWORK\\V4.0.30319\\OLE32.DLL\" at base 0\n \"sibjs.exe\" loaded module \"%WINDIR%\\MICROSOFT.NET\\ASSEMBLY\\GAC_32\\MSCORLIB\\V4.0_4.0.0.0__B77A5C561934E089\\OLEAUT32.DLL\" at base 0\n \"sibjs.exe\" loaded module \"OLEAUT32.DLL\" at base 77aa0000\n \"sibjs.exe\" loaded module \"%WINDIR%\\MICROSOFT.NET\\FRAMEWORK\\V4.0.30319\\NLSSORTING.DLL\" at base 6ce90000\n \"sibjs.exe\" loaded module \"CRYPTSP.DLL\" at base 75200000\n \"sibjs.exe\" loaded module \"%WINDIR%\\SYSTEM32\\RSAENH.DLL\" at base 74f90000\n \"sibjs.exe\" loaded module \"CRYPTBASE.DLL\" at base 756f0000\n \"sibjs.exe\" loaded module \"%WINDIR%\\MICROSOFT.NET\\FRAMEWORK\\V4.0.30319\\OLEAUT32.DLL\" at base 0\n \"sibjs.exe\" loaded module \"API-MS-WIN-CORE-XSTATE-L2-1-0.DLL\" at base 6cc10000\n \"sibjs.exe\" loaded module \"%WINDIR%\\MICROSOFT.NET\\FRAMEWORK\\V4.0.30319\\CLRJIT.DLL\" at base 6a930000\n \"sibjs.exe\" loaded module \"%WINDIR%\\MICROSOFT.NET\\FRAMEWORK\\V4.0.30319\\VERSION.DLL\" at base 0\n \"sibjs.exe\" loaded module \"%WINDIR%\\MICROSOFT.NET\\FRAMEWORK\\V4.0.30319\\URLMON.DLL\" at base 0\n \"sibjs.exe\" loaded module \"API-MS-WIN-DOWNLEVEL-ADVAPI32-L1-1-0.DLL\" at base 758c0000\n \"sibjs.exe\" loaded module \"URLMON.DLL\" at base 77440000\n \"sibjs.exe\" loaded module \"API-MS-WIN-DOWNLEVEL-SHLWAPI-L1-1-0.DLL\" at base 75a50000\n \"sibjs.exe\" loaded module \"SECUR32.DLL\" at base 75520000\n \"sibjs.exe\" loaded module \"SHELL32.DLL\" at base 767f0000\n \"sibjs.exe\" loaded module \"API-MS-WIN-DOWNLEVEL-ADVAPI32-L2-1-0.DLL\" at base 706b0000",
+      "origin": "API Call",
+      "attck_id": "T1129",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1129"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "api-175",
+      "type": 6,
+      "relevance": 1,
+      "name": "Calls an API typically used to load libraries",
+      "description": "\"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"LoadLibrary\" with a parameter api-ms-win-core-synch-l1-2-0 (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"LoadLibrary\" with a parameter api-ms-win-core-fibers-l1-1-1 (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"LoadLibrary\" with a parameter kernel32 (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"LoadLibrary\" with a parameter api-ms-win-core-localization-l1-2-1 (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"LoadLibrary\" with a parameter ADVAPI32.dll (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"LoadLibrary\" with a parameter propsys.dll (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"LoadLibrary\" with a parameter %WINDIR%\\system32\\PROPSYS.dll (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"LoadLibrary\" with a parameter %WINDIR%\\system32\\DWMAPI.dll (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"LoadLibrary\" with a parameter %WINDIR%\\system32\\CRYPTBASE.dll (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"LoadLibrary\" with a parameter OLEACCRC.DLL (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"LoadLibrary\" with a parameter %WINDIR%\\system32\\OLEACC.dll (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"LoadLibrary\" with a parameter %WINDIR%\\system32\\CLBCATQ.dll (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"LoadLibrary\" with a parameter %WINDIR%\\system32\\NTMARTA.dll (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"LoadLibrary\" with a parameter %WINDIR%\\system32\\VERSION.dll (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"LoadLibrary\" with a parameter %WINDIR%\\system32\\SHFOLDER.dll (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"LoadLibrary\" with a parameter %WINDIR%\\system32\\uxtheme.dll (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"LoadLibrary\" with a parameter ole32.dll (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"LoadLibrary\" with a parameter comctl32.dll (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"LoadLibrary\" with a parameter ntmarta.dll (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"LoadLibrary\" with a parameter %TEMP%\\nsnAAD0.tmp\\siblog.dll (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"LoadLibrary\" with a parameter api-ms-win-appmodel-runtime-l1-1-2 (UID: 00000000-00004412)\n \"Sibuia.exe\" called \"LoadLibrary\" with a parameter %WINDIR%\\system32\\uxtheme.dll (UID: 00000000-00002688)\n \"Sibuia.exe\" called \"LoadLibrary\" with a parameter ADVAPI32.dll (UID: 00000000-00002688)\n \"Sibuia.exe\" called \"LoadLibrary\" with a parameter api-ms-win-appmodel-runtime-l1-1-2 (UID: 00000000-00002688)\n \"Sibuia.exe\" called \"LoadLibrary\" with a parameter UIAutomationCore.dll (UID: 00000000-00002688)\n \"Sibuia.exe\" called \"LoadLibrary\" with a parameter api-ms-win-core-sysinfo-l1-2-1 (UID: 00000000-00002688)\n \"sibjs.exe\" called \"LoadLibrary\" with a parameter ADVAPI32.dll (UID: 00000000-00004172)\n \"sibjs.exe\" called \"LoadLibrary\" with a parameter api-ms-win-appmodel-runtime-l1-1-2 (UID: 00000000-00004172)\n \"sibjs.exe\" called \"LoadLibrary\" with a parameter mscoree.dll (UID: 00000000-00004172)\n \"sibjs.exe\" called \"LoadLibrary\" with a parameter api-ms-win-core-synch-l1-2-0 (UID: 00000000-00004172)\n \"sibjs.exe\" called \"LoadLibrary\" with a parameter api-ms-win-core-fibers-l1-1-1 (UID: 00000000-00004172)\n \"sibjs.exe\" called \"LoadLibrary\" with a parameter kernel32 (UID: 00000000-00004172)\n \"sibjs.exe\" called \"LoadLibrary\" with a parameter api-ms-win-core-localization-l1-2-1 (UID: 00000000-00004172)\n \"sibjs.exe\" called \"LoadLibrary\" with a parameter %WINDIR%\\Microsoft.NET\\Framework\\v4.0.30319\\mscoreei.dll (UID: 00000000-00004172)\n \"sibjs.exe\" called \"LoadLibrary\" with a parameter SHLWAPI.dll (UID: 00000000-00004172)\n \"sibjs.exe\" called \"LoadLibrary\" with a parameter api-ms-win-appmodel-runtime-l1-1-2.dll (UID: 00000000-00004172)\n \"sibjs.exe\" called \"LoadLibrary\" with a parameter api-ms-win-appmodel-runtime-l1-1-0.dll (UID: 00000000-00004172)\n \"sibjs.exe\" called \"LoadLibrary\" with a parameter VERSION.dll (UID: 00000000-00004172)\n \"sibjs.exe\" called \"LoadLibrary\" with a parameter %WINDIR%\\Microsoft.NET\\Framework\\v4.0.30319\\clr.dll (UID: 00000000-00004172)\n \"sibjs.exe\" called \"LoadLibrary\" with a parameter USER32.dll (UID: 00000000-00004172)\n \"sibjs.exe\" called \"LoadLibrary\" with a parameter api-ms-win-core-quirks-l1-1-0.dll (UID: 00000000-00004172)\n \"sibjs.exe\" called \"LoadLibrary\" with a parameter %WINDIR%\\Microsoft.NET\\Framework\\v4.0.30319\\mscoree.dll (UID: 00000000-00004172)\n \"sibjs.exe\" called \"LoadLibrary\" with a parameter %WINDIR%\\system32\\combase.dll (UID: 00000000-00004172)\n \"sibjs.exe\" called \"LoadLibrary\" with a parameter psapi.dll (UID: 00000000-00004172)\n \"sibjs.exe\" called \"LoadLibrary\" with a parameter %WINDIR%\\assembly\\NativeImages_v4.0.30319_32\\mscorlib\\36eaccfde177c2e7b93b8dbdde4e012a\\mscorlib.ni.dll (UID: 00000000-00004172)\n \"sibjs.exe\" called \"LoadLibrary\" with a parameter %WINDIR%\\Microsoft.NET\\Framework\\v4.0.30319\\ole32.dll (UID: 00000000-00004172)\n \"sibjs.exe\" called \"LoadLibrary\" with a parameter ole32.dll (UID: 00000000-00004172)\n \"sibjs.exe\" called \"LoadLibrary\" with a parameter %WINDIR%\\Microsoft.Net\\assembly\\GAC_32\\mscorlib\\v4.0_4.0.0.0__b77a5c561934e089\\oleaut32.dll (UID: 00000000-00004172)\n \"sibjs.exe\" called \"LoadLibrary\" with a parameter oleaut32.dll (UID: 00000000-00004172)\n \"sibjs.exe\" called \"LoadLibrary\" with a parameter kernel32.dll (UID: 00000000-00004172)\n \"sibjs.exe\" called \"LoadLibrary\" with a parameter %WINDIR%\\Microsoft.NET\\Framework\\v4.0.30319\\nlssorting.dll (UID: 00000000-00004172)\n \"sibjs.exe\" called \"LoadLibrary\" with a parameter CRYPTSP.dll (UID: 00000000-00004172)\n \"sibjs.exe\" called \"LoadLibrary\" with a parameter CRYPTBASE.dll (UID: 00000000-00004172)\n \"sibjs.exe\" called \"LoadLibrary\" with a parameter %WINDIR%\\Microsoft.NET\\Framework\\v4.0.30319\\OLEAUT32.dll (UID: 00000000-00004172)\n \"sibjs.exe\" called \"LoadLibrary\" with a parameter OLEAUT32.dll (UID: 00000000-00004172)\n \"sibjs.exe\" called \"LoadLibrary\" with a parameter api-ms-win-core-xstate-l2-1-0.dll (UID: 00000000-00004172)\n \"sibjs.exe\" called \"LoadLibrary\" with a parameter %WINDIR%\\Microsoft.NET\\Framework\\v4.0.30319\\clrjit.dll (UID: 00000000-00004172)\n \"sibjs.exe\" called \"LoadLibrary\" with a parameter %WINDIR%\\Microsoft.NET\\Framework\\v4.0.30319\\VERSION.dll (UID: 00000000-00004172)\n \"sibjs.exe\" called \"LoadLibrary\" with a parameter %WINDIR%\\Microsoft.Net\\assembly\\GAC_MSIL\\Microsoft.JScript\\v4.0_10.0.0.0__b03f5f7f11d50a3a\\Microsoft.JScript.dll (UID: 00000000-00004172)\n \"sibjs.exe\" called \"LoadLibrary\" with a parameter advapi32.dll (UID: 00000000-00004172)\n \"sibjs.exe\" called \"LoadLibrary\" with a parameter %WINDIR%\\Microsoft.NET\\Framework\\v4.0.30319\\urlmon.dll (UID: 00000000-00004172)\n \"sibjs.exe\" called \"LoadLibrary\" with a parameter api-ms-win-downlevel-advapi32-l1-1-0.dll (UID: 00000000-00004172)\n \"sibjs.exe\" called \"LoadLibrary\" with a parameter urlmon.dll (UID: 00000000-00004172)\n \"sibjs.exe\" called \"LoadLibrary\" with a parameter API-MS-WIN-DOWNLEVEL-SHLWAPI-L1-1-0.DLL (UID: 00000000-00004172)\n \"sibjs.exe\" called \"LoadLibrary\" with a parameter Secur32.dll (UID: 00000000-00004172)\n \"sibjs.exe\" called \"LoadLibrary\" with a parameter SHELL32.dll (UID: 00000000-00004172)\n \"sibjs.exe\" called \"LoadLibrary\" with a parameter api-ms-win-downlevel-advapi32-l2-1-0.dll (UID: 00000000-00004172)",
+      "origin": "API Call",
+      "attck_id": "T1129",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1129"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "api-22",
+      "type": 6,
+      "relevance": 1,
+      "name": "Fails to load modules at runtime",
+      "description": "\"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" failed to load missing module \"api-ms-win-core-fibers-l1-1-1\" - [base:0; Status:c0000135]\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" failed to load missing module \"api-ms-win-core-localization-l1-2-1\" - [base:0; Status:c0000135]\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" failed to load missing module \"api-ms-win-appmodel-runtime-l1-1-2\" - [base:0; Status:c0000135]\n \"Sibuia.exe\" failed to load missing module \"api-ms-win-appmodel-runtime-l1-1-2\" - [base:0; Status:c0000135]\n \"Sibuia.exe\" failed to load missing module \"api-ms-win-core-sysinfo-l1-2-1\" - [base:0; Status:c0000135]\n \"sibjs.exe\" failed to load missing module \"api-ms-win-appmodel-runtime-l1-1-2\" - [base:0; Status:c0000135]\n \"sibjs.exe\" failed to load missing module \"api-ms-win-core-fibers-l1-1-1\" - [base:0; Status:c0000135]\n \"sibjs.exe\" failed to load missing module \"api-ms-win-core-localization-l1-2-1\" - [base:0; Status:c0000135]\n \"sibjs.exe\" failed to load missing module \"api-ms-win-appmodel-runtime-l1-1-2.dll\" - [base:0; Status:c0000135]\n \"sibjs.exe\" failed to load missing module \"api-ms-win-appmodel-runtime-l1-1-0.dll\" - [base:0; Status:c0000135]\n \"sibjs.exe\" failed to load missing module \"api-ms-win-core-quirks-l1-1-0.dll\" - [base:0; Status:c0000135]\n \"sibjs.exe\" failed to load missing module \"%WINDIR%\\Microsoft.NET\\Framework\\v4.0.30319\\mscoree.dll\" - [base:0; Status:c0000135]\n \"sibjs.exe\" failed to load missing module \"%WINDIR%\\system32\\combase.dll\" - [base:0; Status:c0000135]\n \"sibjs.exe\" failed to load missing module \"%WINDIR%\\Microsoft.NET\\Framework\\v4.0.30319\\ole32.dll\" - [base:0; Status:c0000135]\n \"sibjs.exe\" failed to load missing module \"%WINDIR%\\Microsoft.Net\\assembly\\GAC_32\\mscorlib\\v4.0_4.0.0.0__b77a5c561934e089\\oleaut32.dll\" - [base:0; Status:c0000135]\n \"sibjs.exe\" failed to load missing module \"%WINDIR%\\Microsoft.NET\\Framework\\v4.0.30319\\OLEAUT32.dll\" - [base:0; Status:c0000135]\n \"sibjs.exe\" failed to load missing module \"%WINDIR%\\Microsoft.NET\\Framework\\v4.0.30319\\VERSION.dll\" - [base:0; Status:c0000135]\n \"sibjs.exe\" failed to load missing module \"%WINDIR%\\Microsoft.NET\\Framework\\v4.0.30319\\urlmon.dll\" - [base:0; Status:c0000135]",
+      "origin": "API Call",
+      "attck_id": "T1574.002",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1574/002"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "certificate-2",
+      "type": 17,
+      "relevance": 10,
+      "name": "The input sample is signed with a valid certificate",
+      "description": "The entire certificate chain of the input sample was validated successfully.",
+      "origin": "Certificate Data",
+      "attck_id": "T1553.002",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1553/002"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "module-10",
+      "type": 10,
+      "name": "Loads the RPC (Remote Procedure Call) module DLL",
+      "description": "\"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" loaded module \"%WINDIR%\\System32\\rpcrt4.dll\" at 77590000\n \"Sibuia.exe\" loaded module \"%WINDIR%\\System32\\rpcrt4.dll\" at 77590000\n \"sibjs.exe\" loaded module \"%WINDIR%\\System32\\rpcrt4.dll\" at 77590000",
+      "origin": "Loaded Module",
+      "attck_id": "T1129",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1129"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "registry-25",
+      "type": 3,
+      "relevance": 3,
+      "name": "Reads information about supported languages",
+      "description": "\"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" (Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\NLS\\CUSTOMLOCALE\"; Key: \"EN-US\")\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" (Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\NLS\\EXTENDEDLOCALE\"; Key: \"EN-US\")\n \"Sibuia.exe\" (Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\NLS\\CUSTOMLOCALE\"; Key: \"EN-US\")\n \"Sibuia.exe\" (Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\NLS\\EXTENDEDLOCALE\"; Key: \"EN-US\")\n \"sibjs.exe\" (Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\NLS\\LOCALE\"; Key: \"00000409\")\n \"sibjs.exe\" (Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\NLS\\CUSTOMLOCALE\"; Key: \"EN-US\")\n \"sibjs.exe\" (Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\NLS\\EXTENDEDLOCALE\"; Key: \"EN-US\")",
+      "origin": "Registry Access",
+      "attck_id": "T1082",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1082"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "module-7",
+      "type": 10,
+      "name": "Loads the CLR Loader DLL",
+      "description": "\"sibjs.exe\" loaded module \"%WINDIR%\\Microsoft.NET\\Framework\\v4.0.30319\\clr.dll\" at 69280000\n \"sibjs.exe\" loaded module \"%WINDIR%\\Microsoft.NET\\Framework\\v4.0.30319\\clr.dll\" at 69A30000",
+      "origin": "Loaded Module",
+      "attck_id": "T1620",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1620"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "static-80",
+      "relevance": 1,
+      "name": "PE file contains executable sections",
+      "description": "\"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24\" has an executable section named \".text\"\n \"Setup.exe\" has an executable section named \".text\"\n \"Setup.exe\" has an executable section named \".itext\"\n \"Sibuia.exe\" has an executable section named \".text\"\n \"Sibjs.exe\" has an executable section named \".text\"\n \"333.exe\" has an executable section named \".text\"\n \"siblog.dll\" has an executable section named \".text\"\n \"SibClr.dll\" has an executable section named \".text\"\n \"Zip.dll\" has an executable section named \".text\"\n \"039F3.tmp\" has an executable section named \".text\"",
+      "origin": "Static Parser"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "static-95",
+      "name": "PE file contains writable sections",
+      "description": "\"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24\" has an writable section named \".data\"\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24\" has an writable section named \".ndata\"\n \"Setup.exe\" has an writable section named \".data\"\n \"Setup.exe\" has an writable section named \".bss\"\n \"Setup.exe\" has an writable section named \".idata\"\n \"Setup.exe\" has an writable section named \".didata\"\n \"Setup.exe\" has an writable section named \".tls\"\n \"Sibuia.exe\" has an writable section named \".data\"\n \"Sibjs.exe\" has an writable section named \".data\"\n \"333.exe\" has an writable section named \".data\"\n \"333.exe\" has an writable section named \".didat\"\n \"siblog.dll\" has an writable section named \".data\"",
+      "origin": "Static Parser"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "target-103",
+      "type": 9,
+      "relevance": 3,
+      "name": "Spawns new processes that are not known child processes",
+      "description": "Spawned process \"Sibuia.exe\" with commandline \"TRUE 111 0\" (UID: 00000000-00002688)\n Spawned process \"sibjs.exe\" with commandline \"TRUE 000 False cond_pkg\" (UID: 00000000-00004172)",
+      "origin": "Monitored Target",
+      "attck_id": "T1057",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1057"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "target-67",
+      "type": 9,
+      "relevance": 10,
+      "name": "Process launched with changed environment",
+      "description": "Process \"Sibuia.exe\" (UID: 00000000-00002688) was launched with new environment variables: \"USERDNSDOMAIN=\"%OSUSER%-PC\"\"\n Process \"Sibuia.exe\" (UID: 00000000-00002688) was launched with modified environment variables: \"NUMBER_OF_PROCESSORS\"",
+      "origin": "Monitored Target",
+      "attck_id": "T1057",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1057"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "target-25",
+      "type": 9,
+      "relevance": 3,
+      "name": "Spawns new processes",
+      "description": "Spawned process \"Sibuia.exe\" with commandline \"TRUE 111 0\" (UID: 00000000-00002688)\n Spawned process \"sibjs.exe\" with commandline \"TRUE 000 False cond_pkg\" (UID: 00000000-00004172)",
+      "origin": "Monitored Target",
+      "attck_id": "T1057",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1057"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "static-125",
+      "relevance": 3,
+      "name": "PE file has a big raw size section",
+      "description": "Raw size of \".text\" is \"0x274e00\" greater than 0x100000\n Raw size of \".text\" is \"0x1a7600\" greater than 0x100000\n Raw size of \".text\" is \"0x18d800\" greater than 0x100000",
+      "origin": "Static Parser"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "static-157",
+      "name": "Matched Compiler/Packer signature (DIE)",
+      "description": "\"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24\" was detected as \"Nullsoft Scriptable Install System\"  and name: \"Installer\"\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24\" was detected as \"Microsoft Linker\"  and name: \"Linker\"\n \"Setup.exe\" was detected as \"Nullsoft Scriptable Install System\"  and name: \"Installer\"\n \"Setup.exe\" was detected as \"Microsoft Linker\"  and name: \"Linker\"\n \"Sibuia.exe\" was detected as \"Nullsoft Scriptable Install System\"  and name: \"Installer\"\n \"Sibuia.exe\" was detected as \"Microsoft Linker\"  and name: \"Linker\"\n \"Sibjs.exe\" was detected as \"Nullsoft Scriptable Install System\"  and name: \"Installer\"\n \"Sibjs.exe\" was detected as \"Microsoft Linker\"  and name: \"Linker\"\n \"333.exe\" was detected as \"Nullsoft Scriptable Install System\"  and name: \"Installer\"\n \"333.exe\" was detected as \"Microsoft Linker\"  and name: \"Linker\"\n \"siblog.dll\" was detected as \"Nullsoft Scriptable Install System\"  and name: \"Installer\"\n \"siblog.dll\" was detected as \"Microsoft Linker\"  and name: \"Linker\"\n \"SibClr.dll\" was detected as \"Nullsoft Scriptable Install System\"  and name: \"Installer\"\n \"SibClr.dll\" was detected as \"Microsoft Linker\"  and name: \"Linker\"\n \"Zip.dll\" was detected as \"Nullsoft Scriptable Install System\"  and name: \"Installer\"\n \"Zip.dll\" was detected as \"Microsoft Linker\"  and name: \"Linker\"\n \"039F3.tmp\" was detected as \"Nullsoft Scriptable Install System\"  and name: \"Installer\"\n \"039F3.tmp\" was detected as \"Microsoft Linker\"  and name: \"Linker\"",
+      "origin": "Static Parser",
+      "attck_id": "T1027",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1027"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "static-154",
+      "name": "File contains dynamic base/NX flags",
+      "description": "\"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24\" has flags like  IMAGE_DLLCHARACTERISTICS_DYNAMIC_BASE\n IMAGE_DLLCHARACTERISTICS_NX_COMPAT\n IMAGE_DLLCHARACTERISTICS_NO_SEH\n IMAGE_DLLCHARACTERISTICS_TERMINAL_SERVER_AWARE\n \"Setup.exe\" has flags like  IMAGE_DLLCHARACTERISTICS_DYNAMIC_BASE\n IMAGE_DLLCHARACTERISTICS_NX_COMPAT\n IMAGE_DLLCHARACTERISTICS_TERMINAL_SERVER_AWARE\n \"Sibuia.exe\" has flags like  IMAGE_DLLCHARACTERISTICS_DYNAMIC_BASE\n IMAGE_DLLCHARACTERISTICS_NX_COMPAT\n IMAGE_DLLCHARACTERISTICS_TERMINAL_SERVER_AWARE\n \"Sibjs.exe\" has flags like  IMAGE_DLLCHARACTERISTICS_DYNAMIC_BASE\n IMAGE_DLLCHARACTERISTICS_NX_COMPAT\n IMAGE_DLLCHARACTERISTICS_TERMINAL_SERVER_AWARE\n \"333.exe\" has flags like  IMAGE_DLLCHARACTERISTICS_DYNAMIC_BASE\n IMAGE_DLLCHARACTERISTICS_NX_COMPAT\n IMAGE_DLLCHARACTERISTICS_GUARD_CF\n IMAGE_DLLCHARACTERISTICS_TERMINAL_SERVER_AWARE\n \"siblog.dll\" has flags like  IMAGE_DLLCHARACTERISTICS_DYNAMIC_BASE\n IMAGE_DLLCHARACTERISTICS_NX_COMPAT\n \"SibClr.dll\" has flags like  IMAGE_DLLCHARACTERISTICS_DYNAMIC_BASE\n IMAGE_DLLCHARACTERISTICS_NX_COMPAT\n IMAGE_DLLCHARACTERISTICS_NO_SEH\n IMAGE_DLLCHARACTERISTICS_TERMINAL_SERVER_AWARE\n \"Zip.dll\" has flags like  IMAGE_DLLCHARACTERISTICS_DYNAMIC_BASE\n IMAGE_DLLCHARACTERISTICS_NX_COMPAT\n IMAGE_DLLCHARACTERISTICS_NO_SEH\n IMAGE_DLLCHARACTERISTICS_TERMINAL_SERVER_AWARE\n \"039F3.tmp\" has flags like  IMAGE_DLLCHARACTERISTICS_DYNAMIC_BASE\n IMAGE_DLLCHARACTERISTICS_NX_COMPAT\n IMAGE_DLLCHARACTERISTICS_NO_SEH\n IMAGE_DLLCHARACTERISTICS_TERMINAL_SERVER_AWARE",
+      "origin": "Static Parser"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "static-146",
+      "name": "PE file contains Debug data directory",
+      "description": "\"Sibuia.exe\" has Debug data directory \"IMAGE_DIRECTORY_ENTRY_DEBUG\"\n \"Sibjs.exe\" has Debug data directory \"IMAGE_DIRECTORY_ENTRY_DEBUG\"\n \"333.exe\" has Debug data directory \"IMAGE_DIRECTORY_ENTRY_DEBUG\"\n \"siblog.dll\" has Debug data directory \"IMAGE_DIRECTORY_ENTRY_DEBUG\"\n \"SibClr.dll\" has Debug data directory \"IMAGE_DIRECTORY_ENTRY_DEBUG\"\n \"Zip.dll\" has Debug data directory \"IMAGE_DIRECTORY_ENTRY_DEBUG\"",
+      "origin": "Static Parser"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "static-124",
+      "relevance": 3,
+      "name": "PE file has a big virtual size section",
+      "description": "Virtual size of \".text\" is \"0x274c18\" greater than 0x100000\n Virtual size of \".text\" is \"0x1a7443\" greater than 0x100000\n Virtual size of \".text\" is \"0x18d7f3\" greater than 0x100000",
+      "origin": "Static Parser"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "static-145",
+      "relevance": 1,
+      "name": "PE file contains large number of import functions",
+      "description": "Observed large number of imported APIs from \"USER32.dll\" : \"224\" [Source: Sibuia.exe]\n Observed large number of imported APIs from \"USER32.dll\" : \"219\" [Source: Sibjs.exe]",
+      "origin": "Static Parser",
+      "attck_id": "T1106",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1106"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "static-139",
+      "relevance": 1,
+      "name": "Dotnet code contains ability to modify/delete registry",
+      "description": "Observed namespace \"Microsoft.Win32.RegistryKey\" and TypeReference \"SetValue\" in \"SibClr.dll\"\n Observed namespace \"Microsoft.Win32.RegistryKey\" and TypeReference \"DeleteSubKey\" in \"SibClr.dll\"\n Observed namespace \"Microsoft.Win32.RegistryKey\" and TypeReference \"DeleteValue\" in \"SibClr.dll\"",
+      "origin": "Static Parser",
+      "attck_id": "T1112",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1112"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Unusual Characteristics",
+      "identifier": "static-18",
+      "relevance": 10,
+      "name": "Matched Compiler/Packer signature",
+      "description": "\"Setup.exe\" was detected as \"BobSoft Mini Delphi -> BoB / BobSoft\"\n \"Sibuia.exe\" was detected as \"VC8 -> Microsoft Corporation\"\n \"Sibjs.exe\" was detected as \"VC8 -> Microsoft Corporation\"\n \"333.exe\" was detected as \"VC8 -> Microsoft Corporation\"\n \"siblog.dll\" was detected as \"Borland Delphi 3.0 (???)\"\n \"SibClr.dll\" was detected as \"Microsoft visual C# / Basic .NET\"\n \"Zip.dll\" was detected as \"Microsoft visual C# / Basic .NET\"\n \"039F3.tmp\" was detected as \"Microsoft visual C# v7.0 / Basic .NET\"",
+      "origin": "Static Parser",
+      "attck_id": "T1027.002",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1027/002"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Unusual Characteristics",
+      "identifier": "registry-26",
+      "type": 3,
+      "relevance": 2,
+      "name": "Reads the windows installation language",
+      "description": "\"sibjs.exe\" (Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\NLS\\LANGUAGE GROUPS\"; Key: \"1\")",
+      "origin": "Registry Access",
+      "attck_id": "T1614.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1614/001"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Unusual Characteristics",
+      "identifier": "binary-33",
+      "type": 8,
+      "relevance": 3,
+      "name": "Drops executable files inside temp directory",
+      "description": "\"Setup.exe\" has type \"PE32 executable (GUI) Intel 80386 for MS Windows\"- Location: [%TEMP%\\FutureApp\\0\\Setup.exe]- [targetUID: 00000000-00002688]\n \"Sibuia.exe\" has type \"PE32 executable (console) Intel 80386 for MS Windows\"- Location: [%TEMP%\\FutureApp\\Sibuia.exe]- [targetUID: 00000000-00004412]\n \"Sibjs.exe\" has type \"PE32 executable (console) Intel 80386 for MS Windows\"- Location: [%TEMP%\\FutureApp\\Sibjs.exe]- [targetUID: 00000000-00002688]\n \"Ionic.Zip.dll\" has type \"PE32 executable (DLL) (console) Intel 80386 Mono/.Net assembly for MS Windows\"- Location: [%TEMP%\\FutureApp\\Ionic.Zip.dll]- [targetUID: 00000000-00004412]\n \"333.exe\" has type \"PE32 executable (GUI) Intel 80386 for MS Windows\"- Location: [%TEMP%\\FutureApp\\1\\333.exe]- [targetUID: 00000000-00004412]\n \"siblog.dll\" has type \"PE32 executable (DLL) (GUI) Intel 80386 for MS Windows\"- Location: [%TEMP%\\nsnAAD0.tmp\\siblog.dll]- [targetUID: 00000000-00004412]\n \"SibClr.dll\" has type \"PE32 executable (DLL) (console) Intel 80386 Mono/.Net assembly for MS Windows\"- Location: [%TEMP%\\FutureApp\\SibClr.dll]- [targetUID: 00000000-00004172]\n \"Zip.dll\" has type \"PE32 executable (DLL) (console) Intel 80386 Mono/.Net assembly for MS Windows\"- Location: [%TEMP%\\FutureApp\\Zip.dll]- [targetUID: 00000000-00004412]\n \"039F3.tmp\" has type \"PE32 executable (DLL) (console) Intel 80386 Mono/.Net assembly for MS Windows\"- Location: [%TEMP%\\FutureApp\\039F3.tmp]- [targetUID: 00000000-00004412]",
+      "origin": "Binary File",
+      "attck_id": "T1105",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1105"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "api-126",
+      "type": 6,
+      "relevance": 3,
+      "name": "Tries to access non-existent files (executable)",
+      "description": "\"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" trying to access non-existent file \"C:\\FLTLIB.DLL\"\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" trying to access non-existent file \"C:\\Windows\\system32\\api-ms-win-core-fibers-l1-1-1.DLL\"\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" trying to access non-existent file \"C:\\Windows\\system32\\api-ms-win-core-localization-l1-2-1.DLL\"\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" trying to access non-existent file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\0\\Setup.exe\"\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" trying to access non-existent file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\1\\333.exe\"\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" trying to access non-existent file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\Sibuia.exe\"\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" trying to access non-existent file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\Sibjs.exe\"\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" trying to access non-existent file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\SibClr.dll\"\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" trying to access non-existent file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\Zip.dll\"\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" trying to access non-existent file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\Ionic.Zip.dll\"\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" trying to access non-existent file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\nsnAAD0.tmp\\siblog.dll\"",
+      "origin": "API Call",
+      "attck_id": "T1083",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1083"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "api-264",
+      "type": 6,
+      "relevance": 3,
+      "name": "Creates a thread in a self process",
+      "description": "\"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" creates a thread in process \"-1\" (Handle: 4294967295)\n \"Sibuia.exe\" creates a thread in process \"-1\" (Handle: 4294967295)\n \"sibjs.exe\" creates a thread in process \"-1\" (Handle: 4294967295)",
+      "origin": "API Call",
+      "attck_id": "T1055.003",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055/003"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "api-243",
+      "type": 6,
+      "relevance": 1,
+      "name": "Reads files",
+      "description": "\"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" reads file \"c:\\users\\%osuser%\\desktop\\desktop.ini\"\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" reads file \"c:\\fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\"",
+      "origin": "API Call",
+      "attck_id": "T1083",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1083"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "registry-177",
+      "type": 3,
+      "relevance": 1,
+      "name": "Opens registry keys",
+      "description": "\"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" (Access type: \"OPEN\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\SIDEBYSIDE\"; Key: \"\"; Value: \"\")\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" (Access type: \"OPEN\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\RPC\"; Key: \"\"; Value: \"\")\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" (Access type: \"OPEN\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\COMPUTERNAME\\ACTIVECOMPUTERNAME\"; Key: \"\"; Value: \"\")\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" (Access type: \"OPEN\"; Path: \"HKLM\\SYSTEM\\SETUP\"; Key: \"\"; Value: \"\")\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" (Access type: \"OPEN\"; Path: \"HKLM\\SOFTWARE\\POLICIES\\MICROSOFT\\WINDOWS NT\\RPC\"; Key: \"\"; Value: \"\")\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" (Access type: \"OPEN\"; Path: \"HKLM\\SOFTWARE\\POLICIES\\MICROSOFT\\SQMCLIENT\\WINDOWS\"; Key: \"\"; Value: \"\")\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" (Access type: \"OPEN\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\EXPLORER\\MOUNTPOINTS2\\CPC\\VOLUME\"; Key: \"\"; Value: \"\")\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" (Access type: \"OPEN\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\EXPLORER\\MOUNTPOINTS2\\CPC\\VOLUME\\{DCBFAAC3-D863-11E7-B9FF-806E6F6E6963}\\\"; Key: \"\"; Value: \"\")\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" (Access type: \"OPEN\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\EXPLORER\\MOUNTPOINTS2\\CPC\\VOLUME\\{DCBFAAC4-D863-11E7-B9FF-806E6F6E6963}\\\"; Key: \"\"; Value: \"\")\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" (Access type: \"OPEN\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\SESSION MANAGER\"; Key: \"\"; Value: \"\")\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" (Access type: \"OPEN\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\SAFEBOOT\\OPTION\"; Key: \"\"; Value: \"\")\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" (Access type: \"OPEN\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\SRP\\GP\\DLL\"; Key: \"\"; Value: \"\")\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" (Access type: \"OPEN\"; Path: \"HKLM\\SOFTWARE\\POLICIES\\MICROSOFT\\WINDOWS\\SAFER\\CODEIDENTIFIERS\"; Key: \"\"; Value: \"\")\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" (Access type: \"OPEN\"; Path: \"HKCU\\SOFTWARE\\POLICIES\\MICROSOFT\\WINDOWS\\SAFER\\CODEIDENTIFIERS\"; Key: \"\"; Value: \"\")",
+      "origin": "Registry Access",
+      "attck_id": "T1012",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1012"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "api-263",
+      "type": 6,
+      "relevance": 1,
+      "name": "Touches files",
+      "description": "\"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" trying to touch file \"C:\\Windows\\SYSTEM32\\sechost.dll\"\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" trying to touch file \"C:\\fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe.Local\\\"\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" trying to touch file \"C:\\Windows\\WinSxS\\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.7601.18837_none_ec86b8d6858ec0bc\"\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" trying to touch file \"C:\\Windows\\WinSxS\\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.7601.18837_none_ec86b8d6858ec0bc\\COMCTL32.dll\"\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" trying to touch file \"C:\\Windows\\system32\\IMM32.DLL\"\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" trying to touch file \"C:\\Windows\\system32\\UXTHEME.dll\"\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" trying to touch file \"C:\\Windows\\system32\\USERENV.dll\"\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" trying to touch file \"C:\\Windows\\system32\\SETUPAPI.dll\"\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" trying to touch file \"C:\\Windows\\Temp\\VxSSL32.dll\"\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" trying to touch file \"C:\\FLTLIB.DLL\"\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" trying to touch file \"C:\\Windows\\system32\\FLTLIB.DLL\"\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" trying to touch file \"C:\\Windows\\system32\\api-ms-win-core-synch-l1-2-0.DLL\"\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" trying to touch file \"C:\\Windows\\system32\\api-ms-win-core-fibers-l1-1-1.DLL\"\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" trying to touch file \"C:\\Windows\\system32\\api-ms-win-core-localization-l1-2-1.DLL\"\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" trying to touch file \"C:\\Windows\\system32\\APPHELP.dll\"\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" trying to touch file \"C:\\Windows\\Temp\\VxOle32.dll\"\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" trying to touch file \"\\FileSystem\\Filters\\FltMgrMsg\"\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" trying to touch file \"C:\\Windows\\system32\\PROPSYS.dll\"\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" trying to touch file \"C:\\Windows\\system32\\DWMAPI.dll\"",
+      "origin": "API Call",
+      "attck_id": "T1083",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1083"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "api-161",
+      "type": 6,
+      "relevance": 3,
+      "name": "Tries to access non-existent files (non-executable)",
+      "description": "\"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" trying to access non-existent file \"C:\\fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe.Local\\\"\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" trying to access non-existent file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\2\\babka.cmd\"\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" trying to access non-existent file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\039F3.tmp\"\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" trying to access non-existent file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\039F4.tmp\"\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" trying to access non-existent file \"C:\\FA84AACA643D68422484D8C78E900D06102D0FBFF57598755E97705BFE419C24.EXE.LOCAL\"\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" trying to access non-existent file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\2\\BABKA.CMD\"\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" trying to access non-existent file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\039F3.TMP\"\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" trying to access non-existent file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\039F4.TMP\"\n \"Sibuia.exe\" trying to access non-existent file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\WINSPOOL.DRV\"\n \"Sibuia.exe\" trying to access non-existent file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\Sibuia.exe.Local\\\"\n \"Sibuia.exe\" trying to access non-existent file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\SIBUIA.EXE.LOCAL\"\n \"sibjs.exe\" trying to access non-existent file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\WINSPOOL.DRV\"\n \"sibjs.exe\" trying to access non-existent file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\sibjs.exe.Local\\\"\n \"sibjs.exe\" trying to access non-existent file \"C:\\Windows\\system32\\mscoree.dll.local\"\n \"sibjs.exe\" trying to access non-existent file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\sibjs.exe.config\"",
+      "origin": "API Call",
+      "attck_id": "T1083",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1083"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "api-16",
+      "type": 6,
+      "relevance": 1,
+      "name": "Connects to LPC ports",
+      "description": "\"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" connecting to \"\\ThemeApiPort\"\n \"Sibuia.exe\" connecting to \"\\ThemeApiPort\"\n \"sibjs.exe\" connecting to \"\\ThemeApiPort\"",
+      "origin": "API Call",
+      "attck_id": "T1559",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1559"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "api-242",
+      "type": 6,
+      "relevance": 1,
+      "name": "Writes files",
+      "description": "\"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" writes file \"c:\\users\\%osuser%\\appdata\\local\\temp\\futureapp\\0\\setup.exe\"",
+      "origin": "API Call"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "api-55",
+      "type": 6,
+      "relevance": 7,
+      "name": "Touches files in the Windows directory",
+      "description": "\"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" touched file \"C:\\Windows\\AppPatch\\sysmain.sdb\"\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" touched file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Caches\"\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" touched file \"%LOCALAPPDATA%\\Microsoft\\Windows\\Caches\"\n \"Sibuia.exe\" touched file \"C:\\Windows\\AppPatch\\sysmain.sdb\"\n \"sibjs.exe\" touched file \"C:\\Windows\\Microsoft.NET\\Framework\\v1.0.3705\\clr.dll\"\n \"sibjs.exe\" touched file \"C:\\Windows\\Microsoft.NET\\Framework\\v1.0.3705\\mscorwks.dll\"\n \"sibjs.exe\" touched file \"C:\\Windows\\Microsoft.NET\\Framework\\v1.1.4322\\clr.dll\"\n \"sibjs.exe\" touched file \"C:\\Windows\\Microsoft.NET\\Framework\\v1.1.4322\\mscorwks.dll\"\n \"sibjs.exe\" touched file \"C:\\Windows\\Microsoft.NET\\Framework\\v2.0.50727\\clr.dll\"",
+      "origin": "API Call",
+      "attck_id": "T1083",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1083"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "registry-172",
+      "type": 3,
+      "relevance": 1,
+      "name": "Queries registry keys",
+      "description": "\"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\SIDEBYSIDE\"; Key: \"PREFEREXTERNALMANIFEST\"; Value: \"\")\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\RPC\"; Key: \"MAXRPCSIZE\"; Value: \"\")\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\COMPUTERNAME\\ACTIVECOMPUTERNAME\"; Key: \"COMPUTERNAME\"; Value: \"\")\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\SETUP\"; Key: \"OOBEINPROGRESS\"; Value: \"\")\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\SETUP\"; Key: \"SYSTEMSETUPINPROGRESS\"; Value: \"\")\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\POLICIES\\MICROSOFT\\SQMCLIENT\\WINDOWS\"; Key: \"CEIPENABLE\"; Value: \"\")\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" (Access type: \"QUERYVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\EXPLORER\\MOUNTPOINTS2\\CPC\\VOLUME\\{DCBFAAC3-D863-11E7-B9FF-806E6F6E6963}\"; Key: \"DATA\"; Value: \"\")\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" (Access type: \"QUERYVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\EXPLORER\\MOUNTPOINTS2\\CPC\\VOLUME\\{DCBFAAC3-D863-11E7-B9FF-806E6F6E6963}\"; Key: \"GENERATION\"; Value: \"\")\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" (Access type: \"QUERYVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\EXPLORER\\MOUNTPOINTS2\\CPC\\VOLUME\\{DCBFAAC4-D863-11E7-B9FF-806E6F6E6963}\"; Key: \"DATA\"; Value: \"\")\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" (Access type: \"QUERYVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\EXPLORER\\MOUNTPOINTS2\\CPC\\VOLUME\\{DCBFAAC4-D863-11E7-B9FF-806E6F6E6963}\"; Key: \"GENERATION\"; Value: \"\")\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\SESSION MANAGER\"; Key: \"CWDILLEGALINDLLSEARCH\"; Value: \"\")\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\POLICIES\\MICROSOFT\\WINDOWS\\SAFER\\CODEIDENTIFIERS\"; Key: \"TRANSPARENTENABLED\"; Value: \"\")\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\NLS\\SORTING\\VERSIONS\"; Key: \"COMPATDLL\"; Value: \"\")\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\NLS\\SORTING\\VERSIONS\"; Key: \"00060101.00060101\"; Value: \"\")\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\NLS\\SORTING\\VERSIONS\"; Key: \"\"; Value: \"\")\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\SESSION MANAGER\"; Key: \"SAFEDLLSEARCHMODE\"; Value: \"\")\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\WINDOWS NT\\CURRENTVERSION\\GRE_INITIALIZE\"; Key: \"DISABLEMETAFILES\"; Value: \"\")\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\WINDOWS NT\\CURRENTVERSION\\COMPATIBILITY32\"; Key: \"FA84AACA643D68422484D8C78E900D06102D0FBFF57598755E97705BFE419C24\"; Value: \"\")\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" (Access type: \"QUERYVAL\"; Path: \"HKCU\\CONTROL PANEL\\DESKTOP\"; Key: \"PREFERREDUILANGUAGES\"; Value: \"\")\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" (Access type: \"QUERYVAL\"; Path: \"HKCU\\CONTROL PANEL\\DESKTOP\\MUICACHED\"; Key: \"MACHINEPREFERREDUILANGUAGES\"; Value: \"\")\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\WINDOWS NT\\CURRENTVERSION\\WINDOWS\"; Key: \"LOADAPPINIT_DLLS\"; Value: \"\")",
+      "origin": "Registry Access",
+      "attck_id": "T1012",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1012"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "binary-0",
+      "type": 8,
+      "relevance": 3,
+      "name": "Dropped files",
+      "description": "\"Setup.exe\" has type \"PE32 executable (GUI) Intel 80386 for MS Windows\"- Location: [%TEMP%\\FutureApp\\0\\Setup.exe]- [targetUID: 00000000-00002688]\n \"Sibuia.exe\" has type \"PE32 executable (console) Intel 80386 for MS Windows\"- Location: [%TEMP%\\FutureApp\\Sibuia.exe]- [targetUID: 00000000-00004412]\n \"Sibjs.exe\" has type \"PE32 executable (console) Intel 80386 for MS Windows\"- Location: [%TEMP%\\FutureApp\\Sibjs.exe]- [targetUID: 00000000-00002688]\n \"Ionic.Zip.dll\" has type \"PE32 executable (DLL) (console) Intel 80386 Mono/.Net assembly for MS Windows\"- Location: [%TEMP%\\FutureApp\\Ionic.Zip.dll]- [targetUID: 00000000-00004412]\n \"333.exe\" has type \"PE32 executable (GUI) Intel 80386 for MS Windows\"- Location: [%TEMP%\\FutureApp\\1\\333.exe]- [targetUID: 00000000-00004412]\n \"siblog.dll\" has type \"PE32 executable (DLL) (GUI) Intel 80386 for MS Windows\"- Location: [%TEMP%\\nsnAAD0.tmp\\siblog.dll]- [targetUID: 00000000-00004412]\n \"SibClr.dll\" has type \"PE32 executable (DLL) (console) Intel 80386 Mono/.Net assembly for MS Windows\"- Location: [%TEMP%\\FutureApp\\SibClr.dll]- [targetUID: 00000000-00004172]\n \"Zip.dll\" has type \"PE32 executable (DLL) (console) Intel 80386 Mono/.Net assembly for MS Windows\"- Location: [%TEMP%\\FutureApp\\Zip.dll]- [targetUID: 00000000-00004412]\n \"babka.cmd\" has type \"DOS batch file ASCII text with CRLF line terminators\"- Location: [%TEMP%\\FutureApp\\2\\babka.cmd]- [targetUID: 00000000-00004412]\n \"039F4.tmp\" has type \"data\"- Location: [%TEMP%\\FutureApp\\039F4.tmp]- [targetUID: 00000000-00004412]\n \"039F3.tmp\" has type \"PE32 executable (DLL) (console) Intel 80386 Mono/.Net assembly for MS Windows\"- Location: [%TEMP%\\FutureApp\\039F3.tmp]- [targetUID: 00000000-00004412]",
+      "origin": "Binary File",
+      "attck_id": "T1105",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1105"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "binary-53",
+      "type": 8,
+      "relevance": 1,
+      "name": "Drops temp files",
+      "description": "\"039F4.tmp\" has type \"data\" - Location: [%TEMP%\\FutureApp\\039F4.tmp]\n \"039F3.tmp\" has type \"PE32 executable (DLL) (console) Intel 80386 Mono/.Net assembly for MS Windows\" - Location: [%TEMP%\\FutureApp\\039F3.tmp]",
+      "origin": "Binary File",
+      "attck_id": "T1105",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1105"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Anti-Detection/Stealthyness",
+      "identifier": "api-162",
+      "type": 6,
+      "relevance": 1,
+      "name": "Renames files",
+      "description": "\"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" renamed original file\"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\039F3.tmp\" to \"%TEMP%\\FutureApp\\SibCa.dll\"\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" renamed original file\"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\039F4.tmp\" to \"%TEMP%\\FutureApp\\sib.dat\"",
+      "origin": "API Call",
+      "attck_id": "T1036",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1036"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Anti-Detection/Stealthyness",
+      "identifier": "static-135",
+      "relevance": 1,
+      "name": "Dotnet file contains function to dynamically call methods at runtime",
+      "description": "Observed namespace \"System\" and MemberReference \"GetMethod\" in \"SibClr.dll\"",
+      "origin": "Static Parser",
+      "attck_id": "T1027.002",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1027/002"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Anti-Detection/Stealthyness",
+      "identifier": "registry-179",
+      "type": 3,
+      "relevance": 1,
+      "name": "Tries to map intranet network resources to internet zone",
+      "description": "\"sibjs.exe\" (Access type: \"SETVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\INTERNET SETTINGS\\ZONEMAP\"; Key: \"UNCASINTRANET\"; Value: \"00000000\")",
+      "origin": "Registry Access",
+      "attck_id": "T1562.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1562/001"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Anti-Detection/Stealthyness",
+      "identifier": "api-139",
+      "type": 6,
+      "relevance": 3,
+      "name": "Calls an API typically used to load a resource in memory",
+      "description": "\"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"LoadResource with parameter {'hModule': '4194304', 'hResInfo': '4510312'}\" (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"LoadResource with parameter {'hModule': '4194304', 'hResInfo': '4510184'}\" (UID: 00000000-00004412)",
+      "origin": "API Call",
+      "attck_id": "T1106",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1106"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Anti-Detection/Stealthyness",
+      "identifier": "api-121",
+      "type": 6,
+      "relevance": 3,
+      "name": "Calls an API typically used to remove a directory",
+      "description": "\"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"RemoveDirectoryW\" with parameter %TEMP%\\FutureApp\\0\\ (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"RemoveDirectoryW\" with parameter %TEMP%\\FutureApp\\1\\ (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"RemoveDirectoryW\" with parameter %TEMP%\\FutureApp\\2\\ (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"RemoveDirectoryW\" with parameter %TEMP%\\nsnAAD0.tmp\\ (UID: 00000000-00004412)",
+      "origin": "API Call",
+      "attck_id": "T1070.004",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1070/004"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Anti-Detection/Stealthyness",
+      "identifier": "static-115",
+      "relevance": 1,
+      "name": "Dotnet code contains potential unpacker",
+      "description": "Observed function  \"System.Reflection.LoadFrom\" in \"SibClr.dll\"",
+      "origin": "Static Parser",
+      "attck_id": "T1620",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1620"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Anti-Reverse Engineering",
+      "identifier": "static-5",
+      "relevance": 10,
+      "name": "PE file contains zero-size sections",
+      "description": "Raw size of \".ndata\" is zero\n Raw size of \".bss\" is zero\n Raw size of \".tls\" is zero",
+      "origin": "Static Parser",
+      "attck_id": "T1027",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1027"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Environment Awareness",
+      "identifier": "api-222",
+      "type": 6,
+      "relevance": 2,
+      "name": "Calls an API typically used to retrieve OS information",
+      "description": "\"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"GetVersionExA\" with parameter 9c0000000600000001000000b11d00000200000053657276696365205061636b2031000000000000000000000200000000000000d8eb2776a0c165000080fd7f9a5c957700f0fd7f70f412004480fd7f00000000400000003f0000001d0000000080fd7f64f41200c15c957760829c771d0000000080fd7f9a5c957700f0fd7f88f412005789947780839c771317a175d8eb2776 (UID: 00000000-00004412)\n \"sibjs.exe\" called \"GetVersionExA\" with parameter 940000000600000001000000b11d00000200000053657276696365205061636b203100007c54620000000000000074002e004e00450054005c004600720061006d00650077006f0072006b005c00760034002e0030002e00330030003300310039005c0063006f006e006600690067005c006d0061006300680069006e0065002e0063006f006e00660069006700000033003200 (UID: 00000000-00004172)\n \"sibjs.exe\" called \"GetVersionExA\" with parameter 9c0000000600000001000000b11d00000200000053657276696365205061636b2031000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 (UID: 00000000-00004172)",
+      "origin": "API Call",
+      "attck_id": "T1082",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1082"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Environment Awareness",
+      "identifier": "api-125",
+      "type": 6,
+      "relevance": 3,
+      "name": "Calls an API typically used to get system version information",
+      "description": "\"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"RtlGetVersion\" with parameter 140100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b0020003100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"RtlGetVersion\" with parameter 1c0100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b0020003100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"RtlGetVersion\" with parameter 140100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b00200031000000590018f5120095e1907757032500feffffffff2b94779a2a94774411e16b000000000000000024f312002c325c77c0f31200c83ae77534f41200d58cdf7570f4120004f4120042a4dd75a802e77544f41200d2f4dd75080000006ef5dd7544f5dd75fb5f473602000000341ade6b000013005b51de6b02000000000000004411e16b989365004411e16b000000009893650088f41200086d947718819c7701000000000000000000de6b341ade6b000013005b51de6bd42c5900d02c590058f4120098f4120018f5120091e1e06b7ef0c8429cf41200c89f94774411e16b00000000 (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"RtlGetVersion\" with parameter 1c0100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b00200031000000340032003200340038003400640038006300370038006500390030003000640030003600310030003200640030006600620066006600350037003500390038003700350035006500390037003700300035006200660065003400310039006300320034002e00650078006500000000000000000000000000000000000000000000000000000000000000ff2b9477f7eca377d8eb2776ac01620000006200000000000000000026003e00bd0000000000000000000000000000000000000027003900bd00000000000000000000001870620000000000200000000000000000000000 (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"RtlGetVersion\" with parameter 1c0100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b00200031000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000007b00370035003800340037003100370037002d0046003000370037002d0034003100370031002d0042004400320043002d0041003600420042003200310036007a724736f4da12006d821f76f479670004010000 (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"RtlGetVersion\" with parameter 140100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b002000310000006700f07a6700eb7a67000000000000000000000062000000000104d112000000000068de120095e190776f0d2500feffffff435c947750599477aa000000b8000000ea7a6700e87a67008cd21200c4d61200000000000000000000000000000000000000000000000000e0100000000062001c5c937760d8a075ffffffff170000003cd2120024000000030000002cd7120058dc1200c4d612008600000068d2120096ed9477127b6700a06a6a75860000008cd21200c4d612000000000086008800a06a6a758cd21200916c6a75127b6700a06a6a75a06a6a75fcd6120002020000 (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"RtlGetVersion\" with parameter 000000000600000001000000b11d000002000000530065007200760069006300650020005000610063006b0020003100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 (UID: 00000000-00004412)\n \"Sibuia.exe\" called \"RtlGetVersion\" with parameter 1c0100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b0020003100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 (UID: 00000000-00002688)\n \"Sibuia.exe\" called \"RtlGetVersion\" with parameter 140100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b0020003100000000003c11000080889c77586f5b0021000000c0e4b50176617476ffffffff0000b06aa8617476d321e32818e6b5010000b06a01000000d06f5b00d06e5b00d86f5b00d86e5b009c889c77e06f5b000000b06a8253b06a00c00800500052002099610028002a0048996100044000000100000030c69c778c5c5b001ddb5b4a0000000000000000a06f5b00a06f5b00a86f5b00a86f5b0078d86100a0d761008c0196770000371416ce03d3fa93db010000b06a00c008008253b06ab077214310e4b501c75bb06a38e5b501c2a27b76a3a4225ffeffffffbcc82428e8e4b5016f52b06a (UID: 00000000-00002688)\n \"Sibuia.exe\" called \"RtlGetVersion\" with parameter 140100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b00200031000000620060b262005bb26200000000000000000000005900000000013cdab50100000000a0e7b50195e1907743222500feffffff435c947750599477aa000000b80000005ab2620058b26200c4dbb501fcdfb50100000000000000000000000000000000000000000000000000000000000000001c5c937760d8a075ffffffff1700000074dbb501240000000300000064e0b50190e5b501fcdfb50186000000a0dbb50196ed947782b26200a06a6a7586000000c4dbb501fcdfb5010000000086008800a06a6a75c4dbb501916c6a7582b26200a06a6a75a06a6a7534e0b50102020000 (UID: 00000000-00002688)\n \"Sibuia.exe\" called \"RtlGetVersion\" with parameter 000000000600000001000000b11d000002000000530065007200760069006300650020005000610063006b0020003100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 (UID: 00000000-00002688)\n \"sibjs.exe\" called \"RtlGetVersion\" with parameter 140100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b0020003100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 (UID: 00000000-00004172)\n \"sibjs.exe\" called \"RtlGetVersion\" with parameter 1c0100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b0020003100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 (UID: 00000000-00004172)\n \"sibjs.exe\" called \"RtlGetVersion\" with parameter 1c0100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b002000310000005d000000000054305d0000000000750000000000000030305d0009000000c08f6200000000008900000000000000800000000000000000000000000000000000000000000000030000038841620024310015000000000000000000000000ff0700000000000024310015c08f62000100000000000000020000000c00000050546200505462004b546200000000000000000000005d000000000188f5830000000000a8fb830095e19077c0242500feffffff435c94775059947794000000a00000004a54620048546200940000002cf78300fdfe75760000000018000000e76ad729 (UID: 00000000-00004172)",
+      "origin": "API Call",
+      "attck_id": "T1082",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1082"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Environment Awareness",
+      "identifier": "static-189",
+      "relevance": 5,
+      "name": "Calls an APIs used to retrieve process information",
+      "description": "Observed import api \"OpenProcessToken\" which can be \"used to retrieve process information\" [Source: fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24]\n Observed import api \"OpenProcessToken\" which can be \"used to retrieve process information\" [Source: Setup.exe]\n Observed import api \"OpenProcessToken\" which can be \"used to retrieve process information\" [Source: Sibuia.exe]\n Observed import api \"OpenProcessToken\" which can be \"used to retrieve process information\" [Source: Sibjs.exe]",
+      "origin": "Static Parser",
+      "attck_id": "T1057",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1057"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Environment Awareness",
+      "identifier": "static-183",
+      "relevance": 1,
+      "name": "Calls APIs used for find file/directory path",
+      "description": "Observed import api PathFindFileName (Source: Sibuia.exe)\n Observed import api PathFindFileName (Source: Sibjs.exe)",
+      "origin": "Static Parser",
+      "attck_id": "T1083",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1083"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Environment Awareness",
+      "identifier": "api-146",
+      "type": 6,
+      "relevance": 3,
+      "name": "Calls an API typically used to determine if process is running under WOW64",
+      "description": "\"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"IsWow64Process\" with parameter \"4412\" - (UID: 00000000-00004412)\n \"Sibuia.exe\" called \"IsWow64Process\" with parameter \"2688\" - (UID: 00000000-00002688)\n \"sibjs.exe\" called \"IsWow64Process\" with parameter \"4172\" - (UID: 00000000-00004172)",
+      "origin": "API Call",
+      "attck_id": "T1057",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1057"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Environment Awareness",
+      "identifier": "api-124",
+      "type": 6,
+      "relevance": 3,
+      "name": "Calls an API typically used to get product type",
+      "description": "\"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"RtlGetNtProductType\" with parameter 01000000 (UID: 00000000-00004412)\n \"Sibuia.exe\" called \"RtlGetNtProductType\" with parameter 01000000 (UID: 00000000-00002688)\n \"sibjs.exe\" called \"RtlGetNtProductType\" with parameter 01000000 (UID: 00000000-00004172)",
+      "origin": "API Call",
+      "attck_id": "T1082",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1082"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Environment Awareness",
+      "identifier": "registry-35",
+      "type": 3,
+      "relevance": 5,
+      "name": "Reads the active computer name",
+      "description": "\"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" (Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\COMPUTERNAME\\ACTIVECOMPUTERNAME\"; Key: \"COMPUTERNAME\")\n \"Sibuia.exe\" (Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\COMPUTERNAME\\ACTIVECOMPUTERNAME\"; Key: \"COMPUTERNAME\")\n \"sibjs.exe\" (Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\COMPUTERNAME\\ACTIVECOMPUTERNAME\"; Key: \"COMPUTERNAME\")",
+      "origin": "Registry Access",
+      "attck_id": "T1082",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1082"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Environment Awareness",
+      "identifier": "api-11",
+      "type": 6,
+      "relevance": 2,
+      "name": "Queries volume information",
+      "description": "\"sibjs.exe\" queries volume information of \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\SibClr.dll\" at 00000000-00004172-0000010C-4277270\n \"sibjs.exe\" queries volume information of \"C:\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\Microsoft.JScript\\v4.0_10.0.0.0__b03f5f7f11d50a3a\\Microsoft.JScript.dll\" at 00000000-00004172-0000010C-4538081\n \"sibjs.exe\" queries volume information of \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\SibCa.dll\" at 00000000-00004172-0000010C-4860723",
+      "origin": "API Call",
+      "attck_id": "T1082",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1082"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Environment Awareness",
+      "identifier": "registry-1",
+      "type": 3,
+      "relevance": 5,
+      "name": "Reads the cryptographic machine GUID",
+      "description": "\"sibjs.exe\" (Path: \"HKLM\\SOFTWARE\\MICROSOFT\\CRYPTOGRAPHY\"; Key: \"MACHINEGUID\")",
+      "origin": "Registry Access",
+      "attck_id": "T1082",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1082"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Spyware/Information Retrieval",
+      "identifier": "api-105",
+      "type": 6,
+      "relevance": 3,
+      "name": "Calls an API possibly used to take screenshots",
+      "description": "\"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"CreateCompatibleBitmap\" with parameters {\"hdc\": \"43010908\"\n \"cx\": \"32\"\n \"cy\": \"32\"}",
+      "origin": "API Call",
+      "attck_id": "T1113",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1113"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Spyware/Information Retrieval",
+      "identifier": "api-102",
+      "type": 6,
+      "relevance": 5,
+      "name": "Calls an API typically used for searching a directory for files",
+      "description": "\"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"FindFirstFileW\" with parameter %TEMP%\\nsnAAD0.tmp (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"FindFirstFileW\" with parameter %TEMP%\\FutureApp\\*.* (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"FindNextFileW\" with parameter .. (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"FindNextFileW\" with parameter 0 (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"FindNextFileW\" with parameter 1 (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"FindNextFileW\" with parameter 2 (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"FindNextFileW\" with parameter Ionic.Zip.dll (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"FindNextFileW\" with parameter sib.dat (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"FindNextFileW\" with parameter SibCa.dll (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"FindNextFileW\" with parameter SibClr.dll (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"FindNextFileW\" with parameter Sibjs.exe (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"FindNextFileW\" with parameter Sibuia.exe (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"FindNextFileW\" with parameter Zip.dll (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"FindFirstFileW\" with parameter %TEMP%\\FutureApp\\0 (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"FindFirstFileW\" with parameter %TEMP%\\FutureApp (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"FindFirstFileW\" with parameter %LOCALAPPDATA%\\Temp (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"FindFirstFileW\" with parameter %USERPROFILE%\\AppData\\Local (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"FindFirstFileW\" with parameter %USERPROFILE%\\AppData (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"FindFirstFileW\" with parameter C:\\Users\\%OSUSER% (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"FindFirstFileW\" with parameter C:\\Users (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"FindFirstFileW\" with parameter %TEMP%\\FutureApp\\0\\*.* (UID: 00000000-00004412)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" called \"FindNextFileW\" with parameter Setup.exe (UID: 00000000-00004412)",
+      "origin": "API Call",
+      "attck_id": "T1083",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1083"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Spyware/Information Retrieval",
+      "identifier": "api-108",
+      "type": 6,
+      "relevance": 3,
+      "name": "Calls an API typically used to retrieve information about the current system",
+      "description": "\"sibjs.exe\" called \"GetNativeSystemInfo\" with parameters {\"lpSystemInfo\": \"000000000010000000000100fffffe7f03000000040000004a020000000001000600004f\"}",
+      "origin": "API Call",
+      "attck_id": "T1082",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1082"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Spyware/Information Retrieval",
+      "identifier": "api-103",
+      "type": 6,
+      "relevance": 3,
+      "name": "Calls an API typically used for taking snapshot of the specified processes",
+      "description": "\"sibjs.exe\" called \"CreateToolhelp32Snapshot\" with parameters {\"dwFlags\": \"4\"\n \"th32ProcessID\": \"0\"}",
+      "origin": "API Call",
+      "attck_id": "T1057",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1057"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Cryptographic Related",
+      "identifier": "binary-71",
+      "type": 8,
+      "relevance": 1,
+      "name": "Sample file has high entropy (likely encrypted/compressed content)",
+      "description": "Sample file \"sample.bin\" has high entropy 7.997988287079396",
+      "origin": "Binary File",
+      "attck_id": "T1027",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1027"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "System Security",
+      "identifier": "api-37",
+      "type": 6,
+      "relevance": 10,
+      "name": "Opens the Kernel Security Device Driver (KsecDD) of Windows",
+      "description": "\"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" opened \"\\Device\\KsecDD\"\n \"Sibuia.exe\" opened \"\\Device\\KsecDD\"\n \"sibjs.exe\" opened \"\\Device\\KsecDD\"",
+      "origin": "API Call"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "System Security",
+      "identifier": "registry-173",
+      "type": 3,
+      "relevance": 1,
+      "name": "Queries services related registry keys",
+      "description": "\"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\LDAP\"; Key: \"LDAPCLIENTINTEGRITY\"; Value: \"\")\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\LDAP\"; Key: \"USEOLDHOSTRESOLUTIONORDER\"; Value: \"\")\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\LDAP\"; Key: \"USEHOSTNAMEASALIAS\"; Value: \"\")\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\LDAP\"; Key: \"IPV4LOOPBACKALTERNATIVE\"; Value: \"\")",
+      "origin": "Registry Access",
+      "attck_id": "T1007",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1007"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "System Security",
+      "identifier": "static-191",
+      "relevance": 5,
+      "name": "Calls an API used to open a process handle",
+      "description": "Observed import api \"OpenProcess\" which can be \"used to open a process handle\" [Source: fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24]\n Observed import api \"OpenProcess\" which can be \"used to open a process handle\" [Source: Setup.exe]\n Observed import api \"OpenProcess\" which can be \"used to open a process handle\" [Source: Sibuia.exe]\n Observed import api \"OpenProcess\" which can be \"used to open a process handle\" [Source: Sibjs.exe]",
+      "origin": "Static Parser",
+      "attck_id": "T1489",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1489"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "General",
+      "identifier": "api-6",
+      "type": 6,
+      "relevance": 4,
+      "name": "Reads configuration files (.ini files)",
+      "description": "\"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" reads file \"C:\\Users\\%OSUSER%\\Desktop\\desktop.ini\"",
+      "origin": "API Call",
+      "attck_id": "T1083",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1083"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "Unusual Characteristics",
+      "identifier": "static-3",
+      "relevance": 10,
+      "name": "Timestamp in PE header is very old or in the future",
+      "description": "\"SibClr.dll\" claims program is from Mon Feb 28 17:52:31 2056\n \"Zip.dll\" claims program is from Tue Jun  4 00:01:28 2041",
+      "origin": "Static Parser",
+      "attck_id": "T1027",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1027"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "Installation/Persistence",
+      "identifier": "api-43",
+      "type": 6,
+      "relevance": 10,
+      "name": "Writes a PE file header to disc",
+      "description": "\"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" wrote 32768 bytes starting with PE header signature to file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\0\\Setup.exe\": 4d5a50000200000004000f00ffff0000ff0000000000000040001a00000000000000000000000000000000000000000000000000000000000000000000010000ff10000e1fff09ff21ff014cff21ffff546869732070726f6772616d206d7573742062652072756e20756e6465722057696e33320d0a24370000000000000000 ...\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" wrote 27978 bytes starting with PE header signature to file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\1\\333.exe\": 4d5aff000300000004000000ffff0000ff00000000000000400000000000000000000000000000000000000000000000000000000000000000000000100100000e1fff0e00ff09ff21ff014cff21546869732070726f6772616d2063616e6e6f742062652072756e20696e20444f53206d6f64652e0d0d0a2400000000000000 ...\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" wrote 4608 bytes starting with PE header signature to file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\039F3.tmp\": 4d5aff000300000004000000ffff0000ff00000000000000400000000000000000000000000000000000000000000000000000000000000000000000ff0000000e1fff0e00ff09ff21ff014cff21546869732070726f6772616d2063616e6e6f742062652072756e20696e20444f53206d6f64652e0d0d0a2400000000000000 ...\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" wrote 32768 bytes starting with PE header signature to file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\Sibuia.exe\": 4d5aff000300000004000000ffff0000ff00000000000000400000000000000000000000000000000000000000000000000000000000000000000000280100000e1fff0e00ff09ff21ff014cff21546869732070726f6772616d2063616e6e6f742062652072756e20696e20444f53206d6f64652e0d0d0a2400000000000000 ...\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" wrote 32768 bytes starting with PE header signature to file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\Sibjs.exe\": 4d5aff000300000004000000ffff0000ff00000000000000400000000000000000000000000000000000000000000000000000000000000000000000180100000e1fff0e00ff09ff21ff014cff21546869732070726f6772616d2063616e6e6f742062652072756e20696e20444f53206d6f64652e0d0d0a2400000000000000 ...\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" wrote 32768 bytes starting with PE header signature to file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\SibClr.dll\": 4d5aff000300000004000000ffff0000ff00000000000000400000000000000000000000000000000000000000000000000000000000000000000000ff0000000e1fff0e00ff09ff21ff014cff21546869732070726f6772616d2063616e6e6f742062652072756e20696e20444f53206d6f64652e0d0d0a2400000000000000 ...\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" wrote 28032 bytes starting with PE header signature to file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\Zip.dll\": 4d5aff000300000004000000ffff0000ff00000000000000400000000000000000000000000000000000000000000000000000000000000000000000ff0000000e1fff0e00ff09ff21ff014cff21546869732070726f6772616d2063616e6e6f742062652072756e20696e20444f53206d6f64652e0d0d0a2400000000000000 ...\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" wrote 32768 bytes starting with PE header signature to file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\Ionic.Zip.dll\": 4d5aff000300000004000000ffff0000ff00000000000000400000000000000000000000000000000000000000000000000000000000000000000000ff0000000e1fff0e00ff09ff21ff014cff21546869732070726f6772616d2063616e6e6f742062652072756e20696e20444f53206d6f64652e0d0d0a2400000000000000 ...\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" wrote 27688 bytes starting with PE header signature to file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\nsnAAD0.tmp\\siblog.dll\": 4d5aff000300000004000000ffff0000ff00000000000000400000000000000000000000000000000000000000000000000000000000000000000000080100000e1fff0e00ff09ff21ff014cff21546869732070726f6772616d2063616e6e6f742062652072756e20696e20444f53206d6f64652e0d0d0a2400000000000000 ...",
+      "origin": "API Call",
+      "attck_id": "T1105",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1105"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "Installation/Persistence",
+      "identifier": "binary-1",
+      "type": 8,
+      "relevance": 10,
+      "name": "Drops executable files",
+      "description": "\"Setup.exe\" has type \"PE32 executable (GUI) Intel 80386 for MS Windows\"- Location: [%TEMP%\\FutureApp\\0\\Setup.exe]- [targetUID: 00000000-00002688]\n \"Sibuia.exe\" has type \"PE32 executable (console) Intel 80386 for MS Windows\"- Location: [%TEMP%\\FutureApp\\Sibuia.exe]- [targetUID: 00000000-00004412]\n \"Sibjs.exe\" has type \"PE32 executable (console) Intel 80386 for MS Windows\"- Location: [%TEMP%\\FutureApp\\Sibjs.exe]- [targetUID: 00000000-00002688]\n \"Ionic.Zip.dll\" has type \"PE32 executable (DLL) (console) Intel 80386 Mono/.Net assembly for MS Windows\"- Location: [%TEMP%\\FutureApp\\Ionic.Zip.dll]- [targetUID: 00000000-00004412]\n \"333.exe\" has type \"PE32 executable (GUI) Intel 80386 for MS Windows\"- Location: [%TEMP%\\FutureApp\\1\\333.exe]- [targetUID: 00000000-00004412]\n \"siblog.dll\" has type \"PE32 executable (DLL) (GUI) Intel 80386 for MS Windows\"- Location: [%TEMP%\\nsnAAD0.tmp\\siblog.dll]- [targetUID: 00000000-00004412]\n \"SibClr.dll\" has type \"PE32 executable (DLL) (console) Intel 80386 Mono/.Net assembly for MS Windows\"- Location: [%TEMP%\\FutureApp\\SibClr.dll]- [targetUID: 00000000-00004172]\n \"Zip.dll\" has type \"PE32 executable (DLL) (console) Intel 80386 Mono/.Net assembly for MS Windows\"- Location: [%TEMP%\\FutureApp\\Zip.dll]- [targetUID: 00000000-00004412]\n \"039F3.tmp\" has type \"PE32 executable (DLL) (console) Intel 80386 Mono/.Net assembly for MS Windows\"- Location: [%TEMP%\\FutureApp\\039F3.tmp]- [targetUID: 00000000-00004412]",
+      "origin": "Binary File",
+      "attck_id": "T1105",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1105"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "Anti-Reverse Engineering",
+      "identifier": "static-6",
+      "relevance": 1,
+      "name": "Section contains high entropy",
+      "description": "\"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24\" has section name .text with entropy \"6.458398214928006\"\n \"Setup.exe\" has section name .text with entropy \"6.480286628042228\"\n \"Setup.exe\" has section name .itext with entropy \"6.150585523530168\"\n \"Setup.exe\" has section name .data with entropy \"6.177864641492512\"\n \"Setup.exe\" has section name .reloc with entropy \"6.728160253041536\"\n \"Setup.exe\" has section name .rsrc with entropy \"6.824406724563519\"\n \"Sibuia.exe\" has section name .text with entropy \"6.50690013796754\"\n \"Sibuia.exe\" has section name .reloc with entropy \"6.574445068719567\"\n \"Sibjs.exe\" has section name .text with entropy \"6.524182533030328\"\n \"Sibjs.exe\" has section name .reloc with entropy \"6.567419668028116\"\n \"333.exe\" has section name .text with entropy \"6.712962136932442\"\n \"333.exe\" has section name .rsrc with entropy \"6.084026257052305\"\n \"333.exe\" has section name .reloc with entropy \"6.623012966548067\"\n \"siblog.dll\" has section name .text with entropy \"6.618533174600541\"\n \"siblog.dll\" has section name .reloc with entropy \"6.3647471325621465\"",
+      "origin": "Static Parser",
+      "attck_id": "T1027.009",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1027/009"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "Anti-Reverse Engineering",
+      "identifier": "api-1",
+      "type": 6,
+      "relevance": 10,
+      "name": "Creates guarded memory regions (anti-debugging trick to avoid memory dumping)",
+      "description": "\"sibjs.exe\" is allocating memory with PAGE_GUARD access rights (Handle: 4294967295); (PID: 4172)",
+      "origin": "API Call",
+      "attck_id": "T1562.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1562/001"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "Environment Awareness",
+      "identifier": "api-223",
+      "type": 6,
+      "relevance": 3,
+      "name": "Calls an API typically used to query local/system time as file time",
+      "description": "\"Sibuia.exe\" called \"FileTimeToLocalFileTime\" with parameter 00c15ab0b262db01 & 00291f12bb62db01 (UID: 00000000-00002688)\n \"Sibuia.exe\" called \"FileTimeToSystemTime\" (UID: 00000000-00002688)\n \"Sibuia.exe\" called \"FileTimeToLocalFileTime\" with parameter HHv & 48b03a330394db01 (UID: 00000000-00002688)\n \"sibjs.exe\" called \"FileTimeToLocalFileTime\" with parameter HHv & 48b03a330394db01 (UID: 00000000-00004172)\n \"sibjs.exe\" called \"FileTimeToSystemTime\" (UID: 00000000-00004172)\n \"sibjs.exe\" called \"FileTimeToLocalFileTime\" with parameter 00c15ab0b262db01 & 00291f12bb62db01 (UID: 00000000-00004172)",
+      "origin": "API Call",
+      "attck_id": "T1070.006",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1070/006"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "Cryptographic Related",
+      "identifier": "api-228",
+      "type": 6,
+      "relevance": 1,
+      "name": "Calls an API typically used to acquire handle to a key container within a CSP",
+      "description": "\"sibjs.exe\" called \"CryptAcquireContextW\" with parameters {\"phProv\": \"d0876100\"\n \"szProvider\": \"Microsoft Enhanced RSA and AES Cryptographic Provider\"\n \"dwProvType\": \"24\"\n \"dwFlags\": \"4026531840\"}\n \"sibjs.exe\" called \"CryptAcquireContextW\" with parameters {\"phProv\": \"58886100\"\n \"szProvider\": \"Microsoft Enhanced RSA and AES Cryptographic Provider\"\n \"dwProvType\": \"24\"\n \"dwFlags\": \"4026531840\"}",
+      "origin": "API Call",
+      "attck_id": "T1027",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1027"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "Cryptographic Related",
+      "identifier": "binary-60",
+      "type": 8,
+      "relevance": 5,
+      "name": "Dropped file has high entropy (likely encrypted/compressed content)",
+      "description": "Dropped file \"%TEMP%\\FutureApp\\0\\Setup.exe\" has high entropy 7.424098989332036\n Dropped file \"%TEMP%\\FutureApp\\Zip.dll\" has high entropy 7.309716180257069",
+      "origin": "Binary File",
+      "attck_id": "T1027",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1027"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "System Security",
+      "identifier": "registry-27",
+      "type": 3,
+      "relevance": 10,
+      "name": "Modifies proxy settings",
+      "description": "\"sibjs.exe\" (Access type: \"DELETEVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\INTERNET SETTINGS\\ZONEMAP\"; Key: \"PROXYBYPASS\")\n \"sibjs.exe\" (Access type: \"DELETEVAL\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\INTERNET SETTINGS\\ZONEMAP\"; Key: \"PROXYBYPASS\")",
+      "origin": "Registry Access",
+      "attck_id": "T1112",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1112"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "System Destruction",
+      "identifier": "api-26",
+      "type": 6,
+      "relevance": 10,
+      "name": "Marks file for deletion",
+      "description": "\"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" marked \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\nsnA8FB.tmp\" for deletion\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" marked \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\nsnAAD0.tmp\" for deletion\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" marked \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\0\\Setup.exe\" for deletion\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" marked \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\1\\333.exe\" for deletion\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" marked \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\2\\babka.cmd\" for deletion\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" marked \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\SibCa.dll\" for deletion\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" marked \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\Sibuia.exe\" for deletion\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" marked \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\Sibjs.exe\" for deletion\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" marked \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\SibClr.dll\" for deletion\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" marked \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\Zip.dll\" for deletion\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" marked \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\Ionic.Zip.dll\" for deletion\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" marked \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\sib.dat\" for deletion\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" marked \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\nsnAAD0.tmp\\siblog.dll\" for deletion",
+      "origin": "API Call",
+      "attck_id": "T1070.004",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1070/004"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "System Destruction",
+      "identifier": "api-25",
+      "type": 6,
+      "relevance": 7,
+      "name": "Opens file with deletion access rights",
+      "description": "\"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" opened \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\nsnA8FB.tmp\" with delete access\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" opened \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\039F3.tmp\" with delete access\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" opened \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\039F4.tmp\" with delete access\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" opened \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\nsnAAD0.tmp\" with delete access\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" opened \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\0\\Setup.exe\" with delete access\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" opened \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\1\\333.exe\" with delete access\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" opened \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\2\\babka.cmd\" with delete access\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" opened \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\SibCa.dll\" with delete access\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" opened \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\Sibuia.exe\" with delete access\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" opened \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\Sibjs.exe\" with delete access\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" opened \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\SibClr.dll\" with delete access\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" opened \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\Zip.dll\" with delete access\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" opened \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\Ionic.Zip.dll\" with delete access\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" opened \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\sib.dat\" with delete access\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" opened \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\nsnAAD0.tmp\\siblog.dll\" with delete access",
+      "origin": "API Call",
+      "attck_id": "T1070.004",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1070/004"
+    },
+    {
+      "threat_level": 2,
+      "threat_level_human": "malicious",
+      "category": "Installation/Persistence",
+      "identifier": "api-0",
+      "type": 6,
+      "relevance": 6,
+      "name": "Writes data to a remote process",
+      "description": "\"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" wrote 1500 bytes to a remote process \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\Sibuia.exe\" (Handle: 396)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" wrote 4 bytes to a remote process \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\Sibuia.exe\" (Handle: 396)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" wrote 32 bytes to a remote process \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\Sibuia.exe\" (Handle: 396)\n \"fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24.exe\" wrote 52 bytes to a remote process \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\Sibuia.exe\" (Handle: 396)\n \"Sibuia.exe\" wrote 1500 bytes to a remote process \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\Sibjs.exe\" (Handle: 308)\n \"Sibuia.exe\" wrote 4 bytes to a remote process \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\Sibjs.exe\" (Handle: 308)\n \"Sibuia.exe\" wrote 32 bytes to a remote process \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\Sibjs.exe\" (Handle: 308)\n \"Sibuia.exe\" wrote 52 bytes to a remote process \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\FutureApp\\Sibjs.exe\" (Handle: 308)",
+      "origin": "API Call",
+      "attck_id": "T1055",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055"
+    }
+  ]
+}

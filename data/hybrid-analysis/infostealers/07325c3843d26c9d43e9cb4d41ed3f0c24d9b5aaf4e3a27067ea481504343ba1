@@ -1,0 +1,1875 @@
+{
+  "size": 438272,
+  "type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+  "submit_name": "07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1",
+  "sha256": "07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1",
+  "av_detect": 93,
+  "vx_family": "Ransom.Screenlocker.Generic",
+  "threat_score": 80,
+  "threat_level": 2,
+  "verdict": "malicious",
+  "certificates_validation_message": "No signature was present in the subject. (0x800b0100)",
+  "total_processes": 1,
+  "total_signatures": 112,
+  "processes": [
+    {
+      "uid": "00000000-00004288",
+      "name": "07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe",
+      "normalized_path": "C:\\07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe",
+      "sha256": "07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1"
+    }
+  ],
+  "mitre_attcks": [
+    {
+      "tactic": "Execution",
+      "technique": "Native API",
+      "attck_id": "T1106",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1106",
+      "suspicious_identifiers_count": 2,
+      "informative_identifiers_count": 13
+    },
+    {
+      "tactic": "Execution",
+      "technique": "Windows Management Instrumentation",
+      "attck_id": "T1047",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1047",
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Execution",
+      "technique": "Windows Command Shell",
+      "attck_id": "T1059.003",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1059/003",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Command and Scripting Interpreter",
+        "attck_id": "T1059",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1059"
+      }
+    },
+    {
+      "tactic": "Execution",
+      "technique": "Shared Modules",
+      "attck_id": "T1129",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1129",
+      "informative_identifiers_count": 4
+    },
+    {
+      "tactic": "Persistence",
+      "technique": "Create or Modify System Process",
+      "attck_id": "T1543",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1543",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Persistence",
+      "technique": "Boot or Logon Autostart Execution",
+      "attck_id": "T1547",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1547",
+      "suspicious_identifiers_count": 1
+    },
+    {
+      "tactic": "Persistence",
+      "technique": "DLL Side-Loading",
+      "attck_id": "T1574.002",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1574/002",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Hijack Execution Flow",
+        "attck_id": "T1574",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1574"
+      }
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "Dynamic-link Library Injection",
+      "attck_id": "T1055.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055/001",
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 2,
+      "parent": {
+        "technique": "Process Injection",
+        "attck_id": "T1055",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1055"
+      }
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "Thread Execution Hijacking",
+      "attck_id": "T1055.003",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055/003",
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Process Injection",
+        "attck_id": "T1055",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1055"
+      }
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "Process Injection",
+      "attck_id": "T1055",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055",
+      "suspicious_identifiers_count": 2,
+      "informative_identifiers_count": 3
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "Create or Modify System Process",
+      "attck_id": "T1543",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1543",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "ListPlanting",
+      "attck_id": "T1055.015",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055/015",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Process Injection",
+        "attck_id": "T1055",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1055"
+      }
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "Boot or Logon Autostart Execution",
+      "attck_id": "T1547",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1547",
+      "suspicious_identifiers_count": 1
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "Extra Window Memory Injection",
+      "attck_id": "T1055.011",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055/011",
+      "suspicious_identifiers_count": 1,
+      "parent": {
+        "technique": "Process Injection",
+        "attck_id": "T1055",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1055"
+      }
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "DLL Side-Loading",
+      "attck_id": "T1574.002",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1574/002",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Hijack Execution Flow",
+        "attck_id": "T1574",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1574"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Modify Registry",
+      "attck_id": "T1112",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1112",
+      "informative_identifiers_count": 4
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Dynamic-link Library Injection",
+      "attck_id": "T1055.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055/001",
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 2,
+      "parent": {
+        "technique": "Process Injection",
+        "attck_id": "T1055",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1055"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Thread Execution Hijacking",
+      "attck_id": "T1055.003",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055/003",
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Process Injection",
+        "attck_id": "T1055",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1055"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "File and Directory Permissions Modification",
+      "attck_id": "T1222",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1222",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Debugger Evasion",
+      "attck_id": "T1622",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1622",
+      "informative_identifiers_count": 2
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Virtualization/Sandbox Evasion",
+      "attck_id": "T1497",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1497",
+      "malicious_identifiers_count": 1,
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Obfuscated Files or Information",
+      "attck_id": "T1027",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1027",
+      "informative_identifiers_count": 6
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Software Packing",
+      "attck_id": "T1027.002",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1027/002",
+      "suspicious_identifiers_count": 2,
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Obfuscated Files or Information",
+        "attck_id": "T1027",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1027"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Embedded Payloads",
+      "attck_id": "T1027.009",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1027/009",
+      "suspicious_identifiers_count": 1,
+      "parent": {
+        "technique": "Obfuscated Files or Information",
+        "attck_id": "T1027",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1027"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Time Based Evasion",
+      "attck_id": "T1497.003",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1497/003",
+      "informative_identifiers_count": 3,
+      "parent": {
+        "technique": "Virtualization/Sandbox Evasion",
+        "attck_id": "T1497",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1497"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "User Activity Based Checks",
+      "attck_id": "T1497.002",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1497/002",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Virtualization/Sandbox Evasion",
+        "attck_id": "T1497",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1497"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Process Injection",
+      "attck_id": "T1055",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055",
+      "suspicious_identifiers_count": 2,
+      "informative_identifiers_count": 3
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "File Deletion",
+      "attck_id": "T1070.004",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1070/004",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Indicator Removal",
+        "attck_id": "T1070",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1070"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Hidden Window",
+      "attck_id": "T1564.003",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1564/003",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Hide Artifacts",
+        "attck_id": "T1564",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1564"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "ListPlanting",
+      "attck_id": "T1055.015",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055/015",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Process Injection",
+        "attck_id": "T1055",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1055"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Hide Artifacts",
+      "attck_id": "T1564",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1564",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Extra Window Memory Injection",
+      "attck_id": "T1055.011",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055/011",
+      "suspicious_identifiers_count": 1,
+      "parent": {
+        "technique": "Process Injection",
+        "attck_id": "T1055",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1055"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "DLL Side-Loading",
+      "attck_id": "T1574.002",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1574/002",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Hijack Execution Flow",
+        "attck_id": "T1574",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1574"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Dynamic API Resolution",
+      "attck_id": "T1027.007",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1027/007",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Obfuscated Files or Information",
+        "attck_id": "T1027",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1027"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Indicator Removal from Tools",
+      "attck_id": "T1027.005",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1027/005",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Obfuscated Files or Information",
+        "attck_id": "T1027",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1027"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "System Checks",
+      "attck_id": "T1497.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1497/001",
+      "suspicious_identifiers_count": 1,
+      "parent": {
+        "technique": "Virtualization/Sandbox Evasion",
+        "attck_id": "T1497",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1497"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Deobfuscate/Decode Files or Information",
+      "attck_id": "T1140",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1140",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Execution Guardrails",
+      "attck_id": "T1480",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1480",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "File and Directory Discovery",
+      "attck_id": "T1083",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1083",
+      "informative_identifiers_count": 5
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "System Location Discovery",
+      "attck_id": "T1614",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1614",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "System Information Discovery",
+      "attck_id": "T1082",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1082",
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 6
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "Debugger Evasion",
+      "attck_id": "T1622",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1622",
+      "informative_identifiers_count": 2
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "Application Window Discovery",
+      "attck_id": "T1010",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1010",
+      "informative_identifiers_count": 2
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "Query Registry",
+      "attck_id": "T1012",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1012",
+      "informative_identifiers_count": 4
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "Virtualization/Sandbox Evasion",
+      "attck_id": "T1497",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1497",
+      "malicious_identifiers_count": 1,
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "Security Software Discovery",
+      "attck_id": "T1518.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1518/001",
+      "suspicious_identifiers_count": 2,
+      "parent": {
+        "technique": "Software Discovery",
+        "attck_id": "T1518",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1518"
+      }
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "System Owner/User Discovery",
+      "attck_id": "T1033",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1033",
+      "informative_identifiers_count": 2
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "Time Based Evasion",
+      "attck_id": "T1497.003",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1497/003",
+      "informative_identifiers_count": 3,
+      "parent": {
+        "technique": "Virtualization/Sandbox Evasion",
+        "attck_id": "T1497",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1497"
+      }
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "User Activity Based Checks",
+      "attck_id": "T1497.002",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1497/002",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Virtualization/Sandbox Evasion",
+        "attck_id": "T1497",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1497"
+      }
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "Process Discovery",
+      "attck_id": "T1057",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1057",
+      "informative_identifiers_count": 3
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "System Language Discovery",
+      "attck_id": "T1614.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1614/001",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "System Location Discovery",
+        "attck_id": "T1614",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1614"
+      }
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "Network Share Discovery",
+      "attck_id": "T1135",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1135",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "System Checks",
+      "attck_id": "T1497.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1497/001",
+      "suspicious_identifiers_count": 1,
+      "parent": {
+        "technique": "Virtualization/Sandbox Evasion",
+        "attck_id": "T1497",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1497"
+      }
+    },
+    {
+      "tactic": "Collection",
+      "technique": "Local Data Staging",
+      "attck_id": "T1074.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1074/001",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Data Staged",
+        "attck_id": "T1074",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1074"
+      }
+    },
+    {
+      "tactic": "Collection",
+      "technique": "Screen Capture",
+      "attck_id": "T1113",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1113",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Collection",
+      "technique": "Data from Information Repositories",
+      "attck_id": "T1213",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1213",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Command and Control",
+      "technique": "Application Layer Protocol",
+      "attck_id": "T1071",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1071",
+      "informative_identifiers_count": 2
+    },
+    {
+      "tactic": "Command and Control",
+      "technique": "Ingress Tool Transfer",
+      "attck_id": "T1105",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1105",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Command and Control",
+      "technique": "Symmetric Cryptography",
+      "attck_id": "T1573.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1573/001",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Encrypted Channel",
+        "attck_id": "T1573",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1573"
+      }
+    },
+    {
+      "tactic": "Impact",
+      "technique": "Service Stop",
+      "attck_id": "T1489",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1489",
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 1
+    }
+  ],
+  "network_mode": "default",
+  "signatures": [
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "string-345",
+      "type": 2,
+      "relevance": 1,
+      "name": "Contains ability to disable/close registry key (API string)",
+      "description": "Found reference to API \"RegCloseKey\" (Indicator: \"RegCloseKey\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"RegCloseKey\" (Indicator: \"RegCloseKey\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")",
+      "origin": "File/Memory",
+      "attck_id": "T1112",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1112"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "string-423",
+      "type": 2,
+      "relevance": 1,
+      "name": "Contains ability to create directories (API string)",
+      "description": "Found reference to API \"CreateDirectoryA\" (Indicator: \"CreateDirectory\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"CreateDirectoryA\" (Indicator: \"CreateDirectory\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")",
+      "origin": "File/Memory",
+      "attck_id": "T1074.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1074/001"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "string-204",
+      "type": 2,
+      "relevance": 1,
+      "name": "Contains ability to create a new process (API string)",
+      "description": "Found reference to API \"CreateProcessA\" (Indicator: \"CreateProcess\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"CreateProcessA\" (Indicator: \"CreateProcess\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")",
+      "origin": "File/Memory",
+      "attck_id": "T1106",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1106"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "string-315",
+      "type": 2,
+      "relevance": 1,
+      "name": "Contains ability to create/open files (API string)",
+      "description": "Found reference to API \"CreateFileA\" (Indicator: \"CreateFile\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"CreateFileA\" (Indicator: \"CreateFile\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")",
+      "origin": "File/Memory",
+      "attck_id": "T1106",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1106"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "string-120",
+      "type": 2,
+      "relevance": 1,
+      "name": "Contains registry location strings",
+      "description": "\"SOFTWARE\\Borland\\Delphi\\RTL\" in Source: 07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\n \"SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folders\" in Source: 07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\n \"SOFTWARE\\Microsoft\\Windows\\CurrentVersion\" in Source: 07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\n \"Software\\Microsoft\\Windows\\CurrentVersion\" in Source: 07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\n \"Software\\Microsoft\\Active Setup\\Installed Components\\\" in Source: 07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\n \"Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer\\Run\" in Source: 07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\n \"Software\\Microsoft\\Windows\\CurrentVersion\\Run\" in Source: 07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\n \"SOFTWARE\\Borland\\Delphi\\RTL\" in Source: 00000000-00004288.00000000.92877.00401000.00000020.mdmp\n \"SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folders\" in Source: 00000000-00004288.00000000.92877.00401000.00000020.mdmp\n \"SOFTWARE\\Microsoft\\Windows\\CurrentVersion\" in Source: 00000000-00004288.00000000.92877.00401000.00000020.mdmp\n \"Software\\Microsoft\\Windows\\CurrentVersion\" in Source: 00000000-00004288.00000000.92877.00401000.00000020.mdmp\n \"Software\\Microsoft\\Active Setup\\Installed Components\\\" in Source: 00000000-00004288.00000000.92877.00401000.00000020.mdmp\n \"Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer\\Run\" in Source: 00000000-00004288.00000000.92877.00401000.00000020.mdmp\n \"Software\\Microsoft\\Windows\\CurrentVersion\\Run\" in Source: 00000000-00004288.00000000.92877.00401000.00000020.mdmp\n \"Software\\Borland\\cales2\" in Source: 00000000-00004288.00000000.92877.01488000.00000004.mdmp",
+      "origin": "File/Memory",
+      "attck_id": "T1012",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1012"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "string-240",
+      "type": 2,
+      "relevance": 1,
+      "name": "Contains ability to execute an application (API string)",
+      "description": "Found reference to API \"ShellExecuteA\" (Indicator: \"ShellExecute\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"ShellExecuteA\" (Indicator: \"ShellExecute\"; Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp\")",
+      "origin": "File/Memory",
+      "attck_id": "T1106",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1106"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "mutant-0",
+      "type": 4,
+      "relevance": 3,
+      "name": "Creates mutants",
+      "description": "\"\\Sessions\\1\\BaseNamedObjects\\%OSUSER%5\"\n \"%OSUSER%5\"",
+      "origin": "Created Mutant"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "static-153",
+      "name": "Uses 32 bit executable PE",
+      "description": "\"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\" has flags like  IMAGE_FILE_32BIT_MACHINE\n IMAGE_FILE_EXECUTABLE",
+      "origin": "Static Parser"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "static-96",
+      "name": "PE file entrypoint instructions",
+      "description": "\"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\" file has an entrypoint instructions - \"push\tebp,mov\tebp, esp,mov\tecx, 7,push\t0,push\t0,dec\tecx,jne\t0x409868,push\tecx,push\tebx,mov\teax, 0x4097a8,call\t0x404a54,xor\teax, eax,push\tebp,push\t0x409afa,push\tdword ptr fs:[eax],mov\tdword ptr fs:[eax], esp,lea\teax, [ebp - 0x14],call\t0x407070,mov\teax, dword ptr [ebp - 0x14],call\t0x403ac4,push\teax,push\t0,push\t0,call\t0x404b80,mov\tebx, eax,call\t0x404bf0,cmp\teax, 0xb7,jne\t0x4098c3,push\tebx,call\t0x404b48,mov\teax, 0x2ee0,call\t0x406e58,jmp\t0x4098c9,push\tebx,\"",
+      "origin": "Static Parser"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "string-307",
+      "type": 2,
+      "relevance": 1,
+      "name": "Contains ability to create/load registry keys (API string)",
+      "description": "Found reference to API \"RegCreateKeyExA\" (Indicator: \"RegCreateKey\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"RegCreateKeyA\" (Indicator: \"RegCreateKey\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"RegCreateKeyExA\" (Indicator: \"RegCreateKey\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API \"RegCreateKeyA\" (Indicator: \"RegCreateKey\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")",
+      "origin": "File/Memory",
+      "attck_id": "T1112",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1112"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "string-319",
+      "type": 2,
+      "relevance": 1,
+      "name": "Contains ability to set/get the last-error code for a calling thread (API string)",
+      "description": "Found reference to API \"GetLastError\" (Indicator: \"GetLastError\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"GetLastError\" (Indicator: \"GetLastError\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")",
+      "origin": "File/Memory",
+      "attck_id": "T1106",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1106"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "string-550",
+      "type": 2,
+      "relevance": 1,
+      "name": "Contains ability to find and load resources of specific modules (API string)",
+      "description": "Found reference to API \"SizeofResource\" (Indicator: \"SizeofResource\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"LockResource\" (Indicator: \"LockResource\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"FreeResource\" (Indicator: \"FreeResource\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"LoadResource\" (Indicator: \"LoadResource\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"FindResourceA\" (Indicator: \"FindResource\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"SizeofResource\" (Indicator: \"SizeofResource\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API \"LockResource\" (Indicator: \"LockResource\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API \"LoadResource\" (Indicator: \"LoadResource\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API \"FreeResource\" (Indicator: \"FreeResource\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API \"FindResourceA\" (Indicator: \"FindResource\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")",
+      "origin": "File/Memory",
+      "attck_id": "T1106",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1106"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "string-101",
+      "type": 2,
+      "relevance": 1,
+      "name": "Contains ability to execute Windows APIs",
+      "description": "Found reference to API (Indicator: \"RegDeleteKeyA\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"RegCloseKey\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"RegSetValueExA\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"RegQueryValueExA\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"GetUserNameA\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"RegCreateKeyExA\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"RegOpenKeyExA\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"RegCreateKeyA\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"GetLastError\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"GetStdHandle\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"EnterCriticalSection\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"WriteProcessMemory\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"VirtualAllocEx\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"GetFileAttributesA\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"WaitForSingleObject\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"FreeLibrary\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"CopyFileA\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"ExitProcess\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"GetThreadLocale\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"VirtualProtect\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"GetModuleFileNameA\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"RtlUnwind\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"LoadLibraryA\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"CreateRemoteThread\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"DeleteCriticalSection\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"GetStartupInfoA\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"SizeofResource\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"GetLocaleInfoA\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"LocalAlloc\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"OpenProcess\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"LockResource\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"CreateDirectoryA\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"DeleteFileA\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"UnhandledExceptionFilter\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"ReadProcessMemory\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"GetCommandLineA\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"GetProcAddress\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"CreateMutexA\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"SetFilePointer\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"RaiseException\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"lstrcmpiA\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"GetModuleHandleA\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"GetExitCodeThread\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"WriteFile\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"FindFirstFileA\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"CloseHandle\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"GetVersion\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"FreeResource\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"SetFileAttributesA\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"LocalFree\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"CreateProcessA\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"InitializeCriticalSection\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"LoadResource\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"VirtualFree\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"CreateEventA\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"FindClose\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"TlsGetValue\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"TlsSetValue\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"CreateFileA\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"GetTickCount\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"GetCurrentThreadId\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"FindResourceA\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"VirtualAlloc\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"LeaveCriticalSection\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"SysReAllocStringLen\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"SysFreeString\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"SysAllocStringLen\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"GetWindowThreadProcessId\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"CharLowerA\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"DispatchMessageA\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"TranslateMessage\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"CharNextA\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"MessageBoxA\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"PeekMessageA\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"MsgWaitForMultipleObjects\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"PostQuitMessage\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"FindWindowA\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"CharUpperA\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"GetKeyboardType\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"Sleep\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"ExitThread\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"CreateToolhelp32Snapshot\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"Heap32ListFirst\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"Heap32ListNext\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"Heap32First\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"Heap32Next\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"Toolhelp32ReadProcessMemory\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"Process32First\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"Process32Next\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"Process32FirstW\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"Process32NextW\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"Thread32First\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"Thread32Next\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"Module32First\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"Module32Next\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"Module32FirstW\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"Module32NextW\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"ShellExecuteA\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"GetSystemDirectoryA\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"GetWindowsDirectoryA\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"GetTempPathA\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"GetModuleFileNameExA\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"IsDebuggerPresent\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API (Indicator: \"Sleep\"; Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp\")\n Found reference to API (Indicator: \"LoadLibraryA\"; Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp, 00000000-00004288.00000000.92877.01488000.00000004.mdmp, 00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"GetModuleHandleA\"; Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp, 00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"GetProcAddress\"; Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp, 00000000-00004288.00000000.92877.01488000.00000004.mdmp, 00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"ExitThread\"; Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp\")\n Found reference to API (Indicator: \"CreateToolhelp32Snapshot\"; Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp\")\n Found reference to API (Indicator: \"Heap32ListFirst\"; Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp\")\n Found reference to API (Indicator: \"Heap32ListNext\"; Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp\")\n Found reference to API (Indicator: \"Heap32First\"; Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp\")\n Found reference to API (Indicator: \"Heap32Next\"; Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp\")\n Found reference to API (Indicator: \"Toolhelp32ReadProcessMemory\"; Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp\")\n Found reference to API (Indicator: \"Process32First\"; Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp\")\n Found reference to API (Indicator: \"Process32Next\"; Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp\")\n Found reference to API (Indicator: \"Process32FirstW\"; Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp\")\n Found reference to API (Indicator: \"Process32NextW\"; Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp\")\n Found reference to API (Indicator: \"Thread32First\"; Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp\")\n Found reference to API (Indicator: \"Thread32Next\"; Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp\")\n Found reference to API (Indicator: \"Module32First\"; Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp\")\n Found reference to API (Indicator: \"Module32Next\"; Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp\")\n Found reference to API (Indicator: \"Module32FirstW\"; Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp\")\n Found reference to API (Indicator: \"Module32NextW\"; Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp\")\n Found reference to API (Indicator: \"ShellExecuteA\"; Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp\")\n Found reference to API (Indicator: \"GetSystemDirectoryA\"; Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp\")\n Found reference to API (Indicator: \"GetWindowsDirectoryA\"; Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp\")\n Found reference to API (Indicator: \"GetTempPathA\"; Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp\")\n Found reference to API (Indicator: \"GetModuleFileNameExA\"; Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp\")\n Found reference to API (Indicator: \"IsDebuggerPresent\"; Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp\")\n Found reference to API (Indicator: \"DeleteFileA\"; Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp, 00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"VirtualProtect\"; Source: \"00000000-00004288.00000000.92877.01488000.00000004.mdmp, 00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"VirtualAlloc\"; Source: \"00000000-00004288.00000000.92877.01488000.00000004.mdmp, 00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"VirtualFree\"; Source: \"00000000-00004288.00000000.92877.01488000.00000004.mdmp, 00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"RegOpenKeyA\"; Source: \"00000000-00004288.00000000.92877.01488000.00000004.mdmp\")\n Found reference to API (Indicator: \"BitBlt\"; Source: \"00000000-00004288.00000000.92877.01488000.00000004.mdmp\")\n Found reference to API (Indicator: \"WNetOpenEnumA\"; Source: \"00000000-00004288.00000000.92877.01488000.00000004.mdmp\")\n Found reference to API (Indicator: \"ZwSetInformationProcess\"; Source: \"00000000-00004288.00000000.92877.01488000.00000004.mdmp\")\n Found reference to API (Indicator: \"CoTaskMemFree\"; Source: \"00000000-00004288.00000000.92877.01488000.00000004.mdmp\")\n Found reference to API (Indicator: \"SysFreeString\"; Source: \"00000000-00004288.00000000.92877.01488000.00000004.mdmp, 00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"SHGetFileInfoA\"; Source: \"00000000-00004288.00000000.92877.01488000.00000004.mdmp\")\n Found reference to API (Indicator: \"GetDC\"; Source: \"00000000-00004288.00000000.92877.01488000.00000004.mdmp\")\n Found reference to API (Indicator: \"VerQueryValueA\"; Source: \"00000000-00004288.00000000.92877.01488000.00000004.mdmp\")\n Found reference to API (Indicator: \"FtpOpenFileA\"; Source: \"00000000-00004288.00000000.92877.01488000.00000004.mdmp\")\n Found reference to API (Indicator: \"DeleteCriticalSection\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"LeaveCriticalSection\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"EnterCriticalSection\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"InitializeCriticalSection\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"LocalFree\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"LocalAlloc\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"GetVersion\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"GetCurrentThreadId\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"GetThreadLocale\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"GetStartupInfoA\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"GetModuleFileNameA\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"GetLocaleInfoA\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"GetCommandLineA\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"FreeLibrary\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"ExitProcess\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"WriteFile\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"UnhandledExceptionFilter\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"RtlUnwind\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"RaiseException\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"GetStdHandle\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"GetKeyboardType\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"MessageBoxA\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"CharNextA\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"RegQueryValueExA\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"RegOpenKeyExA\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"RegCloseKey\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"SysReAllocStringLen\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"SysAllocStringLen\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"TlsSetValue\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"TlsGetValue\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"RegSetValueExA\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"RegDeleteKeyA\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"RegCreateKeyExA\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"RegCreateKeyA\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"GetUserNameA\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"lstrcmpiA\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"WriteProcessMemory\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"WaitForSingleObject\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"VirtualAllocEx\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"SizeofResource\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"SetFilePointer\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"SetFileAttributesA\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"ReadProcessMemory\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"OpenProcess\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"LockResource\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"LoadResource\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"GetTickCount\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"GetLastError\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"GetFileAttributesA\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"GetExitCodeThread\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"FreeResource\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"FindResourceA\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"FindFirstFileA\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"FindClose\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"CreateRemoteThread\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"CreateProcessA\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"CreateMutexA\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"CreateFileA\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"CreateEventA\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"CreateDirectoryA\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"CopyFileA\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"CloseHandle\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"TranslateMessage\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"PostQuitMessage\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"PeekMessageA\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"MsgWaitForMultipleObjects\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"GetWindowThreadProcessId\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"FindWindowA\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"DispatchMessageA\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"CharLowerA\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API (Indicator: \"CharUpperA\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")",
+      "origin": "File/Memory",
+      "attck_id": "T1106",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1106"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "string-272",
+      "type": 2,
+      "relevance": 1,
+      "name": "Contains ability to retrieve/open a process (API string)",
+      "description": "Found reference to API \"OpenProcess\" (Indicator: \"OpenProcess\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"OpenProcess\" (Indicator: \"OpenProcess\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")",
+      "origin": "File/Memory",
+      "attck_id": "T1057",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1057"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "string-206",
+      "type": 2,
+      "relevance": 1,
+      "name": "Contains ability to retrieve the command-line string for the current process (API string)",
+      "description": "Found reference to API \"GetCommandLineA\" (Indicator: \"GetCommandLine\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"GetCommandLineA\" (Indicator: \"GetCommandLine\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")",
+      "origin": "File/Memory",
+      "attck_id": "T1059.003",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1059/003"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "string-208",
+      "type": 2,
+      "relevance": 1,
+      "name": "Contains ability to show a graphical window (API string)",
+      "description": "Found reference to API \"GetWindowThreadProcessId\" (Indicator: \"GetWindowThreadProcessId\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"GetWindowThreadProcessId\" (Indicator: \"GetWindowThreadProcessId\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")",
+      "origin": "File/Memory",
+      "attck_id": "T1564.003",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1564/003"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "string-16",
+      "type": 2,
+      "relevance": 2,
+      "name": "Contains SQL queries",
+      "description": "\"SELECT * FROM k$\" (Source: 00000000-00004288.00000000.92877.01488000.00000004.mdmp, Indicator: \"select * from k$\")",
+      "origin": "File/Memory",
+      "attck_id": "T1213",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1213"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "api-7",
+      "type": 6,
+      "relevance": 1,
+      "name": "Loads modules at runtime",
+      "description": "\"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" loaded module \"API-MS-WIN-CORE-SYNCH-L1-2-0\" at base 70b00000\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" loaded module \"API-MS-WIN-CORE-FIBERS-L1-1-1\" at base 0\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" loaded module \"KERNEL32\" at base 751c0000\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" loaded module \"API-MS-WIN-CORE-LOCALIZATION-L1-2-1\" at base 0\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" loaded module \"%WINDIR%\\TEMP\\VXOLE32.DLL\" at base 71f70000",
+      "origin": "API Call",
+      "attck_id": "T1129",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1129"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "api-176",
+      "type": 6,
+      "relevance": 1,
+      "name": "Calls an API typically used to retrieve function addresses",
+      "description": "\"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" called \"GetProcAddress\" with a parameter FlsGetValue (UID: 00000000-00004288)\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" called \"GetProcAddress\" with a parameter InitializeCriticalSectionEx (UID: 00000000-00004288)\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" called \"GetProcAddress\" with a parameter FlsAlloc (UID: 00000000-00004288)\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" called \"GetProcAddress\" with a parameter FlsSetValue (UID: 00000000-00004288)\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" called \"GetProcAddress\" with a parameter LCMapStringEx (UID: 00000000-00004288)\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" called \"GetProcAddress\" with a parameter FlsFree (UID: 00000000-00004288)\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" called \"GetProcAddress\" with a parameter InitOnceExecuteOnce (UID: 00000000-00004288)\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" called \"GetProcAddress\" with a parameter CreateEventExW (UID: 00000000-00004288)\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" called \"GetProcAddress\" with a parameter CreateSemaphoreW (UID: 00000000-00004288)\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" called \"GetProcAddress\" with a parameter CreateSemaphoreExW (UID: 00000000-00004288)\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" called \"GetProcAddress\" with a parameter CreateThreadpoolTimer (UID: 00000000-00004288)\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" called \"GetProcAddress\" with a parameter SetThreadpoolTimer (UID: 00000000-00004288)\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" called \"GetProcAddress\" with a parameter WaitForThreadpoolTimerCallbacks (UID: 00000000-00004288)\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" called \"GetProcAddress\" with a parameter CloseThreadpoolTimer (UID: 00000000-00004288)\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" called \"GetProcAddress\" with a parameter CreateThreadpoolWait (UID: 00000000-00004288)\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" called \"GetProcAddress\" with a parameter SetThreadpoolWait (UID: 00000000-00004288)\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" called \"GetProcAddress\" with a parameter CloseThreadpoolWait (UID: 00000000-00004288)\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" called \"GetProcAddress\" with a parameter FlushProcessWriteBuffers (UID: 00000000-00004288)\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" called \"GetProcAddress\" with a parameter FreeLibraryWhenCallbackReturns (UID: 00000000-00004288)\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" called \"GetProcAddress\" with a parameter GetCurrentProcessorNumber (UID: 00000000-00004288)\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" called \"GetProcAddress\" with a parameter CreateSymbolicLinkW (UID: 00000000-00004288)\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" called \"GetProcAddress\" with a parameter GetCurrentPackageId (UID: 00000000-00004288)\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" called \"GetProcAddress\" with a parameter GetTickCount64 (UID: 00000000-00004288)\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" called \"GetProcAddress\" with a parameter GetFileInformationByHandleEx (UID: 00000000-00004288)\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" called \"GetProcAddress\" with a parameter SetFileInformationByHandle (UID: 00000000-00004288)\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" called \"GetProcAddress\" with a parameter GetSystemTimePreciseAsFileTime (UID: 00000000-00004288)\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" called \"GetProcAddress\" with a parameter InitializeConditionVariable (UID: 00000000-00004288)\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" called \"GetProcAddress\" with a parameter WakeConditionVariable (UID: 00000000-00004288)\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" called \"GetProcAddress\" with a parameter WakeAllConditionVariable (UID: 00000000-00004288)\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" called \"GetProcAddress\" with a parameter SleepConditionVariableCS (UID: 00000000-00004288)\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" called \"GetProcAddress\" with a parameter InitializeSRWLock (UID: 00000000-00004288)\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" called \"GetProcAddress\" with a parameter AcquireSRWLockExclusive (UID: 00000000-00004288)\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" called \"GetProcAddress\" with a parameter TryAcquireSRWLockExclusive (UID: 00000000-00004288)\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" called \"GetProcAddress\" with a parameter ReleaseSRWLockExclusive (UID: 00000000-00004288)\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" called \"GetProcAddress\" with a parameter SleepConditionVariableSRW (UID: 00000000-00004288)\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" called \"GetProcAddress\" with a parameter CreateThreadpoolWork (UID: 00000000-00004288)\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" called \"GetProcAddress\" with a parameter SubmitThreadpoolWork (UID: 00000000-00004288)\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" called \"GetProcAddress\" with a parameter CloseThreadpoolWork (UID: 00000000-00004288)\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" called \"GetProcAddress\" with a parameter CompareStringEx (UID: 00000000-00004288)\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" called \"GetProcAddress\" with a parameter GetLocaleInfoEx (UID: 00000000-00004288)\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" called \"GetProcAddress\" with a parameter AreFileApisANSI (UID: 00000000-00004288)\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" called \"GetProcAddress\" with a parameter RtlGetVersion (UID: 00000000-00004288)",
+      "origin": "API Call",
+      "attck_id": "T1106",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1106"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "api-175",
+      "type": 6,
+      "relevance": 1,
+      "name": "Calls an API typically used to load libraries",
+      "description": "\"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" called \"LoadLibrary\" with a parameter api-ms-win-core-synch-l1-2-0 (UID: 00000000-00004288)\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" called \"LoadLibrary\" with a parameter api-ms-win-core-fibers-l1-1-1 (UID: 00000000-00004288)\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" called \"LoadLibrary\" with a parameter kernel32 (UID: 00000000-00004288)\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" called \"LoadLibrary\" with a parameter api-ms-win-core-localization-l1-2-1 (UID: 00000000-00004288)",
+      "origin": "API Call",
+      "attck_id": "T1129",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1129"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "api-8",
+      "type": 6,
+      "relevance": 1,
+      "name": "Looks up procedures from modules (excluding apphelp.dll, kernel32.dll, user32.dll, gdi32.dll, ole32.dll, comctl32.dll, uxtheme.dll, oleaut32.dll, version.dll, msctfime.ime)",
+      "description": "\"15001600c03e9471@advapi32.dll\"\n \"0e000f00703f9471@advapi32.dll\"\n \"0e000f00cc3f9471@advapi32.dll\"\n \"11001200b4479471@advapi32.dll\"\n \"1100120048489471@advapi32.dll\"\n \"120013008c489471@advapi32.dll\"\n \"12001300e4489471@advapi32.dll\"\n \"14001500386e9471@advapi32.dll\"\n \"14001500506e9471@advapi32.dll\"\n \"14001500686e9471@advapi32.dll\"\n \"17001800806e9471@advapi32.dll\"\n \"0d000e00986e9471@advapi32.dll\"\n \"11001200a86e9471@advapi32.dll\"\n \"11001200bc6e9471@advapi32.dll\"\n \"0d000e0034499471@shell32.dll\"\n \"0d000e00b0499471@shell32.dll\"\n \"0f001000fc6f9471@advapi32.dll\"\n \"140015003c709471@advapi32.dll\"\n \"1400150054709471@advapi32.dll\"\n \"0c000d009c709471@advapi32.dll\"\n \"0c000d00ac709471@advapi32.dll\"\n \"0e000f00bc709471@advapi32.dll\"\n \"0e000f00cc709471@advapi32.dll\"\n \"0b000c00dc709471@advapi32.dll\"\n \"1800190014739471@RPCRT4.dll\"",
+      "origin": "API Call",
+      "attck_id": "T1129",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1129"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "api-22",
+      "type": 6,
+      "relevance": 1,
+      "name": "Fails to load modules at runtime",
+      "description": "\"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" failed to load missing module \"api-ms-win-core-fibers-l1-1-1\" - [base:0; Status:c0000135]\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" failed to load missing module \"api-ms-win-core-localization-l1-2-1\" - [base:0; Status:c0000135]",
+      "origin": "API Call",
+      "attck_id": "T1574.002",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1574/002"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "module-10",
+      "type": 10,
+      "name": "Loads the RPC (Remote Procedure Call) module DLL",
+      "description": "\"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" loaded module \"%WINDIR%\\System32\\rpcrt4.dll\" at 75540000",
+      "origin": "Loaded Module",
+      "attck_id": "T1129",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1129"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "static-157",
+      "name": "Matched Compiler/Packer signature (DIE)",
+      "description": "\"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\" was detected as \"Borland Delphi\"  and name: \"Compiler\"\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\" was detected as \"Turbo Linker\"  and name: \"Linker\"",
+      "origin": "Static Parser",
+      "attck_id": "T1027",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1027"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "static-80",
+      "relevance": 1,
+      "name": "PE file contains executable sections",
+      "description": "\"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\" has an executable section named \"CODE\"",
+      "origin": "Static Parser"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "static-79",
+      "relevance": 1,
+      "name": "Contains ability to dynamically determine API calls",
+      "description": "Found GetProcAddress() and LoadLibraryA() in an import section (Source: 07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1)",
+      "origin": "Static Parser",
+      "attck_id": "T1027.007",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1027/007"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "static-95",
+      "name": "PE file contains writable sections",
+      "description": "\"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\" has an writable section named \"DATA\"\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\" has an writable section named \"BSS\"\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\" has an writable section named \".idata\"\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\" has an writable section named \".tls\"",
+      "origin": "Static Parser"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "stream-103",
+      "type": 1,
+      "relevance": 3,
+      "name": "Contains ability to delay the execution of current thread",
+      "description": "WaitForSingleObject@KERNEL32.DLL at 00000000-00004288-37135-28-00404E44\n WaitForSingleObject@KERNEL32.DLL at 00000000-00004288-37135-44-00404FF0",
+      "origin": "Hybrid Analysis Technology",
+      "attck_id": "T1497.003",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1497/003"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Unusual Characteristics",
+      "identifier": "string-354",
+      "type": 2,
+      "relevance": 1,
+      "name": "Contains reference to mutex-related activity (API string)",
+      "description": "Found reference to API \"CreateMutexA\" (Indicator: \"CreateMutex\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"CreateMutexA\" (Indicator: \"CreateMutex\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")",
+      "origin": "File/Memory",
+      "attck_id": "T1082",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1082"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Unusual Characteristics",
+      "identifier": "static-18",
+      "relevance": 10,
+      "name": "Matched Compiler/Packer signature",
+      "description": "\"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\" was detected as \"Borland Delphi 6.0 - 7.0\"",
+      "origin": "Static Parser",
+      "attck_id": "T1027.002",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1027/002"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Unusual Characteristics",
+      "identifier": "string-481",
+      "type": 2,
+      "relevance": 1,
+      "name": "Reference explorer.exe process",
+      "description": "Found string \"explorer.exe\" (Indicator: \"explorer.exe\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")",
+      "origin": "File/Memory",
+      "attck_id": "T1055",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Unusual Characteristics",
+      "identifier": "static-19",
+      "relevance": 10,
+      "name": "Found Delphi 4 - Delphi 2006 artifact",
+      "description": "\"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\" has a PE timestamp using the buggy magic timestamp 0x2A425E19.",
+      "origin": "Static Parser"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "api-126",
+      "type": 6,
+      "relevance": 3,
+      "name": "Tries to access non-existent files (executable)",
+      "description": "\"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" trying to access non-existent file \"C:\\SspiCli.dll\"\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" trying to access non-existent file \"C:\\FLTLIB.DLL\"\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" trying to access non-existent file \"C:\\Windows\\system32\\api-ms-win-core-fibers-l1-1-1.DLL\"\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" trying to access non-existent file \"C:\\Windows\\system32\\api-ms-win-core-localization-l1-2-1.DLL\"\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" trying to access non-existent file \"C:\\SSPICLI.DLL\"\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" trying to access non-existent file \"C:\\Windows\\System32\\API-MS-WIN-CORE-FIBERS-L1-1-1.DLL\"\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" trying to access non-existent file \"C:\\Windows\\System32\\API-MS-WIN-CORE-LOCALIZATION-L1-2-1.DLL\"",
+      "origin": "API Call",
+      "attck_id": "T1083",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1083"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "registry-177",
+      "type": 3,
+      "relevance": 1,
+      "name": "Opens registry keys",
+      "description": "\"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" (Access type: \"OPEN\"; Path: \"HKCU\\CONTROL PANEL\\DESKTOP\\MUICACHED\\MACHINELANGUAGECONFIGURATION\"; Key: \"\"; Value: \"\")\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" (Access type: \"OPEN\"; Path: \"HKLM\\SOFTWARE\\POLICIES\\MICROSOFT\\MUI\\SETTINGS\"; Key: \"\"; Value: \"\")\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" (Access type: \"OPEN\"; Path: \"HKCU\\SOFTWARE\\POLICIES\\MICROSOFT\\CONTROL PANEL\\DESKTOP\"; Key: \"\"; Value: \"\")\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" (Access type: \"OPEN\"; Path: \"HKCU\\CONTROL PANEL\\DESKTOP\\LANGUAGECONFIGURATION\"; Key: \"\"; Value: \"\")\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" (Access type: \"OPEN\"; Path: \"HKCU\\CONTROL PANEL\\DESKTOP\"; Key: \"\"; Value: \"\")\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" (Access type: \"OPEN\"; Path: \"HKCU\\CONTROL PANEL\\DESKTOP\\MUICACHED\"; Key: \"\"; Value: \"\")\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" (Access type: \"OPEN\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\SIDEBYSIDE\"; Key: \"\"; Value: \"\")\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" (Access type: \"OPEN\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\SESSION MANAGER\"; Key: \"\"; Value: \"\")\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" (Access type: \"OPEN\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\TERMINAL SERVER\"; Key: \"\"; Value: \"\")\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" (Access type: \"OPEN\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\SAFEBOOT\\OPTION\"; Key: \"\"; Value: \"\")\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" (Access type: \"OPEN\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\SRP\\GP\\DLL\"; Key: \"\"; Value: \"\")\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" (Access type: \"OPEN\"; Path: \"HKLM\\SOFTWARE\\POLICIES\\MICROSOFT\\WINDOWS\\SAFER\\CODEIDENTIFIERS\"; Key: \"\"; Value: \"\")\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" (Access type: \"OPEN\"; Path: \"HKCU\\SOFTWARE\\POLICIES\\MICROSOFT\\WINDOWS\\SAFER\\CODEIDENTIFIERS\"; Key: \"\"; Value: \"\")\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" (Access type: \"OPEN\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\NLS\\SORTING\\VERSIONS\"; Key: \"\"; Value: \"\")",
+      "origin": "Registry Access",
+      "attck_id": "T1012",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1012"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "string-310",
+      "type": 2,
+      "relevance": 1,
+      "name": "Contains ability to load modules (API string)",
+      "description": "Found reference to API \"LoadLibraryA\" (Indicator: \"LoadLibrary\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"LoadLibraryA\" (Indicator: \"LoadLibrary\"; Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp, 00000000-00004288.00000000.92877.01488000.00000004.mdmp, 00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")",
+      "origin": "File/Memory",
+      "attck_id": "T1106",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1106"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "api-263",
+      "type": 6,
+      "relevance": 1,
+      "name": "Touches files",
+      "description": "\"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" trying to touch file \"C:\\Windows\\SYSTEM32\\sechost.dll\"\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" trying to touch file \"C:\\Windows\\system32\\IMM32.DLL\"\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" trying to touch file \"C:\\SspiCli.dll\"\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" trying to touch file \"C:\\Windows\\system32\\SspiCli.dll\"\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" trying to touch file \"C:\\Windows\\Temp\\VxSSL32.dll\"\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" trying to touch file \"C:\\FLTLIB.DLL\"\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" trying to touch file \"C:\\Windows\\system32\\FLTLIB.DLL\"\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" trying to touch file \"C:\\Windows\\system32\\api-ms-win-core-synch-l1-2-0.DLL\"\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" trying to touch file \"C:\\Windows\\system32\\api-ms-win-core-fibers-l1-1-1.DLL\"\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" trying to touch file \"C:\\Windows\\system32\\api-ms-win-core-localization-l1-2-1.DLL\"\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" trying to touch file \"C:\\Windows\\Temp\\VxOle32.dll\"\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" trying to touch file \"\\FileSystem\\Filters\\FltMgrMsg\"\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" trying to touch file \"C:\\Windows\\System32\\sechost.dll\"\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" trying to touch file \"C:\\Windows\\System32\\imm32.dll\"",
+      "origin": "API Call",
+      "attck_id": "T1083",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1083"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "registry-172",
+      "type": 3,
+      "relevance": 1,
+      "name": "Queries registry keys",
+      "description": "\"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" (Access type: \"QUERYVAL\"; Path: \"HKCU\\CONTROL PANEL\\DESKTOP\"; Key: \"PREFERREDUILANGUAGES\"; Value: \"\")\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" (Access type: \"QUERYVAL\"; Path: \"HKCU\\CONTROL PANEL\\DESKTOP\\MUICACHED\"; Key: \"MACHINEPREFERREDUILANGUAGES\"; Value: \"\")\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\SIDEBYSIDE\"; Key: \"PREFEREXTERNALMANIFEST\"; Value: \"\")\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\SESSION MANAGER\"; Key: \"CWDILLEGALINDLLSEARCH\"; Value: \"\")\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\TERMINAL SERVER\"; Key: \"TSAPPCOMPAT\"; Value: \"\")\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\TERMINAL SERVER\"; Key: \"TSUSERENABLED\"; Value: \"\")\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\POLICIES\\MICROSOFT\\WINDOWS\\SAFER\\CODEIDENTIFIERS\"; Key: \"TRANSPARENTENABLED\"; Value: \"\")\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\NLS\\SORTING\\VERSIONS\"; Key: \"COMPATDLL\"; Value: \"\")\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\NLS\\SORTING\\VERSIONS\"; Key: \"00060101.00060101\"; Value: \"\")\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\NLS\\SORTING\\VERSIONS\"; Key: \"\"; Value: \"\")\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\SESSION MANAGER\"; Key: \"SAFEDLLSEARCHMODE\"; Value: \"\")\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\WINDOWS NT\\CURRENTVERSION\\GRE_INITIALIZE\"; Key: \"DISABLEMETAFILES\"; Value: \"\")\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\WINDOWS NT\\CURRENTVERSION\\COMPATIBILITY32\"; Key: \"07325C3843D26C9D43E9CB4D41ED3F0C24D9B5AAF4E3A27067EA481504343BA1\"; Value: \"\")\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\WINDOWS NT\\CURRENTVERSION\\WINDOWS\"; Key: \"LOADAPPINIT_DLLS\"; Value: \"\")\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\OLE\"; Key: \"PAGEALLOCATORUSESYSTEMHEAP\"; Value: \"\")\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\OLE\"; Key: \"PAGEALLOCATORSYSTEMHEAPISPRIVATE\"; Value: \"\")\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\RPC\"; Key: \"MAXRPCSIZE\"; Value: \"\")\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\COMPUTERNAME\\ACTIVECOMPUTERNAME\"; Key: \"COMPUTERNAME\"; Value: \"\")\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\SETUP\"; Key: \"OOBEINPROGRESS\"; Value: \"\")\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\SETUP\"; Key: \"SYSTEMSETUPINPROGRESS\"; Value: \"\")\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\POLICIES\\MICROSOFT\\SQMCLIENT\\WINDOWS\"; Key: \"CEIPENABLE\"; Value: \"\")",
+      "origin": "Registry Access",
+      "attck_id": "T1012",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1012"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "stream-28",
+      "type": 1,
+      "relevance": 5,
+      "name": "Contains ability to lookup the windows account name",
+      "description": "GetUserNameA@ADVAPI32.DLL at 00000000-00004288-37135-77-00407114",
+      "origin": "Hybrid Analysis Technology",
+      "attck_id": "T1033",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1033"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "summary-29",
+      "type": 15,
+      "relevance": 1,
+      "name": "Shows ability to use execution guardrails",
+      "description": "The analysis shows indicators which can be used as execution guardrails to ensure that payload only executes against intended targets/system. Matched sigs: Able to identify sandbox environment running process\n Matched sigs: Contains ability to delay execution by waiting for signal/timeout (API string)\n Matched sigs: Able to identify virtual environment by using user activity (API string)\n Matched sigs: Contains ability to retrieve the time elapsed since the system was started (API string)\n Matched sigs: The input sample contains a known anti-VM trick\n Matched sigs: Contains ability to delay the execution of current thread\n Matched sigs: YARA signature match - References common sandbox DLLs (sandbox evasion)",
+      "origin": "Indicator Combinations",
+      "attck_id": "T1480",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1480"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Anti-Detection/Stealthyness",
+      "identifier": "string-318",
+      "type": 2,
+      "relevance": 1,
+      "name": "Contains ability to load/free library (API string)",
+      "description": "Found reference to API \"FreeLibrary\" (Indicator: \"FreeLibrary\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"LoadLibraryA\" (Indicator: \"LoadLibrary\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"LoadLibraryA\" (Indicator: \"LoadLibrary\"; Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp, 00000000-00004288.00000000.92877.01488000.00000004.mdmp, 00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API \"FreeLibrary\" (Indicator: \"FreeLibrary\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")",
+      "origin": "File/Memory",
+      "attck_id": "T1055.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055/001"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Anti-Detection/Stealthyness",
+      "identifier": "string-138",
+      "type": 2,
+      "relevance": 2,
+      "name": "Contains ability to use Cryptographic classes",
+      "description": "file/memory contains long string with (Indicator: \"Aes\"; Source: \"00000000-00004288.00000000.92877.01488000.00000004.mdmp\")\n file/memory contains long string with (Indicator: \"Oid\"; Source: \"00000000-00004288.00000000.92877.01488000.00000004.mdmp\")\n file/memory contains long string with (Indicator: \"RC2\"; Source: \"00000000-00004288.00000000.92877.01488000.00000004.mdmp\")",
+      "origin": "File/Memory",
+      "attck_id": "T1027",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1027"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Anti-Detection/Stealthyness",
+      "identifier": "string-304",
+      "type": 2,
+      "relevance": 1,
+      "name": "Contains ability to modify registry key/value (API string)",
+      "description": "Found reference to API \"RegSetValueExA\" (Indicator: \"RegSetValue\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"RegSetValueExA\" (Indicator: \"RegSetValue\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")",
+      "origin": "File/Memory",
+      "attck_id": "T1112",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1112"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Anti-Detection/Stealthyness",
+      "identifier": "string-439",
+      "type": 2,
+      "relevance": 1,
+      "name": "Contains ability to modify process memory (API string)",
+      "description": "Found reference to API \"VirtualAllocEx\" (Indicator: \"VirtualAllocEx\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"VirtualAllocEx\" (Indicator: \"VirtualAllocEx\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")",
+      "origin": "File/Memory",
+      "attck_id": "T1055.003",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055/003"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Anti-Detection/Stealthyness",
+      "identifier": "string-226",
+      "type": 2,
+      "relevance": 1,
+      "name": "Contains ability to delay execution by waiting for signal/timeout (API string)",
+      "description": "Found reference to API \"WaitForSingleObject\" (Indicator: \"WaitForSingleObject\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"MsgWaitForMultipleObjects\" (Indicator: \"WaitForMultipleObjects\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"WaitForSingleObject\" (Indicator: \"WaitForSingleObject\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API \"MsgWaitForMultipleObjects\" (Indicator: \"WaitForMultipleObjects\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")",
+      "origin": "File/Memory",
+      "attck_id": "T1497.003",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1497/003"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Anti-Detection/Stealthyness",
+      "identifier": "string-79",
+      "type": 2,
+      "relevance": 1,
+      "name": "Contains ability to create a remote thread (API string)",
+      "description": "Found reference to API \"CreateRemoteThread\" (Indicator: \"CreateRemoteThread\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"CreateRemoteThread\" (Indicator: \"CreateRemoteThread\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")",
+      "origin": "File/Memory",
+      "attck_id": "T1055.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055/001"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Anti-Detection/Stealthyness",
+      "identifier": "string-92",
+      "type": 2,
+      "relevance": 1,
+      "name": "Contains ability to inject code into another process (API string)",
+      "description": "Found reference to API \"WriteProcessMemory\" (Indicator: \"WriteProcessMemory\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"VirtualAllocEx\" (Indicator: \"VirtualAlloc\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"VirtualAllocEx\" (Indicator: \"VirtualAllocEx\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"VirtualFree\" (Indicator: \"VirtualFree\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"VirtualAlloc\" (Indicator: \"VirtualAlloc\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"VirtualAlloc\" (Indicator: \"VirtualAlloc\"; Source: \"00000000-00004288.00000000.92877.01488000.00000004.mdmp, 00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API \"VirtualFree\" (Indicator: \"VirtualFree\"; Source: \"00000000-00004288.00000000.92877.01488000.00000004.mdmp, 00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API \"WriteProcessMemory\" (Indicator: \"WriteProcessMemory\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API \"VirtualAllocEx\" (Indicator: \"VirtualAlloc\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API \"VirtualAllocEx\" (Indicator: \"VirtualAllocEx\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")",
+      "origin": "File/Memory",
+      "attck_id": "T1055",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Anti-Detection/Stealthyness",
+      "identifier": "string-145",
+      "type": 2,
+      "relevance": 1,
+      "name": "Found virtual disk drive like strings",
+      "description": "Found string - \\\\.\\Syser; Source: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found string - \\\\.\\SyserDbgMsg; Source: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found string - \\\\.\\SyserBoot; Source: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found string - \\\\.\\SICE; Source: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found string - \\\\.\\NTICE; Source: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found string - \\\\.\\Syser; Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp\")\n Found string - \\\\.\\SyserDbgMsg; Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp\")\n Found string - \\\\.\\SyserBoot; Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp\")\n Found string - \\\\.\\SICE; Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp\")\n Found string - \\\\.\\NTICE; Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp\")",
+      "origin": "File/Memory",
+      "attck_id": "T1564",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1564"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Anti-Detection/Stealthyness",
+      "identifier": "memorydump-8",
+      "type": 20,
+      "relevance": 1,
+      "name": "Found PE header in memory",
+      "description": "Found PE header \"MZ\" - Source: \"00000000-00004288.00000000.92877.01488000.00000004.mdmp\")",
+      "origin": "Memory Dumps",
+      "attck_id": "T1055",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Anti-Detection/Stealthyness",
+      "identifier": "api-139",
+      "type": 6,
+      "relevance": 3,
+      "name": "Calls an API typically used to load a resource in memory",
+      "description": "\"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" called \"LoadResource with parameter {'hModule': '4194304', 'hResInfo': '4259976'}\" (UID: 00000000-00004288)",
+      "origin": "API Call",
+      "attck_id": "T1106",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1106"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Anti-Detection/Stealthyness",
+      "identifier": "api-140",
+      "type": 6,
+      "relevance": 3,
+      "name": "Calls an API typically used to find a resource in a module",
+      "description": "\"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" called \"FindResourceA\" with parameter \"4217440\" - (UID: 00000000-00004288)",
+      "origin": "API Call",
+      "attck_id": "T1106",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1106"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Anti-Reverse Engineering",
+      "identifier": "string-183",
+      "type": 2,
+      "relevance": 1,
+      "name": "Contains ability to check debugger is running (API string)",
+      "description": "Found reference to API \"GetTickCount\" (Indicator: \"GetTickCount\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"IsDebuggerPresent\" (Indicator: \"IsDebuggerPresent\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")",
+      "origin": "File/Memory",
+      "attck_id": "T1622",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1622"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Anti-Reverse Engineering",
+      "identifier": "string-148",
+      "type": 2,
+      "relevance": 1,
+      "name": "Contains ability to register a top-level exception handler (API string)",
+      "description": "Found reference to API \"UnhandledExceptionFilter\" (Indicator: \"UnhandledExceptionFilter\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")",
+      "origin": "File/Memory",
+      "attck_id": "T1622",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1622"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Anti-Reverse Engineering",
+      "identifier": "static-5",
+      "relevance": 10,
+      "name": "PE file contains zero-size sections",
+      "description": "Raw size of \"BSS\" is zero\n Raw size of \".tls\" is zero",
+      "origin": "Static Parser",
+      "attck_id": "T1027",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1027"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Environment Awareness",
+      "identifier": "string-201",
+      "type": 2,
+      "relevance": 1,
+      "name": "Contains ability to query system locale (API string)",
+      "description": "Found reference to API \"GetLocaleInfoA\" (Indicator: \"GetLocaleInfo\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"GetLocaleInfoA\" (Indicator: \"GetLocaleInfo\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")",
+      "origin": "File/Memory",
+      "attck_id": "T1614",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1614"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Environment Awareness",
+      "identifier": "string-171",
+      "type": 2,
+      "relevance": 1,
+      "name": "Contains ability to retrieve the OS information (API string)",
+      "description": "Found reference to API \"GetVersion\" (Indicator: \"GetVersion\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"GetVersion\" (Indicator: \"GetVersion\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")",
+      "origin": "File/Memory",
+      "attck_id": "T1082",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1082"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Environment Awareness",
+      "identifier": "string-141",
+      "type": 2,
+      "relevance": 1,
+      "name": "Contains ability to retrieve open application windows (API string)",
+      "description": "Found reference to API \"FindWindowA\" (Indicator: \"FindWindow\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"FindWindowA\" (Indicator: \"FindWindow\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")",
+      "origin": "File/Memory",
+      "attck_id": "T1010",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1010"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Environment Awareness",
+      "identifier": "string-312",
+      "type": 2,
+      "relevance": 1,
+      "name": "Contains ability to retrieve path in which Windows is installed (API string)",
+      "description": "Found reference to API \"GetWindowsDirectoryA\" (Indicator: \"GetWindowsDirectory\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"GetWindowsDirectoryA\" (Indicator: \"GetWindowsDirectory\"; Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp\")",
+      "origin": "File/Memory",
+      "attck_id": "T1083",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1083"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Environment Awareness",
+      "identifier": "string-666",
+      "type": 2,
+      "relevance": 1,
+      "name": "Able to identify sandbox environment running process",
+      "description": "Found string \"VBoxService.exe\" (Indicator: \"vboxservice.exe\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found string \"VBoxService.exe\" (Indicator: \"vboxservice.exe\"; Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp\")",
+      "origin": "File/Memory",
+      "attck_id": "T1497",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1497"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Environment Awareness",
+      "identifier": "registry-78",
+      "type": 3,
+      "relevance": 1,
+      "name": "Contains ability to read software policies",
+      "description": "\"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" (Path: \"HKLM\\SOFTWARE\\POLICIES\\MICROSOFT\\WINDOWS\\SAFER\\CODEIDENTIFIERS\"; Key: \"TRANSPARENTENABLED\")",
+      "origin": "Registry Access",
+      "attck_id": "T1082",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1082"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Environment Awareness",
+      "identifier": "string-661",
+      "type": 2,
+      "relevance": 1,
+      "name": "Able to identify virtual environment by using user activity (API string)",
+      "description": "Found string \"GetCommandLineA\" (Indicator: \"GetCommandLine\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found string \"GetCommandLineA\" (Indicator: \"GetCommandLine\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")",
+      "origin": "File/Memory",
+      "attck_id": "T1497.002",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1497/002"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Environment Awareness",
+      "identifier": "string-167",
+      "type": 2,
+      "relevance": 1,
+      "name": "Contains ability to retrieve the contents of the STARTUPINFO structure (API string)",
+      "description": "Found reference to API \"GetStartupInfoA\" (Indicator: \"GetStartupInfo\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")",
+      "origin": "File/Memory",
+      "attck_id": "T1543",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1543"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Environment Awareness",
+      "identifier": "string-721",
+      "type": 2,
+      "relevance": 1,
+      "name": "Able to visualize and control listed components (API string)",
+      "description": "Found reference to API \"FindWindowA\" (Indicator: \"findwindow\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"FindWindowA\" (Indicator: \"findwindow\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")",
+      "origin": "File/Memory",
+      "attck_id": "T1055.015",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055/015"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Environment Awareness",
+      "identifier": "string-413",
+      "type": 2,
+      "relevance": 1,
+      "name": "Contains ability to find open windows (API string)",
+      "description": "Found reference to API \"FindWindowA\" (Indicator: \"FindWindowA\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"FindWindowA\" (Indicator: \"FindWindowA\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")",
+      "origin": "File/Memory",
+      "attck_id": "T1010",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1010"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Environment Awareness",
+      "identifier": "string-143",
+      "type": 2,
+      "relevance": 1,
+      "name": "Contains ability to retrieve system language (API string)",
+      "description": "Found reference to API \"GetKeyboardType\" (Indicator: \"GetKeyboardType\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"GetKeyboardType\" (Indicator: \"GetKeyboardType\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")",
+      "origin": "File/Memory",
+      "attck_id": "T1614.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1614/001"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Environment Awareness",
+      "identifier": "string-433",
+      "type": 2,
+      "relevance": 1,
+      "name": "Contains ability to execute a WMI query",
+      "description": "Found string \"SELECT * FROM k$\" (Indicator: \"select * from \"; Source: \"00000000-00004288.00000000.92877.01488000.00000004.mdmp\")",
+      "origin": "File/Memory",
+      "attck_id": "T1047",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1047"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Environment Awareness",
+      "identifier": "api-125",
+      "type": 6,
+      "relevance": 3,
+      "name": "Calls an API typically used to get system version information",
+      "description": "\"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" called \"RtlGetVersion\" with parameter 140100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b0020003100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 (UID: 00000000-00004288)",
+      "origin": "API Call",
+      "attck_id": "T1082",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1082"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Environment Awareness",
+      "identifier": "registry-35",
+      "type": 3,
+      "relevance": 5,
+      "name": "Reads the active computer name",
+      "description": "\"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1.exe\" (Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\COMPUTERNAME\\ACTIVECOMPUTERNAME\"; Key: \"COMPUTERNAME\")",
+      "origin": "Registry Access",
+      "attck_id": "T1082",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1082"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Environment Awareness",
+      "identifier": "stream-31",
+      "type": 1,
+      "relevance": 1,
+      "name": "Contains ability to retrieve/open a process",
+      "description": "OpenProcess@KERNEL32.DLL at 00000000-00004288-37135-1-004094D4",
+      "origin": "Hybrid Analysis Technology",
+      "attck_id": "T1057",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1057"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Spyware/Information Retrieval",
+      "identifier": "string-207",
+      "type": 2,
+      "relevance": 1,
+      "name": "Contains ability to retrieve file and directory information (API string)",
+      "description": "Found reference to API \"GetFileAttributesA\" (Indicator: \"GetFileAttributes\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"GetSystemDirectoryA\" (Indicator: \"GetSystemDirectory\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"GetTempPathA\" (Indicator: \"GetTempPath\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"GetSystemDirectoryA\" (Indicator: \"GetSystemDirectory\"; Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp\")\n Found reference to API \"GetTempPathA\" (Indicator: \"GetTempPath\"; Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp\")\n Found reference to API \"GetFileAttributesA\" (Indicator: \"GetFileAttributes\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")",
+      "origin": "File/Memory",
+      "attck_id": "T1083",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1083"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Spyware/Information Retrieval",
+      "identifier": "string-57",
+      "type": 2,
+      "relevance": 3,
+      "name": "Contains CRYPTO related strings",
+      "description": "file/memory contains long string with (Indicator: \"aes\"; Source: \"00000000-00004288.00000000.92877.01488000.00000004.mdmp\")",
+      "origin": "File/Memory",
+      "attck_id": "T1027",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1027"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Spyware/Information Retrieval",
+      "identifier": "string-78",
+      "type": 2,
+      "relevance": 1,
+      "name": "Contains ability to capture screen (API string)",
+      "description": "Found reference to API \"BitBlt\" (Indicator: \"BitBlt\"; Source: \"00000000-00004288.00000000.92877.01488000.00000004.mdmp\")\n Found reference to API \"GetDC\" (Indicator: \"GetDC\"; Source: \"00000000-00004288.00000000.92877.01488000.00000004.mdmp\")",
+      "origin": "File/Memory",
+      "attck_id": "T1113",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1113"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Spyware/Information Retrieval",
+      "identifier": "string-229",
+      "type": 2,
+      "relevance": 1,
+      "name": "Contains ability to query registry keys (API string)",
+      "description": "Found reference to API \"RegQueryValueExA\" (Indicator: \"RegQueryValue\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"RegOpenKeyExA\" (Indicator: \"RegOpenKey\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"RegOpenKeyA\" (Indicator: \"RegOpenKey\"; Source: \"00000000-00004288.00000000.92877.01488000.00000004.mdmp\")\n Found reference to API \"RegQueryValueExA\" (Indicator: \"RegQueryValue\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API \"RegOpenKeyExA\" (Indicator: \"RegOpenKey\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")",
+      "origin": "File/Memory",
+      "attck_id": "T1012",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1012"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Spyware/Information Retrieval",
+      "identifier": "string-121",
+      "type": 2,
+      "relevance": 1,
+      "name": "Contains ability to retrieve usernames and/or user information (API string)",
+      "description": "Found reference to API \"GetUserNameA\" (Indicator: \"GetUserName\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"GetUserNameA\" (Indicator: \"GetUserName\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")",
+      "origin": "File/Memory",
+      "attck_id": "T1033",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1033"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Spyware/Information Retrieval",
+      "identifier": "string-164",
+      "type": 2,
+      "relevance": 1,
+      "name": "Contains ability to retrieve the fully qualified path of module (API string)",
+      "description": "Found reference to API \"GetModuleFileNameA\" (Indicator: \"GetModuleFileName\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"GetModuleFileNameExA\" (Indicator: \"GetModuleFileName\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"GetModuleFileNameExA\" (Indicator: \"GetModuleFileName\"; Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp\")\n Found reference to API \"GetModuleFileNameA\" (Indicator: \"GetModuleFileName\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")",
+      "origin": "File/Memory",
+      "attck_id": "T1106",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1106"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Spyware/Information Retrieval",
+      "identifier": "string-85",
+      "type": 2,
+      "relevance": 1,
+      "name": "Contains ability to enumerate process and/or its information (API string)",
+      "description": "Found reference to API \"GetModuleHandleA\" (Indicator: \"GetModuleHandle\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"CreateToolhelp32Snapshot\" (Indicator: \"CreateToolhelp32Snapshot\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"Process32First\" (Indicator: \"Process32First\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"Process32Next\" (Indicator: \"Process32Next\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"Process32FirstW\" (Indicator: \"Process32First\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"Process32NextW\" (Indicator: \"Process32Next\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"Thread32First\" (Indicator: \"Thread32First\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"Thread32Next\" (Indicator: \"Thread32Next\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"Module32First\" (Indicator: \"Module32First\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"Module32Next\" (Indicator: \"Module32Next\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"Module32FirstW\" (Indicator: \"Module32First\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"Module32NextW\" (Indicator: \"Module32Next\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"GetModuleHandleA\" (Indicator: \"GetModuleHandle\"; Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp, 00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")\n Found reference to API \"CreateToolhelp32Snapshot\" (Indicator: \"CreateToolhelp32Snapshot\"; Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp\")\n Found reference to API \"Process32First\" (Indicator: \"Process32First\"; Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp\")\n Found reference to API \"Process32Next\" (Indicator: \"Process32Next\"; Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp\")\n Found reference to API \"Process32FirstW\" (Indicator: \"Process32First\"; Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp\")\n Found reference to API \"Process32NextW\" (Indicator: \"Process32Next\"; Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp\")\n Found reference to API \"Thread32First\" (Indicator: \"Thread32First\"; Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp\")\n Found reference to API \"Thread32Next\" (Indicator: \"Thread32Next\"; Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp\")\n Found reference to API \"Module32First\" (Indicator: \"Module32First\"; Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp\")\n Found reference to API \"Module32Next\" (Indicator: \"Module32Next\"; Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp\")\n Found reference to API \"Module32FirstW\" (Indicator: \"Module32First\"; Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp\")\n Found reference to API \"Module32NextW\" (Indicator: \"Module32Next\"; Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp\")",
+      "origin": "File/Memory",
+      "attck_id": "T1057",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1057"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Spyware/Information Retrieval",
+      "identifier": "string-427",
+      "type": 2,
+      "relevance": 1,
+      "name": "Contains ability to retrieve a module handle (API string)",
+      "description": "Found reference to API \"GetModuleHandleA\" (Indicator: \"GetModuleHandle\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"GetModuleHandleA\" (Indicator: \"GetModuleHandle\"; Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp, 00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")",
+      "origin": "File/Memory",
+      "attck_id": "T1082",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1082"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Spyware/Information Retrieval",
+      "identifier": "string-205",
+      "type": 2,
+      "relevance": 1,
+      "name": "Contains ability to retrieve the time elapsed since the system was started (API string)",
+      "description": "Found reference to API \"GetTickCount\" (Indicator: \"GetTickCount\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"GetTickCount\" (Indicator: \"GetTickCount\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")",
+      "origin": "File/Memory",
+      "attck_id": "T1497.003",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1497/003"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Spyware/Information Retrieval",
+      "identifier": "string-317",
+      "type": 2,
+      "relevance": 1,
+      "name": "Contains ability to retrieve address of exported function from a DLL (API string)",
+      "description": "Found reference to API \"GetProcAddress\" (Indicator: \"GetProcAddress\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"GetProcAddress\" (Indicator: \"GetProcAddress\"; Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp, 00000000-00004288.00000000.92877.01488000.00000004.mdmp, 00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")",
+      "origin": "File/Memory",
+      "attck_id": "T1106",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1106"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Spyware/Information Retrieval",
+      "identifier": "string-83",
+      "type": 2,
+      "relevance": 1,
+      "name": "Contains ability to enumerate files on disk (API string)",
+      "description": "Found reference to API \"FindFirstFileA\" (Indicator: \"FindFirstFile\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"FindFirstFileA\" (Indicator: \"FindFirstFile\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")",
+      "origin": "File/Memory",
+      "attck_id": "T1083",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1083"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Spyware/Information Retrieval",
+      "identifier": "string-313",
+      "type": 2,
+      "relevance": 1,
+      "name": "Contains ability to enumerate system network resources (API string)",
+      "description": "Found reference to API \"WNetOpenEnumA\" (Indicator: \"WNetOpenEnum\"; Source: \"00000000-00004288.00000000.92877.01488000.00000004.mdmp\")",
+      "origin": "File/Memory",
+      "attck_id": "T1135",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1135"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Spyware/Information Retrieval",
+      "identifier": "static-88",
+      "relevance": 1,
+      "name": "Imports GetCommandLine API",
+      "description": "Observed import api \"GetCommandLineA\" which can \"Retrieves the command-line string for the current process\" [Source: 07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1]",
+      "origin": "Static Parser",
+      "attck_id": "T1106",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1106"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Network Related",
+      "identifier": "string-3",
+      "type": 2,
+      "relevance": 3,
+      "name": "Found potential URL in binary/memory",
+      "description": "Heuristic match: \"nr.aq\"\n Heuristic match: \"{$t.gn\"\n Heuristic match: \"az.sc\"\n Heuristic match: \"$t.gn\"\n Heuristic match: \"ftp.server.com\"",
+      "origin": "File/Memory",
+      "attck_id": "T1071",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1071"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Network Related",
+      "identifier": "string-14",
+      "type": 2,
+      "name": "Found potential IP address in binary/memory",
+      "description": "\"<IPv4>:1602\"\n \"<IPv4>:666\"\n \"<IPv4>:1337\"\n \"<IPv4>:1312\"",
+      "origin": "File/Memory",
+      "attck_id": "T1071",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1071"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Cryptographic Related",
+      "identifier": "stream-139",
+      "type": 1,
+      "name": "Contains XOR operation loops [Stream disassembly]",
+      "description": "Assembly shows XOR instruction xor edi\n dword ptr [ebp-30h] in Stream UID: 00000000-00004288-37135-31-00405458\n Assembly shows XOR instruction xor dword ptr [ebp-30h]\n edi in Stream UID: 00000000-00004288-37135-31-00405458",
+      "origin": "Hybrid Analysis Technology",
+      "attck_id": "T1027.005",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1027/005"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Cryptographic Related",
+      "identifier": "binary-71",
+      "type": 8,
+      "relevance": 1,
+      "name": "Sample file has high entropy (likely encrypted/compressed content)",
+      "description": "Sample file \"sample.bin\" has high entropy 7.675493612042937",
+      "origin": "Binary File",
+      "attck_id": "T1027",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1027"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Cryptographic Related",
+      "identifier": "summary-32",
+      "type": 15,
+      "relevance": 1,
+      "name": "Shows ability to deobfuscate/decode files or information",
+      "description": "The analysis shows use of encryption and can be used to decode file or information. Matched sigs: Contains XOR operation loops [Stream disassembly]",
+      "origin": "Indicator Combinations",
+      "attck_id": "T1140",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1140"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Cryptographic Related",
+      "identifier": "summary-28",
+      "type": 15,
+      "relevance": 1,
+      "name": "Shows ability to obfuscate file or information",
+      "description": "The analysis contains indicators for cyrpto or data obfuscation(base64/decrypt) which can hide information. Matched sigs: Contains CRYPTO related strings\n Matched sigs: Contains ability to use Cryptographic classes\n Matched sigs: Contains XOR operation loops [Stream disassembly]\n Matched sigs: Sample file has high entropy (likely encrypted/compressed content)",
+      "origin": "Indicator Combinations",
+      "attck_id": "T1027",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1027"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Cryptographic Related",
+      "identifier": "summary-31",
+      "type": 15,
+      "relevance": 1,
+      "name": "Shows ability to use encryption for command and control traffic",
+      "description": "The analysis shows use of encryption\n use of http/https that can be used to send encrypted data on command and control server. Matched sigs: Contains XOR operation loops [Stream disassembly]\n Matched sigs: Found potential URL in binary/memory\n Matched sigs: Found potential IP address in binary/memory",
+      "origin": "Indicator Combinations",
+      "attck_id": "T1573.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1573/001"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "System Security",
+      "identifier": "string-426",
+      "type": 2,
+      "relevance": 1,
+      "name": "Contains ability to modify file attributes (API string)",
+      "description": "Found reference to API \"SetFileAttributesA\" (Indicator: \"SetFileAttributes\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"SetFileAttributesA\" (Indicator: \"SetFileAttributes\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")",
+      "origin": "File/Memory",
+      "attck_id": "T1222",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1222"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "System Security",
+      "identifier": "string-316",
+      "type": 2,
+      "relevance": 1,
+      "name": "Contains ability to terminate a process (API string)",
+      "description": "Found reference to API \"ExitProcess\" (Indicator: \"ExitProcess\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"ExitProcess\" (Indicator: \"ExitProcess\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")",
+      "origin": "File/Memory",
+      "attck_id": "T1489",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1489"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "System Security",
+      "identifier": "string-230",
+      "type": 2,
+      "relevance": 1,
+      "name": "Contains ability to delete registry key/value (API string)",
+      "description": "Found reference to API \"RegDeleteKeyA\" (Indicator: \"RegDeleteKey\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"RegDeleteKeyA\" (Indicator: \"RegDeleteKey\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")",
+      "origin": "File/Memory",
+      "attck_id": "T1112",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1112"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "System Security",
+      "identifier": "string-535",
+      "type": 2,
+      "name": "Contains ability to write files (API string)",
+      "description": "Found reference to API \"WriteFile\" (Indicator: \"WriteFile\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"WriteFile\" (Indicator: \"WriteFile\"; Source: \"00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")",
+      "origin": "File/Memory",
+      "attck_id": "T1105",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1105"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "System Security",
+      "identifier": "string-308",
+      "type": 2,
+      "relevance": 1,
+      "name": "Contains ability to delete files/directories (API string)",
+      "description": "Found reference to API \"DeleteFileA\" (Indicator: \"DeleteFile\"; File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found reference to API \"DeleteFileA\" (Indicator: \"DeleteFile\"; Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp, 00000000-00004288.00000000.92883.0040A000.00000004.mdmp\")",
+      "origin": "File/Memory",
+      "attck_id": "T1070.004",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1070/004"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "General",
+      "identifier": "static-92",
+      "relevance": 5,
+      "name": "PE file has unusual entropy resources",
+      "description": "\"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\" has resource with unusual entropy  \"RT_RCDATA:7.6665560394\"",
+      "origin": "Static Parser",
+      "attck_id": "T1027.002",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1027/002"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "Pattern Matching",
+      "identifier": "yara-52",
+      "type": 13,
+      "relevance": 5,
+      "name": "YARA signature match - References common sandbox DLLs (sandbox evasion)",
+      "description": "YARA signature for common sandbox DLLs that are used for anti-sandbox techniques matched on process \"00000000-00004288\"\n YARA signature for common sandbox DLLs that are used for anti-sandbox techniques matched on file \"sample.bin\"",
+      "origin": "YARA Signature",
+      "attck_id": "T1497.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1497/001"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "Unusual Characteristics",
+      "identifier": "static-60",
+      "relevance": 10,
+      "name": "PE file contains unusual section name",
+      "description": "\"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\" has a section named \"CODE\"\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\" has a section named \"DATA\"\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\" has a section named \"BSS\"",
+      "origin": "Static Parser",
+      "attck_id": "T1027.002",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1027/002"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "Unusual Characteristics",
+      "identifier": "string-64",
+      "type": 2,
+      "relevance": 10,
+      "name": "Input file contains API references not part of its Import Address Table (IAT)",
+      "description": "Found string \"Sleep\" (Source: 07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1, API is part of module: KERNELBASE.DLL)\n Found string \"CreateToolhelp32Snapshot\" (Source: 07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1, API is part of module: KERNEL32.DLL)\n Found string \"Heap32ListFirst\" (Source: 07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1, API is part of module: KERNEL32.DLL)\n Found string \"Heap32ListNext\" (Source: 07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1, API is part of module: KERNEL32.DLL)\n Found string \"Heap32First\" (Source: 07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1, API is part of module: KERNEL32.DLL)\n Found string \"Heap32Next\" (Source: 07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1, API is part of module: KERNEL32.DLL)\n Found string \"Toolhelp32ReadProcessMemory\" (Source: 07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1, API is part of module: KERNEL32.DLL)\n Found string \"Process32First\" (Source: 07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1, API is part of module: KERNEL32.DLL)\n Found string \"Process32Next\" (Source: 07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1, API is part of module: KERNEL32.DLL)\n Found string \"Process32FirstW\" (Source: 07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1, API is part of module: KERNEL32.DLL)\n Found string \"Process32NextW\" (Source: 07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1, API is part of module: KERNEL32.DLL)\n Found string \"Thread32First\" (Source: 07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1, API is part of module: KERNEL32.DLL)\n Found string \"Thread32Next\" (Source: 07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1, API is part of module: KERNEL32.DLL)\n Found string \"Module32First\" (Source: 07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1, API is part of module: KERNEL32.DLL)\n Found string \"Module32Next\" (Source: 07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1, API is part of module: KERNEL32.DLL)\n Found string \"Module32FirstW\" (Source: 07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1, API is part of module: KERNEL32.DLL)\n Found string \"Module32NextW\" (Source: 07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1, API is part of module: KERNEL32.DLL)\n Found string \"ShellExecuteA\" (Source: 07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1, API is part of module: SHELL32.DLL)\n Found string \"GetSystemDirectoryA\" (Source: 07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1, API is part of module: KERNELBASE.DLL)\n Found string \"GetWindowsDirectoryA\" (Source: 07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1, API is part of module: KERNELBASE.DLL)\n Found string \"GetTempPathA\" (Source: 07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1, API is part of module: KERNEL32.DLL)\n Found string \"IsDebuggerPresent\" (Source: 07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1, API is part of module: KERNELBASE.DLL)",
+      "origin": "File/Memory",
+      "attck_id": "T1106",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1106"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "Unusual Characteristics",
+      "identifier": "static-1",
+      "relevance": 1,
+      "name": "Imports suspicious APIs",
+      "description": "RegDeleteKeyA\n RegCloseKey\n GetUserNameA\n RegCreateKeyExA\n RegOpenKeyExA\n RegCreateKeyA\n WriteProcessMemory\n VirtualAllocEx\n GetFileAttributesA\n CopyFileA\n VirtualProtect\n GetModuleFileNameA\n LoadLibraryA\n CreateRemoteThread\n GetStartupInfoA\n OpenProcess\n LockResource\n CreateDirectoryA\n DeleteFileA\n UnhandledExceptionFilter\n ReadProcessMemory\n GetCommandLineA\n GetProcAddress\n GetModuleHandleA\n WriteFile\n FindFirstFileA\n CreateProcessA\n CreateFileA\n GetTickCount\n FindResourceA\n VirtualAlloc\n GetWindowThreadProcessId\n FindWindowA",
+      "origin": "Static Parser",
+      "attck_id": "T1106",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1106"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "Installation/Persistence",
+      "identifier": "string-184",
+      "type": 2,
+      "relevance": 5,
+      "name": "Found registry location strings which can modify auto-execute functionality",
+      "description": "Found string \"SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folders\" (Indicator: \"software\\microsoft\\windows\\currentversion\\explorer\\shell folders\"; in File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found string \"Software\\Microsoft\\Active Setup\\Installed Components\\\" (Indicator: \"software\\microsoft\\active setup\\installed components\"; in File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found string \"Software\\Microsoft\\Windows\\CurrentVersion\\Run\" (Indicator: \"software\\microsoft\\windows\\currentversion\\run\"; in File: \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\")\n Found string \"SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folders\" (Indicator: \"software\\microsoft\\windows\\currentversion\\explorer\\shell folders\"; in Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp\")\n Found string \"Software\\Microsoft\\Active Setup\\Installed Components\\\" (Indicator: \"software\\microsoft\\active setup\\installed components\"; in Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp\")\n Found string \"Software\\Microsoft\\Windows\\CurrentVersion\\Run\" (Indicator: \"software\\microsoft\\windows\\currentversion\\run\"; in Source: \"00000000-00004288.00000000.92877.00401000.00000020.mdmp\")",
+      "origin": "File/Memory",
+      "attck_id": "T1547",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1547"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "Installation/Persistence",
+      "identifier": "string-4",
+      "type": 2,
+      "relevance": 4,
+      "name": "Found a string that may be used as part of an injection method",
+      "description": "\"shell_traywnd\" (Taskbar window class may be used to inject into explorer with the SetWindowLong method) in Source: 07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\n \"Shell_TrayWnd\" (Taskbar window class may be used to inject into explorer with the SetWindowLong method) in Source: 07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\n \"shell_traywnd\" (Taskbar window class may be used to inject into explorer with the SetWindowLong method) in Source: 00000000-00004288.00000000.92877.00401000.00000020.mdmp\n \"Shell_TrayWnd\" (Taskbar window class may be used to inject into explorer with the SetWindowLong method) in Source: 00000000-00004288.00000000.92877.00401000.00000020.mdmp",
+      "origin": "File/Memory",
+      "attck_id": "T1055.011",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055/011"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "Installation/Persistence",
+      "identifier": "stream-34",
+      "type": 1,
+      "relevance": 8,
+      "name": "Contains ability to write to a remote process",
+      "description": "WriteProcessMemory@KERNEL32.DLL at 00000000-00004288-37135-2-0040568C\n WriteProcessMemory@KERNEL32.DLL at 00000000-00004288-37135-45-00404D84\n WriteProcessMemory@KERNEL32.DLL at 00000000-00004288-37135-29-00404E14",
+      "origin": "Hybrid Analysis Technology",
+      "attck_id": "T1055",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "Installation/Persistence",
+      "identifier": "stream-5",
+      "type": 1,
+      "relevance": 8,
+      "name": "Contains ability to create a remote thread (often used for process injection)",
+      "description": "CreateRemoteThread@KERNEL32.DLL at 00000000-00004288-37135-28-00404E44",
+      "origin": "Hybrid Analysis Technology",
+      "attck_id": "T1055.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055/001"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "Anti-Reverse Engineering",
+      "identifier": "static-6",
+      "relevance": 1,
+      "name": "Section contains high entropy",
+      "description": "\"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\" has section name CODE with entropy \"6.46347820662\"\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\" has section name .reloc with entropy \"6.22627408059\"\n \"07325c3843d26c9d43e9cb4d41ed3f0c24d9b5aaf4e3a27067ea481504343ba1\" has section name .rsrc with entropy \"7.66903398432\"",
+      "origin": "Static Parser",
+      "attck_id": "T1027.009",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1027/009"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "Environment Awareness",
+      "identifier": "stream-121",
+      "type": 1,
+      "relevance": 5,
+      "name": "Contains ability to retrieve a module handle",
+      "description": "GetModuleHandleA@KERNEL32.DLL at 00000000-00004288-37135-60-00404EEC\n GetModuleHandleA@KERNEL32.DLL at 00000000-00004288-37135-44-00404FF0",
+      "origin": "Hybrid Analysis Technology",
+      "attck_id": "T1082",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1082"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "System Security",
+      "identifier": "stream-88",
+      "type": 1,
+      "relevance": 1,
+      "name": "Contains ability to terminate a process",
+      "description": "ExitProcess@KERNEL32.DLL at 00000000-00004288-37135-15-00403658",
+      "origin": "Hybrid Analysis Technology",
+      "attck_id": "T1489",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1489"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "Remote Access Related",
+      "identifier": "string-30",
+      "type": 2,
+      "relevance": 3,
+      "name": "Contains references to WMI/WMIC",
+      "description": "Found string \"(\"winmgmts:\\\\lbJ\" (Indicator: \"winmgmts:\"; in Source: \"00000000-00004288.00000000.92877.01488000.00000004.mdmp\")",
+      "origin": "File/Memory",
+      "attck_id": "T1047",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1047"
+    },
+    {
+      "threat_level": 2,
+      "threat_level_human": "malicious",
+      "category": "Environment Awareness",
+      "identifier": "binary-8",
+      "type": 8,
+      "relevance": 5,
+      "name": "The input sample contains a known anti-VM trick",
+      "description": "Found VM detection artifact \"VMware trick\" in \"sample.bin\" (Offset: 27834)",
+      "origin": "Binary File",
+      "attck_id": "T1497",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1497"
+    },
+    {
+      "threat_level": 2,
+      "threat_level_human": "malicious",
+      "category": "External Systems",
+      "identifier": "avtest-8",
+      "type": 12,
+      "relevance": 10,
+      "name": "Sample detected by CrowdStrike Static Analysis and ML with relatively high confidence",
+      "description": "CrowdStrike Static Analysis and ML (QuickScan) yielded detection: win/malicious_confidence_100% (W)",
+      "origin": "External System"
+    }
+  ]
+}

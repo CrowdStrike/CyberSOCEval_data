@@ -1,0 +1,2229 @@
+{
+  "size": 494080,
+  "type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+  "submit_name": "file.exe",
+  "sha256": "02b4e1709e79653e9569bf727301f92d4928726ba69d8d764db5841b94d63671",
+  "av_detect": 91,
+  "vx_family": "Remcos.Generic",
+  "threat_score": 100,
+  "threat_level": 2,
+  "verdict": "malicious",
+  "certificates_validation_message": "No signature was present in the subject. (0x800b0100)",
+  "total_network_connections": 2,
+  "total_processes": 5,
+  "total_signatures": 292,
+  "extracted_files": [
+    {
+      "name": "remcos.exe",
+      "file_path": "%ALLUSERSPROFILE%\\tst\\remcos.exe",
+      "file_size": 494080,
+      "sha256": "02b4e1709e79653e9569bf727301f92d4928726ba69d8d764db5841b94d63671",
+      "type_tags": [
+        "peexe",
+        "executable"
+      ],
+      "description": "PE32 executable (GUI) Intel 80386, for MS Windows",
+      "runtime_process": "file.exe (PID: 5804)",
+      "threat_level": 2,
+      "threat_level_readable": "malicious",
+      "av_label": "Trojan.Remcos",
+      "av_matched": 16,
+      "av_total": 23,
+      "file_available_to_download": true
+    },
+    {
+      "name": "remcos.exe.bin",
+      "file_size": 494080,
+      "sha256": "02b4e1709e79653e9569bf727301f92d4928726ba69d8d764db5841b94d63671",
+      "type_tags": [
+        "peexe",
+        "executable"
+      ],
+      "description": "PE32 executable (GUI) Intel 80386, for MS Windows",
+      "threat_level": 2,
+      "threat_level_readable": "malicious",
+      "av_label": "Trojan.Remcos",
+      "av_matched": 16,
+      "av_total": 23,
+      "file_available_to_download": true
+    },
+    {
+      "name": "dism.log",
+      "file_size": 279678,
+      "sha256": "df65d18540c015643b0cb338e09cf1e7e5671860054a8cd88ef99c26f290749f",
+      "type_tags": [
+        "text"
+      ],
+      "description": "Unicode text, UTF-8 (with BOM) text, with very long lines (312), with CRLF line terminators",
+      "threat_level_readable": "no specific threat",
+      "file_available_to_download": true
+    },
+    {
+      "name": "DISMHOST.EXE.6712E6A3.bin",
+      "file_size": 82944,
+      "sha256": "ecb636b278261eade712e68ec7d805d20e802628248da872d3d0ada1432ffc11",
+      "type_tags": [
+        "peexe",
+        "executable"
+      ],
+      "description": "PE32 executable (GUI) Intel 80386, for MS Windows",
+      "threat_level_readable": "no specific threat",
+      "file_available_to_download": true
+    },
+    {
+      "name": "json_1_.json",
+      "file_size": 962,
+      "sha256": "c6a4288a3f28924cb11b2a6ed125510f022cb83076f52b71e7ec5cd85b0b1d72",
+      "type_tags": [
+        "data"
+      ],
+      "description": "JSON data",
+      "threat_level_readable": "no specific threat",
+      "file_available_to_download": true
+    }
+  ],
+  "file_metadata": {
+    "file_compositions": [
+      "1 .OBJ Files (COFF) linked with LINK.EXE 5.10 (Visual Studio 5) (build: 24247)",
+      "100 .BAS Files compiled with C2.EXE 5.0 (Visual Basic 6) (build: 24247)"
+    ],
+    "imported_objects": [
+      "25 .LIB Files generated with LIB.EXE 9.00 (Visual Studio 2008) (build: 30729)",
+      "34 .OBJ Files (COFF) linked with LINK.EXE 6.00 (Visual Studio 6) (build: 24237)",
+      "58 .OBJ Files (OMF) linked with LINK.EXE 6.00 (Visual Studio 6) (build: 24237)",
+      "26 .OBJ Files (OMF) linked with LINK.EXE 5.10 (Visual Studio 5) (build: 24237)",
+      "2 .OBJ Files linked with ALIASOBJ.EXE 11.00 (Internal OLDNAMES.LIB Tool) (build: 41118)",
+      "1 .CPP Files compiled with CL.EXE 15.00 (Visual Studio 2008) (build: 30729)"
+    ],
+    "file_analysis": [
+      "File contains Visual Basic code",
+      "File appears to contain raw COFF/OMF content",
+      "File is the product of a medium codebase (100 files)"
+    ],
+    "total_file_compositions_imports": 318
+  },
+  "processes": [
+    {
+      "uid": "00000000-00005804",
+      "name": "file.exe",
+      "normalized_path": "C:\\file.exe",
+      "sha256": "02b4e1709e79653e9569bf727301f92d4928726ba69d8d764db5841b94d63671",
+      "av_label": "Trojan.Remcos",
+      "av_matched": 16,
+      "av_total": 23
+    },
+    {
+      "uid": "00000000-00005888",
+      "parentuid": "00000000-00005804",
+      "name": "remcos.exe",
+      "normalized_path": "%ALLUSERSPROFILE%\\tst\\remcos.exe",
+      "sha256": "02b4e1709e79653e9569bf727301f92d4928726ba69d8d764db5841b94d63671",
+      "av_label": "Trojan.Remcos",
+      "av_matched": 16,
+      "av_total": 23
+    },
+    {
+      "uid": "00000000-00006132",
+      "parentuid": "00000000-00005888",
+      "name": "iexplore.exe",
+      "normalized_path": "%PROGRAMFILES%\\internet explorer\\iexplore.exe",
+      "sha256": "8abc7daa81c8a20bfd88b6a60ecc9ed1292fbb6cedbd6f872f36512d9a194bba"
+    },
+    {
+      "uid": "00000000-00001852",
+      "name": "remcos.exe",
+      "normalized_path": "%ALLUSERSPROFILE%\\tst\\remcos.exe",
+      "sha256": "02b4e1709e79653e9569bf727301f92d4928726ba69d8d764db5841b94d63671",
+      "av_label": "Trojan.Remcos",
+      "av_matched": 16,
+      "av_total": 23
+    },
+    {
+      "uid": "00000000-00004240",
+      "parentuid": "00000000-00001852",
+      "name": "iexplore.exe",
+      "normalized_path": "%PROGRAMFILES%\\internet explorer\\iexplore.exe",
+      "sha256": "8abc7daa81c8a20bfd88b6a60ecc9ed1292fbb6cedbd6f872f36512d9a194bba"
+    }
+  ],
+  "mitre_attcks": [
+    {
+      "tactic": "Reconnaissance",
+      "technique": "IP Addresses",
+      "attck_id": "T1590.005",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1590/005",
+      "suspicious_identifiers_count": 1,
+      "parent": {
+        "technique": "Gather Victim Network Information",
+        "attck_id": "T1590",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1590"
+      }
+    },
+    {
+      "tactic": "Resource Development",
+      "technique": "Digital Certificates",
+      "attck_id": "T1588.004",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1588/004",
+      "suspicious_identifiers_count": 1,
+      "parent": {
+        "technique": "Obtain Capabilities",
+        "attck_id": "T1588",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1588"
+      }
+    },
+    {
+      "tactic": "Execution",
+      "technique": "Inter-Process Communication",
+      "attck_id": "T1559",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1559",
+      "informative_identifiers_count": 2
+    },
+    {
+      "tactic": "Execution",
+      "technique": "Native API",
+      "attck_id": "T1106",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1106",
+      "malicious_identifiers_count": 1,
+      "suspicious_identifiers_count": 7,
+      "informative_identifiers_count": 16
+    },
+    {
+      "tactic": "Execution",
+      "technique": "Windows Command Shell",
+      "attck_id": "T1059.003",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1059/003",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Command and Scripting Interpreter",
+        "attck_id": "T1059",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1059"
+      }
+    },
+    {
+      "tactic": "Execution",
+      "technique": "Shared Modules",
+      "attck_id": "T1129",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1129",
+      "informative_identifiers_count": 4
+    },
+    {
+      "tactic": "Execution",
+      "technique": "Service Execution",
+      "attck_id": "T1569.002",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1569/002",
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "System Services",
+        "attck_id": "T1569",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1569"
+      }
+    },
+    {
+      "tactic": "Execution",
+      "technique": "Malicious File",
+      "attck_id": "T1204.002",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1204/002",
+      "malicious_identifiers_count": 2,
+      "parent": {
+        "technique": "User Execution",
+        "attck_id": "T1204",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1204"
+      }
+    },
+    {
+      "tactic": "Persistence",
+      "technique": "Windows Service",
+      "attck_id": "T1543.003",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1543/003",
+      "malicious_identifiers_count": 1,
+      "informative_identifiers_count": 3,
+      "parent": {
+        "technique": "Create or Modify System Process",
+        "attck_id": "T1543",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1543"
+      }
+    },
+    {
+      "tactic": "Persistence",
+      "technique": "Account Manipulation",
+      "attck_id": "T1098",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1098",
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Persistence",
+      "technique": "Component Object Model Hijacking",
+      "attck_id": "T1546.015",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1546/015",
+      "informative_identifiers_count": 2,
+      "parent": {
+        "technique": "Event Triggered Execution",
+        "attck_id": "T1546",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1546"
+      }
+    },
+    {
+      "tactic": "Persistence",
+      "technique": "Create or Modify System Process",
+      "attck_id": "T1543",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1543",
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Persistence",
+      "technique": "Registry Run Keys / Startup Folder",
+      "attck_id": "T1547.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1547/001",
+      "suspicious_identifiers_count": 2,
+      "informative_identifiers_count": 2,
+      "parent": {
+        "technique": "Boot or Logon Autostart Execution",
+        "attck_id": "T1547",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1547"
+      }
+    },
+    {
+      "tactic": "Persistence",
+      "technique": "Boot or Logon Autostart Execution",
+      "attck_id": "T1547",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1547",
+      "suspicious_identifiers_count": 2
+    },
+    {
+      "tactic": "Persistence",
+      "technique": "DLL Side-Loading",
+      "attck_id": "T1574.002",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1574/002",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Hijack Execution Flow",
+        "attck_id": "T1574",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1574"
+      }
+    },
+    {
+      "tactic": "Persistence",
+      "technique": "AppInit DLLs",
+      "attck_id": "T1546.010",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1546/010",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Event Triggered Execution",
+        "attck_id": "T1546",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1546"
+      }
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "Windows Service",
+      "attck_id": "T1543.003",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1543/003",
+      "malicious_identifiers_count": 1,
+      "informative_identifiers_count": 3,
+      "parent": {
+        "technique": "Create or Modify System Process",
+        "attck_id": "T1543",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1543"
+      }
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "Token Impersonation/Theft",
+      "attck_id": "T1134.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1134/001",
+      "informative_identifiers_count": 3,
+      "parent": {
+        "technique": "Access Token Manipulation",
+        "attck_id": "T1134",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1134"
+      }
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "Thread Execution Hijacking",
+      "attck_id": "T1055.003",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055/003",
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Process Injection",
+        "attck_id": "T1055",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1055"
+      }
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "Dynamic-link Library Injection",
+      "attck_id": "T1055.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055/001",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Process Injection",
+        "attck_id": "T1055",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1055"
+      }
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "Account Manipulation",
+      "attck_id": "T1098",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1098",
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "Access Token Manipulation",
+      "attck_id": "T1134",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1134",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "Process Hollowing",
+      "attck_id": "T1055.012",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055/012",
+      "malicious_identifiers_count": 1,
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Process Injection",
+        "attck_id": "T1055",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1055"
+      }
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "Process Injection",
+      "attck_id": "T1055",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055",
+      "malicious_identifiers_count": 3,
+      "suspicious_identifiers_count": 2,
+      "informative_identifiers_count": 3
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "Component Object Model Hijacking",
+      "attck_id": "T1546.015",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1546/015",
+      "informative_identifiers_count": 2,
+      "parent": {
+        "technique": "Event Triggered Execution",
+        "attck_id": "T1546",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1546"
+      }
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "Create or Modify System Process",
+      "attck_id": "T1543",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1543",
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "Bypass User Account Control",
+      "attck_id": "T1548.002",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1548/002",
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Abuse Elevation Control Mechanism",
+        "attck_id": "T1548",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1548"
+      }
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "Registry Run Keys / Startup Folder",
+      "attck_id": "T1547.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1547/001",
+      "suspicious_identifiers_count": 2,
+      "informative_identifiers_count": 2,
+      "parent": {
+        "technique": "Boot or Logon Autostart Execution",
+        "attck_id": "T1547",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1547"
+      }
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "Boot or Logon Autostart Execution",
+      "attck_id": "T1547",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1547",
+      "suspicious_identifiers_count": 2
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "Extra Window Memory Injection",
+      "attck_id": "T1055.011",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055/011",
+      "suspicious_identifiers_count": 1,
+      "parent": {
+        "technique": "Process Injection",
+        "attck_id": "T1055",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1055"
+      }
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "DLL Side-Loading",
+      "attck_id": "T1574.002",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1574/002",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Hijack Execution Flow",
+        "attck_id": "T1574",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1574"
+      }
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "AppInit DLLs",
+      "attck_id": "T1546.010",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1546/010",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Event Triggered Execution",
+        "attck_id": "T1546",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1546"
+      }
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "Make and Impersonate Token",
+      "attck_id": "T1134.003",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1134/003",
+      "suspicious_identifiers_count": 1,
+      "parent": {
+        "technique": "Access Token Manipulation",
+        "attck_id": "T1134",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1134"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Modify Registry",
+      "attck_id": "T1112",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1112",
+      "suspicious_identifiers_count": 2,
+      "informative_identifiers_count": 4
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Token Impersonation/Theft",
+      "attck_id": "T1134.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1134/001",
+      "informative_identifiers_count": 3,
+      "parent": {
+        "technique": "Access Token Manipulation",
+        "attck_id": "T1134",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1134"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Obfuscated Files or Information",
+      "attck_id": "T1027",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1027",
+      "suspicious_identifiers_count": 4,
+      "informative_identifiers_count": 6
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Thread Execution Hijacking",
+      "attck_id": "T1055.003",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055/003",
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Process Injection",
+        "attck_id": "T1055",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1055"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Timestomp",
+      "attck_id": "T1070.006",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1070/006",
+      "informative_identifiers_count": 2,
+      "parent": {
+        "technique": "Indicator Removal",
+        "attck_id": "T1070",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1070"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "File and Directory Permissions Modification",
+      "attck_id": "T1222",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1222",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Debugger Evasion",
+      "attck_id": "T1622",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1622",
+      "suspicious_identifiers_count": 2,
+      "informative_identifiers_count": 3
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Dynamic-link Library Injection",
+      "attck_id": "T1055.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055/001",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Process Injection",
+        "attck_id": "T1055",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1055"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Access Token Manipulation",
+      "attck_id": "T1134",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1134",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Process Hollowing",
+      "attck_id": "T1055.012",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055/012",
+      "malicious_identifiers_count": 1,
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Process Injection",
+        "attck_id": "T1055",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1055"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "User Activity Based Checks",
+      "attck_id": "T1497.002",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1497/002",
+      "informative_identifiers_count": 2,
+      "parent": {
+        "technique": "Virtualization/Sandbox Evasion",
+        "attck_id": "T1497",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1497"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Direct Volume Access",
+      "attck_id": "T1006",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1006",
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Process Injection",
+      "attck_id": "T1055",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055",
+      "malicious_identifiers_count": 3,
+      "suspicious_identifiers_count": 2,
+      "informative_identifiers_count": 3
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "File Deletion",
+      "attck_id": "T1070.004",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1070/004",
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Indicator Removal",
+        "attck_id": "T1070",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1070"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Bypass User Account Control",
+      "attck_id": "T1548.002",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1548/002",
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Abuse Elevation Control Mechanism",
+        "attck_id": "T1548",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1548"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Deobfuscate/Decode Files or Information",
+      "attck_id": "T1140",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1140",
+      "informative_identifiers_count": 2
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Software Packing",
+      "attck_id": "T1027.002",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1027/002",
+      "suspicious_identifiers_count": 2,
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Obfuscated Files or Information",
+        "attck_id": "T1027",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1027"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Embedded Payloads",
+      "attck_id": "T1027.009",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1027/009",
+      "suspicious_identifiers_count": 1,
+      "parent": {
+        "technique": "Obfuscated Files or Information",
+        "attck_id": "T1027",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1027"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Virtualization/Sandbox Evasion",
+      "attck_id": "T1497",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1497",
+      "informative_identifiers_count": 3
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Time Based Evasion",
+      "attck_id": "T1497.003",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1497/003",
+      "informative_identifiers_count": 3,
+      "parent": {
+        "technique": "Virtualization/Sandbox Evasion",
+        "attck_id": "T1497",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1497"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Hidden Window",
+      "attck_id": "T1564.003",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1564/003",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Hide Artifacts",
+        "attck_id": "T1564",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1564"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Extra Window Memory Injection",
+      "attck_id": "T1055.011",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055/011",
+      "suspicious_identifiers_count": 1,
+      "parent": {
+        "technique": "Process Injection",
+        "attck_id": "T1055",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1055"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "DLL Side-Loading",
+      "attck_id": "T1574.002",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1574/002",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Hijack Execution Flow",
+        "attck_id": "T1574",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1574"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Indicator Removal",
+      "attck_id": "T1070",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1070",
+      "suspicious_identifiers_count": 1
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Disable or Modify Tools",
+      "attck_id": "T1562.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1562/001",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Impair Defenses",
+        "attck_id": "T1562",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1562"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Masquerade File Type",
+      "attck_id": "T1036.008",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1036/008",
+      "suspicious_identifiers_count": 1,
+      "parent": {
+        "technique": "Masquerading",
+        "attck_id": "T1036",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1036"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Masquerading",
+      "attck_id": "T1036",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1036",
+      "malicious_identifiers_count": 1
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Dynamic API Resolution",
+      "attck_id": "T1027.007",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1027/007",
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Obfuscated Files or Information",
+        "attck_id": "T1027",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1027"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Indicator Removal from Tools",
+      "attck_id": "T1027.005",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1027/005",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Obfuscated Files or Information",
+        "attck_id": "T1027",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1027"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Make and Impersonate Token",
+      "attck_id": "T1134.003",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1134/003",
+      "suspicious_identifiers_count": 1,
+      "parent": {
+        "technique": "Access Token Manipulation",
+        "attck_id": "T1134",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1134"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Execution Guardrails",
+      "attck_id": "T1480",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1480",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Credential Access",
+      "technique": "Credentials from Web Browsers",
+      "attck_id": "T1555.003",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1555/003",
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Credentials from Password Stores",
+        "attck_id": "T1555",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1555"
+      }
+    },
+    {
+      "tactic": "Credential Access",
+      "technique": "Steal Web Session Cookie",
+      "attck_id": "T1539",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1539",
+      "suspicious_identifiers_count": 1
+    },
+    {
+      "tactic": "Credential Access",
+      "technique": "Credential API Hooking",
+      "attck_id": "T1056.004",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1056/004",
+      "malicious_identifiers_count": 2,
+      "suspicious_identifiers_count": 1,
+      "parent": {
+        "technique": "Input Capture",
+        "attck_id": "T1056",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1056"
+      }
+    },
+    {
+      "tactic": "Credential Access",
+      "technique": "Keylogging",
+      "attck_id": "T1056.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1056/001",
+      "suspicious_identifiers_count": 2,
+      "informative_identifiers_count": 3,
+      "parent": {
+        "technique": "Input Capture",
+        "attck_id": "T1056",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1056"
+      }
+    },
+    {
+      "tactic": "Credential Access",
+      "technique": "Input Capture",
+      "attck_id": "T1056",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1056",
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "File and Directory Discovery",
+      "attck_id": "T1083",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1083",
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 15
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "System Information Discovery",
+      "attck_id": "T1082",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1082",
+      "suspicious_identifiers_count": 3,
+      "informative_identifiers_count": 23
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "System Location Discovery",
+      "attck_id": "T1614",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1614",
+      "informative_identifiers_count": 2
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "Debugger Evasion",
+      "attck_id": "T1622",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1622",
+      "suspicious_identifiers_count": 2,
+      "informative_identifiers_count": 3
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "Application Window Discovery",
+      "attck_id": "T1010",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1010",
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 2
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "Query Registry",
+      "attck_id": "T1012",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1012",
+      "suspicious_identifiers_count": 2,
+      "informative_identifiers_count": 6
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "Process Discovery",
+      "attck_id": "T1057",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1057",
+      "suspicious_identifiers_count": 3,
+      "informative_identifiers_count": 9
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "System Service Discovery",
+      "attck_id": "T1007",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1007",
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 2
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "User Activity Based Checks",
+      "attck_id": "T1497.002",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1497/002",
+      "informative_identifiers_count": 2,
+      "parent": {
+        "technique": "Virtualization/Sandbox Evasion",
+        "attck_id": "T1497",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1497"
+      }
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "System Network Connections Discovery",
+      "attck_id": "T1049",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1049",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "System Time Discovery",
+      "attck_id": "T1124",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1124",
+      "informative_identifiers_count": 4
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "System Language Discovery",
+      "attck_id": "T1614.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1614/001",
+      "informative_identifiers_count": 3,
+      "parent": {
+        "technique": "System Location Discovery",
+        "attck_id": "T1614",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1614"
+      }
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "System Network Configuration Discovery",
+      "attck_id": "T1016",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1016",
+      "malicious_identifiers_count": 2
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "Security Software Discovery",
+      "attck_id": "T1518.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1518/001",
+      "suspicious_identifiers_count": 1,
+      "parent": {
+        "technique": "Software Discovery",
+        "attck_id": "T1518",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1518"
+      }
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "Virtualization/Sandbox Evasion",
+      "attck_id": "T1497",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1497",
+      "informative_identifiers_count": 3
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "System Owner/User Discovery",
+      "attck_id": "T1033",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1033",
+      "informative_identifiers_count": 4
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "Time Based Evasion",
+      "attck_id": "T1497.003",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1497/003",
+      "informative_identifiers_count": 3,
+      "parent": {
+        "technique": "Virtualization/Sandbox Evasion",
+        "attck_id": "T1497",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1497"
+      }
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "Software Discovery",
+      "attck_id": "T1518",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1518",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Lateral Movement",
+      "technique": "Remote Services",
+      "attck_id": "T1021",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1021",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Lateral Movement",
+      "technique": "Lateral Tool Transfer",
+      "attck_id": "T1570",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1570",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Collection",
+      "technique": "Screen Capture",
+      "attck_id": "T1113",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1113",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Collection",
+      "technique": "Local Data Staging",
+      "attck_id": "T1074.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1074/001",
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 2,
+      "parent": {
+        "technique": "Data Staged",
+        "attck_id": "T1074",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1074"
+      }
+    },
+    {
+      "tactic": "Collection",
+      "technique": "Data from Local System",
+      "attck_id": "T1005",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1005",
+      "suspicious_identifiers_count": 3,
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Collection",
+      "technique": "Clipboard Data",
+      "attck_id": "T1115",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1115",
+      "suspicious_identifiers_count": 2,
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Collection",
+      "technique": "Archive Collected Data",
+      "attck_id": "T1560",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1560",
+      "suspicious_identifiers_count": 1
+    },
+    {
+      "tactic": "Collection",
+      "technique": "Credential API Hooking",
+      "attck_id": "T1056.004",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1056/004",
+      "malicious_identifiers_count": 2,
+      "suspicious_identifiers_count": 1,
+      "parent": {
+        "technique": "Input Capture",
+        "attck_id": "T1056",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1056"
+      }
+    },
+    {
+      "tactic": "Collection",
+      "technique": "Keylogging",
+      "attck_id": "T1056.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1056/001",
+      "suspicious_identifiers_count": 2,
+      "informative_identifiers_count": 3,
+      "parent": {
+        "technique": "Input Capture",
+        "attck_id": "T1056",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1056"
+      }
+    },
+    {
+      "tactic": "Collection",
+      "technique": "Input Capture",
+      "attck_id": "T1056",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1056",
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Collection",
+      "technique": "Automated Collection",
+      "attck_id": "T1119",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1119",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Command and Control",
+      "technique": "Non-Application Layer Protocol",
+      "attck_id": "T1095",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1095",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Command and Control",
+      "technique": "Application Layer Protocol",
+      "attck_id": "T1071",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1071",
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 6
+    },
+    {
+      "tactic": "Command and Control",
+      "technique": "Encrypted Channel",
+      "attck_id": "T1573",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1573",
+      "suspicious_identifiers_count": 2
+    },
+    {
+      "tactic": "Command and Control",
+      "technique": "Proxy",
+      "attck_id": "T1090",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1090",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Command and Control",
+      "technique": "Web Protocols",
+      "attck_id": "T1071.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1071/001",
+      "suspicious_identifiers_count": 2,
+      "informative_identifiers_count": 3,
+      "parent": {
+        "technique": "Application Layer Protocol",
+        "attck_id": "T1071",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1071"
+      }
+    },
+    {
+      "tactic": "Command and Control",
+      "technique": "Ingress Tool Transfer",
+      "attck_id": "T1105",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1105",
+      "suspicious_identifiers_count": 3,
+      "informative_identifiers_count": 3
+    },
+    {
+      "tactic": "Command and Control",
+      "technique": "Non-Standard Port",
+      "attck_id": "T1571",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1571",
+      "malicious_identifiers_count": 1,
+      "suspicious_identifiers_count": 1
+    },
+    {
+      "tactic": "Command and Control",
+      "technique": "Data Encoding",
+      "attck_id": "T1132",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1132",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Command and Control",
+      "technique": "DNS",
+      "attck_id": "T1071.004",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1071/004",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Application Layer Protocol",
+        "attck_id": "T1071",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1071"
+      }
+    },
+    {
+      "tactic": "Command and Control",
+      "technique": "Symmetric Cryptography",
+      "attck_id": "T1573.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1573/001",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Encrypted Channel",
+        "attck_id": "T1573",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1573"
+      }
+    },
+    {
+      "tactic": "Command and Control",
+      "technique": "Asymmetric Cryptography",
+      "attck_id": "T1573.002",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1573/002",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Encrypted Channel",
+        "attck_id": "T1573",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1573"
+      }
+    },
+    {
+      "tactic": "Exfiltration",
+      "technique": "Scheduled Transfer",
+      "attck_id": "T1029",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1029",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Impact",
+      "technique": "System Shutdown/Reboot",
+      "attck_id": "T1529",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1529",
+      "malicious_identifiers_count": 1,
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Impact",
+      "technique": "Service Stop",
+      "attck_id": "T1489",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1489",
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 2
+    },
+    {
+      "tactic": "Impact",
+      "technique": "Data Encrypted for Impact",
+      "attck_id": "T1486",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1486",
+      "informative_identifiers_count": 1
+    }
+  ],
+  "network_mode": "default",
+  "signatures": [
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "api-123",
+      "type": 6,
+      "relevance": 3,
+      "name": "Calls an API typically used to copy file from one location to another",
+      "description": "\"file.exe\" called \"CopyFileW\" to copy C:\\file.exe to new location %ALLUSERSPROFILE%\\tst\\remcos.exe (UID: 00000000-00005804)",
+      "origin": "API Call",
+      "attck_id": "T1005",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1005"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "module-9",
+      "type": 10,
+      "name": "Loads the Bcrypt module DLL",
+      "description": "\"file.exe\" loaded module \"%WINDIR%\\System32\\bcrypt.dll\" at 74B20000\n \"remcos.exe\" loaded module \"%WINDIR%\\System32\\bcrypt.dll\" at 74B20000",
+      "origin": "Loaded Module",
+      "attck_id": "T1027",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1027"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "mutant-0",
+      "type": 4,
+      "relevance": 3,
+      "name": "Creates mutants",
+      "description": "\"\\Sessions\\1\\BaseNamedObjects\\Rmc-Y7B4RN\"\n \"\\Sessions\\1\\BaseNamedObjects\\_SHuassist.mtx\"\n \"\\Sessions\\1\\BaseNamedObjects\\Local\\ZonesCacheCounterMutex\"\n \"\\Sessions\\1\\BaseNamedObjects\\Local\\ZonesLockedCacheCounterMutex\"\n \"Local\\ZonesCacheCounterMutex\"\n \"_SHuassist.mtx\"\n \"Local\\ZonesLockedCacheCounterMutex\"\n \"Rmc-Y7B4RN\"",
+      "origin": "Created Mutant"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "registry-72",
+      "type": 3,
+      "relevance": 3,
+      "name": "Overview of unique CLSIDs touched in registry",
+      "description": "\"file.exe\" touched \"Computer\" (Path: \"HKCU\\CLSID\\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\\SHELLFOLDER\")\n \"file.exe\" touched \"Memory Mapped Cache Mgr\" (Path: \"HKCU\\CLSID\\{1F486A52-3CB1-48FD-8F50-B8DC300D9F9D}\")\n \"file.exe\" touched \"CompatContextMenu Class\" (Path: \"HKCU\\CLSID\\{1D27F844-3A1F-4410-85AC-14651078412D}\")\n \"file.exe\" touched \"7-Zip Shell Extension\" (Path: \"HKLM\\SOFTWARE\\CLASSES\\CLSID\\{23170F69-40C1-278A-1000-000100020000}\")\n \"file.exe\" touched \"Previous Versions Property Page\" (Path: \"HKCU\\CLSID\\{596AB062-B4D2-4215-9F74-E9109B0A8153}\\SHELLEX\\NOADDTORECENT\")\n \"file.exe\" touched \"Microsoft SendTo Service\" (Path: \"HKCU\\CLSID\\{7BA4C740-9E81-11CF-99D3-00AA004AE837}\\SHELLEX\\NOADDTORECENT\")\n \"file.exe\" touched \"Copy as Path Menu\" (Path: \"HKCU\\CLSID\\{F3D06E7C-1E45-4A26-847E-F9FCDEE59BE0}\\SHELLEX\\NOADDTORECENT\")\n \"file.exe\" touched \"Start Menu Pin\" (Path: \"HKCU\\CLSID\\{A2A9545D-A0C2-42B4-9708-A0B2BADD77C8}\\SHELLEX\\NOADDTORECENT\")\n \"file.exe\" touched \"Start Menu Cache\" (Path: \"HKCU\\CLSID\\{660B90C8-73A9-4B58-8CAE-355B7F55341B}\\TREATAS\")\n \"file.exe\" touched \"Taskband Pin\" (Path: \"HKCU\\CLSID\\{90AA3A4E-1CBA-4233-B8BB-535773D48449}\\TREATAS\")\n \"file.exe\" touched \"Shortcut\" (Path: \"HKCU\\CLSID\\{00021401-0000-0000-C000-000000000046}\\IMPLEMENTED CATEGORIES\\{00021490-0000-0000-C000-000000000046}\")\n \"file.exe\" touched \"Internet Shortcut\" (Path: \"HKCU\\CLSID\\{FBF23B40-E3F0-101B-8488-00AA003E56F8}\\IMPLEMENTED CATEGORIES\\{00021490-0000-0000-C000-000000000046}\")\n \"file.exe\" touched \"User Pinned\" (Path: \"HKCU\\CLSID\\{1F3427C8-5C10-4210-AA03-2EE45287D668}\\SHELLFOLDER\")\n \"file.exe\" touched \"Shell File System Folder\" (Path: \"HKCU\\CLSID\\{F3364BA0-65B9-11CE-A9BA-00AA004AE837}\\INPROCSERVER32\")\n \"file.exe\" touched \"User Assist\" (Path: \"HKCU\\CLSID\\{DD313E04-FEFF-11D1-8ECD-0000F87A470C}\\TREATAS\")\n \"file.exe\" touched \"Shared Task Scheduler\" (Path: \"HKCU\\CLSID\\{603D3801-BD81-11D0-A3A5-00C04FD706EC}\\TREATAS\")\n \"file.exe\" touched \"Groove GFS Context Menu Handler\" (Path: \"HKCU\\CLSID\\{6C467336-8281-4E60-8204-430CED96822D}\\SHELLEX\\NOADDTORECENT\")\n \"file.exe\" touched \"Shell extensions for sharing\" (Path: \"HKCU\\CLSID\\{F81E9010-6EA4-11CE-A7FF-00AA003CA9F6}\\SHELLEX\\NOADDTORECENT\")\n \"file.exe\" touched \"Share Command State Handler\" (Path: \"HKCU\\CLSID\\{7B4A83B6-F704-4B77-8E3D-C6087E3A21D2}\\INPROCSERVER32\")\n \"file.exe\" touched \"Sharing Configuration Manager\" (Path: \"HKCU\\CLSID\\{49F371E1-8C5C-4D9C-9A3B-54A6827F513C}\\TREATAS\")\n \"file.exe\" touched \"Encryption Context Menu\" (Path: \"HKCU\\CLSID\\{A470F8CF-A1E8-4F65-8335-227475AA5C46}\\SHELLEX\\NOADDTORECENT\")\n \"file.exe\" touched \"Open With Context Menu Handler\" (Path: \"HKCU\\CLSID\\{09799AFB-AD67-11D1-ABCD-00C04FC30936}\\SHELLEX\\NOADDTORECENT\")\n \"file.exe\" touched \"Property System Both Class Factory\" (Path: \"HKCU\\CLSID\\{76765B11-3F95-4AF2-AC9D-EA55D8994F1A}\\TREATAS\")\n \"file.exe\" touched \"Briefcase\" (Path: \"HKCU\\CLSID\\{85BBD920-42A0-1069-A2E4-08002B30309D}\\SHELLEX\\NOADDTORECENT\")\n \"file.exe\" touched \"Remove Properties Drop Target\" (Path: \"HKCU\\CLSID\\{09A28848-0E97-4CEF-B950-CEA037161155}\\SUPPORTEDPROTOCOLS\")\n \"file.exe\" touched \"Security Manager\" (Path: \"HKCU\\CLSID\\{7B8A2D94-0AC9-11D1-896C-00C04FB6BFC4}\\TREATAS\")\n \"file.exe\" touched \"Offline Files Cache Control\" (Path: \"HKCU\\CLSID\\{48C6BE7C-3871-43CC-B46F-1449A1BB2FF3}\\TREATAS\")\n \"file.exe\" touched \"Offline Files Service Control\" (Path: \"HKCU\\CLSID\\{69486DD6-C19F-42E8-B508-A53F9F8E67B8}\\TREATAS\")\n \"file.exe\" touched \"PSFactoryBuffer\" (Path: \"HKCU\\CLSID\\{EFB23A09-A867-4BE8-83A6-86969A7D0856}\\TREATAS\")\n \"file.exe\" touched \"Offline Files Setting Object\" (Path: \"HKCU\\CLSID\\{FD3659E9-A920-4123-AD64-7FC76C7AACDF}\\TREATAS\")",
+      "origin": "Registry Access",
+      "attck_id": "T1546.015",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1546/015"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "target-21",
+      "type": 9,
+      "relevance": 3,
+      "name": "Launches a browser",
+      "description": "Launches browser \"iexplore.exe\" (UID: 00000000-00006132)\n Launches browser \"iexplore.exe\" (UID: 00000000-00004240)",
+      "origin": "Monitored Target"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "api-8",
+      "type": 6,
+      "relevance": 1,
+      "name": "Looks up procedures from modules (excluding apphelp.dll, kernel32.dll, user32.dll, gdi32.dll, ole32.dll, comctl32.dll, uxtheme.dll, oleaut32.dll, version.dll, msctfime.ime)",
+      "description": "\"0d000e00843bbd68@Iphlpapi.DLL\"\n \"0f001000dc3bbd68@Iphlpapi.DLL\"\n \"0c000d00243cbd68@Iphlpapi.DLL\"\n \"140015006c3cbd68@Iphlpapi.DLL\"\n \"0c000d00e03cbd68@Iphlpapi.DLL\"\n \"15001600c02ebd68@ADVAPI32.dll\"\n \"0e000f00702fbd68@ADVAPI32.dll\"\n \"0e000f00cc2fbd68@ADVAPI32.dll\"\n \"11001200b437bd68@ADVAPI32.dll\"\n \"110012004838bd68@ADVAPI32.dll\"\n \"120013008c38bd68@ADVAPI32.dll\"\n \"12001300e438bd68@ADVAPI32.dll\"\n \"14001500385ebd68@ADVAPI32.dll\"\n \"14001500505ebd68@ADVAPI32.dll\"\n \"14001500685ebd68@ADVAPI32.dll\"\n \"17001800805ebd68@ADVAPI32.dll\"\n \"0d000e00985ebd68@ADVAPI32.dll\"\n \"11001200a85ebd68@ADVAPI32.dll\"\n \"11001200bc5ebd68@ADVAPI32.dll\"\n \"0d000e004456bd68@WININET.dll\"\n \"0d000e00b456bd68@WININET.dll\"\n \"10001100ec56bd68@WININET.dll\"\n \"100011009057bd68@WININET.dll\"\n \"10001100005fbd68@WININET.dll\"\n \"10001100145fbd68@WININET.dll\"",
+      "origin": "API Call",
+      "attck_id": "T1129",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1129"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "static-153",
+      "name": "Uses 32 bit executable PE",
+      "description": "\"file.exe\" has flags like  IMAGE_FILE_32BIT_MACHINE\n IMAGE_FILE_EXECUTABLE\n \"remcos.exe.bin\" has flags like  IMAGE_FILE_32BIT_MACHINE\n IMAGE_FILE_EXECUTABLE\n \"DISMHOST.EXE.6712E6A3.bin\" has flags like  IMAGE_FILE_32BIT_MACHINE\n IMAGE_FILE_EXECUTABLE",
+      "origin": "Static Parser"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "static-96",
+      "name": "PE file entrypoint instructions",
+      "description": "\"file.exe\" file has an entrypoint instructions - \"call\t0x434ecb,jmp\t0x434918,push\tebp,mov\tebp, esp,sub\tesp, 0x324,push\tebx,push\tesi,push\t0x17,call\t0x45717a,test\teax, eax,je\t0x434aa5,mov\tecx, dword ptr [ebp + 8],int\t0x29,xor\tesi, esi,lea\teax, [ebp - 0x324],push\t0x2cc,push\tesi,push\teax,mov\tdword ptr [0x471d14], esi,call\t0x436f10,add\tesp, 0xc,mov\tdword ptr [ebp - 0x274], eax,mov\tdword ptr [ebp - 0x278], ecx,mov\tdword ptr [ebp - 0x27c], edx,mov\tdword ptr [ebp - 0x280], ebx,mov\tdword ptr [ebp - 0x284], esi,\"\n \"remcos.exe.bin\" file has an entrypoint instructions - \"call\t0x434ecb,jmp\t0x434918,push\tebp,mov\tebp, esp,sub\tesp, 0x324,push\tebx,push\tesi,push\t0x17,call\t0x45717a,test\teax, eax,je\t0x434aa5,mov\tecx, dword ptr [ebp + 8],int\t0x29,xor\tesi, esi,lea\teax, [ebp - 0x324],push\t0x2cc,push\tesi,push\teax,mov\tdword ptr [0x471d14], esi,call\t0x436f10,add\tesp, 0xc,mov\tdword ptr [ebp - 0x274], eax,mov\tdword ptr [ebp - 0x278], ecx,mov\tdword ptr [ebp - 0x27c], edx,mov\tdword ptr [ebp - 0x280], ebx,mov\tdword ptr [ebp - 0x284], esi,\"\n \"DISMHOST.EXE.6712E6A3.bin\" file has an entrypoint instructions - \"call\t0x100a7e6,jmp\t0x10097f4,int3\t,int3\t,int3\t,int3\t,int3\t,push\t0x14,push\t0x1010878,call\t0x1009d10,and\tdword ptr [ebp - 4], 0,dec\tdword ptr [ebp + 0x10],js\t0x1009afc,mov\tecx, dword ptr [ebp + 8],sub\tecx, dword ptr [ebp + 0xc],mov\tdword ptr [ebp + 8], ecx,call\tdword ptr [ebp + 0x14],jmp\t0x1009abc,mov\teax, dword ptr [ebp - 0x14],mov\tdword ptr [ebp - 0x1c], eax,mov\teax, dword ptr [ebp - 0x1c],mov\teax, dword ptr [eax],mov\tdword ptr [ebp - 0x20], eax,mov\teax, dword ptr [ebp - 0x20],cmp\tdword ptr [eax], 0xe06d7363,je\t0x1009af3,mov\tdword ptr [ebp - 0x24], 0,mov\teax, dword ptr [ebp - 0x24],ret\t,call\tdword ptr [0x1001210],mov\tesp, dword ptr [ebp - 0x18],\"",
+      "origin": "Static Parser"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "api-176",
+      "type": 6,
+      "relevance": 1,
+      "name": "Calls an API typically used to retrieve function addresses",
+      "description": "\"file.exe\" called \"GetProcAddress\" with a parameter InitializeCriticalSectionEx (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter FlsAlloc (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter FlsSetValue (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter FlsGetValue (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter LCMapStringEx (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter FlsFree (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter InitOnceExecuteOnce (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter CreateEventExW (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter CreateSemaphoreW (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter CreateSemaphoreExW (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter CreateThreadpoolTimer (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter SetThreadpoolTimer (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter WaitForThreadpoolTimerCallbacks (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter CloseThreadpoolTimer (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter CreateThreadpoolWait (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter SetThreadpoolWait (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter CloseThreadpoolWait (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter FlushProcessWriteBuffers (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter FreeLibraryWhenCallbackReturns (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter GetCurrentProcessorNumber (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter CreateSymbolicLinkW (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter GetCurrentPackageId (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter GetTickCount64 (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter GetFileInformationByHandleEx (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter SetFileInformationByHandle (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter GetSystemTimePreciseAsFileTime (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter InitializeConditionVariable (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter WakeConditionVariable (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter WakeAllConditionVariable (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter SleepConditionVariableCS (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter InitializeSRWLock (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter AcquireSRWLockExclusive (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter TryAcquireSRWLockExclusive (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter ReleaseSRWLockExclusive (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter SleepConditionVariableSRW (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter CreateThreadpoolWork (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter SubmitThreadpoolWork (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter CloseThreadpoolWork (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter CompareStringEx (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter GetLocaleInfoEx (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter AreFileApisANSI (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter RtlGetVersion (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter RmRegisterResources (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter RmGetList (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter RmEndSession (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter ThemeInitApiHook (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter IsProcessDPIAware (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter RegisterTraceGuidsW (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter EventRegister (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter EventUnregister (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter EventEnabled (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter EventWrite (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter CoTaskMemAlloc (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter LpkEditControl (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter OpenThreadToken (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter InitializeSecurityDescriptor (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter SetEntriesInAclW (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter GetMartaExtensionInterface (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter SetSecurityDescriptorDacl (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter RegOpenKeyExW (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter RegGetValueW (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter RegCloseKey (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter CoTaskMemFree (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter OfflineFilesQueryStatus (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter CoInitializeEx (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter CoCreateInstance (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter LookupAccountSidLocalW (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter OpenProcessToken (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter GetTokenInformation (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter AllocateAndInitializeSid (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter EqualSid (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter FreeSid (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter SystemFunction036 (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter CoWaitForMultipleHandles (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter RegOpenKeyW (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter ReleaseStgMedium (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter CoGetMalloc (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter RegQueryValueExW (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter PSPropertyBag_ReadDWORD (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter PSPropertyBag_ReadBSTR (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter PSPropertyBag_ReadGUID (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter EncodePointer (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter DecodePointer (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter IsProcessorFeaturePresent (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter FindActCtxSectionStringW (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter HeapSetInformation (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter GrooveChainGetGlobalInterfacePtrAddress (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter GrooveChainCoCreateInstance (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter CryptAcquireContextA (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter CryptGenRandom (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter NetShareEnum (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter CscNetApiGetInterface (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter SLGetWindowsInformationDWORD (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter InitializeCriticalSectionAndSpinCount (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter ProcessIdToSessionId (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter ImmCreateContext (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter ImmDestroyContext (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter ImmNotifyIME (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter ImmAssociateContext (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter ImmReleaseContext (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter ImmGetContext (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter ImmGetCompositionStringA (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter ImmSetCompositionStringA (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter ImmGetCompositionStringW (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter ImmSetCompositionStringW (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter ImmSetCandidateWindow (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter FindFirstStreamW (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter FindNextStreamW (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter PnpIsFilePnpDriver (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter DevRtlGetThreadLogToken (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter GetUserNameExW (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter PathCreateFromUrlW (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter SHGetFolderPathW (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter ConvertStringSidToSidW (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter CoUninitialize (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter CryptReleaseContext (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter NetApiBufferFree (UID: 00000000-00005804)\n \"file.exe\" called \"GetProcAddress\" with a parameter UnregisterTraceGuids (UID: 00000000-00005804)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter InitializeCriticalSectionEx (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter FlsAlloc (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter FlsSetValue (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter FlsGetValue (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter LCMapStringEx (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter FlsFree (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter InitOnceExecuteOnce (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CreateEventExW (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CreateSemaphoreW (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CreateSemaphoreExW (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CreateThreadpoolTimer (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter SetThreadpoolTimer (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter WaitForThreadpoolTimerCallbacks (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CloseThreadpoolTimer (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CreateThreadpoolWait (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter SetThreadpoolWait (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CloseThreadpoolWait (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter FlushProcessWriteBuffers (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter FreeLibraryWhenCallbackReturns (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetCurrentProcessorNumber (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CreateSymbolicLinkW (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetCurrentPackageId (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetTickCount64 (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetFileInformationByHandleEx (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter SetFileInformationByHandle (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetSystemTimePreciseAsFileTime (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter InitializeConditionVariable (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter WakeConditionVariable (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter WakeAllConditionVariable (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter SleepConditionVariableCS (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter InitializeSRWLock (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter AcquireSRWLockExclusive (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter TryAcquireSRWLockExclusive (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter ReleaseSRWLockExclusive (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter SleepConditionVariableSRW (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CreateThreadpoolWork (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter SubmitThreadpoolWork (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CloseThreadpoolWork (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CompareStringEx (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetLocaleInfoEx (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter AreFileApisANSI (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter RtlGetVersion (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetExtendedUdpTable (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter NtQueryInformationProcess (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetFinalPathNameByHandleW (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter RmStartSession (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter RmRegisterResources (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter RmGetList (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter RmEndSession (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter ZwCreateSection (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter ZwMapViewOfSection (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter ZwUnmapViewOfSection (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter ZwClose (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter send (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter LoadLibraryA (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter LoadLibraryW (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter LoadLibraryExA (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter LoadLibraryExW (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetProcAddress (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter FindFirstFileA (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter FindFirstFileW (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter FindNextFileA (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter FindNextFileW (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CreateToolhelp32Snapshot (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter Process32FirstW (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter Process32NextW (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CreateRemoteThread (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetNativeSystemInfo (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetLogicalDriveStringsA (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetLogicalDriveStringsW (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CopyFileA (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CopyFileW (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CreateDirectoryA (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CreateDirectoryW (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter RemoveDirectoryA (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter RemoveDirectoryW (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter WinExec (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter FindResourceA (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter FindResourceW (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter LoadResource (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CreateProcessA (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CreateProcessW (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter OpenMutexA (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter OpenMutexW (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter IsWow64Process (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetSystemDefaultLangID (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetLocaleInfoA (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetLocaleInfoW (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter SetFileTime (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetVersionExA (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter FileTimeToLocalFileTime (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter FileTimeToSystemTime (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter MoveFileA (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CreateNamedPipeA (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CreateNamedPipeW (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetProcessHeap (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetWriteWatch (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter HeapWalk (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter IsDebuggerPresent (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GlobalMemoryStatusEx (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetDiskFreeSpaceExA (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetDiskFreeSpaceExW (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetSystemInfo (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter IsNativeVhdBoot (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetModuleHandleA (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetModuleHandleW (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CloseHandle (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter DebugBreak (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter QueryPerformanceCounter (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter RtlGetNtProductType (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter LdrLoadDll (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter LdrUnloadDll (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter LdrGetDllHandle (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter LdrGetProcedureAddress (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter RtlAddVectoredExceptionHandler (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter NtSystemDebugControl (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter RtlCompressBuffer (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter RtlDecompressBuffer (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter RtlDecompressBufferEx (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CreateCompatibleBitmap (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetDeviceCaps (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetIpNetTable (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetAdaptersInfo (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetTcpTable2 (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetAdaptersAddresses (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetBestRoute (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetAsyncKeyState (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetKeyState (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetForegroundWindow (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetActiveWindow (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetWindowTextA (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetWindowTextW (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter EnumWindows (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetSystemMetrics (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter SystemParametersInfoA (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter SystemParametersInfoW (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetMonitorInfoA (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetMonitorInfoW (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter EnumDisplayMonitors (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter AdjustTokenPrivileges (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CredEnumerateA (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CredEnumerateW (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter LookupAccountSidA (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter LookupAccountSidW (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter LookupAccountNameA (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter LookupAccountNameW (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter QueryServiceStatusEx (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter ChangeServiceConfigA (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter ChangeServiceConfigW (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CreateProcessWithTokenW (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter LsaLookupSids (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter SystemFunction032 (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter SystemFunction033 (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter InternetOpenA (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter InternetOpenW (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter HttpOpenRequestA (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter HttpOpenRequestW (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter InternetConnectA (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter InternetConnectW (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter InternetQueryOptionA (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter InternetQueryOptionW (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter InternetSetOptionA (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter InternetSetOptionW (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter InternetReadFile (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter URLDownloadToFileA (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter URLDownloadToFileW (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter ObtainUserAgentString (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter ShellExecuteA (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter ShellExecuteW (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CryptCreateHash (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CryptAcquireContextA (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CryptAcquireContextW (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CryptEncrypt (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CryptDecrypt (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CryptImportKey (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CryptExportKey (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CryptGenKey (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter BCryptEncrypt (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter BCryptDecrypt (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter BCryptImportKey (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter BCryptImportKeyPair (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter BCryptExportKey (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter BCryptGenerateKeyPair (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter BCryptOpenAlgorithmProvider (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter BCryptSetProperty (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter RpcStringBindingComposeW (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter RpcServerRegisterIf (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter RpcServerRegisterIf2 (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter RpcServerUseProtseqEpW (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter gethostname (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter UnregisterTraceGuids (UID: 00000000-00005888)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter FlsGetValue (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter InitializeCriticalSectionEx (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter FlsAlloc (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter FlsSetValue (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter LCMapStringEx (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter FlsFree (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter InitOnceExecuteOnce (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CreateEventExW (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CreateSemaphoreW (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CreateSemaphoreExW (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CreateThreadpoolTimer (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter SetThreadpoolTimer (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter WaitForThreadpoolTimerCallbacks (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CloseThreadpoolTimer (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CreateThreadpoolWait (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter SetThreadpoolWait (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CloseThreadpoolWait (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter FlushProcessWriteBuffers (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter FreeLibraryWhenCallbackReturns (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetCurrentProcessorNumber (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CreateSymbolicLinkW (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetCurrentPackageId (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetTickCount64 (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetFileInformationByHandleEx (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter SetFileInformationByHandle (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetSystemTimePreciseAsFileTime (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter InitializeConditionVariable (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter WakeConditionVariable (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter WakeAllConditionVariable (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter SleepConditionVariableCS (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter InitializeSRWLock (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter AcquireSRWLockExclusive (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter TryAcquireSRWLockExclusive (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter ReleaseSRWLockExclusive (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter SleepConditionVariableSRW (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CreateThreadpoolWork (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter SubmitThreadpoolWork (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CloseThreadpoolWork (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CompareStringEx (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetLocaleInfoEx (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter AreFileApisANSI (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter RtlGetVersion (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter send (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter LoadLibraryA (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter LoadLibraryW (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter LoadLibraryExA (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter LoadLibraryExW (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetProcAddress (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter FindFirstFileA (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter FindFirstFileW (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter FindNextFileA (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter FindNextFileW (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CreateToolhelp32Snapshot (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter Process32FirstW (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter Process32NextW (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CreateRemoteThread (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetNativeSystemInfo (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetLogicalDriveStringsA (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetLogicalDriveStringsW (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CopyFileA (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CopyFileW (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CreateDirectoryA (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CreateDirectoryW (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter RemoveDirectoryA (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter RemoveDirectoryW (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter WinExec (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter FindResourceA (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter FindResourceW (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter LoadResource (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CreateProcessA (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CreateProcessW (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter OpenMutexA (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter OpenMutexW (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter IsWow64Process (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetSystemDefaultLangID (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetLocaleInfoA (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetLocaleInfoW (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter SetFileTime (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetVersionExA (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter FileTimeToLocalFileTime (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter FileTimeToSystemTime (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter MoveFileA (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CreateNamedPipeA (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CreateNamedPipeW (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetProcessHeap (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetWriteWatch (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter HeapWalk (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter IsDebuggerPresent (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GlobalMemoryStatusEx (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetDiskFreeSpaceExA (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetDiskFreeSpaceExW (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetSystemInfo (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter IsNativeVhdBoot (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetModuleHandleA (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetModuleHandleW (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CloseHandle (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter DebugBreak (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter QueryPerformanceCounter (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter RtlGetNtProductType (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter LdrLoadDll (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter LdrUnloadDll (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter LdrGetDllHandle (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter LdrGetProcedureAddress (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter RtlAddVectoredExceptionHandler (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter NtSystemDebugControl (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter RtlCompressBuffer (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter RtlDecompressBuffer (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter RtlDecompressBufferEx (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CreateCompatibleBitmap (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetDeviceCaps (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetIpNetTable (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetAdaptersInfo (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetTcpTable2 (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetAdaptersAddresses (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetBestRoute (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetAsyncKeyState (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetKeyState (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetForegroundWindow (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetActiveWindow (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetWindowTextA (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetWindowTextW (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter EnumWindows (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetSystemMetrics (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter SystemParametersInfoA (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter SystemParametersInfoW (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetMonitorInfoA (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter GetMonitorInfoW (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter EnumDisplayMonitors (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter AdjustTokenPrivileges (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CredEnumerateA (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CredEnumerateW (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter LookupAccountSidA (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter LookupAccountSidW (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter LookupAccountNameA (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter LookupAccountNameW (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter QueryServiceStatusEx (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter ChangeServiceConfigA (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter ChangeServiceConfigW (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CreateProcessWithTokenW (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter LsaLookupSids (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter SystemFunction032 (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter SystemFunction033 (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter InternetOpenA (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter InternetOpenW (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter HttpOpenRequestA (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter HttpOpenRequestW (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter InternetConnectA (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter InternetConnectW (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter InternetQueryOptionA (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter InternetQueryOptionW (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter InternetSetOptionA (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter InternetSetOptionW (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter InternetReadFile (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter URLDownloadToFileA (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter URLDownloadToFileW (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter ObtainUserAgentString (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter ShellExecuteA (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter ShellExecuteW (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CryptCreateHash (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CryptAcquireContextA (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CryptAcquireContextW (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CryptEncrypt (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CryptDecrypt (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CryptImportKey (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CryptExportKey (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter CryptGenKey (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter BCryptEncrypt (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter BCryptDecrypt (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter BCryptImportKey (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter BCryptImportKeyPair (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter BCryptExportKey (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter BCryptGenerateKeyPair (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter BCryptOpenAlgorithmProvider (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter BCryptSetProperty (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter RpcStringBindingComposeW (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter RpcServerRegisterIf (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter RpcServerRegisterIf2 (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter RpcServerUseProtseqEpW (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter gethostname (UID: 00000000-00001852)\n \"remcos.exe\" called \"GetProcAddress\" with a parameter UnregisterTraceGuids (UID: 00000000-00001852)",
+      "origin": "API Call",
+      "attck_id": "T1106",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1106"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "api-122",
+      "type": 6,
+      "relevance": 3,
+      "name": "Calls an API typically used to create a directory",
+      "description": "\"file.exe\" called \"CreateDirectoryW\" with parameter %ALLUSERSPROFILE%\\tst (UID: 00000000-00005804)\n \"file.exe\" called \"CreateDirectoryW\" with parameter %LOCALAPPDATA%\\Microsoft\\Windows\\Caches (UID: 00000000-00005804)\n \"remcos.exe\" called \"CreateDirectoryW\" with parameter %ALLUSERSPROFILE%\\tst (UID: 00000000-00005888)",
+      "origin": "API Call",
+      "attck_id": "T1074.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1074/001"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "api-128",
+      "type": 6,
+      "relevance": 5,
+      "name": "Calls an API typically used to create a process",
+      "description": "\"file.exe\" called \"CreateProcessW\" with parameter \"\"%ALLUSERSPROFILE%\\tst\\remcos.exe\"\" - (UID: 00000000-00005804)\n \"remcos.exe\" called \"CreateProcessW\" with parameter \"%PROGRAMFILES%\\internet explorer\\iexplore.exe\" - (UID: 00000000-00005888)",
+      "origin": "API Call",
+      "attck_id": "T1106",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1106"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "api-7",
+      "type": 6,
+      "relevance": 1,
+      "name": "Loads modules at runtime",
+      "description": "\"file.exe\" loaded module \"API-MS-WIN-CORE-SYNCH-L1-2-0\" at base 70650000\n \"file.exe\" loaded module \"API-MS-WIN-CORE-FIBERS-L1-1-1\" at base 0\n \"file.exe\" loaded module \"KERNEL32\" at base 75730000\n \"file.exe\" loaded module \"API-MS-WIN-CORE-LOCALIZATION-L1-2-1\" at base 0\n \"file.exe\" loaded module \"%WINDIR%\\TEMP\\VXOLE32.DLL\" at base 68b40000\n \"file.exe\" loaded module \"RSTRTMGR\" at base 6b5f0000\n \"file.exe\" loaded module \"KERNEL32.DLL\" at base 75730000\n \"file.exe\" loaded module \"OLE32.DLL\" at base 75990000\n \"file.exe\" loaded module \"CRYPTBASE.DLL\" at base 74f90000\n \"file.exe\" loaded module \"%WINDIR%\\SYSTEM32\\UXTHEME.DLL\" at base 73df0000\n \"file.exe\" loaded module \"ADVAPI32.DLL\" at base 758e0000\n \"file.exe\" loaded module \"PROPSYS.DLL\" at base 73b50000\n \"file.exe\" loaded module \"COMCTL32.DLL\" at base 73f00000\n \"file.exe\" loaded module \"OLEAUT32.DLL\" at base 76740000\n \"file.exe\" loaded module \"SHELL32.DLL\" at base 75af0000\n \"file.exe\" loaded module \"CLBCATQ.DLL\" at base 76a60000\n \"file.exe\" loaded module \"%WINDIR%\\SYSTEM32\\PROPSYS.DLL\" at base 73b50000\n \"file.exe\" loaded module \"NTMARTA.DLL\" at base 74470000\n \"file.exe\" loaded module \"API-MS-WIN-SECURITY-SDDL-L1-1-0.DLL\" at base 77260000\n \"file.exe\" loaded module \"PROFAPI.DLL\" at base 75010000\n \"file.exe\" loaded module \"APPHELP.DLL\" at base 74eb0000\n \"file.exe\" loaded module \"%WINDIR%\\SYSTEM32\\TWEXT.DLL\" at base 69e10000\n \"file.exe\" loaded module \"%WINDIR%\\SYSTEM32\\CSCUI.DLL\" at base 6b880000\n \"file.exe\" loaded module \"RPCRT4.DLL\" at base 76cb0000\n \"file.exe\" loaded module \"CSCAPI.DLL\" at base 6fe60000\n \"file.exe\" loaded module \"API-MS-WIN-SERVICE-MANAGEMENT-L1-1-0.DLL\" at base 77260000\n \"file.exe\" loaded module \"API-MS-WIN-SERVICE-MANAGEMENT-L2-1-0.DLL\" at base 77260000\n \"file.exe\" loaded module \"%WINDIR%\\SYSTEM32\\CSCOBJ.DLL\" at base 6b850000\n \"file.exe\" loaded module \"API-MS-WIN-SECURITY-LSALOOKUP-L1-1-0.DLL\" at base 77260000\n \"file.exe\" loaded module \"CRYPTSP.DLL\" at base 74a10000\n \"file.exe\" loaded module \"%WINDIR%\\SYSTEM32\\RSAENH.DLL\" at base 747a0000\n \"file.exe\" loaded module \"RPCRTREMOTE.DLL\" at base 74fa0000\n \"file.exe\" loaded module \"%WINDIR%\\SYSTEM32\\SHELL32.DLL\" at base 75af0000\n \"file.exe\" loaded module \"USERENV.DLL\" at base 75310000\n \"file.exe\" loaded module \"API-MS-WIN-CORE-LOCALREGISTRY-L1-1-0.DLL\" at base 75730000\n \"file.exe\" loaded module \"SETUPAPI.DLL\" at base 767e0000\n \"file.exe\" loaded module \"%WINDIR%\\SYSTEM32\\SHDOCVW.DLL\" at base 6f900000\n \"file.exe\" loaded module \"%PROGRAMFILES%\\MICROS~3\\OFFICE14\\GROOVEEX.DLL\" at base 6ee60000\n \"file.exe\" loaded module \"%PROGRAMFILES%\\COMMON~1\\MICROS~1\\OFFICE14\\CULTURES\\OFFICE.ODF\" at base 6ea40000\n \"file.exe\" loaded module \"%WINDIR%\\SYSTEM32\\NTSHRUI.DLL\" at base 71a80000\n \"file.exe\" loaded module \"SRVCLI.DLL\" at base 74c00000\n \"file.exe\" loaded module \"SLC.DLL\" at base 73500000\n \"file.exe\" loaded module \"IMM32.DLL\" at base 76af0000\n \"file.exe\" loaded module \"%WINDIR%\\SYSTEM32\\SYNCUI.DLL\" at base 6b180000\n \"file.exe\" loaded module \"%PROGRAMFILES%\\7-ZIP\\7-ZIP.DLL\" at base 10000000\n \"file.exe\" loaded module \"%LOCALAPPDATA%\\MICROSOFT\\ONEDRIVE\\17.3.4604.0120\\FILESYNCSHELL.DLL\" at base 6fe70000\n \"file.exe\" loaded module \"%WINDIR%\\SYSTEM32\\ACPPAGE.DLL\" at base 6bc00000\n \"file.exe\" loaded module \"DEVRTL.DLL\" at base 74780000\n \"file.exe\" loaded module \"%WINDIR%\\SYSTEM32\\URLMON.DLL\" at base 76b10000\n \"file.exe\" loaded module \"SECUR32.DLL\" at base 74d30000\n \"file.exe\" loaded module \"API-MS-WIN-DOWNLEVEL-SHLWAPI-L1-1-0.DLL\" at base 752c0000\n \"file.exe\" loaded module \"API-MS-WIN-DOWNLEVEL-ADVAPI32-L2-1-0.DLL\" at base 702f0000\n \"file.exe\" loaded module \"%WINDIR%\\SYSTEM32\\APPHELP.DLL\" at base 74eb0000\n \"file.exe\" loaded module \"NETUTILS.DLL\" at base 73db0000\n \"remcos.exe\" loaded module \"API-MS-WIN-CORE-SYNCH-L1-2-0\" at base 70650000\n \"remcos.exe\" loaded module \"API-MS-WIN-CORE-FIBERS-L1-1-1\" at base 0\n \"remcos.exe\" loaded module \"KERNEL32\" at base 75730000\n \"remcos.exe\" loaded module \"API-MS-WIN-CORE-LOCALIZATION-L1-2-1\" at base 0\n \"remcos.exe\" loaded module \"RSTRTMGR\" at base 6b180000\n \"remcos.exe\" loaded module \"%WINDIR%\\SYSTEM32\\APPHELP.DLL\" at base 74eb0000\n \"remcos.exe\" loaded module \"%WINDIR%\\TEMP\\VXOLE32.DLL\" at base 4c0000\n \"remcos.exe\" loaded module \"%WINDIR%\\TEMP\\VXSSL32.DLL\" at base 530000\n \"remcos.exe\" loaded module \"API-MS-WIN-APPMODEL-RUNTIME-L1-1-1\" at base 0\n \"remcos.exe\" loaded module \"EXT-MS-WIN-KERNEL32-PACKAGE-CURRENT-L1-1-0\" at base 0\n \"remcos.exe\" loaded module \"%WINDIR%\\TEMP\\VXOLE32.DLL\" at base 6d0000\n \"remcos.exe\" loaded module \"%WINDIR%\\TEMP\\VXSSL32.DLL\" at base 720000",
+      "origin": "API Call",
+      "attck_id": "T1129",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1129"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "api-175",
+      "type": 6,
+      "relevance": 1,
+      "name": "Calls an API typically used to load libraries",
+      "description": "\"file.exe\" called \"LoadLibrary\" with a parameter api-ms-win-core-synch-l1-2-0 (UID: 00000000-00005804)\n \"file.exe\" called \"LoadLibrary\" with a parameter api-ms-win-core-fibers-l1-1-1 (UID: 00000000-00005804)\n \"file.exe\" called \"LoadLibrary\" with a parameter kernel32 (UID: 00000000-00005804)\n \"file.exe\" called \"LoadLibrary\" with a parameter api-ms-win-core-localization-l1-2-1 (UID: 00000000-00005804)\n \"file.exe\" called \"LoadLibrary\" with a parameter Rstrtmgr (UID: 00000000-00005804)\n \"file.exe\" called \"LoadLibrary\" with a parameter %WINDIR%\\system32\\uxtheme.dll (UID: 00000000-00005804)\n \"file.exe\" called \"LoadLibrary\" with a parameter ADVAPI32.dll (UID: 00000000-00005804)\n \"file.exe\" called \"LoadLibrary\" with a parameter propsys.dll (UID: 00000000-00005804)\n \"file.exe\" called \"LoadLibrary\" with a parameter ole32.dll (UID: 00000000-00005804)\n \"file.exe\" called \"LoadLibrary\" with a parameter comctl32.dll (UID: 00000000-00005804)\n \"file.exe\" called \"LoadLibrary\" with a parameter SHELL32.dll (UID: 00000000-00005804)\n \"file.exe\" called \"LoadLibrary\" with a parameter ntmarta.dll (UID: 00000000-00005804)\n \"file.exe\" called \"LoadLibrary\" with a parameter CSCAPI.dll (UID: 00000000-00005804)\n \"file.exe\" called \"LoadLibrary\" with a parameter OLEAUT32.dll (UID: 00000000-00005804)\n \"file.exe\" called \"LoadLibrary\" with a parameter API-MS-Win-Security-LSALookup-L1-1-0.dll (UID: 00000000-00005804)\n \"file.exe\" called \"LoadLibrary\" with a parameter CRYPTBASE.dll (UID: 00000000-00005804)\n \"file.exe\" called \"LoadLibrary\" with a parameter API-MS-Win-Core-LocalRegistry-L1-1-0.dll (UID: 00000000-00005804)\n \"file.exe\" called \"LoadLibrary\" with a parameter PROPSYS.dll (UID: 00000000-00005804)\n \"file.exe\" called \"LoadLibrary\" with a parameter %WINDIR%\\system32\\shell32.dll (UID: 00000000-00005804)\n \"file.exe\" called \"LoadLibrary\" with a parameter %PROGRAMFILES%\\MICROS~3\\Office14\\GROOVEEX.DLL (UID: 00000000-00005804)\n \"file.exe\" called \"LoadLibrary\" with a parameter CRYPTSP.dll (UID: 00000000-00005804)\n \"file.exe\" called \"LoadLibrary\" with a parameter %PROGRAMFILES%\\COMMON~1\\MICROS~1\\OFFICE14\\Cultures\\office.odf (UID: 00000000-00005804)\n \"file.exe\" called \"LoadLibrary\" with a parameter srvcli.dll (UID: 00000000-00005804)\n \"file.exe\" called \"LoadLibrary\" with a parameter cscapi.dll (UID: 00000000-00005804)\n \"file.exe\" called \"LoadLibrary\" with a parameter slc.dll (UID: 00000000-00005804)\n \"file.exe\" called \"LoadLibrary\" with a parameter imm32.dll (UID: 00000000-00005804)\n \"file.exe\" called \"LoadLibrary\" with a parameter SETUPAPI.dll (UID: 00000000-00005804)\n \"file.exe\" called \"LoadLibrary\" with a parameter DEVRTL.dll (UID: 00000000-00005804)\n \"file.exe\" called \"LoadLibrary\" with a parameter imageres.dll (UID: 00000000-00005804)\n \"file.exe\" called \"LoadLibrary\" with a parameter Secur32.dll (UID: 00000000-00005804)\n \"file.exe\" called \"LoadLibrary\" with a parameter API-MS-WIN-DOWNLEVEL-SHLWAPI-L1-1-0.DLL (UID: 00000000-00005804)\n \"file.exe\" called \"LoadLibrary\" with a parameter api-ms-win-downlevel-advapi32-l2-1-0.dll (UID: 00000000-00005804)\n \"file.exe\" called \"LoadLibrary\" with a parameter netutils.dll (UID: 00000000-00005804)\n \"remcos.exe\" called \"LoadLibrary\" with a parameter api-ms-win-core-synch-l1-2-0 (UID: 00000000-00005888)\n \"remcos.exe\" called \"LoadLibrary\" with a parameter api-ms-win-core-fibers-l1-1-1 (UID: 00000000-00005888)\n \"remcos.exe\" called \"LoadLibrary\" with a parameter kernel32 (UID: 00000000-00005888)\n \"remcos.exe\" called \"LoadLibrary\" with a parameter api-ms-win-core-localization-l1-2-1 (UID: 00000000-00005888)\n \"remcos.exe\" called \"LoadLibrary\" with a parameter Rstrtmgr (UID: 00000000-00005888)\n \"remcos.exe\" called \"LoadLibrary\" with a parameter api-ms-win-appmodel-runtime-l1-1-1 (UID: 00000000-00005888)\n \"remcos.exe\" called \"LoadLibrary\" with a parameter ext-ms-win-kernel32-package-current-l1-1-0 (UID: 00000000-00005888)\n \"remcos.exe\" called \"LoadLibrary\" with a parameter api-ms-win-core-synch-l1-2-0 (UID: 00000000-00001852)\n \"remcos.exe\" called \"LoadLibrary\" with a parameter api-ms-win-core-fibers-l1-1-1 (UID: 00000000-00001852)\n \"remcos.exe\" called \"LoadLibrary\" with a parameter kernel32 (UID: 00000000-00001852)\n \"remcos.exe\" called \"LoadLibrary\" with a parameter api-ms-win-core-localization-l1-2-1 (UID: 00000000-00001852)\n \"remcos.exe\" called \"LoadLibrary\" with a parameter api-ms-win-appmodel-runtime-l1-1-1 (UID: 00000000-00001852)\n \"remcos.exe\" called \"LoadLibrary\" with a parameter ext-ms-win-kernel32-package-current-l1-1-0 (UID: 00000000-00001852)",
+      "origin": "API Call",
+      "attck_id": "T1129",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1129"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "api-22",
+      "type": 6,
+      "relevance": 1,
+      "name": "Fails to load modules at runtime",
+      "description": "\"file.exe\" failed to load missing module \"api-ms-win-core-fibers-l1-1-1\" - [base:0; Status:c0000135]\n \"file.exe\" failed to load missing module \"api-ms-win-core-localization-l1-2-1\" - [base:0; Status:c0000135]\n \"remcos.exe\" failed to load missing module \"api-ms-win-core-fibers-l1-1-1\" - [base:0; Status:c0000135]\n \"remcos.exe\" failed to load missing module \"api-ms-win-core-localization-l1-2-1\" - [base:0; Status:c0000135]\n \"remcos.exe\" failed to load missing module \"api-ms-win-appmodel-runtime-l1-1-1\" - [base:0; Status:c0000135]\n \"remcos.exe\" failed to load missing module \"ext-ms-win-kernel32-package-current-l1-1-0\" - [base:0; Status:c0000135]",
+      "origin": "API Call",
+      "attck_id": "T1574.002",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1574/002"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "module-10",
+      "type": 10,
+      "name": "Loads the RPC (Remote Procedure Call) module DLL",
+      "description": "\"file.exe\" loaded module \"%WINDIR%\\System32\\rpcrt4.dll\" at 76CB0000\n \"remcos.exe\" loaded module \"%WINDIR%\\System32\\rpcrt4.dll\" at 76CB0000",
+      "origin": "Loaded Module",
+      "attck_id": "T1129",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1129"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "registry-25",
+      "type": 3,
+      "relevance": 3,
+      "name": "Reads information about supported languages",
+      "description": "\"file.exe\" (Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\NLS\\CUSTOMLOCALE\"; Key: \"EN-US\")\n \"file.exe\" (Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\NLS\\EXTENDEDLOCALE\"; Key: \"EN-US\")",
+      "origin": "Registry Access",
+      "attck_id": "T1082",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1082"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "target-25",
+      "type": 9,
+      "relevance": 3,
+      "name": "Spawns new processes",
+      "description": "Spawned process \"remcos.exe\" (UID: 00000000-00005888)\n Spawned process \"iexplore.exe\" (UID: 00000000-00006132)\n Spawned process \"remcos.exe\" (UID: 00000000-00001852)\n Spawned process \"iexplore.exe\" (UID: 00000000-00004240)",
+      "origin": "Monitored Target",
+      "attck_id": "T1057",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1057"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "target-103",
+      "type": 9,
+      "relevance": 3,
+      "name": "Spawns new processes that are not known child processes",
+      "description": "Spawned process \"remcos.exe\" (UID: 00000000-00005888)\n Spawned process \"iexplore.exe\" (UID: 00000000-00006132)\n Spawned process \"remcos.exe\" (UID: 00000000-00001852)\n Spawned process \"iexplore.exe\" (UID: 00000000-00004240)",
+      "origin": "Monitored Target",
+      "attck_id": "T1057",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1057"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "network-1",
+      "type": 7,
+      "relevance": 1,
+      "name": "Contacts server",
+      "description": "\"<IPv4>:2404\"\n \"<IPv4>:80\"",
+      "origin": "Network Traffic",
+      "attck_id": "T1071",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1071"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "network-0",
+      "type": 7,
+      "relevance": 1,
+      "name": "Contacts domains",
+      "description": "\"geoplugin.net\"",
+      "origin": "Network Traffic",
+      "attck_id": "T1071",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1071"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "network-2",
+      "type": 7,
+      "relevance": 5,
+      "name": "GETs files from a webserver",
+      "description": "\"GET /json.gp HTTP/1.1\nHost: geoplugin.net\nCache-Control: no-cache\" Response ==> HTTP/1.1 200 OK\ndate: Fri\n 18 Oct 2024 22:35:12 GMT\nserver: Apache\ncontent-length: 962\ncontent-type: application/json; charset=utf-8\ncache-control: public\n max-age=300\naccess-control-allow-origin: * with response body ==>7B0A20202267656F706C7567696E5F72657175657374223A2236342E3132342E31322E313632222C0A20202267656F706C7567696E5F737461747573223A3230.......\n \"GET /json.gp HTTP/1.1\nHost: geoplugin.net\nCache-Control: no-cache\" Response ==> HTTP/1.1 200 OK\ndate: Fri\n 18 Oct 2024 22:37:32 GMT\nserver: Apache\ncontent-length: 962\ncontent-type: application/json; charset=utf-8\ncache-control: public\n max-age=300\naccess-control-allow-origin: * with response body ==>7B0A20202267656F706C7567696E5F72657175657374223A2236342E3132342E31322E313632222C0A20202267656F706C7567696E5F737461747573223A3230.......",
+      "origin": "Network Traffic",
+      "attck_id": "T1071.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1071/001"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "network-51",
+      "type": 7,
+      "relevance": 1,
+      "name": "Queries DNS server",
+      "description": "\"geoplugin.net\"\n \"liveos.zapto.org\"",
+      "origin": "Network Traffic",
+      "attck_id": "T1071.004",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1071/004"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "static-80",
+      "relevance": 1,
+      "name": "PE file contains executable sections",
+      "description": "\"file.exe\" has an executable section named \".text\"\n \"remcos.exe.bin\" has an executable section named \".text\"\n \"DISMHOST.EXE.6712E6A3.bin\" has an executable section named \".text\"",
+      "origin": "Static Parser"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "static-95",
+      "name": "PE file contains writable sections",
+      "description": "\"file.exe\" has an writable section named \".data\"\n \"file.exe\" has an writable section named \".tls\"\n \"remcos.exe.bin\" has an writable section named \".data\"\n \"remcos.exe.bin\" has an writable section named \".tls\"\n \"DISMHOST.EXE.6712E6A3.bin\" has an writable section named \".data\"",
+      "origin": "Static Parser"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "static-146",
+      "name": "PE file contains Debug data directory",
+      "description": "\"file.exe\" has Debug data directory \"IMAGE_DIRECTORY_ENTRY_DEBUG\"\n \"remcos.exe.bin\" has Debug data directory \"IMAGE_DIRECTORY_ENTRY_DEBUG\"\n \"DISMHOST.EXE.6712E6A3.bin\" has Debug data directory \"IMAGE_DIRECTORY_ENTRY_DEBUG\"",
+      "origin": "Static Parser"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "target-67",
+      "type": 9,
+      "relevance": 10,
+      "name": "Process launched with changed environment",
+      "description": "Process \"remcos.exe\" (UID: 00000000-00001852) was launched with new environment variables: \"PROMPT=\"$P$G\"\"\n Process \"remcos.exe\" (UID: 00000000-00001852) was launched with modified environment variables: \"PSModulePath, PATHEXT\"",
+      "origin": "Monitored Target",
+      "attck_id": "T1057",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1057"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "static-157",
+      "name": "Matched Compiler/Packer signature (DIE)",
+      "description": "\"file.exe\" was detected as \"EP:Microsoft Visual C/C++\"  and name: \"Compiler\"\n \"file.exe\" was detected as \"Microsoft Visual C/C++\"  and name: \"Compiler\"\n \"file.exe\" was detected as \"Microsoft Linker\"  and name: \"Linker\"\n \"remcos.exe.bin\" was detected as \"EP:Microsoft Visual C/C++\"  and name: \"Compiler\"\n \"remcos.exe.bin\" was detected as \"Microsoft Visual C/C++\"  and name: \"Compiler\"\n \"remcos.exe.bin\" was detected as \"Microsoft Linker\"  and name: \"Linker\"\n \"DISMHOST.EXE.6712E6A3.bin\" was detected as \"EP:Microsoft Visual C/C++\"  and name: \"Compiler\"\n \"DISMHOST.EXE.6712E6A3.bin\" was detected as \"Microsoft Visual C/C++\"  and name: \"Compiler\"\n \"DISMHOST.EXE.6712E6A3.bin\" was detected as \"Microsoft Linker\"  and name: \"Linker\"",
+      "origin": "Static Parser",
+      "attck_id": "T1027",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1027"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "static-154",
+      "name": "File contains dynamic base/NX flags",
+      "description": "\"DISMHOST.EXE.6712E6A3.bin\" has flags like  IMAGE_DLLCHARACTERISTICS_TERMINAL_SERVER_AWARE\n IMAGE_DLLCHARACTERISTICS_DYNAMIC_BASE\n IMAGE_DLLCHARACTERISTICS_NX_COMPAT",
+      "origin": "Static Parser"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Unusual Characteristics",
+      "identifier": "static-18",
+      "relevance": 10,
+      "name": "Matched Compiler/Packer signature",
+      "description": "\"file.exe\" was detected as \"VC8 -> Microsoft Corporation\"\n \"remcos.exe.bin\" was detected as \"VC8 -> Microsoft Corporation\"\n \"DISMHOST.EXE.6712E6A3.bin\" was detected as \"Visual C++ 2005 Release -> Microsoft\"",
+      "origin": "Static Parser",
+      "attck_id": "T1027.002",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1027/002"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "api-126",
+      "type": 6,
+      "relevance": 3,
+      "name": "Tries to access non-existent files (executable)",
+      "description": "\"file.exe\" trying to access non-existent file \"C:\\WINMM.dll\"\n \"file.exe\" trying to access non-existent file \"C:\\version.DLL\"\n \"file.exe\" trying to access non-existent file \"C:\\Windows\\system32\\api-ms-win-core-fibers-l1-1-1.DLL\"\n \"file.exe\" trying to access non-existent file \"C:\\Windows\\system32\\api-ms-win-core-localization-l1-2-1.DLL\"\n \"file.exe\" trying to access non-existent file \"C:\\shcore.DLL\"\n \"file.exe\" trying to access non-existent file \"C:\\Windows\\system32\\shcore.DLL\"\n \"file.exe\" trying to access non-existent file \"C:\\Windows\\system\\shcore.DLL\"\n \"file.exe\" trying to access non-existent file \"C:\\Windows\\shcore.DLL\"\n \"file.exe\" trying to access non-existent file \"C:\\ProgramData\\Oracle\\Java\\javapath\\shcore.DLL\"\n \"file.exe\" trying to access non-existent file \"C:\\Windows\\System32\\Wbem\\shcore.DLL\"\n \"file.exe\" trying to access non-existent file \"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\shcore.DLL\"\n \"file.exe\" trying to access non-existent file \"C:\\Iphlpapi.DLL\"\n \"file.exe\" trying to access non-existent file \"C:\\WINNSI.DLL\"\n \"file.exe\" trying to access non-existent file \"C:\\Rstrtmgr.DLL\"\n \"file.exe\" trying to access non-existent file \"C:\\ncrypt.dll\"\n \"file.exe\" trying to access non-existent file \"C:\\bcrypt.dll\"\n \"file.exe\" trying to access non-existent file \"C:\\FLTLIB.DLL\"",
+      "origin": "API Call",
+      "attck_id": "T1083",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1083"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "api-264",
+      "type": 6,
+      "relevance": 3,
+      "name": "Creates a thread in a self process",
+      "description": "\"file.exe\" creates a thread in process \"-1\" (Handle: 4294967295)",
+      "origin": "API Call",
+      "attck_id": "T1055.003",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055/003"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "api-243",
+      "type": 6,
+      "relevance": 1,
+      "name": "Reads files",
+      "description": "\"file.exe\" reads file \"c:\\file.exe\"\n \"file.exe\" reads file \"c:\\users\\%osuser%\\desktop\\desktop.ini\"\n \"file.exe\" reads file \"c:\\users\\desktop.ini\"\n \"file.exe\" reads file \"c:\\users\\%osuser%\\appdata\\roaming\\microsoft\\windows\\start menu\\desktop.ini\"\n \"file.exe\" reads file \"c:\\users\\%osuser%\\appdata\\roaming\\microsoft\\windows\\start menu\\programs\\desktop.ini\"\n \"file.exe\" reads file \"c:\\programdata\\microsoft\\windows\\start menu\\desktop.ini\"",
+      "origin": "API Call",
+      "attck_id": "T1083",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1083"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "registry-177",
+      "type": 3,
+      "relevance": 1,
+      "name": "Opens registry keys",
+      "description": "\"file.exe\" (Access type: \"OPEN\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\EXPLORER\\ADVANCED\"; Key: \"\"; Value: \"\")\n \"file.exe\" (Access type: \"OPEN\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\SESSION MANAGER\"; Key: \"\"; Value: \"\")\n \"file.exe\" (Access type: \"OPEN\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\SAFEBOOT\\OPTION\"; Key: \"\"; Value: \"\")\n \"file.exe\" (Access type: \"OPEN\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\SRP\\GP\\DLL\"; Key: \"\"; Value: \"\")\n \"file.exe\" (Access type: \"OPEN\"; Path: \"HKLM\\SOFTWARE\\POLICIES\\MICROSOFT\\WINDOWS\\SAFER\\CODEIDENTIFIERS\"; Key: \"\"; Value: \"\")\n \"file.exe\" (Access type: \"OPEN\"; Path: \"HKCU\\SOFTWARE\\POLICIES\\MICROSOFT\\WINDOWS\\SAFER\\CODEIDENTIFIERS\"; Key: \"\"; Value: \"\")\n \"file.exe\" (Access type: \"OPEN\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\SIDEBYSIDE\\ASSEMBLYSTORAGEROOTS\"; Key: \"\"; Value: \"\")\n \"file.exe\" (Access type: \"OPEN\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\NLS\\SORTING\\VERSIONS\"; Key: \"\"; Value: \"\")\n \"file.exe\" (Access type: \"OPEN\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\ERROR MESSAGE INSTRUMENT\"; Key: \"\"; Value: \"\")\n \"file.exe\" (Access type: \"OPEN\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\WINDOWS NT\\CURRENTVERSION\\GRE_INITIALIZE\"; Key: \"\"; Value: \"\")\n \"file.exe\" (Access type: \"OPEN\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\WINDOWS NT\\CURRENTVERSION\\COMPATIBILITY32\"; Key: \"\"; Value: \"\")\n \"file.exe\" (Access type: \"OPEN\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\WINDOWS NT\\CURRENTVERSION\\IME COMPATIBILITY\"; Key: \"\"; Value: \"\")\n \"file.exe\" (Access type: \"OPEN\"; Path: \"HKLM\"; Key: \"\"; Value: \"\")\n \"file.exe\" (Access type: \"OPEN\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\WINDOWS NT\\CURRENTVERSION\\WINDOWS\"; Key: \"\"; Value: \"\")\n \"file.exe\" (Access type: \"OPEN\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\WINDOWS NT\\CURRENTVERSION\\DIAGNOSTICS\"; Key: \"\"; Value: \"\")\n \"file.exe\" (Access type: \"OPEN\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\OLE\"; Key: \"\"; Value: \"\")",
+      "origin": "Registry Access",
+      "attck_id": "T1012",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1012"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "api-263",
+      "type": 6,
+      "relevance": 1,
+      "name": "Touches files",
+      "description": "\"file.exe\" trying to touch file \"C:\\Windows\\SYSTEM32\\sechost.dll\"\n \"file.exe\" trying to touch file \"C:\\WINMM.dll\"\n \"file.exe\" trying to touch file \"C:\\Windows\\system32\\WINMM.dll\"\n \"file.exe\" trying to touch file \"C:\\version.DLL\"\n \"file.exe\" trying to touch file \"C:\\Windows\\system32\\version.DLL\"\n \"file.exe\" trying to touch file \"C:\\file.exe.Local\\\"\n \"file.exe\" trying to touch file \"C:\\Windows\\WinSxS\\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.7601.23894_none_5c0be957a009922e\"\n \"file.exe\" trying to touch file \"C:\\Windows\\WinSxS\\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.7601.23894_none_5c0be957a009922e\\gdiplus.dll\"\n \"file.exe\" trying to touch file \"C:\\Windows\\system32\\IMM32.DLL\"\n \"file.exe\" trying to touch file \"C:\\Windows\\system32\\api-ms-win-core-synch-l1-2-0.DLL\"\n \"file.exe\" trying to touch file \"C:\\Windows\\system32\\api-ms-win-core-fibers-l1-1-1.DLL\"\n \"file.exe\" trying to touch file \"C:\\Windows\\system32\\api-ms-win-core-localization-l1-2-1.DLL\"\n \"file.exe\" trying to touch file \"C:\\shcore.DLL\"\n \"file.exe\" trying to touch file \"C:\\Windows\\system32\\shcore.DLL\"\n \"file.exe\" trying to touch file \"C:\\Windows\\system\\shcore.DLL\"\n \"file.exe\" trying to touch file \"C:\\Windows\\shcore.DLL\"\n \"file.exe\" trying to touch file \"C:\\ProgramData\\Oracle\\Java\\javapath\\shcore.DLL\"\n \"file.exe\" trying to touch file \"C:\\Windows\\System32\\Wbem\\shcore.DLL\"\n \"file.exe\" trying to touch file \"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\shcore.DLL\"",
+      "origin": "API Call",
+      "attck_id": "T1083",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1083"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "api-161",
+      "type": 6,
+      "relevance": 3,
+      "name": "Tries to access non-existent files (non-executable)",
+      "description": "\"file.exe\" trying to access non-existent file \"C:\\file.exe.Local\\\"\n \"file.exe\" trying to access non-existent file \"C:\\Users\\%OSUSER%\\AppData\\Roaming\\Microsoft\\desktop.ini\"\n \"file.exe\" trying to access non-existent file \"C:\\ProgramData\\Microsoft\\desktop.ini\"\n \"file.exe\" trying to access non-existent file \"C:\\ProgramData\\tst\\desktop.ini\"\n \"file.exe\" trying to access non-existent file \"C:\\Program Files\\7-Zip\\Lang\\en.txt\"\n \"file.exe\" trying to access non-existent file \"\\SystemRoot\\WinSxS\\FileMaps\\programdata_tst_538e5608e643cf87.cdf-ms\"\n \"file.exe\" trying to access non-existent file \"C:\\ProgramData\\tst\\remcos.exe:Zone.Identifier\"\n \"file.exe\" trying to access non-existent file \"C:\\FILE.EXE.LOCAL\"\n \"file.exe\" trying to access non-existent file \"C:\\Users\\%OSUSER%\\AppData\\Roaming\\Microsoft\\DESKTOP.INI\"\n \"file.exe\" trying to access non-existent file \"C:\\ProgramData\\Microsoft\\DESKTOP.INI\"\n \"file.exe\" trying to access non-existent file \"C:\\ProgramData\\tst\\DESKTOP.INI\"",
+      "origin": "API Call",
+      "attck_id": "T1083",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1083"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "api-113",
+      "type": 6,
+      "relevance": 5,
+      "name": "Touches files in program files directory",
+      "description": "\"file.exe\" touched file \"C:\\Program Files\\7-Zip\\Lang\\en.txt\"",
+      "origin": "API Call",
+      "attck_id": "T1083",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1083"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "api-242",
+      "type": 6,
+      "relevance": 1,
+      "name": "Writes files",
+      "description": "\"file.exe\" writes file \"c:\\programdata\\tst\\remcos.exe\"\n \"file.exe\" writes file \"%allusersprofile%\\tst\\remcos.exe\"",
+      "origin": "API Call"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "api-16",
+      "type": 6,
+      "relevance": 1,
+      "name": "Connects to LPC ports",
+      "description": "\"file.exe\" connecting to \"\\ThemeApiPort\"",
+      "origin": "API Call",
+      "attck_id": "T1559",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1559"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "api-55",
+      "type": 6,
+      "relevance": 7,
+      "name": "Touches files in the Windows directory",
+      "description": "\"file.exe\" touched file \"C:\\Windows\\AppPatch\\sysmain.sdb\"\n \"file.exe\" touched file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Caches\"\n \"file.exe\" touched file \"%LOCALAPPDATA%\\Microsoft\\Windows\\Caches\"",
+      "origin": "API Call",
+      "attck_id": "T1083",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1083"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "registry-172",
+      "type": 3,
+      "relevance": 1,
+      "name": "Queries registry keys",
+      "description": "\"file.exe\" (Access type: \"QUERYVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\EXPLORER\\ADVANCED\"; Key: \"START_MINMFU\"; Value: \"\")\n \"file.exe\" (Access type: \"QUERYVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\EXPLORER\\USERASSIST\\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\\COUNT\"; Key: \"{7P5N40RS-N0SO-4OSP-874N-P0S2R0O9SN8R}\\ZVPEBFBSG BSSVPR\\BSSVPR14\\JVAJBEQ.RKR\"; Value: \"\")\n \"file.exe\" (Access type: \"QUERYVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\EXPLORER\\USERASSIST\\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\\COUNT\"; Key: \"ZVPEBFBSG.JVAQBJF.PBAGEBYCNARY\"; Value: \"\")\n \"file.exe\" (Access type: \"QUERYVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\EXPLORER\\USERASSIST\\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\\COUNT\"; Key: \"{7P5N40RS-N0SO-4OSP-874N-P0S2R0O9SN8R}\\ZVPEBFBSG BSSVPR\\BSSVPR14\\ZFCHO.RKR\"; Value: \"\")\n \"file.exe\" (Access type: \"QUERYVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\EXPLORER\\USERASSIST\\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\\COUNT\"; Key: \"{7P5N40RS-N0SO-4OSP-874N-P0S2R0O9SN8R}\\ZVPEBFBSG BSSVPR\\BSSVPR14\\CBJRECAG.RKR\"; Value: \"\")\n \"file.exe\" (Access type: \"QUERYVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\EXPLORER\\USERASSIST\\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\\COUNT\"; Key: \"{7P5N40RS-N0SO-4OSP-874N-P0S2R0O9SN8R}\\ZVPEBFBSG BSSVPR\\BSSVPR14\\RKPRY.RKR\"; Value: \"\")\n \"file.exe\" (Access type: \"QUERYVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\EXPLORER\\USERASSIST\\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\\COUNT\"; Key: \"{7P5N40RS-N0SO-4OSP-874N-P0S2R0O9SN8R}\\ZVPEBFBSG BSSVPR\\BSSVPR14\\ZFNPPRFF.RKR\"; Value: \"\")\n \"file.exe\" (Access type: \"QUERYVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\EXPLORER\\USERASSIST\\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\\COUNT\"; Key: \"{7P5N40RS-N0SO-4OSP-874N-P0S2R0O9SN8R}\\ZVPEBFBSG BSSVPR\\BSSVPR14\\BHGYBBX.RKR\"; Value: \"\")\n \"file.exe\" (Access type: \"QUERYVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\EXPLORER\\USERASSIST\\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\\COUNT\"; Key: \"{7P5N40RS-N0SO-4OSP-874N-P0S2R0O9SN8R}\\ZVPEBFBSG FVYIREYVTUG\\5.1.50907.0\\FVYIREYVTUG.PBASVTHENGVBA.RKR\"; Value: \"\")\n \"file.exe\" (Access type: \"QUERYVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\EXPLORER\\USERASSIST\\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\\COUNT\"; Key: \"ZVPEBFBSG.VAGREARGRKCYBERE.QRSNHYG\"; Value: \"\")\n \"file.exe\" (Access type: \"QUERYVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\EXPLORER\\USERASSIST\\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\\COUNT\"; Key: \"308046O0NS4N39PO\"; Value: \"\")\n \"file.exe\" (Access type: \"QUERYVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\EXPLORER\\USERASSIST\\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\\COUNT\"; Key: \"{7P5N40RS-N0SO-4OSP-874N-P0S2R0O9SN8R}\\NQBOR\\NPEBONG ERNQRE QP\\ERNQRE\\NPEBEQ32.RKR\"; Value: \"\")\n \"file.exe\" (Access type: \"QUERYVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\EXPLORER\\USERASSIST\\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\\COUNT\"; Key: \"P:\\HFREF\\UNCHOJF\\NCCQNGN\\YBPNY\\ZVPEBFBSG\\JVAQBJF\\GRZCBENEL VAGREARG SVYRF\\PBAGRAG.VR5\\1S2UE9R2\\2014UNAPBZICQA_UBZR.RKR\"; Value: \"\")\n \"file.exe\" (Access type: \"QUERYVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\EXPLORER\\USERASSIST\\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\\COUNT\"; Key: \"{S38OS404-1Q43-42S2-9305-67QR0O28SP23}\\RKCYBERE.RKR\"; Value: \"\")\n \"file.exe\" (Access type: \"QUERYVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\EXPLORER\\USERASSIST\\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\\COUNT\"; Key: \"ZVPEBFBSG.JVAQBJF.CUBGBIVRJRE\"; Value: \"\")\n \"file.exe\" (Access type: \"QUERYVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\EXPLORER\\USERASSIST\\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\\COUNT\"; Key: \"P:\\HFREF\\UNCHOJF\\NCCQNGN\\YBPNY\\ZVPEBFBSG\\JVAQBJF\\GRZCBENEL VAGREARG SVYRF\\PBAGRAG.VR5\\CV95N64Q\\CLGUBA-3.6.3.RKR\"; Value: \"\")\n \"file.exe\" (Access type: \"QUERYVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\EXPLORER\\USERASSIST\\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\\COUNT\"; Key: \"P:\\HFREF\\UNCHOJF\\NCCQNGN\\YBPNY\\GRZC\\{01OSNOQP-4NOP-41QN-NP0R-1QR29SP2N349}\\.PE\\CLGUBA-3.6.3.RKR\"; Value: \"\")\n \"file.exe\" (Access type: \"QUERYVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\EXPLORER\\USERASSIST\\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\\COUNT\"; Key: \"ZVPEBFBSG.JVAQBJF.PBAGEBYCNARY.GNFXONE\"; Value: \"\")\n \"file.exe\" (Access type: \"QUERYVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\EXPLORER\\USERASSIST\\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\\COUNT\"; Key: \"{Q65231O0-O2S1-4857-N4PR-N8R7P6RN7Q27}\\EHAQYY32.RKR\"; Value: \"\")\n \"file.exe\" (Access type: \"QUERYVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\EXPLORER\\USERASSIST\\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\\COUNT\"; Key: \"P:\\HFREF\\UNCHOJF\\NCCQNGN\\YBPNY\\GRZC\\UNAPBZRFQ\\VAFGNYY\\IPERQVFG_K86.RKR\"; Value: \"\")\n \"file.exe\" (Access type: \"QUERYVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\EXPLORER\\USERASSIST\\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\\COUNT\"; Key: \"ZVPEBFBSG.JVAQBJF.JVAQBJFVAFGNYYRE\"; Value: \"\")\n \"file.exe\" (Access type: \"QUERYVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\EXPLORER\\USERASSIST\\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\\COUNT\"; Key: \"{7P5N40RS-N0SO-4OSP-874N-P0S2R0O9SN8R}\\UAP\\UBSSVPR9\\OVA\\UJC.RKR\"; Value: \"\")\n \"file.exe\" (Access type: \"QUERYVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\EXPLORER\\USERASSIST\\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\\COUNT\"; Key: \"{7P5N40RS-N0SO-4OSP-874N-P0S2R0O9SN8R}\\UAP\\UAPHGVYF\\HCQNGR\\UAPHCQNGR90.RKR\"; Value: \"\")\n \"file.exe\" (Access type: \"QUERYVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\EXPLORER\\USERASSIST\\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\\COUNT\"; Key: \"P:\\GRZC\\UAPQBJAYBNQ\\CERCNERVAFGNYYGRZC\\UAPHCQNGR\\UAPFRYSHCQNGR.RKR\"; Value: \"\")\n \"file.exe\" (Access type: \"QUERYVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\EXPLORER\\USERASSIST\\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\\COUNT\"; Key: \"ZVPEBFBSG.JVAQBJF.FURYY.EHAQVNYBT\"; Value: \"\")",
+      "origin": "Registry Access",
+      "attck_id": "T1012",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1012"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "binary-0",
+      "type": 8,
+      "relevance": 3,
+      "name": "Dropped files",
+      "description": "\"remcos.exe.bin\" has type \"PE32 executable (GUI) Intel 80386 for MS Windows\"- [targetUID: N/A]\n \"dism.log\" has type \"Unicode text UTF-8 (with BOM) text with very long lines (312) with CRLF line terminators\"- [targetUID: N/A]\n \"DISMHOST.EXE.6712E6A3.bin\" has type \"PE32 executable (GUI) Intel 80386 for MS Windows\"- [targetUID: N/A]\n \"json_1_.json\" has type \"JSON data\"- [targetUID: N/A]\n \"remcos.exe\" has type \"PE32 executable (GUI) Intel 80386 for MS Windows\"- Location: [%ALLUSERSPROFILE%\\tst\\remcos.exe]- [targetUID: 00000000-00005804]",
+      "origin": "Binary File",
+      "attck_id": "T1105",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1105"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Anti-Detection/Stealthyness",
+      "identifier": "api-140",
+      "type": 6,
+      "relevance": 3,
+      "name": "Calls an API typically used to find a resource in a module",
+      "description": "\"file.exe\" called \"FindResourceA\" with parameter \"4639268\" - (UID: 00000000-00005804)\n \"file.exe\" called \"FindResourceW\" with parameter \"789\" - (UID: 00000000-00005804)\n \"remcos.exe\" called \"FindResourceA\" with parameter \"4639268\" - (UID: 00000000-00005888)",
+      "origin": "API Call",
+      "attck_id": "T1106",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1106"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Anti-Detection/Stealthyness",
+      "identifier": "api-139",
+      "type": 6,
+      "relevance": 3,
+      "name": "Calls an API typically used to load a resource in memory",
+      "description": "\"file.exe\" called \"LoadResource with parameter {'hModule': '4194304', 'hResInfo': '4690264'}\" (UID: 00000000-00005804)\n \"file.exe\" called \"LoadResource with parameter {'hModule': '1856241664', 'hResInfo': '1856249984'}\" (UID: 00000000-00005804)\n \"file.exe\" called \"LoadResource with parameter {'hModule': '268435456', 'hResInfo': '268493040'}\" (UID: 00000000-00005804)\n \"file.exe\" called \"LoadResource with parameter {'hModule': '1877409792', 'hResInfo': '1877522704'}\" (UID: 00000000-00005804)\n \"file.exe\" called \"LoadResource with parameter {'hModule': '41287681', 'hResInfo': '41414112'}\" (UID: 00000000-00005804)\n \"file.exe\" called \"LoadResource with parameter {'hModule': '41287681', 'hResInfo': '41388112'}\" (UID: 00000000-00005804)\n \"remcos.exe\" called \"LoadResource with parameter {'hModule': '4194304', 'hResInfo': '4690264'}\" (UID: 00000000-00005888)",
+      "origin": "API Call",
+      "attck_id": "T1106",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1106"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Anti-Detection/Stealthyness",
+      "identifier": "registry-179",
+      "type": 3,
+      "relevance": 1,
+      "name": "Tries to map intranet network resources to internet zone",
+      "description": "\"file.exe\" (Access type: \"SETVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\INTERNET SETTINGS\\ZONEMAP\"; Key: \"UNCASINTRANET\"; Value: \"00000000\")",
+      "origin": "Registry Access",
+      "attck_id": "T1562.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1562/001"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Environment Awareness",
+      "identifier": "api-222",
+      "type": 6,
+      "relevance": 2,
+      "name": "Calls an API typically used to retrieve OS information",
+      "description": "\"file.exe\" called \"GetVersionExA\" with parameter 9c0000000600000001000000b11d00000200000053657276696365205061636b2031000000000000000000000200000000000000d8ebc976c0021b0000e0fd7f9a5c167700f0fd7f00c6120044e0fd7f00000000400000003f0000002000000000e0fd7ff4c51200c15c167760821d772000000000e0fd7f9a5c167700f0fd7f18c612005789157780831d7713170975d8ebc976 (UID: 00000000-00005804)\n \"file.exe\" called \"GetVersionExA\" with parameter 9c0000000600000001000000b11d00000200000053657276696365205061636b20310000a4362400100000001c00000028de12002cdf12007ac8156f08000000ac4e147793790875ffffffff90de1200000000007cde12000010000004000000002000009cde1200bf790875ffffffff00002302000023020010000004000000d4de1200000013006ee9e96e00002302ff000000 (UID: 00000000-00005804)\n \"file.exe\" called \"GetVersionExA\" with parameter 940000000600000001000000b11d00000200000053657276696365205061636b203100205061636b20310000a4362400100000001c00000028de12002cdf12007ac8156f08000000ac4e147793790875ffffffff90de1200000000007cde12000010000004000000002000009cde1200bf790875ffffffff00002302000023020010000004000000d4de1200000013006ee9e96e (UID: 00000000-00005804)\n \"file.exe\" called \"GetVersionExA\" with parameter 9c0000000600000001000000b11d00000200000053657276696365205061636b203100205061636b203100205061636b20310000a4362400100000001c00000028de12002cdf12007ac8156f08000000ac4e147793790875ffffffff90de1200000000007cde12000010000004000000002000009cde1200bf790875ffffffff00002302000023020010000004000000d4de1200 (UID: 00000000-00005804)\n \"file.exe\" called \"GetVersionExA\" with parameter 940000000600000001000000b11d00000200000053657276696365205061636b2031000095e11177db240700fefffffff5f61577634d1677f0201600a857196b40461900b2f41577c7f200774cdf12000000186b0000186b804d167723f30077e0000000e000186b00000000b8de1200e412186b4ce0120000000000010000001cdf120040f51577000000000000000008df1200 (UID: 00000000-00005804)\n \"file.exe\" called \"GetVersionExA\" with parameter 940000000600000001000000b11d00000200000053657276696365205061636b2031000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 (UID: 00000000-00005804)\n \"file.exe\" called \"GetVersionExA\" with parameter 9c0000000600000001000000b11d00000200000053657276696365205061636b2031000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 (UID: 00000000-00005804)",
+      "origin": "API Call",
+      "attck_id": "T1082",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1082"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Environment Awareness",
+      "identifier": "stream-39",
+      "type": 1,
+      "relevance": 10,
+      "name": "Makes a code branch decision directly after an API that is environment aware",
+      "description": "Found API call GetTimeZoneInformation@KERNEL32.DLL directly followed by \"cmp eax, FFFFFFFFh\" and \"je 00449511h\" at 00000000-00005888-39370-1066-004493E5\n Found API call EnumServicesStatusW@ADVAPI32.DLL directly followed by \"cmp dword ptr [esp+14h], esi\" and \"jbe 0041AAABh\" at 00000000-00005888-39370-1964-0041A7D9",
+      "origin": "Hybrid Analysis Technology",
+      "attck_id": "T1497",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1497"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Environment Awareness",
+      "identifier": "api-125",
+      "type": 6,
+      "relevance": 3,
+      "name": "Calls an API typically used to get system version information",
+      "description": "\"file.exe\" called \"RtlGetVersion\" with parameter 140100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b0020003100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 (UID: 00000000-00005804)\n \"file.exe\" called \"RtlGetVersion\" with parameter 1c0100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b0020003100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 (UID: 00000000-00005804)\n \"file.exe\" called \"RtlGetVersion\" with parameter 1c0100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b00200031000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000007b00370035003800340037003100370037002d0046003000370037002d0034003100370031002d0042004400320043002d0041003600420042003200310036002c09215498da12006d8238758cf21a0004010000 (UID: 00000000-00005804)\n \"file.exe\" called \"RtlGetVersion\" with parameter 1c0100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b00200031000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ff2b157773e90077d8ebc976ac01160000001600000000000000000022005200030000000000000000000000000000000000000023004d00030000000000000000000000186e160000000000200000000000000000000000 (UID: 00000000-00005804)\n \"file.exe\" called \"RtlGetVersion\" with parameter 1c0100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b002000310000008400c20000009c501477556c16771b007500c200000019007f00c2000000186e1600dd571677186e160000000000200000001fc8007700000000208b1b00086b1600286c1600b8891c00d06f16000c00a5025ce312009ce3120004e5120095e1117723300700feffffffff2b15779a2a1577a88f1c0000000000000000000100000000000000408b1b00086b1600246c1600a88f1c00686f1600f054ed83a8e31200b16e726f04e5120095e1117723300700feffffffff2b15779a2a15772c9bad75000000002c9bad75000000000200000000000000a88f1c00b8891c00a88f1c00 (UID: 00000000-00005804)\n \"file.exe\" called \"RtlGetVersion\" with parameter 1c0100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b002000310000001e002cd81200b344ba6805000000000000000000000000000000000000000000000000000000d402000000000000000000000000000044df120043d02354e8dc1200e8dc12005ecbb775d402000000000000005db57544df12000e5db575dcda1200dcaab975010000000000000072000000ffffffffffffffff64d8120078020000000000002500000064d812007b00370035003800340037003100370037002d0046003000370037002d0034003100370031002d0042004400320043002d004100360042004200320031003600c80b2154bcd812006d823875e44b200004010000 (UID: 00000000-00005804)\n \"file.exe\" called \"RtlGetVersion\" with parameter 1c0100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b00200031000000ffff2a002e0015000000620bb77500000000186e160000000000500000001c5b1e000200000068341a000000000001000008f0c81d0040721600380bb775f0d6120002000000a017000000001600d04b2000f83b0000ff07000000001600000000007f070000c4001600e82d160082300000d0d7120067e5127700001600d04b20000000000000001600000000007b00370035003800340037003100370037002d0046003000370037002d0034003100370031002d0042004400320043002d004100360042004200320031003600a404215410d812006d823875e44b200004010000 (UID: 00000000-00005804)\n \"file.exe\" called \"RtlGetVersion\" with parameter 1c0100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b00200031000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000007b00370035003800340037003100370037002d0046003000370037002d0034003100370031002d0042004400320043002d0041003600420042003200310036005c02215428d112006d8238752456200004010000 (UID: 00000000-00005804)\n \"file.exe\" called \"RtlGetVersion\" with parameter 1c0100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b002000310000001d00ccc21200b344ba6809000000000000000000000000000000000000000000000000000000d4020000000000000000000000000000e4c91200e3c5235488c7120088c712005ecbb775d402000000000000005db575e4c912000e5db5757cc51200dcaab97501000000000000007a000000ffffffffffffffff04c3120078020000000000002500000004c312007b00370035003800340037003100370037002d0046003000370037002d0034003100370031002d0042004400320043002d004100360042004200320031003600681021545cc312006d8238751c65200004010000 (UID: 00000000-00005804)\n \"file.exe\" called \"RtlGetVersion\" with parameter 1c0100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b00200031000000000000000000000000000000160000200000b8601b00c4c212000464157738011600e0631577f7ee00770000000000001600c0601b000000000082281577340000c0f0c11200a01700000000160008652000f83b0000ff07000000001600000000007f070000c4001600e82d16005b2d000070c2120067e5127700001600086520000000000000001600000000007b00370035003800340037003100370037002d0046003000370037002d0034003100370031002d0042004400320043002d004100360042004200320031003600c4112154b0c212006d823875cc601b0004010000 (UID: 00000000-00005804)\n \"file.exe\" called \"RtlGetVersion\" with parameter 1c0100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b00200031000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000007b00370035003800340037003100370037002d0046003000370037002d0034003100370031002d0042004400320043002d004100360042004200320031003600fc682154c8bb12006d8238751c65200004010000 (UID: 00000000-00005804)\n \"file.exe\" called \"RtlGetVersion\" with parameter 1c0100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b0020003100000019001cb81200b344ba680a000000000000000000000000000000000000000000000000000000d402000000000000000000000000000034bf120053b02354d8bc1200d8bc12005ecbb775d402000000000000005db57534bf12000e5db575ccba1200dcaab97501000000000000007c000000ffffffffffffffff54b8120078020000000000002500000054b812007b00370035003800340037003100370037002d0046003000370037002d0034003100370031002d0042004400320043002d004100360042004200320031003600d86b2154acb812006d8238756c75200004010000 (UID: 00000000-00005804)\n \"file.exe\" called \"RtlGetVersion\" with parameter 1c0100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b002000310000002000003b000000001600000000008077200010b812000464157738011600e06315770200000068341a000000000001000008d4b6120000000001bcc71d77c0c71d770a000000a01700000000160058752000f83b0000ff07000000001600000000007f070000c4001600e82d1600512b0000c0b7120067e5127700001600587520000000000000001600000000007b00370035003800340037003100370037002d0046003000370037002d0034003100370031002d0042004400320043002d004100360042004200320031003600b464215400b812006d8238756c75200004010000 (UID: 00000000-00005804)\n \"file.exe\" called \"RtlGetVersion\" with parameter 1c0100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b002000310000001e002cd81200b344ba6805000000000000000000000000000000000000000000000000000000fc02000000000000000000000000000044df120043d02354e8dc1200e8dc12005ecbb775fc02000000000000005db57544df12000e5db575dcda1200dcaab975010000000000000072000000ffffffffffffffff64d8120078020000000000002500000064d812007b00370035003800340037003100370037002d0046003000370037002d0034003100370031002d0042004400320043002d004100360042004200320031003600c80b2154bcd812006d823875a420210004010000 (UID: 00000000-00005804)\n \"file.exe\" called \"RtlGetVersion\" with parameter 1c0100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b00200031000000ffff2900390027000000620bb77500000000186e160000000000500000001c5b1e000200000068341a00000000000100000848c91d0040721600380bb775f0d6120002000000a4d712003f0878750200000068341a00000000000100001888fb777594d71200c81cb9756ad9120095fb7775c8d8120068341a0000000000000000000000000050d81200000016007b00370035003800340037003100370037002d0046003000370037002d0034003100370031002d0042004400320043002d004100360042004200320031003600a404215410d812006d823875a420210004010000 (UID: 00000000-00005804)\n \"file.exe\" called \"RtlGetVersion\" with parameter 1c0100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b00200031000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000007b00370035003800340037003100370037002d0046003000370037002d0034003100370031002d0042004400320043002d0041003600420042003200310036005c02215428d112006d823875a420210004010000 (UID: 00000000-00005804)\n \"file.exe\" called \"RtlGetVersion\" with parameter 1c0100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b002000310000001d00ccc21200b344ba6809000000000000000000000000000000000000000000000000000000fc020000000000000000000000000000e4c91200e3c5235488c7120088c712005ecbb775fc02000000000000005db575e4c912000e5db5757cc51200dcaab97501000000000000007a000000ffffffffffffffff04c3120078020000000000002500000004c312007b00370035003800340037003100370037002d0046003000370037002d0034003100370031002d0042004400320043002d004100360042004200320031003600681021545cc312006d8238752cd0210004010000 (UID: 00000000-00005804)\n \"file.exe\" called \"RtlGetVersion\" with parameter 1c0100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b0020003100000000000014010000010000000000000001cf6d6c0c6c7056657273696f6e496e666f726d6174696f6e000000000000000000000000000000000000000000008fc5235494c11200c01900000000160018d02100f83b0000ff07000000001600000000007f070000c4001600e82d1600f921000070c2120067e512770000160018d021000000000000001600000000007b00370035003800340037003100370037002d0046003000370037002d0034003100370031002d0042004400320043002d004100360042004200320031003600c4112154b0c212006d8238752cd0210004010000 (UID: 00000000-00005804)\n \"file.exe\" called \"RtlGetVersion\" with parameter 1c0100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b00200031000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000007b00370035003800340037003100370037002d0046003000370037002d0034003100370031002d0042004400320043002d004100360042004200320031003600fc682154c8bb12006d8238752cd4210004010000 (UID: 00000000-00005804)\n \"file.exe\" called \"RtlGetVersion\" with parameter 1c0100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b002000310000001e001cb81200b344ba680a000000000000000000000000000000000000000000000000000000fc02000000000000000000000000000034bf120053b02354d8bc1200d8bc12005ecbb775fc02000000000000005db57534bf12000e5db575ccba1200dcaab97501000000000000007c000000ffffffffffffffff54b8120078020000000000002500000054b812007b00370035003800340037003100370037002d0046003000370037002d0034003100370031002d0042004400320043002d004100360042004200320031003600d86b2154acb812006d82387554d6210004010000 (UID: 00000000-00005804)\n \"file.exe\" called \"RtlGetVersion\" with parameter 1c0100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b002000310000002100003b00000000160000000000e0da210010b812000464157738011600e06315770200000068341a000000000001000008d4b6120072006f01bcc71d77c0c71d770a00000094b712003f0878750200000068341a00000000000100001888fb777584b71200c81cb9755ab9120095fb7775b8b8120068341a0000000000000000000000000040b81200000016007b00370035003800340037003100370037002d0046003000370037002d0034003100370031002d0042004400320043002d004100360042004200320031003600b464215400b812006d82387554d6210004010000 (UID: 00000000-00005804)\n \"file.exe\" called \"RtlGetVersion\" with parameter 1c0100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b002000310000002000c4b21200b344ba6808000000000000000000000000000000000000000000000000000000fc020000000000000000000000000000dcb91200fbb5235480b7120080b712005ecbb775fc02000000000000005db575dcb912000e5db57574b51200dcaab975010000000000000078000000fffffffffffffffffcb21200780200000000000025000000fcb212007b00370035003800340037003100370037002d0046003000370037002d0034003100370031002d0042004400320043002d0041003600420042003200310036006060215454b312006d823875f4da210004010000 (UID: 00000000-00005804)\n \"file.exe\" called \"RtlGetVersion\" with parameter 1c0100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b002000310000002100003b0000000016000000000080e02100b8b212000464157738011600e06315770200000068341a0000000000010000087cb1120000000001bcc71d77c0c71d770a0000003cb212003f0878750200000068341a00000000000100001888fb77752cb21200c81cb97502b4120095fb777560b3120068341a00000000000000000000000000e8b21200000016007b00370035003800340037003100370037002d0046003000370037002d0034003100370031002d0042004400320043002d004100360042004200320031003600dc612154a8b212006d823875f4da210004010000 (UID: 00000000-00005804)",
+      "origin": "API Call",
+      "attck_id": "T1082",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1082"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Environment Awareness",
+      "identifier": "api-146",
+      "type": 6,
+      "relevance": 3,
+      "name": "Calls an API typically used to determine if process is running under WOW64",
+      "description": "\"file.exe\" called \"IsWow64Process\" with parameter \"5804\" - (UID: 00000000-00005804)",
+      "origin": "API Call",
+      "attck_id": "T1057",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1057"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Environment Awareness",
+      "identifier": "api-149",
+      "type": 6,
+      "relevance": 3,
+      "name": "Calls an API typically used to retrieve default language settings",
+      "description": "\"file.exe\" called \"GetSystemDefaultLangID\" (UID: 00000000-00005804)",
+      "origin": "API Call",
+      "attck_id": "T1614.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1614/001"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Environment Awareness",
+      "identifier": "api-124",
+      "type": 6,
+      "relevance": 3,
+      "name": "Calls an API typically used to get product type",
+      "description": "\"file.exe\" called \"RtlGetNtProductType\" with parameter 01000000 (UID: 00000000-00005804)",
+      "origin": "API Call",
+      "attck_id": "T1082",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1082"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Environment Awareness",
+      "identifier": "api-148",
+      "type": 6,
+      "relevance": 3,
+      "name": "Calls an API typically used to retrieve account information for specified SID",
+      "description": "\"file.exe\" called \"LookupAccountSidW\" with param Name %OSUSER% (UID: 00000000-00005804)",
+      "origin": "API Call",
+      "attck_id": "T1033",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1033"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Environment Awareness",
+      "identifier": "api-142",
+      "type": 6,
+      "relevance": 3,
+      "name": "Calls an API possibly used to retrieve a handle to the foreground window",
+      "description": "\"file.exe\" called \"GetForegroundWindow\" (UID: 00000000-00005804)",
+      "origin": "API Call",
+      "attck_id": "T1010",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1010"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Environment Awareness",
+      "identifier": "registry-13",
+      "type": 3,
+      "relevance": 3,
+      "name": "Reads the windows installation date",
+      "description": "\"file.exe\" (Path: \"HKLM\\SOFTWARE\\MICROSOFT\\WINDOWS NT\\CURRENTVERSION\"; Key: \"INSTALLDATE\")",
+      "origin": "Registry Access",
+      "attck_id": "T1082",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1082"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Environment Awareness",
+      "identifier": "registry-1",
+      "type": 3,
+      "relevance": 5,
+      "name": "Reads the cryptographic machine GUID",
+      "description": "\"file.exe\" (Path: \"HKLM\\SOFTWARE\\MICROSOFT\\CRYPTOGRAPHY\"; Key: \"MACHINEGUID\")",
+      "origin": "Registry Access",
+      "attck_id": "T1082",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1082"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Environment Awareness",
+      "identifier": "registry-55",
+      "type": 3,
+      "relevance": 10,
+      "name": "Reads the registry for installed applications",
+      "description": "\"file.exe\" (Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\APP PATHS\\REMCOS.EXE\")\n \"file.exe\" (Path: \"HKLM\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\APP PATHS\\REMCOS.EXE\")",
+      "origin": "Registry Access",
+      "attck_id": "T1518",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1518"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Environment Awareness",
+      "identifier": "registry-35",
+      "type": 3,
+      "relevance": 5,
+      "name": "Reads the active computer name",
+      "description": "\"file.exe\" (Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\COMPUTERNAME\\ACTIVECOMPUTERNAME\"; Key: \"COMPUTERNAME\")",
+      "origin": "Registry Access",
+      "attck_id": "T1082",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1082"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Spyware/Information Retrieval",
+      "identifier": "api-108",
+      "type": 6,
+      "relevance": 3,
+      "name": "Calls an API typically used to retrieve information about the current system",
+      "description": "\"file.exe\" called \"GetNativeSystemInfo\" with parameters {\"lpSystemInfo\": \"000000000010000000000100fffffe7f03000000040000004a020000000001000600004f\"}",
+      "origin": "API Call",
+      "attck_id": "T1082",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1082"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Spyware/Information Retrieval",
+      "identifier": "api-102",
+      "type": 6,
+      "relevance": 5,
+      "name": "Calls an API's typically used for searching a directory for a files",
+      "description": "\"file.exe\" called \"FindFirstFileW\" with parameter %PROGRAMFILES%\\MICROS~3\\Office14\\*.* (UID: 00000000-00005804)\n \"file.exe\" called \"FindNextFileW\" with parameter .. (UID: 00000000-00005804)\n \"file.exe\" called \"FindNextFileW\" with parameter 1033 (UID: 00000000-00005804)\n \"file.exe\" called \"FindNextFileW\" with parameter 1036 (UID: 00000000-00005804)\n \"file.exe\" called \"FindNextFileW\" with parameter 3082 (UID: 00000000-00005804)\n \"file.exe\" called \"FindNextFileW\" with parameter ACCDDS.DLL (UID: 00000000-00005804)\n \"file.exe\" called \"FindNextFileW\" with parameter ACCDDSF.DLL (UID: 00000000-00005804)\n \"file.exe\" called \"FindNextFileW\" with parameter ACCDDSLM.DLL (UID: 00000000-00005804)\n \"file.exe\" called \"FindNextFileW\" with parameter AccessWeb (UID: 00000000-00005804)\n \"file.exe\" called \"FindNextFileW\" with parameter ACCICONS.EXE (UID: 00000000-00005804)\n \"file.exe\" called \"FindNextFileW\" with parameter ACCVDT.DLL (UID: 00000000-00005804)\n \"file.exe\" called \"FindNextFileW\" with parameter ACCWIZ (UID: 00000000-00005804)\n \"file.exe\" called \"FindNextFileW\" with parameter ACCWIZ.DLL (UID: 00000000-00005804)\n \"file.exe\" called \"FindNextFileW\" with parameter ACEDAO.DLL (UID: 00000000-00005804)\n \"file.exe\" called \"FindNextFileW\" with parameter ADDINS (UID: 00000000-00005804)\n \"file.exe\" called \"FindNextFileW\" with parameter ADVCMP.DIC (UID: 00000000-00005804)\n \"file.exe\" called \"FindNextFileW\" with parameter ADVTEL.DIC (UID: 00000000-00005804)\n \"file.exe\" called \"FindNextFileW\" with parameter ADVZIP.DIC (UID: 00000000-00005804)\n \"file.exe\" called \"FindNextFileW\" with parameter ASCIIENG.LNG (UID: 00000000-00005804)\n \"file.exe\" called \"FindNextFileW\" with parameter AUDIOSEARCHLTS.DLL (UID: 00000000-00005804)\n \"file.exe\" called \"FindNextFileW\" with parameter AUDIOSEARCHMAIN.DLL (UID: 00000000-00005804)\n \"file.exe\" called \"FindNextFileW\" with parameter AUDIOSEARCHSAPIFE.DLL (UID: 00000000-00005804)\n \"file.exe\" called \"FindNextFileW\" with parameter AUTHZAX.DLL (UID: 00000000-00005804)\n \"file.exe\" called \"FindNextFileW\" with parameter BCSAutogen.dll (UID: 00000000-00005804)\n \"file.exe\" called \"FindNextFileW\" with parameter BCSClient.Msg.dll (UID: 00000000-00005804)",
+      "origin": "API Call",
+      "attck_id": "T1083",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1083"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Spyware/Information Retrieval",
+      "identifier": "registry-111",
+      "type": 3,
+      "relevance": 3,
+      "name": "Tries to retrieve default browser",
+      "description": "\"remcos.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\CLASSES\\HTTP\\SHELL\\OPEN\\COMMAND\"; Key: \"\")",
+      "origin": "Registry Access",
+      "attck_id": "T1012",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1012"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Spyware/Information Retrieval",
+      "identifier": "api-103",
+      "type": 6,
+      "relevance": 3,
+      "name": "Calls an API typically used for taking snapshot of the specified processes",
+      "description": "\"file.exe\" called \"CreateToolhelp32Snapshot\" with parameters {\"dwFlags\": \"4\"\n \"th32ProcessID\": \"0\"}\n \"remcos.exe\" called \"CreateToolhelp32Snapshot\" with parameters {\"dwFlags\": \"4\"\n \"th32ProcessID\": \"0\"}",
+      "origin": "API Call",
+      "attck_id": "T1057",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1057"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Network Related",
+      "identifier": "api-219",
+      "type": 6,
+      "relevance": 3,
+      "name": "Calls an API typically used to register an interface (RPC)",
+      "description": "\"file.exe\" called \"RpcServerRegisterIf2\" (UID: 00000000-00005804)",
+      "origin": "API Call",
+      "attck_id": "T1021",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1021"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Network Related",
+      "identifier": "network-62",
+      "type": 7,
+      "relevance": 1,
+      "name": "Communicates with HTTP webserver (GET/POST requests)",
+      "description": "Found http requests in header \"GET /json.gp\"",
+      "origin": "Network Traffic",
+      "attck_id": "T1071.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1071/001"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Cryptographic Related",
+      "identifier": "network-60",
+      "type": 7,
+      "relevance": 1,
+      "name": "HTTP requests contain Base64 strings",
+      "description": "Contains base64 string in header \"netCache\" in header \"GET /json.gp HTTP/1.1Host: geoplugin.netCache-Control: no-cache\"",
+      "origin": "Network Traffic",
+      "attck_id": "T1132",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1132"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "System Security",
+      "identifier": "api-37",
+      "type": 6,
+      "relevance": 10,
+      "name": "Opens the Kernel Security Device Driver (KsecDD) of Windows",
+      "description": "\"file.exe\" opened \"\\Device\\KsecDD\"\n \"remcos.exe\" opened \"\\Device\\KsecDD\"",
+      "origin": "API Call"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "System Security",
+      "identifier": "registry-173",
+      "type": 3,
+      "relevance": 1,
+      "name": "Queries services related registry keys",
+      "description": "\"file.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\LDAP\"; Key: \"LDAPCLIENTINTEGRITY\"; Value: \"\")\n \"file.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\LDAP\"; Key: \"USEOLDHOSTRESOLUTIONORDER\"; Value: \"\")\n \"file.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\LDAP\"; Key: \"USEHOSTNAMEASALIAS\"; Value: \"\")\n \"file.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\LDAP\"; Key: \"IPV4LOOPBACKALTERNATIVE\"; Value: \"\")\n \"file.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\LANMANWORKSTATION\\PARAMETERS\"; Key: \"RPCCACHETIMEOUT\"; Value: \"\")",
+      "origin": "Registry Access",
+      "attck_id": "T1007",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1007"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "General",
+      "identifier": "api-6",
+      "type": 6,
+      "relevance": 4,
+      "name": "Reads configuration files (.ini files)",
+      "description": "\"file.exe\" reads file \"C:\\Users\\%OSUSER%\\Desktop\\desktop.ini\"\n \"file.exe\" reads file \"C:\\Users\\desktop.ini\"\n \"file.exe\" reads file \"C:\\Users\\%OSUSER%\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\desktop.ini\"\n \"file.exe\" reads file \"C:\\Users\\%OSUSER%\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\desktop.ini\"\n \"file.exe\" reads file \"C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\desktop.ini\"\n \"file.exe\" reads file \"C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\desktop.ini\"",
+      "origin": "API Call",
+      "attck_id": "T1083",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1083"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "Installation/Persistence",
+      "identifier": "registry-0",
+      "type": 3,
+      "relevance": 8,
+      "name": "Modifies auto-execute functionality by setting/creating a value in the registry",
+      "description": "\"file.exe\" (Access type: \"CREATE\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\RUN\\\")\n \"file.exe\" (Access type: \"SETVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\RUN\"; Key: \"RMC-Y7B4RN\"; Value: \"\"%ALLUSERSPROFILE%\\tst\\remcos.exe\"\")\n \"file.exe\" (Access type: \"CREATE\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\RUN\\\")\n \"file.exe\" (Access type: \"SETVAL\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\RUN\"; Key: \"RMC-Y7B4RN\"; Value: \"\"%ALLUSERSPROFILE%\\tst\\remcos.exe\"\")\n \"remcos.exe\" (Access type: \"CREATE\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\RUN\\\")\n \"remcos.exe\" (Access type: \"SETVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\RUN\"; Key: \"RMC-Y7B4RN\"; Value: \"\"%ALLUSERSPROFILE%\\tst\\remcos.exe\"\")\n \"remcos.exe\" (Access type: \"CREATE\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\RUN\\\")\n \"remcos.exe\" (Access type: \"SETVAL\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\RUN\"; Key: \"RMC-Y7B4RN\"; Value: \"\"%ALLUSERSPROFILE%\\tst\\remcos.exe\"\")",
+      "origin": "Registry Access",
+      "attck_id": "T1547.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1547/001"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "Installation/Persistence",
+      "identifier": "binary-1",
+      "type": 8,
+      "relevance": 10,
+      "name": "Drops executable files",
+      "description": "\"remcos.exe.bin\" has type \"PE32 executable (GUI) Intel 80386 for MS Windows\"- [targetUID: N/A]\n \"DISMHOST.EXE.6712E6A3.bin\" has type \"PE32 executable (GUI) Intel 80386 for MS Windows\"- [targetUID: N/A]\n \"remcos.exe\" has type \"PE32 executable (GUI) Intel 80386 for MS Windows\"- Location: [%ALLUSERSPROFILE%\\tst\\remcos.exe]- [targetUID: 00000000-00005804]",
+      "origin": "Binary File",
+      "attck_id": "T1105",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1105"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "Anti-Reverse Engineering",
+      "identifier": "static-6",
+      "relevance": 1,
+      "name": "section contains high entropy",
+      "description": "\"file.exe\" has section name .text with entropy \"6.62739369218\"\n \"file.exe\" has section name .reloc with entropy \"6.72376821809\"\n \"remcos.exe.bin\" has section name .text with entropy \"6.62739369218\"\n \"remcos.exe.bin\" has section name .reloc with entropy \"6.72376821809\"\n \"DISMHOST.EXE.6712E6A3.bin\" has section name .text with entropy \"6.11476781338\"\n \"DISMHOST.EXE.6712E6A3.bin\" has section name .data with entropy \"6.44580003198\"",
+      "origin": "Static Parser",
+      "attck_id": "T1027.009",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1027/009"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "Network Related",
+      "identifier": "network-23",
+      "type": 7,
+      "relevance": 5,
+      "name": "Sends traffic on typical HTTP outbound port, but without HTTP header",
+      "description": "TCP traffic to <IPv4> on port 80 is sent without HTTP header",
+      "origin": "Network Traffic",
+      "attck_id": "T1071.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1071/001"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "System Security",
+      "identifier": "registry-27",
+      "type": 3,
+      "relevance": 10,
+      "name": "Modifies proxy settings",
+      "description": "\"file.exe\" (Access type: \"DELETEVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\INTERNET SETTINGS\\ZONEMAP\"; Key: \"PROXYBYPASS\")\n \"file.exe\" (Access type: \"DELETEVAL\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\INTERNET SETTINGS\\ZONEMAP\"; Key: \"PROXYBYPASS\")",
+      "origin": "Registry Access",
+      "attck_id": "T1112",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1112"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "External Systems",
+      "identifier": "suricata-1",
+      "type": 18,
+      "relevance": 10,
+      "name": "Detected Suricata Alert",
+      "description": "Detected alert \"ET DYN_DNS DNS Query to DynDNS Domain *.zapto .org\" (SID: 2028703, Rev: 2, Severity: 2) categorized as \"Potentially Bad Traffic\"",
+      "origin": "Suricata Alerts"
+    },
+    {
+      "threat_level": 2,
+      "threat_level_human": "malicious",
+      "category": "General",
+      "identifier": "target-58",
+      "type": 9,
+      "relevance": 10,
+      "name": "The analysis spawned a process that was identified as malicious",
+      "description": "16/23 Antivirus vendors marked spawned process \"remcos.exe\" (PID: 5888) as malicious (classified as \"Trojan.Remcos\" with 69% detection rate)\n 16/23 Antivirus vendors marked spawned process \"remcos.exe\" (PID: 1852) as malicious (classified as \"Trojan.Remcos\" with 69% detection rate)",
+      "origin": "Monitored Target",
+      "attck_id": "T1204.002",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1204/002"
+    },
+    {
+      "threat_level": 2,
+      "threat_level_human": "malicious",
+      "category": "General",
+      "identifier": "binary-11",
+      "type": 8,
+      "relevance": 10,
+      "name": "The analysis extracted a file that was identified as malicious",
+      "description": "16/23 Antivirus vendors marked dropped file \"remcos.exe.bin\" as malicious (classified as \"Trojan.Remcos\" with 69% detection rate)\n 16/23 Antivirus vendors marked dropped file \"remcos.exe\" as malicious (classified as \"Trojan.Remcos\" with 69% detection rate)",
+      "origin": "Binary File",
+      "attck_id": "T1204.002",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1204/002"
+    },
+    {
+      "threat_level": 2,
+      "threat_level_human": "malicious",
+      "category": "Installation/Persistence",
+      "identifier": "api-0",
+      "type": 6,
+      "relevance": 6,
+      "name": "Writes data to a remote process",
+      "description": "\"file.exe\" wrote 32 bytes to a remote process \"C:\\ProgramData\\tst\\remcos.exe\" (Handle: 1056)\n \"file.exe\" wrote 52 bytes to a remote process \"C:\\ProgramData\\tst\\remcos.exe\" (Handle: 1056)\n \"file.exe\" wrote 4 bytes to a remote process \"C:\\ProgramData\\tst\\remcos.exe\" (Handle: 1056)\n \"remcos.exe\" wrote 32 bytes to a remote process \"C:\\Program Files\\Internet Explorer\\iexplore.exe\" (Handle: 212)\n \"remcos.exe\" wrote 52 bytes to a remote process \"C:\\Program Files\\Internet Explorer\\iexplore.exe\" (Handle: 212)\n \"remcos.exe\" wrote 4 bytes to a remote process \"C:\\Program Files\\Internet Explorer\\iexplore.exe\" (Handle: 212)\n \"remcos.exe\" wrote 32 bytes to a remote process \"C:\\Program Files\\Internet Explorer\\iexplore.exe\" (Handle: 216)\n \"remcos.exe\" wrote 52 bytes to a remote process \"C:\\Program Files\\Internet Explorer\\iexplore.exe\" (Handle: 216)\n \"remcos.exe\" wrote 4 bytes to a remote process \"C:\\Program Files\\Internet Explorer\\iexplore.exe\" (Handle: 216)",
+      "origin": "API Call",
+      "attck_id": "T1055",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055"
+    },
+    {
+      "threat_level": 2,
+      "threat_level_human": "malicious",
+      "category": "Anti-Detection/Stealthyness",
+      "identifier": "api-129",
+      "type": 6,
+      "relevance": 10,
+      "name": "Creates a process in suspended mode (likely for process injection)",
+      "description": "\"remcos.exe\" called \"CreateProcessW\" with parameter \"%PROGRAMFILES%\\internet explorer\\iexplore.exe\" - (UID: 00000000-00005888)",
+      "origin": "API Call",
+      "attck_id": "T1055",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055"
+    },
+    {
+      "threat_level": 2,
+      "threat_level_human": "malicious",
+      "category": "Anti-Detection/Stealthyness",
+      "identifier": "hooks-2",
+      "type": 11,
+      "relevance": 10,
+      "name": "Hooks file system APIs",
+      "description": "\"FindFirstFileW@KERNEL32.DLL\" in \"remcos.exe\"\n \"FindNextFileW@KERNEL32.DLL\" in \"remcos.exe\"\n \"FindFirstFileA@KERNEL32.DLL\" in \"remcos.exe\"\n \"FindNextFileA@KERNEL32.DLL\" in \"remcos.exe\"",
+      "origin": "Hook Detection",
+      "attck_id": "T1056.004",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1056/004"
+    },
+    {
+      "threat_level": 2,
+      "threat_level_human": "malicious",
+      "category": "Spyware/Information Retrieval",
+      "identifier": "hooks-5",
+      "type": 11,
+      "relevance": 10,
+      "name": "Hooks internet related APIs",
+      "description": "\"send@WS2_32.DLL\" in \"remcos.exe\"",
+      "origin": "Hook Detection",
+      "attck_id": "T1056.004",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1056/004"
+    },
+    {
+      "threat_level": 2,
+      "threat_level_human": "malicious",
+      "category": "Network Related",
+      "identifier": "network-7",
+      "type": 7,
+      "relevance": 7,
+      "name": "Uses network protocols on unusual ports",
+      "description": "TCP traffic to <IPv4> on port 2404",
+      "origin": "Network Traffic",
+      "attck_id": "T1571",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1571"
+    },
+    {
+      "threat_level": 2,
+      "threat_level_human": "malicious",
+      "category": "Network Related",
+      "identifier": "network-24",
+      "type": 7,
+      "relevance": 6,
+      "name": "Tries to identify its external IP address",
+      "description": "\"geoplugin.net\"",
+      "origin": "Network Traffic",
+      "attck_id": "T1016",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1016"
+    },
+    {
+      "threat_level": 2,
+      "threat_level_human": "malicious",
+      "category": "External Systems",
+      "identifier": "suricata-2",
+      "type": 18,
+      "relevance": 10,
+      "name": "Detected Suricata Alert",
+      "description": "Detected alert \"ET MALWARE Remcos 3.x Unencrypted Checkin\" (SID: 2032776, Rev: 2, Severity: 1) categorized as \"Malware Command and Control Activity Detected\" (PUA/PUP/Adware)\n Detected alert \"ET MALWARE Remcos 3.x Unencrypted Server Response\" (SID: 2032777, Rev: 2, Severity: 1) categorized as \"Malware Command and Control Activity Detected\" (PUA/PUP/Adware)",
+      "origin": "Suricata Alerts"
+    },
+    {
+      "threat_level": 2,
+      "threat_level_human": "malicious",
+      "category": "External Systems",
+      "identifier": "avtest-8",
+      "type": 12,
+      "relevance": 10,
+      "name": "Sample detected by CrowdStrike Static Analysis and ML with relatively high confidence",
+      "description": "CrowdStrike Static Analysis and ML (QuickScan) yielded detection: win/malicious_confidence_100% (D)",
+      "origin": "External System"
+    }
+  ]
+}

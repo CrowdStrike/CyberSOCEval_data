@@ -1,0 +1,1535 @@
+{
+  "size": 310784,
+  "type": "PE32 executable (GUI) Intel 80386 Mono/.Net assembly, for MS Windows",
+  "submit_name": "cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229",
+  "sha256": "cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229",
+  "av_detect": 89,
+  "vx_family": "Trojan.Generic",
+  "threat_score": 100,
+  "threat_level": 2,
+  "verdict": "malicious",
+  "certificates_validation_message": "No signature was present in the subject. (0x800b0100)",
+  "total_processes": 1,
+  "total_signatures": 182,
+  "extracted_files": [
+    {
+      "name": "Amazon_Downloader_Log_20171206-225712_1810e9e0-1a8d-457c-be3a-737de50dc6bb.txt",
+      "file_path": "%ALLUSERSPROFILE%\\44\\Files\\Amazon Downloader Logs\\Amazon_Downloader_Log_20171206-225712_1810e9e0-1a8d-457c-be3a-737de50dc6bb.txt",
+      "file_size": 9779,
+      "sha256": "d91e1c82706b8b448f9162776543d6c9956762aeb546de103a09f0a8d818c11e",
+      "type_tags": [
+        "text"
+      ],
+      "description": "ASCII text",
+      "runtime_process": "cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe (PID: 5916)",
+      "threat_level_readable": "no specific threat",
+      "file_available_to_download": true
+    },
+    {
+      "name": "key3.db",
+      "file_path": "%PUBLIC%\\g4h7miqt.default\\key3.db",
+      "file_size": 16384,
+      "sha256": "08fbda1a1a349b117701200ef9e3e157fde326516c42a0133ce474b4f9672323",
+      "type_tags": [
+        "unknown"
+      ],
+      "description": "Berkeley DB 1.85 (Hash, version 2, native byte-order)",
+      "runtime_process": "cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe (PID: 5916)",
+      "threat_level_readable": "no specific threat",
+      "file_available_to_download": true
+    },
+    {
+      "name": "tmpD1C0.tmp.dat",
+      "file_path": "%TEMP%\\tmpD1C0.tmp.dat",
+      "file_size": 102400,
+      "sha256": "c2fe0cb3ed111dfea76b1ed24e7cd004b2f52acda9d6acf74f0c2337c2d833a3",
+      "type_tags": [
+        "data"
+      ],
+      "description": "SQLite 3.x database, last written using SQLite version 3039004, page size 2048, file counter 2, database pages 50, cookie 0x22, schema 4, UTF-8, version-valid-for 2",
+      "runtime_process": "cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe (PID: 5916)",
+      "threat_level_readable": "no specific threat",
+      "file_available_to_download": true
+    },
+    {
+      "name": "tmpD460.tmp.dat",
+      "file_path": "%TEMP%\\tmpD460.tmp.dat",
+      "file_size": 47104,
+      "sha256": "522cad95d3fa6ebb3274709b8d09bbb1ca37389d0a924cd29e934a75aa04c6c9",
+      "type_tags": [
+        "data"
+      ],
+      "description": "SQLite 3.x database, last written using SQLite version 3039004, page size 2048, file counter 1, database pages 23, cookie 0xd, schema 4, UTF-8, version-valid-for 1",
+      "runtime_process": "cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe (PID: 5916)",
+      "threat_level_readable": "no specific threat",
+      "file_available_to_download": true
+    },
+    {
+      "name": "tmpD471.tmp.dat",
+      "file_path": "%TEMP%\\tmpD471.tmp.dat",
+      "file_size": 102400,
+      "sha256": "c2fe0cb3ed111dfea76b1ed24e7cd004b2f52acda9d6acf74f0c2337c2d833a3",
+      "type_tags": [
+        "data"
+      ],
+      "description": "SQLite 3.x database, last written using SQLite version 3039004, page size 2048, file counter 2, database pages 50, cookie 0x22, schema 4, UTF-8, version-valid-for 2",
+      "runtime_process": "cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe (PID: 5916)",
+      "threat_level_readable": "no specific threat",
+      "file_available_to_download": true
+    },
+    {
+      "name": "tmpD52D.tmp.tmpdb",
+      "file_path": "%TEMP%\\tmpD52D.tmp.tmpdb",
+      "file_size": 524288,
+      "sha256": "c4c49e874abd38b83cb8eefe46d05d21dfc3502a69a59fb672316a50b04462c7",
+      "type_tags": [
+        "data"
+      ],
+      "description": "SQLite 3.x database, user version 8, last written using SQLite version 3020001, page size 32768, writer version 2, read version 2, file counter 4, database pages 4, cookie 0x2, schema 4, UTF-8, version-valid-for 4",
+      "runtime_process": "cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe (PID: 5916)",
+      "threat_level_readable": "no specific threat",
+      "file_available_to_download": true
+    }
+  ],
+  "file_metadata": {
+    "file_compositions": [],
+    "imported_objects": [],
+    "file_analysis": [],
+    "total_file_compositions_imports": null
+  },
+  "processes": [
+    {
+      "uid": "00000000-00005916",
+      "name": "cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe",
+      "normalized_path": "C:\\cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe",
+      "sha256": "cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229"
+    }
+  ],
+  "mitre_attcks": [
+    {
+      "tactic": "Execution",
+      "technique": "Windows Management Instrumentation",
+      "attck_id": "T1047",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1047",
+      "suspicious_identifiers_count": 3,
+      "informative_identifiers_count": 2
+    },
+    {
+      "tactic": "Execution",
+      "technique": "Native API",
+      "attck_id": "T1106",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1106",
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 6
+    },
+    {
+      "tactic": "Execution",
+      "technique": "Service Execution",
+      "attck_id": "T1569.002",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1569/002",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "System Services",
+        "attck_id": "T1569",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1569"
+      }
+    },
+    {
+      "tactic": "Execution",
+      "technique": "Shared Modules",
+      "attck_id": "T1129",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1129",
+      "informative_identifiers_count": 5
+    },
+    {
+      "tactic": "Persistence",
+      "technique": "Windows Service",
+      "attck_id": "T1543.003",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1543/003",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Create or Modify System Process",
+        "attck_id": "T1543",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1543"
+      }
+    },
+    {
+      "tactic": "Persistence",
+      "technique": "Component Object Model Hijacking",
+      "attck_id": "T1546.015",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1546/015",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Event Triggered Execution",
+        "attck_id": "T1546",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1546"
+      }
+    },
+    {
+      "tactic": "Persistence",
+      "technique": "DLL Side-Loading",
+      "attck_id": "T1574.002",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1574/002",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Hijack Execution Flow",
+        "attck_id": "T1574",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1574"
+      }
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "Dynamic-link Library Injection",
+      "attck_id": "T1055.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055/001",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Process Injection",
+        "attck_id": "T1055",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1055"
+      }
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "Windows Service",
+      "attck_id": "T1543.003",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1543/003",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Create or Modify System Process",
+        "attck_id": "T1543",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1543"
+      }
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "Access Token Manipulation",
+      "attck_id": "T1134",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1134",
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 2
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "Thread Execution Hijacking",
+      "attck_id": "T1055.003",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055/003",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Process Injection",
+        "attck_id": "T1055",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1055"
+      }
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "Component Object Model Hijacking",
+      "attck_id": "T1546.015",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1546/015",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Event Triggered Execution",
+        "attck_id": "T1546",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1546"
+      }
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "Extra Window Memory Injection",
+      "attck_id": "T1055.011",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055/011",
+      "suspicious_identifiers_count": 1,
+      "parent": {
+        "technique": "Process Injection",
+        "attck_id": "T1055",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1055"
+      }
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "ListPlanting",
+      "attck_id": "T1055.015",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055/015",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Process Injection",
+        "attck_id": "T1055",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1055"
+      }
+    },
+    {
+      "tactic": "Privilege Escalation",
+      "technique": "DLL Side-Loading",
+      "attck_id": "T1574.002",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1574/002",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Hijack Execution Flow",
+        "attck_id": "T1574",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1574"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Obfuscated Files or Information",
+      "attck_id": "T1027",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1027",
+      "suspicious_identifiers_count": 4,
+      "informative_identifiers_count": 9
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Timestomp",
+      "attck_id": "T1070.006",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1070/006",
+      "informative_identifiers_count": 2,
+      "parent": {
+        "technique": "Indicator Removal",
+        "attck_id": "T1070",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1070"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Reflective Code Loading",
+      "attck_id": "T1620",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1620",
+      "informative_identifiers_count": 2
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Dynamic-link Library Injection",
+      "attck_id": "T1055.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055/001",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Process Injection",
+        "attck_id": "T1055",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1055"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Deobfuscate/Decode Files or Information",
+      "attck_id": "T1140",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1140",
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 6
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "File Deletion",
+      "attck_id": "T1070.004",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1070/004",
+      "suspicious_identifiers_count": 2,
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Indicator Removal",
+        "attck_id": "T1070",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1070"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Virtualization/Sandbox Evasion",
+      "attck_id": "T1497",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1497",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "System Checks",
+      "attck_id": "T1497.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1497/001",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Virtualization/Sandbox Evasion",
+        "attck_id": "T1497",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1497"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Access Token Manipulation",
+      "attck_id": "T1134",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1134",
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 2
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Thread Execution Hijacking",
+      "attck_id": "T1055.003",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055/003",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Process Injection",
+        "attck_id": "T1055",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1055"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Modify Registry",
+      "attck_id": "T1112",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1112",
+      "malicious_identifiers_count": 1,
+      "suspicious_identifiers_count": 1
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Compile After Delivery",
+      "attck_id": "T1027.004",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1027/004",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Obfuscated Files or Information",
+        "attck_id": "T1027",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1027"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Software Packing",
+      "attck_id": "T1027.002",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1027/002",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Obfuscated Files or Information",
+        "attck_id": "T1027",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1027"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Extra Window Memory Injection",
+      "attck_id": "T1055.011",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055/011",
+      "suspicious_identifiers_count": 1,
+      "parent": {
+        "technique": "Process Injection",
+        "attck_id": "T1055",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1055"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "ListPlanting",
+      "attck_id": "T1055.015",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055/015",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Process Injection",
+        "attck_id": "T1055",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1055"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Disable or Modify Tools",
+      "attck_id": "T1562.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1562/001",
+      "suspicious_identifiers_count": 1,
+      "parent": {
+        "technique": "Impair Defenses",
+        "attck_id": "T1562",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1562"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Debugger Evasion",
+      "attck_id": "T1622",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1622",
+      "suspicious_identifiers_count": 1
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "DLL Side-Loading",
+      "attck_id": "T1574.002",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1574/002",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Hijack Execution Flow",
+        "attck_id": "T1574",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1574"
+      }
+    },
+    {
+      "tactic": "Defense Evasion",
+      "technique": "Execution Guardrails",
+      "attck_id": "T1480",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1480",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Credential Access",
+      "technique": "Credentials from Web Browsers",
+      "attck_id": "T1555.003",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1555/003",
+      "malicious_identifiers_count": 1,
+      "suspicious_identifiers_count": 2,
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Credentials from Password Stores",
+        "attck_id": "T1555",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1555"
+      }
+    },
+    {
+      "tactic": "Credential Access",
+      "technique": "Credentials from Password Stores",
+      "attck_id": "T1555",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1555",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Credential Access",
+      "technique": "Steal Web Session Cookie",
+      "attck_id": "T1539",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1539",
+      "suspicious_identifiers_count": 1
+    },
+    {
+      "tactic": "Credential Access",
+      "technique": "Credentials In Files",
+      "attck_id": "T1552.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1552/001",
+      "malicious_identifiers_count": 1,
+      "parent": {
+        "technique": "Unsecured Credentials",
+        "attck_id": "T1552",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1552"
+      }
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "File and Directory Discovery",
+      "attck_id": "T1083",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1083",
+      "malicious_identifiers_count": 1,
+      "informative_identifiers_count": 9
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "System Information Discovery",
+      "attck_id": "T1082",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1082",
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 14
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "Query Registry",
+      "attck_id": "T1012",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1012",
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 4
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "Process Discovery",
+      "attck_id": "T1057",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1057",
+      "suspicious_identifiers_count": 3,
+      "informative_identifiers_count": 7
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "System Location Discovery",
+      "attck_id": "T1614",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1614",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "Virtualization/Sandbox Evasion",
+      "attck_id": "T1497",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1497",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "System Checks",
+      "attck_id": "T1497.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1497/001",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Virtualization/Sandbox Evasion",
+        "attck_id": "T1497",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1497"
+      }
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "Browser Information Discovery",
+      "attck_id": "T1217",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1217",
+      "suspicious_identifiers_count": 1
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "System Language Discovery",
+      "attck_id": "T1614.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1614/001",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "System Location Discovery",
+        "attck_id": "T1614",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1614"
+      }
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "System Service Discovery",
+      "attck_id": "T1007",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1007",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "System Network Configuration Discovery",
+      "attck_id": "T1016",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1016",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Discovery",
+      "technique": "Debugger Evasion",
+      "attck_id": "T1622",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1622",
+      "suspicious_identifiers_count": 1
+    },
+    {
+      "tactic": "Lateral Movement",
+      "technique": "VNC",
+      "attck_id": "T1021.005",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1021/005",
+      "suspicious_identifiers_count": 1,
+      "parent": {
+        "technique": "Remote Services",
+        "attck_id": "T1021",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1021"
+      }
+    },
+    {
+      "tactic": "Collection",
+      "technique": "Screen Capture",
+      "attck_id": "T1113",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1113",
+      "malicious_identifiers_count": 1,
+      "informative_identifiers_count": 2
+    },
+    {
+      "tactic": "Collection",
+      "technique": "Local Data Staging",
+      "attck_id": "T1074.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1074/001",
+      "informative_identifiers_count": 3,
+      "parent": {
+        "technique": "Data Staged",
+        "attck_id": "T1074",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1074"
+      }
+    },
+    {
+      "tactic": "Collection",
+      "technique": "Clipboard Data",
+      "attck_id": "T1115",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1115",
+      "suspicious_identifiers_count": 2,
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Collection",
+      "technique": "Local Email Collection",
+      "attck_id": "T1114.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1114/001",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Email Collection",
+        "attck_id": "T1114",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1114"
+      }
+    },
+    {
+      "tactic": "Collection",
+      "technique": "Data from Local System",
+      "attck_id": "T1005",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1005",
+      "malicious_identifiers_count": 3,
+      "suspicious_identifiers_count": 10,
+      "informative_identifiers_count": 3
+    },
+    {
+      "tactic": "Collection",
+      "technique": "Email Collection",
+      "attck_id": "T1114",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1114",
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Collection",
+      "technique": "Data from Information Repositories",
+      "attck_id": "T1213",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1213",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Collection",
+      "technique": "Automated Collection",
+      "attck_id": "T1119",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1119",
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Command and Control",
+      "technique": "Application Layer Protocol",
+      "attck_id": "T1071",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1071",
+      "informative_identifiers_count": 4
+    },
+    {
+      "tactic": "Command and Control",
+      "technique": "Encrypted Channel",
+      "attck_id": "T1573",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1573",
+      "suspicious_identifiers_count": 1,
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Command and Control",
+      "technique": "Web Protocols",
+      "attck_id": "T1071.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1071/001",
+      "informative_identifiers_count": 3,
+      "parent": {
+        "technique": "Application Layer Protocol",
+        "attck_id": "T1071",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1071"
+      }
+    },
+    {
+      "tactic": "Command and Control",
+      "technique": "Asymmetric Cryptography",
+      "attck_id": "T1573.002",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1573/002",
+      "suspicious_identifiers_count": 2,
+      "parent": {
+        "technique": "Encrypted Channel",
+        "attck_id": "T1573",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1573"
+      }
+    },
+    {
+      "tactic": "Command and Control",
+      "technique": "Ingress Tool Transfer",
+      "attck_id": "T1105",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1105",
+      "informative_identifiers_count": 2
+    },
+    {
+      "tactic": "Command and Control",
+      "technique": "Symmetric Cryptography",
+      "attck_id": "T1573.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1573/001",
+      "informative_identifiers_count": 1,
+      "parent": {
+        "technique": "Encrypted Channel",
+        "attck_id": "T1573",
+        "attck_id_wiki": "https://attack.mitre.org/techniques/T1573"
+      }
+    },
+    {
+      "tactic": "Exfiltration",
+      "technique": "Exfiltration Over C2 Channel",
+      "attck_id": "T1041",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1041",
+      "informative_identifiers_count": 1
+    },
+    {
+      "tactic": "Impact",
+      "technique": "Data Encrypted for Impact",
+      "attck_id": "T1486",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1486",
+      "suspicious_identifiers_count": 2,
+      "informative_identifiers_count": 3
+    }
+  ],
+  "network_mode": "default",
+  "signatures": [
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "string-615",
+      "type": 2,
+      "relevance": 1,
+      "name": "Can loads assembly that contains the code that is currently executing [Dotnet]",
+      "description": "Found string \"GetExecutingAssembly\" (Indicator: \"GetExecutingAssembly\"; File: \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229\")\n Found string \"GetExecutingAssembly\" (Indicator: \"GetExecutingAssembly\"; Source: \"00000000-00005916.00000001.66576.01372000.00000020.mdmp\")",
+      "origin": "File/Memory",
+      "attck_id": "T1620",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1620"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "string-605",
+      "type": 2,
+      "relevance": 1,
+      "name": "May execute SQL queries",
+      "description": "\"SELECT * FROM win32_operatingsystem\" (Source: cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229, Indicator: \"select * from win32_operatingsystem\")\n \"SELECT * FROM Win32_Processor\" (Source: cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229, Indicator: \"select * from win32_processor\")\n \"Select * From Win32_ComputerSystem\" (Source: cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229, Indicator: \"select * from win32_computersystem\")\n \"SELECT ProcessorId FROM Win32_Processor\" (Source: cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229, Indicator: \"select processorid from win32_processor\")\n \"SELECT * FROM Win32_VideoController\" (Source: cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229, Indicator: \"select * from win32_videocontroller\")\n \"SELECT ExecutablePath, ProcessID FROM Win32_Process\" (Source: 6000470-ProcessList~ProcessExecutablePath, Indicator: \"select executablepath, processid from win32_process\")",
+      "origin": "File/Memory",
+      "attck_id": "T1005",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1005"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "api-267",
+      "type": 6,
+      "relevance": 1,
+      "name": "Writes files in a temp directory",
+      "description": "\"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" writes to a file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\tmpD123.tmp.tmpdb\"",
+      "origin": "API Call",
+      "attck_id": "T1005",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1005"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "api-176",
+      "type": 6,
+      "relevance": 1,
+      "name": "Calls an API typically used to retrieve function addresses",
+      "description": "\"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter FlsGetValue (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter RegEnumKeyExW (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter DecodePointer (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter RegEnumValueW (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter RegCloseKey (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter RegQueryValueExW (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter InitializeCriticalSectionEx (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter FlsAlloc (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter FlsSetValue (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter LCMapStringEx (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter AcquireSRWLockExclusive (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter ReleaseSRWLockExclusive (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter AddDllDirectory (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter EventRegister (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter EventSetInformation (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter RegOpenKeyExW (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter RegisterShimImplCallback (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter RegisterShimImplCleanupCallback (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter SetShellShimInstance (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter OnShimDllMainCalled (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter _CorExeMain_RetAddr (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter _CorExeMain (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter UrlIsW (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter GetFileVersionInfoSizeW (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter GetFileVersionInfoW (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter VerQueryValueW (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter InitializeConditionVariable (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter SleepConditionVariableCS (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter WakeAllConditionVariable (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter SetRuntimeInfo (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter GetProcessWindowStation (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter GetUserObjectInformationW (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter CreateConfigStream (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter CreateConfigStream_RetAddr (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter GetNumaHighestNodeNumber (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter FlsFree (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter GetSystemWindowsDirectoryW (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter AllocateAndInitializeSid (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter OpenProcessToken (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter GetTokenInformation (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter InitializeAcl (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter AddAccessAllowedAce (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter FreeSid (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter AddSIDToBoundaryDescriptor (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter CreateBoundaryDescriptorW (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter CreatePrivateNamespaceW (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter OpenPrivateNamespaceW (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter DeleteBoundaryDescriptor (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter WerRegisterRuntimeExceptionModule (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter RaiseException (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter EncodePointer (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter SetSystemFileCacheSize (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter NtSetSystemInformation (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter PrivIsDllSynchronizationHeld (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter GetProcessMemoryInfo (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter CoInitializeEx (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter CoGetContextToken (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter GetEnabledXStateFeatures (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter sxsJitStartup (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter jitStartup (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter getJit (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter GetLocaleInfoEx (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter LocaleNameToLCID (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter GetUserDefaultLocaleName (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter LCIDToLocaleName (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter GetUserPreferredUILanguages (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter SHGetFolderPath (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter SHGetFolderPathW (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter CoTaskMemAlloc (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter OpenThreadToken (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter CoTaskMemFree (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter RegOpenKeyEx (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter LocalFree (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter LocalAlloc (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter GetFullPathNameW (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter NtQuerySystemInformation (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter GetTimeZoneInformation (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter GetDynamicTimeZoneInformation (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter SortGetHandle (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter SortCloseHandle (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter RegQueryValueEx (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter GetFileMUIPath (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter LoadLibraryEx (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter LoadLibraryExW (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter FreeLibrary (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter FreeLibraryW (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter LoadStringW (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter EnumCalendarInfoExEx (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter GetCalendarInfoEx (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter EnumSystemLocalesEx (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter EnumTimeFormatsEx (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter ConvertSidToStringSidW (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter SetThreadErrorMode (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter GetFileAttributesEx (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter GetFileAttributesExW (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter GetProcessExecutableHeap (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter GetProcessExecutableHeap_RetAddr (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter BCryptGetFipsAlgorithmMode (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter CryptGetDefaultProviderW (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter CryptAcquireContextW (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter EqualSid (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter SystemFunction036 (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter CryptGenRandom (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter GetCurrentProcessId (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter GetCurrentProcessIdW (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter LookupPrivilegeValue (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter LookupPrivilegeValueW (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter GetCurrentProcess (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter OpenProcessTokenW (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter AdjustTokenPrivileges (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter AdjustTokenPrivilegesW (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter CloseHandle (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter NtQuerySystemInformationW (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter CreateDirectory (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter CreateDirectoryW (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter FindFirstFile (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter FindFirstFileW (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter FindClose (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter FindNextFile (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter FindNextFileW (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter GetUserName (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter GetUserNameW (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter GetTempPath (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter GetTempPathW (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter GetTempFileName (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter GetTempFileNameW (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter CopyFile (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter CopyFileW (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter GetUserNameExW (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter CreateFile (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter CreateFileW (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter GetFileType (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter GetFileSize (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter ReadFile (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter GetACP (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter UnmapViewOfFile (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter CoUninitialize (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter GetModuleHandle (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter GetModuleHandleW (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter GetProcAddress (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter WideCharToMultiByte (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter IsWow64Process (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter GetCurrentProcessW (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter DeleteFile (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter DeleteFileW (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter CompareStringOrdinal (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter GetFullPathName (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter CreateEvent (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter CreateEventW (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter OpenProcess (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter OpenProcessW (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter GetEnvironmentVariable (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter GetEnvironmentVariableW (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter EnumProcessModules (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter EnumProcessModulesW (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter GetModuleInformation (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter GetModuleInformationW (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter GetModuleBaseName (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter GetModuleBaseNameW (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter GetModuleFileNameEx (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter GetModuleFileNameExW (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter QueryPerformanceFrequency (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter QueryPerformanceCounter (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter RasEnumConnections (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter RasEnumConnectionsW (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter DllGetClassObject (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter CryptAcquireContextA (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter CryptCreateHash (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter CryptGetHashParam (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter CryptHashData (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter CryptDestroyHash (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter CryptReleaseContext (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter WSAStartup (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter WSASocket (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter WSASocketW (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter setsockopt (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter WSAEventSelect (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter ioctlsocket (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter closesocket (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter WSAIoctl (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter FormatMessage (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter FormatMessageW (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter RasConnectionNotification (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter RasConnectionNotificationW (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter CryptImportKey (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter CryptExportKey (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter CryptDestroyKey (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetProcAddress\" with a parameter SetFilePointer (UID: 00000000-00005916)",
+      "origin": "API Call",
+      "attck_id": "T1106",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1106"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "api-8",
+      "type": 6,
+      "relevance": 1,
+      "name": "Looks up procedures from modules (excluding apphelp.dll, kernel32.dll, user32.dll, gdi32.dll, ole32.dll, comctl32.dll, uxtheme.dll, oleaut32.dll, version.dll, msctfime.ime)",
+      "description": "\"0d000e002203f26b@ADVAPI32.dll\"\n \"0d000e00fe02f26b@ADVAPI32.dll\"\n \"0b000c00cc02f26b@ADVAPI32.dll\"\n \"10001100da02f26b@ADVAPI32.dll\"\n \"15001600c03e186b@ADVAPI32.dll\"\n \"0e000f00703f186b@ADVAPI32.dll\"\n \"0e000f00cc3f186b@ADVAPI32.dll\"\n \"11001200b447186b@ADVAPI32.dll\"\n \"110012004848186b@ADVAPI32.dll\"\n \"120013008c48186b@ADVAPI32.dll\"\n \"12001300e448186b@ADVAPI32.dll\"\n \"14001500386e186b@ADVAPI32.dll\"\n \"14001500506e186b@ADVAPI32.dll\"\n \"14001500686e186b@ADVAPI32.dll\"\n \"17001800806e186b@ADVAPI32.dll\"\n \"0d000e00986e186b@ADVAPI32.dll\"\n \"11001200a86e186b@ADVAPI32.dll\"\n \"11001200bc6e186b@ADVAPI32.dll\"\n \"0f001000fc6f186b@ADVAPI32.dll\"\n \"140015003c70186b@ADVAPI32.dll\"\n \"140015005470186b@ADVAPI32.dll\"\n \"0c000d009c70186b@ADVAPI32.dll\"\n \"0c000d00ac70186b@ADVAPI32.dll\"\n \"0e000f00bc70186b@ADVAPI32.dll\"",
+      "origin": "API Call",
+      "attck_id": "T1129",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1129"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "api-122",
+      "type": 6,
+      "relevance": 3,
+      "name": "Calls an API typically used to create a directory",
+      "description": "\"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"CreateDirectoryW\" with parameter C:\\Users\\%OSUSER% (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"CreateDirectoryW\" with parameter %USERPROFILE%\\AppData\\Roaming (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"CreateDirectoryW\" with parameter %ALLUSERSPROFILE%\\44 (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"CreateDirectoryW\" with parameter %ALLUSERSPROFILE%\\44\\Files (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"CreateDirectoryW\" with parameter %ALLUSERSPROFILE%\\44\\Browsers (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"CreateDirectoryW\" with parameter %ALLUSERSPROFILE%\\44\\Browsers\\Google (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"CreateDirectoryW\" with parameter %ALLUSERSPROFILE%\\44\\Browsers\\Firefox (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"CreateDirectoryW\" with parameter %ALLUSERSPROFILE%\\44\\Files\\Outlook Files (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"CreateDirectoryW\" with parameter %ALLUSERSPROFILE%\\44\\Files\\My Videos (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"CreateDirectoryW\" with parameter %ALLUSERSPROFILE%\\44\\Files\\My Pictures (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"CreateDirectoryW\" with parameter %ALLUSERSPROFILE%\\44\\Files\\My Music (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"CreateDirectoryW\" with parameter %ALLUSERSPROFILE%\\44\\Files\\hancom (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"CreateDirectoryW\" with parameter %ALLUSERSPROFILE%\\44\\Files\\Amazon Downloader Logs (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"CreateDirectoryW\" with parameter %PUBLIC%\\g4h7miqt.default (UID: 00000000-00005916)",
+      "origin": "API Call",
+      "attck_id": "T1074.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1074/001"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "api-123",
+      "type": 6,
+      "relevance": 3,
+      "name": "Calls an API typically used to copy file from one location to another",
+      "description": "\"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"CopyFileW\" to copy %APPDATA%\\Mozilla\\Firefox\\Profiles\\g4h7miqt.default\\places.sqlite to new location %TEMP%\\tmpD123.tmp.tmpdb (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"CopyFileW\" to copy %USERPROFILE%\\Documents\\Amazon Downloader Logs\\Amazon_Downloader_Log_20171206-225712_1810e9e0-1a8d-457c-be3a-737de50dc6bb.txt to new location %ALLUSERSPROFILE%\\44\\Files\\Amazon Downloader Logs\\Amazon_Downloader_Log_20171206-225712_1810e9e0-1a8d-457c-be3a-737de50dc6bb.txt (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"CopyFileW\" to copy %LOCALAPPDATA%\\Google\\Chrome\\User Data\\Default\\Web Data to new location %TEMP%\\tmpD1C0.tmp.dat (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"CopyFileW\" to copy %LOCALAPPDATA%\\Google\\Chrome\\User Data\\Default\\Login Data to new location %TEMP%\\tmpD460.tmp.dat (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"CopyFileW\" to copy %LOCALAPPDATA%\\Google\\Chrome\\User Data\\Default\\Web Data to new location %TEMP%\\tmpD471.tmp.dat (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"CopyFileW\" to copy %APPDATA%\\Mozilla\\Firefox\\Profiles\\g4h7miqt.default\\cookies.sqlite to new location %TEMP%\\tmpD52D.tmp.tmpdb (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"CopyFileW\" to copy %APPDATA%\\Mozilla\\Firefox\\Profiles\\g4h7miqt.default\\key3.db to new location %PUBLIC%\\g4h7miqt.default\\key3.db (UID: 00000000-00005916)",
+      "origin": "API Call",
+      "attck_id": "T1005",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1005"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "module-3",
+      "type": 10,
+      "name": "Loads the .NET runtime environment",
+      "description": "\"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"%WINDIR%\\assembly\\NativeImages_v4.0.30319_32\\mscorlib\\36eaccfde177c2e7b93b8dbdde4e012a\\mscorlib.ni.dll\" at 636D0000",
+      "origin": "Loaded Module",
+      "attck_id": "T1129",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1129"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "module-9",
+      "type": 10,
+      "name": "Loads the Bcrypt module DLL",
+      "description": "\"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"%WINDIR%\\System32\\bcrypt.dll\" at 74F50000",
+      "origin": "Loaded Module",
+      "attck_id": "T1027",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1027"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "mutant-0",
+      "type": 4,
+      "relevance": 3,
+      "name": "Creates mutants",
+      "description": "\"\\Sessions\\1\\BaseNamedObjects\\Global\\CLR_PerfMon_WrapMutex\"\n \"Global\\CLR_PerfMon_WrapMutex\"\n \"RasPbFile\"\n \"\\Sessions\\1\\BaseNamedObjects\\RasPbFile\"",
+      "origin": "Created Mutant"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "static-80",
+      "relevance": 1,
+      "name": "PE file contains executable sections",
+      "description": "\"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229\" has an executable section named \".text\"",
+      "origin": "Static Parser"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "registry-72",
+      "type": 3,
+      "relevance": 3,
+      "name": "Overview of unique CLSIDs touched in registry",
+      "description": "\"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" touched \"NDP SymBinder\" (Path: \"HKCU\\CLSID\\{0A29FF9E-7F9C-4437-8B11-F424491E3931}\\INPROCSERVER32\")",
+      "origin": "Registry Access",
+      "attck_id": "T1546.015",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1546/015"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "static-146",
+      "name": "PE file contains Debug data directory",
+      "description": "\"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229\" has Debug data directory \"IMAGE_DIRECTORY_ENTRY_DEBUG\"",
+      "origin": "Static Parser"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "static-96",
+      "name": "PE file entrypoint instructions",
+      "description": "\"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229\" file has an entrypoint instructions - \"jmp\tdword ptr [0x402000],add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,adc\tbyte ptr [ecx], dl,adc\tal, byte ptr [eax],or\tbyte ptr [edi], al,or\tdword ptr [esi], eax,or\tal, byte ptr [0x30c040b],or\teax, 0xf010e02,add\tbyte ptr [eax], al,add\tbyte ptr [eax], al,add\tbyte ptr [eax + eax], cl,or\tbyte ptr [eax], al,mov\tword ptr [eax], es,or\tbyte ptr [eax], al,dec\tesp,add\tbyte ptr [eax], cl,add\tah, cl,add\tbyte ptr [eax], cl,add\tbyte ptr [eax + eax], ch,or\tbyte ptr [eax], al,lodsb\tal, byte ptr [esi],add\tbyte ptr [eax], cl,add\tbyte ptr [eax + eax + 8], ch,add\tah, ch,add\tbyte ptr [eax], cl,add\tbyte ptr [eax + eax], bl,or\tbyte ptr [eax], al,pushfd\t,add\tbyte ptr [eax], cl,add\tbyte ptr [eax + eax + 8], bl,add\tah, bl,add\tbyte ptr [eax], cl,add\tbyte ptr [eax + eax], bh,or\tbyte ptr [eax], al,mov\tesp, 0x7c000800,add\tbyte ptr [eax], cl,add\tah, bh,add\tbyte ptr [eax], cl,add\tbyte ptr [edx], al,\"",
+      "origin": "Static Parser"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "static-144",
+      "relevance": 1,
+      "name": "PE file contains COM data directory",
+      "description": "\"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229\" has COM data directory \"IMAGE_DIRECTORY_ENTRY_COM_DESCRIPTOR\"",
+      "origin": "Static Parser"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "api-7",
+      "type": 6,
+      "relevance": 1,
+      "name": "Loads modules at runtime",
+      "description": "\"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"API-MS-WIN-CORE-SYNCH-L1-2-0\" at base 71ac0000\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"API-MS-WIN-CORE-FIBERS-L1-1-1\" at base 0\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"KERNEL32\" at base 77300000\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"API-MS-WIN-CORE-LOCALIZATION-L1-2-1\" at base 0\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"ADVAPI32.DLL\" at base 75810000\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"%WINDIR%\\MICROSOFT.NET\\FRAMEWORK\\V4.0.30319\\MSCOREEI.DLL\" at base 6be50000\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"SHLWAPI.DLL\" at base 77410000\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"API-MS-WIN-APPMODEL-RUNTIME-L1-1-2.DLL\" at base 0\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"API-MS-WIN-APPMODEL-RUNTIME-L1-1-0.DLL\" at base 0\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"VERSION.DLL\" at base 748d0000\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"%WINDIR%\\MICROSOFT.NET\\FRAMEWORK\\V4.0.30319\\CLR.DLL\" at base 64ae0000\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"USER32.DLL\" at base 77080000\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"API-MS-WIN-CORE-QUIRKS-L1-1-0.DLL\" at base 0\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"%WINDIR%\\MICROSOFT.NET\\FRAMEWORK\\V4.0.30319\\MSCOREE.DLL\" at base 0\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"MSCOREE.DLL\" at base 6bee0000\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"%WINDIR%\\SYSTEM32\\COMBASE.DLL\" at base 0\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"PSAPI.DLL\" at base 76d40000\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"RPCRT4.DLL\" at base 758c0000\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"KERNEL32.DLL\" at base 77300000\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"%WINDIR%\\ASSEMBLY\\NATIVEIMAGES_V4.0.30319_32\\MSCORLIB\\36EACCFDE177C2E7B93B8DBDDE4E012A\\MSCORLIB.NI.DLL\" at base 636d0000\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"%WINDIR%\\MICROSOFT.NET\\FRAMEWORK\\V4.0.30319\\OLE32.DLL\" at base 0\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"OLE32.DLL\" at base 75dc0000\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"CRYPTBASE.DLL\" at base 75330000\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"API-MS-WIN-CORE-XSTATE-L2-1-0.DLL\" at base 6e3c0000\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"%WINDIR%\\MICROSOFT.NET\\FRAMEWORK\\V4.0.30319\\CLRJIT.DLL\" at base 6b090000\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"%WINDIR%\\ASSEMBLY\\NATIVEIMAGES_V4.0.30319_32\\SYSTEM\\2C3C912EA8F058F9D04C4650128FEB3F\\SYSTEM.NI.DLL\" at base 62c70000\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"%WINDIR%\\ASSEMBLY\\NATIVEIMAGES_V4.0.30319_32\\SYSTEM.XML\\15AF16D373CF0528CB74FC73D365FDBF\\SYSTEM.XML.NI.DLL\" at base 624f0000\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"%WINDIR%\\MICROSOFT.NET\\ASSEMBLY\\GAC_32\\MSCORLIB\\V4.0_4.0.0.0__B77A5C561934E089\\SHELL32.DLL\" at base 0\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"SHELL32.DLL\" at base 760f0000\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"PROFAPI.DLL\" at base 75440000\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"API-MS-WIN-SECURITY-SDDL-L1-1-0.DLL\" at base 75c50000\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"NTDLL.DLL\" at base 77530000\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"%WINDIR%\\MICROSOFT.NET\\FRAMEWORK\\V4.0.30319\\NLSSORTING.DLL\" at base 6b070000\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"%WINDIR%\\MICROSOFT.NET\\ASSEMBLY\\GAC_32\\MSCORLIB\\V4.0_4.0.0.0__B77A5C561934E089\\BCRYPT.DLL\" at base 0\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"BCRYPT.DLL\" at base 74f50000\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"CRYPTSP.DLL\" at base 74e40000\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"%WINDIR%\\SYSTEM32\\RSAENH.DLL\" at base 74bd0000\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"%WINDIR%\\MICROSOFT.NET\\ASSEMBLY\\GAC_MSIL\\SYSTEM\\V4.0_4.0.0.0__B77A5C561934E089\\NTDLL.DLL\" at base 0\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"SSPICLI.DLL\" at base 752c0000\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"OLEAUT32.DLL\" at base 776e0000\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"%WINDIR%\\MICROSOFT.NET\\FRAMEWORK\\V4.0.30319\\VERSION.DLL\" at base 0\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"%WINDIR%\\ASSEMBLY\\NATIVEIMAGES_V4.0.30319_32\\SYSTEM.CORE\\31FAE3290FAD30C31C98651462D22724\\SYSTEM.CORE.NI.DLL\" at base 61cd0000\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"%WINDIR%\\ASSEMBLY\\NATIVEIMAGES_V4.0.30319_32\\SYSTEM.CONFIGURATION\\96F7EDB07B12303F0EC2595C7F3778C7\\SYSTEM.CONFIGURATION.NI.DLL\" at base 6af60000\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"%WINDIR%\\MICROSOFT.NET\\ASSEMBLY\\GAC_MSIL\\SYSTEM\\V4.0_4.0.0.0__B77A5C561934E089\\PSAPI.DLL\" at base 0\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"%WINDIR%\\MICROSOFT.NET\\ASSEMBLY\\GAC_MSIL\\SYSTEM\\V4.0_4.0.0.0__B77A5C561934E089\\RASAPI32.DLL\" at base 0\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"RASAPI32.DLL\" at base 6c180000\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"%WINDIR%\\MICROSOFT.NET\\FRAMEWORK\\V4.0.30319\\DIASYMREADER.DLL\" at base 6ae50000\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"RTUTILS.DLL\" at base 73590000\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"API-MS-WIN-SERVICE-MANAGEMENT-L1-1-0.DLL\" at base 75c50000\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"API-MS-WIN-SERVICE-WINSVC-L1-1-0.DLL\" at base 75c50000\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"%WINDIR%\\MICROSOFT.NET\\ASSEMBLY\\GAC_MSIL\\SYSTEM\\V4.0_4.0.0.0__B77A5C561934E089\\WS2_32.DLL\" at base 0\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"WS2_32.DLL\" at base 75970000\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"%WINDIR%\\SYSTEM32\\MSWSOCK.DLL\" at base 74e00000\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"%WINDIR%\\SYSTEM32\\WSHTCPIP.DLL\" at base 74960000\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"%WINDIR%\\SYSTEM32\\WSHIP6.DLL\" at base 74df0000\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"RASMAN.DLL\" at base 6c160000",
+      "origin": "API Call",
+      "attck_id": "T1129",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1129"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "api-175",
+      "type": 6,
+      "relevance": 1,
+      "name": "Calls an API typically used to load libraries",
+      "description": "\"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"LoadLibrary\" with a parameter api-ms-win-core-synch-l1-2-0 (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"LoadLibrary\" with a parameter api-ms-win-core-fibers-l1-1-1 (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"LoadLibrary\" with a parameter kernel32 (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"LoadLibrary\" with a parameter api-ms-win-core-localization-l1-2-1 (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"LoadLibrary\" with a parameter ADVAPI32.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"LoadLibrary\" with a parameter %WINDIR%\\Microsoft.NET\\Framework\\v4.0.30319\\mscoreei.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"LoadLibrary\" with a parameter SHLWAPI.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"LoadLibrary\" with a parameter api-ms-win-appmodel-runtime-l1-1-2.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"LoadLibrary\" with a parameter api-ms-win-appmodel-runtime-l1-1-0.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"LoadLibrary\" with a parameter VERSION.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"LoadLibrary\" with a parameter %WINDIR%\\Microsoft.NET\\Framework\\v4.0.30319\\clr.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"LoadLibrary\" with a parameter USER32.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"LoadLibrary\" with a parameter api-ms-win-core-quirks-l1-1-0.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"LoadLibrary\" with a parameter %WINDIR%\\Microsoft.NET\\Framework\\v4.0.30319\\mscoree.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"LoadLibrary\" with a parameter mscoree.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"LoadLibrary\" with a parameter %WINDIR%\\system32\\combase.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"LoadLibrary\" with a parameter psapi.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"LoadLibrary\" with a parameter %WINDIR%\\assembly\\NativeImages_v4.0.30319_32\\mscorlib\\36eaccfde177c2e7b93b8dbdde4e012a\\mscorlib.ni.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"LoadLibrary\" with a parameter %WINDIR%\\Microsoft.NET\\Framework\\v4.0.30319\\ole32.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"LoadLibrary\" with a parameter ole32.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"LoadLibrary\" with a parameter api-ms-win-core-xstate-l2-1-0.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"LoadLibrary\" with a parameter %WINDIR%\\Microsoft.NET\\Framework\\v4.0.30319\\clrjit.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"LoadLibrary\" with a parameter %WINDIR%\\assembly\\NativeImages_v4.0.30319_32\\System\\2c3c912ea8f058f9d04c4650128feb3f\\System.ni.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"LoadLibrary\" with a parameter %WINDIR%\\assembly\\NativeImages_v4.0.30319_32\\System.Xml\\15af16d373cf0528cb74fc73d365fdbf\\System.Xml.ni.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"LoadLibrary\" with a parameter %WINDIR%\\Microsoft.Net\\assembly\\GAC_32\\mscorlib\\v4.0_4.0.0.0__b77a5c561934e089\\shell32.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"LoadLibrary\" with a parameter shell32.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"LoadLibrary\" with a parameter advapi32.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"LoadLibrary\" with a parameter kernel32.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"LoadLibrary\" with a parameter ntdll.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"LoadLibrary\" with a parameter %WINDIR%\\Microsoft.NET\\Framework\\v4.0.30319\\nlssorting.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"LoadLibrary\" with a parameter %WINDIR%\\system32\\en-US\\tzres.dll.mui (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"LoadLibrary\" with a parameter user32.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"LoadLibrary\" with a parameter %WINDIR%\\Microsoft.Net\\assembly\\GAC_32\\mscorlib\\v4.0_4.0.0.0__b77a5c561934e089\\bcrypt.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"LoadLibrary\" with a parameter bcrypt.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"LoadLibrary\" with a parameter CRYPTSP.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"LoadLibrary\" with a parameter CRYPTBASE.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"LoadLibrary\" with a parameter %WINDIR%\\Microsoft.Net\\assembly\\GAC_MSIL\\System\\v4.0_4.0.0.0__b77a5c561934e089\\ntdll.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"LoadLibrary\" with a parameter SspiCli.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"LoadLibrary\" with a parameter %WINDIR%\\Microsoft.NET\\Framework\\v4.0.30319\\VERSION.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"LoadLibrary\" with a parameter %WINDIR%\\assembly\\NativeImages_v4.0.30319_32\\System.Core\\31fae3290fad30c31c98651462d22724\\System.Core.ni.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"LoadLibrary\" with a parameter %WINDIR%\\assembly\\NativeImages_v4.0.30319_32\\System.Configuration\\96f7edb07b12303f0ec2595c7f3778c7\\System.Configuration.ni.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"LoadLibrary\" with a parameter cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"LoadLibrary\" with a parameter %WINDIR%\\Microsoft.NET\\Framework\\v4.0.30319\\en-US\\mscorrc.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"LoadLibrary\" with a parameter %WINDIR%\\Microsoft.Net\\assembly\\GAC_MSIL\\System\\v4.0_4.0.0.0__b77a5c561934e089\\psapi.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"LoadLibrary\" with a parameter %WINDIR%\\Microsoft.NET\\Framework\\v4.0.30319\\en\\mscorrc.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"LoadLibrary\" with a parameter %WINDIR%\\Microsoft.Net\\assembly\\GAC_MSIL\\System\\v4.0_4.0.0.0__b77a5c561934e089\\rasapi32.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"LoadLibrary\" with a parameter %WINDIR%\\Microsoft.NET\\Framework\\v4.0.30319\\mscorrc.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"LoadLibrary\" with a parameter rasapi32.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"LoadLibrary\" with a parameter %WINDIR%\\Microsoft.NET\\Framework\\v4.0.30319\\diasymreader.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"LoadLibrary\" with a parameter %WINDIR%\\Microsoft.Net\\assembly\\GAC_MSIL\\System\\v4.0_4.0.0.0__b77a5c561934e089\\ws2_32.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"LoadLibrary\" with a parameter ws2_32.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"LoadLibrary\" with a parameter RASMAN.DLL (UID: 00000000-00005916)",
+      "origin": "API Call",
+      "attck_id": "T1129",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1129"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "api-22",
+      "type": 6,
+      "relevance": 1,
+      "name": "Fails to load modules at runtime",
+      "description": "\"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" failed to load missing module \"api-ms-win-core-fibers-l1-1-1\" - [base:0; Status:c0000135]\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" failed to load missing module \"api-ms-win-core-localization-l1-2-1\" - [base:0; Status:c0000135]\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" failed to load missing module \"api-ms-win-appmodel-runtime-l1-1-2.dll\" - [base:0; Status:c0000135]\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" failed to load missing module \"api-ms-win-appmodel-runtime-l1-1-0.dll\" - [base:0; Status:c0000135]\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" failed to load missing module \"api-ms-win-core-quirks-l1-1-0.dll\" - [base:0; Status:c0000135]\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" failed to load missing module \"%WINDIR%\\Microsoft.NET\\Framework\\v4.0.30319\\mscoree.dll\" - [base:0; Status:c0000135]\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" failed to load missing module \"%WINDIR%\\system32\\combase.dll\" - [base:0; Status:c0000135]\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" failed to load missing module \"%WINDIR%\\Microsoft.NET\\Framework\\v4.0.30319\\ole32.dll\" - [base:0; Status:c0000135]\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" failed to load missing module \"%WINDIR%\\Microsoft.Net\\assembly\\GAC_32\\mscorlib\\v4.0_4.0.0.0__b77a5c561934e089\\shell32.dll\" - [base:0; Status:c0000135]\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" failed to load missing module \"%WINDIR%\\Microsoft.Net\\assembly\\GAC_32\\mscorlib\\v4.0_4.0.0.0__b77a5c561934e089\\bcrypt.dll\" - [base:0; Status:c0000135]\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" failed to load missing module \"%WINDIR%\\Microsoft.Net\\assembly\\GAC_MSIL\\System\\v4.0_4.0.0.0__b77a5c561934e089\\ntdll.dll\" - [base:0; Status:c0000135]\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" failed to load missing module \"%WINDIR%\\Microsoft.NET\\Framework\\v4.0.30319\\VERSION.dll\" - [base:0; Status:c0000135]\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" failed to load missing module \"%WINDIR%\\Microsoft.Net\\assembly\\GAC_MSIL\\System\\v4.0_4.0.0.0__b77a5c561934e089\\psapi.dll\" - [base:0; Status:c0000135]\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" failed to load missing module \"%WINDIR%\\Microsoft.Net\\assembly\\GAC_MSIL\\System\\v4.0_4.0.0.0__b77a5c561934e089\\rasapi32.dll\" - [base:0; Status:c0000135]\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" failed to load missing module \"%WINDIR%\\Microsoft.Net\\assembly\\GAC_MSIL\\System\\v4.0_4.0.0.0__b77a5c561934e089\\ws2_32.dll\" - [base:0; Status:c0000135]",
+      "origin": "API Call",
+      "attck_id": "T1574.002",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1574/002"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "module-10",
+      "type": 10,
+      "name": "Loads the RPC (Remote Procedure Call) module DLL",
+      "description": "\"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"%WINDIR%\\System32\\rpcrt4.dll\" at 758C0000",
+      "origin": "Loaded Module",
+      "attck_id": "T1129",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1129"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "module-7",
+      "type": 10,
+      "name": "Loads the CLR Loader DLL",
+      "description": "\"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"%WINDIR%\\Microsoft.NET\\Framework\\v4.0.30319\\clr.dll\" at 64330000\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" loaded module \"%WINDIR%\\Microsoft.NET\\Framework\\v4.0.30319\\clr.dll\" at 64AE0000",
+      "origin": "Loaded Module",
+      "attck_id": "T1620",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1620"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "registry-25",
+      "type": 3,
+      "relevance": 3,
+      "name": "Reads information about supported languages",
+      "description": "\"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\NLS\\LOCALE\"; Key: \"00000409\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\NLS\\CUSTOMLOCALE\"; Key: \"EN-US\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\NLS\\EXTENDEDLOCALE\"; Key: \"EN-US\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Path: \"HKCU\\CONTROL PANEL\\INTERNATIONAL\"; Key: \"SYEARMONTH\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\NLS\\CUSTOMLOCALE\"; Key: \"AR\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\NLS\\EXTENDEDLOCALE\"; Key: \"AR\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\NLS\\CUSTOMLOCALE\"; Key: \"AR-SA\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\NLS\\EXTENDEDLOCALE\"; Key: \"AR-SA\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\NLS\\CUSTOMLOCALE\"; Key: \"BG\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\NLS\\EXTENDEDLOCALE\"; Key: \"BG\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\NLS\\CUSTOMLOCALE\"; Key: \"BG-BG\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\NLS\\EXTENDEDLOCALE\"; Key: \"BG-BG\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\NLS\\CUSTOMLOCALE\"; Key: \"CA\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\NLS\\EXTENDEDLOCALE\"; Key: \"CA\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\NLS\\CUSTOMLOCALE\"; Key: \"CA-ES\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\NLS\\EXTENDEDLOCALE\"; Key: \"CA-ES\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\NLS\\CUSTOMLOCALE\"; Key: \"ZH-HANS\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\NLS\\EXTENDEDLOCALE\"; Key: \"ZH-HANS\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\NLS\\CUSTOMLOCALE\"; Key: \"ZH-CN\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\NLS\\EXTENDEDLOCALE\"; Key: \"ZH-CN\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\NLS\\CUSTOMLOCALE\"; Key: \"CS\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\NLS\\EXTENDEDLOCALE\"; Key: \"CS\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\NLS\\CUSTOMLOCALE\"; Key: \"CS-CZ\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\NLS\\EXTENDEDLOCALE\"; Key: \"CS-CZ\")",
+      "origin": "Registry Access",
+      "attck_id": "T1082",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1082"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "static-157",
+      "name": "Matched Compiler/Packer signature (DIE)",
+      "description": "\"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229\" was detected as \".NET\"  and name: \"Library\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229\" was detected as \"Microsoft Linker\"  and name: \"Linker\"",
+      "origin": "Static Parser",
+      "attck_id": "T1027",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1027"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "static-154",
+      "name": "File contains dynamic base/NX flags",
+      "description": "\"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229\" has flags like  IMAGE_DLLCHARACTERISTICS_NO_SEH\n IMAGE_DLLCHARACTERISTICS_TERMINAL_SERVER_AWARE\n IMAGE_DLLCHARACTERISTICS_DYNAMIC_BASE\n IMAGE_DLLCHARACTERISTICS_NX_COMPAT\n IMAGE_DLLCHARACTERISTICS_HIGH_ENTROPY_VA",
+      "origin": "Static Parser"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "static-138",
+      "relevance": 1,
+      "name": "Dotnet code contains ability to query registry",
+      "description": "Observed namespace \"Microsoft.Win32.RegistryKey\" and TypeReference \"OpenSubKey\" in \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229\"\n Observed namespace \"Microsoft.Win32.RegistryKey\" and TypeReference \"GetValue\" in \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229\"\n Observed namespace \"Microsoft.Win32.RegistryKey\" and TypeReference \"GetSubKeyNames\" in \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229\"\n Observed namespace \"Microsoft.Win32.RegistryKey\" and TypeReference \"OpenBaseKey\" in \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229\"",
+      "origin": "Static Parser",
+      "attck_id": "T1012",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1012"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "static-126",
+      "relevance": 1,
+      "name": "Dotnet source code contains suspicious native API",
+      "description": "Observed API \"LoadLibrary\" in \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229\"\n Observed API \"GetProcAddress\" in \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229\"",
+      "origin": "Static Parser",
+      "attck_id": "T1106",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1106"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Unusual Characteristics",
+      "identifier": "registry-26",
+      "type": 3,
+      "relevance": 2,
+      "name": "Reads the windows installation language",
+      "description": "\"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\NLS\\LANGUAGE GROUPS\"; Key: \"1\")",
+      "origin": "Registry Access",
+      "attck_id": "T1614.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1614/001"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "api-126",
+      "type": 6,
+      "relevance": 3,
+      "name": "Tries to access non-existent files (executable)",
+      "description": "\"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to access non-existent file \"C:\\FLTLIB.DLL\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to access non-existent file \"C:\\Windows\\system32\\api-ms-win-core-fibers-l1-1-1.DLL\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to access non-existent file \"C:\\Windows\\system32\\api-ms-win-core-localization-l1-2-1.DLL\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to access non-existent file \"C:\\Windows\\Microsoft.NET\\Framework\\v1.0.3705\\clr.dll\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to access non-existent file \"C:\\Windows\\Microsoft.NET\\Framework\\v1.0.3705\\mscorwks.dll\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to access non-existent file \"C:\\Windows\\Microsoft.NET\\Framework\\v1.1.4322\\clr.dll\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to access non-existent file \"C:\\Windows\\Microsoft.NET\\Framework\\v1.1.4322\\mscorwks.dll\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to access non-existent file \"C:\\Windows\\Microsoft.NET\\Framework\\v2.0.50727\\clr.dll\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to access non-existent file \"C:\\Windows\\system32\\api-ms-win-appmodel-runtime-l1-1-2.dll\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to access non-existent file \"C:\\Windows\\system32\\api-ms-win-appmodel-runtime-l1-1-0.dll\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to access non-existent file \"C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319\\VCRUNTIME140_CLR0400.dll\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to access non-existent file \"C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319\\ucrtbase_clr0400.dll\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to access non-existent file \"C:\\Windows\\system32\\api-ms-win-core-quirks-l1-1-0.dll\"",
+      "origin": "API Call",
+      "attck_id": "T1083",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1083"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "api-264",
+      "type": 6,
+      "relevance": 3,
+      "name": "Creates a thread in a self process",
+      "description": "\"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" creates a thread in process \"-1\" (Handle: 4294967295)",
+      "origin": "API Call",
+      "attck_id": "T1055.003",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1055/003"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "api-263",
+      "type": 6,
+      "relevance": 1,
+      "name": "Touches files",
+      "description": "\"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to touch file \"C:\\Windows\\SYSTEM32\\MSCOREE.DLL\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to touch file \"C:\\Windows\\SYSTEM32\\sechost.dll\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to touch file \"C:\\Windows\\Temp\\VxOle32.dll\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to touch file \"C:\\FLTLIB.DLL\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to touch file \"C:\\Windows\\system32\\FLTLIB.DLL\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to touch file \"C:\\Windows\\system32\\IMM32.DLL\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to touch file \"C:\\Windows\\system32\\api-ms-win-core-synch-l1-2-0.DLL\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to touch file \"C:\\Windows\\system32\\api-ms-win-core-fibers-l1-1-1.DLL\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to touch file \"C:\\Windows\\system32\\api-ms-win-core-localization-l1-2-1.DLL\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to touch file \"\\FileSystem\\Filters\\FltMgrMsg\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to touch file \"C:\\Windows\\Temp\\VxSSL32.dll\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to touch file \"C:\\Windows\\SYSTEM32\\MSCOREE.DLL.local\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to touch file \"C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319\\mscoreei.dll\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to touch file \"C:\\Windows\\Microsoft.NET\\Framework\\v1.0.3705\\clr.dll\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to touch file \"C:\\Windows\\Microsoft.NET\\Framework\\v1.0.3705\\mscorwks.dll\"",
+      "origin": "API Call",
+      "attck_id": "T1083",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1083"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "api-161",
+      "type": 6,
+      "relevance": 3,
+      "name": "Tries to access non-existent files (non-executable)",
+      "description": "\"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to access non-existent file \"C:\\Windows\\SYSTEM32\\MSCOREE.DLL.local\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to access non-existent file \"C:\\cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe.config\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to access non-existent file \"C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319\\fusion.localgac\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to access non-existent file \"C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\Insidious\\\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to access non-existent file \"C:\\cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.INI\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to access non-existent file \"C:\\Users\\%OSUSER%\\AppData\\Roaming\\bytecoin\\\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to access non-existent file \"C:\\Users\\%OSUSER%\\AppData\\Roaming\\Zcash\\\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to access non-existent file \"C:\\Users\\Public\\g4h7miqt.default\\logins.json\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to access non-existent file \"C:\\Windows\\Microsoft.Net\\assembly\\GAC_32\\mscorlib\\v4.0_4.0.0.0__b77a5c561934e089\\mscorlib.pdb\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to access non-existent file \"C:\\Windows\\mscorlib.pdb\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to access non-existent file \"C:\\cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.PDB\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to access non-existent file \"C:\\Insidious.pdb\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to access non-existent file \"C:\\Windows\\Insidious.pdb\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to access non-existent file \"C:\\Windows\\System32\\MSCOREE.DLL.LOCAL\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to access non-existent file \"C:\\CC7D38CDC5F43A9A157D4C71445A4F4BD46D47E4221113886A9E8D2B50C76229.EXE.CONFIG\"",
+      "origin": "API Call",
+      "attck_id": "T1083",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1083"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "api-243",
+      "type": 6,
+      "relevance": 1,
+      "name": "Reads files",
+      "description": "\"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" reads file \"c:\\windows\\microsoft.net\\framework\\v4.0.30319\\config\\machine.config\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" reads file \"c:\\windows\\assembly\\nativeimages_v4.0.30319_32\\mscorlib\\36eaccfde177c2e7b93b8dbdde4e012a\\mscorlib.ni.dll.aux\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" reads file \"c:\\windows\\assembly\\nativeimages_v4.0.30319_32\\system.xml\\15af16d373cf0528cb74fc73d365fdbf\\system.xml.ni.dll.aux\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" reads file \"c:\\windows\\assembly\\nativeimages_v4.0.30319_32\\system\\0b2f69b43a576b9edcc807a30872bd91\\system.ni.dll.aux\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" reads file \"c:\\windows\\assembly\\nativeimages_v4.0.30319_32\\system\\2c3c912ea8f058f9d04c4650128feb3f\\system.ni.dll.aux\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" reads file \"c:\\users\\%osuser%\\appdata\\roaming\\mozilla\\firefox\\profiles\\g4h7miqt.default\\places.sqlite\"",
+      "origin": "API Call",
+      "attck_id": "T1083",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1083"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "api-242",
+      "type": 6,
+      "relevance": 1,
+      "name": "Writes files",
+      "description": "\"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" writes file \"c:\\users\\%osuser%\\appdata\\local\\temp\\tmpd123.tmp.tmpdb\"",
+      "origin": "API Call"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "api-159",
+      "type": 6,
+      "relevance": 1,
+      "name": "Writes log files",
+      "description": "\"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" writes a file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\tmpD1C0.tmp.dat\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" writes a file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\tmpD460.tmp.dat\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" writes a file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\tmpD471.tmp.dat\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" writes a file \"C:\\Users\\Public\\g4h7miqt.default\\key3.db\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" writes a file \"%TEMP%\\tmpD1C0.tmp.dat\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" writes a file \"%TEMP%\\tmpD460.tmp.dat\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" writes a file \"%PUBLIC%\\g4h7miqt.default\\key3.db\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" writes a file \"%TEMP%\\tmpD471.tmp.dat\"",
+      "origin": "API Call",
+      "attck_id": "T1074.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1074/001"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "binary-0",
+      "type": 8,
+      "relevance": 3,
+      "name": "Dropped files",
+      "description": "\"tmpD52D.tmp.tmpdb\" has type \"SQLite 3.x database user version 8 last written using SQLite version 3020001 page size 32768 writer version 2 read version 2 file counter 4 database pages 4 cookie 0x2 schema 4 UTF-8 version-valid-for 4\"- Location: [%TEMP%\\tmpD52D.tmp.tmpdb]- [targetUID: 00000000-00005916]\n \"tmpD1C0.tmp.dat\" has type \"SQLite 3.x database last written using SQLite version 3039004 page size 2048 file counter 2 database pages 50 cookie 0x22 schema 4 UTF-8 version-valid-for 2\"- Location: [%TEMP%\\tmpD1C0.tmp.dat]- [targetUID: 00000000-00005916]\n \"tmpD460.tmp.dat\" has type \"SQLite 3.x database last written using SQLite version 3039004 page size 2048 file counter 1 database pages 23 cookie 0xd schema 4 UTF-8 version-valid-for 1\"- Location: [%TEMP%\\tmpD460.tmp.dat]- [targetUID: 00000000-00005916]\n \"key3.db\" has type \"Berkeley DB 1.85 (Hash version 2 native byte-order)\"- Location: [%PUBLIC%\\g4h7miqt.default\\key3.db]- [targetUID: 00000000-00005916]\n \"Amazon_Downloader_Log_20171206-225712_1810e9e0-1a8d-457c-be3a-737de50dc6bb.txt\" has type \"ASCII text\"- Location: [%ALLUSERSPROFILE%\\44\\Files\\Amazon Downloader Logs\\Amazon_Downloader_Log_20171206-225712_1810e9e0-1a8d-457c-be3a-737de50dc6bb.txt]- [targetUID: 00000000-00005916]\n \"tmpD471.tmp.dat\" has type \"SQLite 3.x database last written using SQLite version 3039004 page size 2048 file counter 2 database pages 50 cookie 0x22 schema 4 UTF-8 version-valid-for 2\"- Location: [%TEMP%\\tmpD471.tmp.dat]- [targetUID: 00000000-00005916]",
+      "origin": "Binary File",
+      "attck_id": "T1105",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1105"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "registry-177",
+      "type": 3,
+      "relevance": 1,
+      "name": "Opens registry keys",
+      "description": "\"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Access type: \"OPEN\"; Path: \"HKCU\\SOFTWARE\"; Key: \"\"; Value: \"\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Access type: \"OPEN\"; Path: \"HKCU\\SOFTWARE\\BITCOIN\"; Key: \"\"; Value: \"\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Access type: \"OPEN\"; Path: \"HKCU\\SOFTWARE\\DASH\"; Key: \"\"; Value: \"\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Access type: \"OPEN\"; Path: \"HKCU\\SOFTWARE\\LITECOIN\"; Key: \"\"; Value: \"\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Access type: \"OPEN\"; Path: \"HKCU\\SOFTWARE\\MONERO-PROJECT\"; Key: \"\"; Value: \"\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Access type: \"OPEN\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\FUSION\\PUBLISHERPOLICY\\DEFAULT\\V4.0_POLICY.4.0.SYSTEM.CONFIGURATION__B03F5F7F11D50A3A\"; Key: \"\"; Value: \"\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Access type: \"OPEN\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\FUSION\\PUBLISHERPOLICY\\DEFAULT\\POLICY.4.0.SYSTEM.CONFIGURATION__B03F5F7F11D50A3A\"; Key: \"\"; Value: \"\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Access type: \"OPEN\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\FUSION\\PUBLISHERPOLICY\\DEFAULT\\V4.0_POLICY.4.0.SYSTEM.SECURITY__B03F5F7F11D50A3A\"; Key: \"\"; Value: \"\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Access type: \"OPEN\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\FUSION\\PUBLISHERPOLICY\\DEFAULT\\POLICY.4.0.SYSTEM.SECURITY__B03F5F7F11D50A3A\"; Key: \"\"; Value: \"\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Access type: \"OPEN\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\FUSION\\PUBLISHERPOLICY\\DEFAULT\\V4.0_POLICY.4.0.SYSTEM.CORE__B77A5C561934E089\"; Key: \"\"; Value: \"\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Access type: \"OPEN\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\FUSION\\PUBLISHERPOLICY\\DEFAULT\\POLICY.4.0.SYSTEM.CORE__B77A5C561934E089\"; Key: \"\"; Value: \"\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Access type: \"OPEN\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\FUSION\\PUBLISHERPOLICY\\DEFAULT\\V4.0_POLICY.4.0.SYSTEM.NUMERICS__B77A5C561934E089\"; Key: \"\"; Value: \"\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Access type: \"OPEN\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\FUSION\\PUBLISHERPOLICY\\DEFAULT\\POLICY.4.0.SYSTEM.NUMERICS__B77A5C561934E089\"; Key: \"\"; Value: \"\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Access type: \"OPEN\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\.NETFRAMEWORK\\XML\"; Key: \"\"; Value: \"\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Access type: \"OPEN\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\.NETFRAMEWORK\\XML\"; Key: \"\"; Value: \"\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Access type: \"OPEN\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\WINDOWS NT\\CURRENTVERSION\"; Key: \"\"; Value: \"\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Access type: \"OPEN\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\.NETFRAMEWORK\\V4.0.30319\"; Key: \"\"; Value: \"\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Access type: \"OPEN\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\.NETFRAMEWORK\\V4.0.30319\\SYSTEM.NET.SERVICEPOINTMANAGER.USEHTTPPIPELININGANDBUFFERPOOLING\"; Key: \"\"; Value: \"\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Access type: \"OPEN\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\.NETFRAMEWORK\\V4.0.30319\\SYSTEM.NET.SERVICEPOINTMANAGER.USESAFESYNCHRONOUSCLOSE\"; Key: \"\"; Value: \"\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Access type: \"OPEN\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\.NETFRAMEWORK\\V4.0.30319\\SYSTEM.NET.SERVICEPOINTMANAGER.USESTRICTRFCINTERIMRESPONSEHANDLING\"; Key: \"\"; Value: \"\")",
+      "origin": "Registry Access",
+      "attck_id": "T1012",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1012"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "api-55",
+      "type": 6,
+      "relevance": 7,
+      "name": "Touches files in the Windows directory",
+      "description": "\"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" touched file \"C:\\Windows\\Microsoft.NET\\Framework\\v1.0.3705\\clr.dll\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" touched file \"C:\\Windows\\Microsoft.NET\\Framework\\v1.0.3705\\mscorwks.dll\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" touched file \"C:\\Windows\\Microsoft.NET\\Framework\\v1.1.4322\\clr.dll\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" touched file \"C:\\Windows\\Microsoft.NET\\Framework\\v1.1.4322\\mscorwks.dll\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" touched file \"C:\\Windows\\Microsoft.NET\\Framework\\v2.0.50727\\clr.dll\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" touched file \"C:\\Windows\\Microsoft.Net\\assembly\\GAC_32\\mscorlib\\v4.0_4.0.0.0__b77a5c561934e089\\mscorlib.pdb\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" touched file \"C:\\Windows\\mscorlib.pdb\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" touched file \"C:\\Windows\\Insidious.pdb\"",
+      "origin": "API Call",
+      "attck_id": "T1083",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1083"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "api-235",
+      "type": 6,
+      "relevance": 1,
+      "name": "Queries basic information of the specified process",
+      "description": "\"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" queries basic process information of the  \"C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319\\mscorrc.dll\" (UID: 5916)",
+      "origin": "API Call",
+      "attck_id": "T1057",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1057"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistence",
+      "identifier": "registry-172",
+      "type": 3,
+      "relevance": 1,
+      "name": "Queries registry keys",
+      "description": "\"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\NLS\\LOCALE\"; Key: \"00000409\"; Value: \"\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\NLS\\LANGUAGE GROUPS\"; Key: \"1\"; Value: \"\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\WMI\\SECURITY\"; Key: \"8E9F5090-2D75-4D03-8A81-E5AFBF85DAF1\"; Value: \"\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\WINDOWS NT\\CURRENTVERSION\"; Key: \"INSTALLATIONTYPE\"; Value: \"\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\.NETFRAMEWORK\\V4.0.30319\"; Key: \"HWRPORTREUSEONSOCKETBIND\"; Value: \"\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\.NETFRAMEWORK\\V4.0.30319\"; Key: \"USEHTTPPIPELININGANDBUFFERPOOLING\"; Value: \"\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\.NETFRAMEWORK\\V4.0.30319\"; Key: \"USESAFESYNCHRONOUSCLOSE\"; Value: \"\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\.NETFRAMEWORK\\V4.0.30319\"; Key: \"USESTRICTRFCINTERIMRESPONSEHANDLING\"; Value: \"\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\.NETFRAMEWORK\\V4.0.30319\"; Key: \"ALLOWDANGEROUSUNICODEDECOMPOSITIONS\"; Value: \"\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\.NETFRAMEWORK\\V4.0.30319\"; Key: \"USESTRICTIPV6ADDRESSPARSING\"; Value: \"\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\.NETFRAMEWORK\\V4.0.30319\"; Key: \"ALLOWALLURIENCODINGEXPANSION\"; Value: \"\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\.NETFRAMEWORK\\V4.0.30319\"; Key: \"SCHUSESTRONGCRYPTO\"; Value: \"\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\.NETFRAMEWORK\\V4.0.30319\"; Key: \"SCHSENDAUXRECORD\"; Value: \"\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\.NETFRAMEWORK\\V4.0.30319\"; Key: \"SYSTEMDEFAULTTLSVERSIONS\"; Value: \"\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\.NETFRAMEWORK\\V4.0.30319\"; Key: \"REQUIRECERTIFICATEEKUS\"; Value: \"\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\TRACING\"; Key: \"ENABLECONSOLETRACING\"; Value: \"\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\TRACING\\RASAPI32\"; Key: \"ENABLEFILETRACING\"; Value: \"\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\TRACING\\RASAPI32\"; Key: \"FILETRACINGMASK\"; Value: \"\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\TRACING\\RASAPI32\"; Key: \"ENABLECONSOLETRACING\"; Value: \"\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\TRACING\\RASAPI32\"; Key: \"CONSOLETRACINGMASK\"; Value: \"\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\TRACING\\RASAPI32\"; Key: \"MAXFILESIZE\"; Value: \"\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\TRACING\\RASAPI32\"; Key: \"FILEDIRECTORY\"; Value: \"\")",
+      "origin": "Registry Access",
+      "attck_id": "T1012",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1012"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Anti-Detection/Stealthyness",
+      "identifier": "static-135",
+      "relevance": 1,
+      "name": "Dotnet file contains function to dynamically call methods at runtime",
+      "description": "Observed namespace \"System.Diagnostics\" and MemberReference \"GetMethod\" in \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229\"",
+      "origin": "Static Parser",
+      "attck_id": "T1027.002",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1027/002"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Environment Awareness",
+      "identifier": "api-11",
+      "type": 6,
+      "relevance": 2,
+      "name": "Queries volume information",
+      "description": "\"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" queries volume information of \"C:\\cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" at 00000000-00005916-0000010C-2778551",
+      "origin": "API Call",
+      "attck_id": "T1082",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1082"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Environment Awareness",
+      "identifier": "api-222",
+      "type": 6,
+      "relevance": 2,
+      "name": "Calls an API typically used to retrieve OS information",
+      "description": "\"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"GetVersionExA\" with parameter 940000000600000001000000b11d00000200000053657276696365205061636b2031000000000000000000000000000000000000000001005c005300b82809000f00010e7255000e63006f006e00660069006700750072006100740069006f006e00000055004200570053005c0041000b00000b08550000b828090088bb08006f00630061006c005c00500072006f0067007200 (UID: 00000000-00005916)",
+      "origin": "API Call",
+      "attck_id": "T1082",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1082"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Environment Awareness",
+      "identifier": "api-125",
+      "type": 6,
+      "relevance": 3,
+      "name": "Calls an API typically used to get system version information",
+      "description": "\"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"RtlGetVersion\" with parameter 1c0100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b0020003100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"RtlGetVersion\" with parameter 140100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b0020003100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"RtlGetVersion\" with parameter 1c0100000600000001000000b11d000002000000530065007200760069006300650020005000610063006b00200031000000000074010600000000000600000000000000500106001a000000982a0a00000000001a000000000000001400000000000000000000000000000000000000000000000200000288bb0800630400670000000000000000000000008000000000000000aa26008c80030a000100000000000000020000000c000000b8af0900b8af0900b3af090000000000000000000000060000000001ecef2900000000000cf6290095e1547741283700feffffff435c58775059587794000000a0000000b2af0900b0af09009400000090f12900fdfe3477180000002d2d7582c386166bc0022900 (UID: 00000000-00005916)",
+      "origin": "API Call",
+      "attck_id": "T1082",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1082"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Environment Awareness",
+      "identifier": "api-146",
+      "type": 6,
+      "relevance": 3,
+      "name": "Calls an API typically used to determine if process is running under WOW64",
+      "description": "\"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"IsWow64Process\" with parameter \"5916\" - (UID: 00000000-00005916)",
+      "origin": "API Call",
+      "attck_id": "T1057",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1057"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Environment Awareness",
+      "identifier": "registry-35",
+      "type": 3,
+      "relevance": 5,
+      "name": "Reads the active computer name",
+      "description": "\"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\COMPUTERNAME\\ACTIVECOMPUTERNAME\"; Key: \"COMPUTERNAME\")",
+      "origin": "Registry Access",
+      "attck_id": "T1082",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1082"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Environment Awareness",
+      "identifier": "api-124",
+      "type": 6,
+      "relevance": 3,
+      "name": "Calls an API typically used to get product type",
+      "description": "\"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"RtlGetNtProductType\" with parameter 01000000 (UID: 00000000-00005916)",
+      "origin": "API Call",
+      "attck_id": "T1082",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1082"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Environment Awareness",
+      "identifier": "registry-1",
+      "type": 3,
+      "relevance": 5,
+      "name": "Reads the cryptographic machine GUID",
+      "description": "\"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Path: \"HKLM\\SOFTWARE\\MICROSOFT\\CRYPTOGRAPHY\"; Key: \"MACHINEGUID\")",
+      "origin": "Registry Access",
+      "attck_id": "T1082",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1082"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Spyware/Information Retrieval",
+      "identifier": "api-102",
+      "type": 6,
+      "relevance": 5,
+      "name": "Calls an API typically used for searching a directory for files",
+      "description": "\"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"FindFirstFileW\" with parameter %WINDIR%\\Microsoft.NET\\Framework\\v4.0.30319\\mscoreei.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"FindFirstFileW\" with parameter %WINDIR%\\Microsoft.NET\\Framework\\\\* (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"FindNextFileW\" with parameter .. (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"FindNextFileW\" with parameter NETFXSBS10.exe (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"FindNextFileW\" with parameter netfxsbs12.hkf (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"FindNextFileW\" with parameter sbscmp10.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"FindNextFileW\" with parameter sbscmp20_mscorwks.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"FindNextFileW\" with parameter sbscmp20_perfcounter.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"FindNextFileW\" with parameter sbs_diasymreader.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"FindNextFileW\" with parameter sbs_iehost.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"FindNextFileW\" with parameter sbs_microsoft.jscript.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"FindNextFileW\" with parameter sbs_microsoft.vsa.vb.codedomprocessor.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"FindNextFileW\" with parameter sbs_mscordbi.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"FindNextFileW\" with parameter sbs_mscorrc.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"FindNextFileW\" with parameter sbs_mscorsec.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"FindNextFileW\" with parameter sbs_system.configuration.install.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"FindNextFileW\" with parameter sbs_system.data.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"FindNextFileW\" with parameter sbs_system.enterpriseservices.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"FindNextFileW\" with parameter sbs_VsaVb7rt.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"FindNextFileW\" with parameter sbs_wminet_utils.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"FindNextFileW\" with parameter SharedReg12.dll (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"FindNextFileW\" with parameter v1.0.3705 (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"FindNextFileW\" with parameter v1.1.4322 (UID: 00000000-00005916)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"FindNextFileW\" with parameter v2.0.50727 (UID: 00000000-00005916)",
+      "origin": "API Call",
+      "attck_id": "T1083",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1083"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Spyware/Information Retrieval",
+      "identifier": "api-103",
+      "type": 6,
+      "relevance": 3,
+      "name": "Calls an API typically used for taking snapshot of the specified processes",
+      "description": "\"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called \"CreateToolhelp32Snapshot\" with parameters {\"dwFlags\": \"4\"\n \"th32ProcessID\": \"0\"}",
+      "origin": "API Call",
+      "attck_id": "T1057",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1057"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "System Security",
+      "identifier": "registry-173",
+      "type": 3,
+      "relevance": 1,
+      "name": "Queries services related registry keys",
+      "description": "\"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\WINSOCK2\\PARAMETERS\"; Key: \"WINSOCK_REGISTRY_VERSION\"; Value: \"\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\WINSOCK2\\PARAMETERS\"; Key: \"NAMESPACE_CALLOUT\"; Value: \"\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\WINSOCK2\\PARAMETERS\\PROTOCOL_CATALOG9\"; Key: \"SERIAL_ACCESS_NUM\"; Value: \"\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\WINSOCK2\\PARAMETERS\\PROTOCOL_CATALOG9\"; Key: \"NEXT_CATALOG_ENTRY_ID\"; Value: \"\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\WINSOCK2\\PARAMETERS\\PROTOCOL_CATALOG9\"; Key: \"NUM_CATALOG_ENTRIES\"; Value: \"\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\WINSOCK2\\PARAMETERS\\PROTOCOL_CATALOG9\\CATALOG_ENTRIES\\000000000001\"; Key: \"PACKEDCATALOGITEM\"; Value: \"\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\WINSOCK2\\PARAMETERS\\PROTOCOL_CATALOG9\\CATALOG_ENTRIES\\000000000002\"; Key: \"PACKEDCATALOGITEM\"; Value: \"\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\WINSOCK2\\PARAMETERS\\PROTOCOL_CATALOG9\\CATALOG_ENTRIES\\000000000003\"; Key: \"PACKEDCATALOGITEM\"; Value: \"\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\WINSOCK2\\PARAMETERS\\PROTOCOL_CATALOG9\\CATALOG_ENTRIES\\000000000004\"; Key: \"PACKEDCATALOGITEM\"; Value: \"\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\WINSOCK2\\PARAMETERS\\PROTOCOL_CATALOG9\\CATALOG_ENTRIES\\000000000005\"; Key: \"PACKEDCATALOGITEM\"; Value: \"\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\WINSOCK2\\PARAMETERS\\PROTOCOL_CATALOG9\\CATALOG_ENTRIES\\000000000006\"; Key: \"PACKEDCATALOGITEM\"; Value: \"\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\WINSOCK2\\PARAMETERS\\PROTOCOL_CATALOG9\\CATALOG_ENTRIES\\000000000007\"; Key: \"PACKEDCATALOGITEM\"; Value: \"\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\WINSOCK2\\PARAMETERS\\PROTOCOL_CATALOG9\\CATALOG_ENTRIES\\000000000008\"; Key: \"PACKEDCATALOGITEM\"; Value: \"\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Access type: \"QUERYVAL\"; Path: \"HKLM\\SYSTEM\\CONTROLSET001\\SERVICES\\WINSOCK2\\PARAMETERS\\PROTOCOL_CATALOG9\\CATALOG_ENTRIES\\000000000009\"; Key: \"PACKEDCATALOGITEM\"; Value: \"\")",
+      "origin": "Registry Access",
+      "attck_id": "T1007",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1007"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "System Security",
+      "identifier": "api-111",
+      "type": 6,
+      "relevance": 3,
+      "name": "Calls an API typically used to enable or disable privileges in the specified access token",
+      "description": "\"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" called an API \"AdjustTokenPrivileges\"on file: C:\\Windows\\System32\\rsaenh.dll\" (UID: 00000000-00005916)",
+      "origin": "API Call",
+      "attck_id": "T1134",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1134"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "System Security",
+      "identifier": "api-37",
+      "type": 6,
+      "relevance": 10,
+      "name": "Opens the Kernel Security Device Driver (KsecDD) of Windows",
+      "description": "\"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" opened \"\\Device\\KsecDD\"",
+      "origin": "API Call"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "Unusual Characteristics",
+      "identifier": "static-3",
+      "relevance": 10,
+      "name": "Timestamp in PE header is very old or in the future",
+      "description": "\"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229\" claims program is from Mon Aug 29 19:20:53 2067",
+      "origin": "Static Parser",
+      "attck_id": "T1027",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1027"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "Anti-Detection/Stealthyness",
+      "identifier": "api-9",
+      "type": 6,
+      "relevance": 4,
+      "name": "Queries process information",
+      "description": "\"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" queried SystemProcessInformation at 00000000-00005916-00000105-5481489 [PID: 5916]\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" queried SystemProcessInformation at 00000000-00005916-00000105-5483290 [PID: 5916]\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" queried SystemProcessInformation at 00000000-00005916-00000105-5682729 [PID: 5916]",
+      "origin": "API Call",
+      "attck_id": "T1057",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1057"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "Anti-Detection/Stealthyness",
+      "identifier": "api-10",
+      "type": 6,
+      "relevance": 6,
+      "name": "Queries kernel debugger information",
+      "description": "\"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" at 00000000-00005916-00000105-5207236",
+      "origin": "API Call",
+      "attck_id": "T1622",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1622"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "Anti-Reverse Engineering",
+      "identifier": "string-6",
+      "type": 2,
+      "relevance": 2,
+      "name": "Uses a .NET obfuscator to hide its code",
+      "description": "\"nknown compression method (0x{0:X2})\" is a hint for the obfuscator \"MPRESS\"\n \"riting with decompression is not supported.\" is a hint for the obfuscator \"MPRESS\"\n \"eading with compression is not supported.\" is a hint for the obfuscator \"MPRESS\"\n \"Compression: {0}\" is a hint for the obfuscator \"MPRESS\"\n \"Compressed: 0x{0:X}\" is a hint for the obfuscator \"MPRESS\"\n \"Uncompressed: 0x{0:X}\" is a hint for the obfuscator \"MPRESS\"\n \"nsupported compression method.\" is a hint for the obfuscator \"MPRESS\"\n \"ad read of entry {0} from compressed archive.\" is a hint for the obfuscator \"MPRESS\"\n \"ntry {0} uses an unsupported compression method (0x{1:X2}, {2})\" is a hint for the obfuscator \"MPRESS\"\n \"ompressed or Uncompressed size, or offset exceeds the maximum value. Consider setting the UseZip64WhenSaving property on the ZipFile instance.\" is a hint for the obfuscator \"MPRESS\"\n \"0}: mismatch in CompressedSize  (0x{1:X16} != 0x{2:X16})\" is a hint for the obfuscator \"MPRESS\"\n \"0}: mismatch in UncompressedSize  (0x{1:X16} != 0x{2:X16})\" is a hint for the obfuscator \"MPRESS\"\n \"0}: mismatch in CompressionMethod  (0x{1:X4} != 0x{2:X4})\" is a hint for the obfuscator \"MPRESS\"\n \"_newlyCompressedBlob\" is a hint for the obfuscator \"MPRESS\"\n \"CompressFunc\" is a hint for the obfuscator \"MPRESS\"\n \"_latestCompressed\" is a hint for the obfuscator \"MPRESS\"\n \"compressed\" is a hint for the obfuscator \"MPRESS\"\n \"<CompressionMethod>k__BackingField\" is a hint for the obfuscator \"MPRESS\"\n \"<CompressionLevel>k__BackingField\" is a hint for the obfuscator \"MPRESS\"\n \"<SetCompression>k__BackingField\" is a hint for the obfuscator \"MPRESS\"\n \"get_CompressionMethod\" is a hint for the obfuscator \"MPRESS\"\n \"set_CompressionMethod\" is a hint for the obfuscator \"MPRESS\"\n \"get_UnsupportedCompressionMethod\" is a hint for the obfuscator \"MPRESS\"\n \"_compressionMethod\" is a hint for the obfuscator \"MPRESS\"\n \"CompressionMode\" is a hint for the obfuscator \"MPRESS\"",
+      "origin": "File/Memory",
+      "attck_id": "T1140",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1140"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "Anti-Reverse Engineering",
+      "identifier": "api-1",
+      "type": 6,
+      "relevance": 10,
+      "name": "Creates guarded memory regions (anti-debugging trick to avoid memory dumping)",
+      "description": "\"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" is allocating memory with PAGE_GUARD access rights (Handle: 4294967295); (PID: 5916)",
+      "origin": "API Call",
+      "attck_id": "T1562.001",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1562/001"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "Spyware/Information Retrieval",
+      "identifier": "handle-0",
+      "type": 5,
+      "relevance": 7,
+      "name": "Accesses potentially sensitive information from local browsers",
+      "description": "\"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" had access to \"C:\\Users\\%OSUSER%\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Web Data\" (Type: \"FileHandle\")",
+      "origin": "Touched Handle",
+      "attck_id": "T1005",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1005"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "System Destruction",
+      "identifier": "api-26",
+      "type": 6,
+      "relevance": 10,
+      "name": "Marks file for deletion",
+      "description": "\"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" marked \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\tmpD1C0.tmp.dat\" for deletion\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" marked \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\tmpD460.tmp.dat\" for deletion\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" marked \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\tmpD471.tmp.dat\" for deletion\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" marked \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\tmpD123.tmp.tmpdb\" for deletion\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" marked \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\tmpD52D.tmp.tmpdb\" for deletion",
+      "origin": "API Call",
+      "attck_id": "T1070.004",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1070/004"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "System Destruction",
+      "identifier": "api-25",
+      "type": 6,
+      "relevance": 7,
+      "name": "Opens file with deletion access rights",
+      "description": "\"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" opened \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\tmpD1C0.tmp.dat\" with delete access\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" opened \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\tmpD460.tmp.dat\" with delete access\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" opened \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\tmpD471.tmp.dat\" with delete access\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" opened \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\tmpD123.tmp.tmpdb\" with delete access\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" opened \"C:\\Users\\%OSUSER%\\AppData\\Local\\Temp\\tmpD52D.tmp.tmpdb\" with delete access",
+      "origin": "API Call",
+      "attck_id": "T1070.004",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1070/004"
+    },
+    {
+      "threat_level": 2,
+      "threat_level_human": "malicious",
+      "category": "Anti-Detection/Stealthyness",
+      "identifier": "registry-30",
+      "type": 3,
+      "relevance": 5,
+      "name": "Modifies file/console tracing settings (often used to hide footprints on system)",
+      "description": "\"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Path: \"HKLM\\SOFTWARE\\MICROSOFT\\TRACING\\RASAPI32\"; Key: \"ENABLEFILETRACING\"; Value: \"00000000\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Path: \"HKLM\\SOFTWARE\\MICROSOFT\\TRACING\\RASAPI32\"; Key: \"ENABLECONSOLETRACING\"; Value: \"00000000\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Path: \"HKLM\\SOFTWARE\\MICROSOFT\\TRACING\\RASAPI32\"; Key: \"FILETRACINGMASK\"; Value: \"0000FFFF\")\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" (Path: \"HKLM\\SOFTWARE\\MICROSOFT\\TRACING\\RASAPI32\"; Key: \"CONSOLETRACINGMASK\"; Value: \"0000FFFF\")",
+      "origin": "Registry Access",
+      "attck_id": "T1112",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1112"
+    },
+    {
+      "threat_level": 2,
+      "threat_level_human": "malicious",
+      "category": "Spyware/Information Retrieval",
+      "identifier": "api-101",
+      "type": 6,
+      "relevance": 10,
+      "name": "Tries to steal Crypto currency wallets information (file access)",
+      "description": "\"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to touch file \"C:\\Users\\%OSUSER%\\AppData\\Roaming\\Zcash\\\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to touch file \"C:\\Users\\%OSUSER%\\AppData\\Roaming\\ATOMIC\\LOCAL STORAGE\\LEVELDB\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to touch file \"C:\\Users\\%OSUSER%\\AppData\\Roaming\\ELECTRUM\\WALLETS\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to touch file \"C:\\Users\\%OSUSER%\\AppData\\Roaming\\ETHEREUM\\KEYSTORE\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to touch file \"C:\\Users\\%OSUSER%\\AppData\\Roaming\\EXODUS\\EXODUS.WALLET\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to touch file \"C:\\Users\\%OSUSER%\\AppData\\Roaming\\COM.LIBERTY.JAXX\\INDEXEDDB\\FILE__0.INDEXEDDB.LEVELDB\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to touch file \"%APPDATA%\\ATOMIC\\LOCAL STORAGE\\LEVELDB\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to touch file \"%APPDATA%\\ELECTRUM\\WALLETS\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to touch file \"%APPDATA%\\ETHEREUM\\KEYSTORE\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to touch file \"%APPDATA%\\EXODUS\\EXODUS.WALLET\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to touch file \"%APPDATA%\\COM.LIBERTY.JAXX\\INDEXEDDB\\FILE__0.INDEXEDDB.LEVELDB\"",
+      "origin": "API Call",
+      "attck_id": "T1005",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1005"
+    },
+    {
+      "threat_level": 2,
+      "threat_level_human": "malicious",
+      "category": "Spyware/Information Retrieval",
+      "identifier": "api-96",
+      "type": 6,
+      "relevance": 10,
+      "name": "Tries to steal browser sensitive information (file access)",
+      "description": "\"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to open a file \"C:\\Users\\%OSUSER%\\AppData\\Local\\CHROMIUM\\USER DATA\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to open a file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Google\\Chrome\\User Data\\AutofillStates\\WEB DATA\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to open a file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Google\\Chrome\\User Data\\AutofillStates\\LOGIN DATA\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to open a file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Google\\Chrome\\User Data\\AutofillStates\\COOKIES\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to open a file \"C:\\Users\\%OSUSER%\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\g4h7miqt.default\\LOGINS.JSON\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to open a file \"C:\\Users\\%OSUSER%\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\g4h7miqt.default\\KEY4.DB\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to open a file \"C:\\Users\\%OSUSER%\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\g4h7miqt.default\\places.sqlite\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to open a file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Google\\Chrome\\User Data\\AutofillStates\\BOOKMARKS\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to open a file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Google\\Chrome\\User Data\\BrowserMetrics\\WEB DATA\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to open a file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Google\\Chrome\\User Data\\BrowserMetrics\\LOGIN DATA\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to open a file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Google\\Chrome\\User Data\\BrowserMetrics\\COOKIES\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to open a file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Google\\Chrome\\User Data\\BrowserMetrics\\BOOKMARKS\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to open a file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Google\\Chrome\\User Data\\CertificateRevocation\\WEB DATA\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to open a file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Google\\Chrome\\User Data\\CertificateRevocation\\LOGIN DATA\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to open a file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Google\\Chrome\\User Data\\CertificateRevocation\\COOKIES\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to open a file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Google\\Chrome\\User Data\\CertificateRevocation\\BOOKMARKS\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to open a file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Google\\Chrome\\User Data\\ClientSidePhishing\\WEB DATA\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to open a file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Google\\Chrome\\User Data\\ClientSidePhishing\\LOGIN DATA\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to open a file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Google\\Chrome\\User Data\\ClientSidePhishing\\COOKIES\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to open a file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Google\\Chrome\\User Data\\ClientSidePhishing\\BOOKMARKS\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to open a file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Google\\Chrome\\User Data\\CommerceHeuristics\\WEB DATA\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to open a file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Google\\Chrome\\User Data\\CommerceHeuristics\\LOGIN DATA\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to open a file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Google\\Chrome\\User Data\\CommerceHeuristics\\COOKIES\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to open a file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Google\\Chrome\\User Data\\CommerceHeuristics\\BOOKMARKS\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to open a file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Google\\Chrome\\User Data\\Crashpad\\WEB DATA\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to open a file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Google\\Chrome\\User Data\\Crashpad\\LOGIN DATA\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to open a file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Google\\Chrome\\User Data\\Crashpad\\COOKIES\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to open a file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Google\\Chrome\\User Data\\Crashpad\\BOOKMARKS\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to open a file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Google\\Chrome\\User Data\\Crowd Deny\\WEB DATA\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to open a file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Google\\Chrome\\User Data\\Crowd Deny\\LOGIN DATA\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to open a file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Google\\Chrome\\User Data\\Crowd Deny\\COOKIES\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to open a file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Google\\Chrome\\User Data\\Crowd Deny\\BOOKMARKS\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to open a file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Web Data\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to open a file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Login Data\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to open a file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\COOKIES\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to open a file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\BOOKMARKS\"",
+      "origin": "API Call",
+      "attck_id": "T1005",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1005"
+    },
+    {
+      "threat_level": 2,
+      "threat_level_human": "malicious",
+      "category": "Spyware/Information Retrieval",
+      "identifier": "api-281",
+      "type": 6,
+      "relevance": 10,
+      "name": "Attempts to obtain browser login credentials (file access)",
+      "description": "\"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to open a file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Login Data\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to open a file \"%LOCALAPPDATA%\\Google\\Chrome\\User Data\\Default\\Login Data\"",
+      "origin": "API Call",
+      "attck_id": "T1555.003",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1555/003"
+    },
+    {
+      "threat_level": 2,
+      "threat_level_human": "malicious",
+      "category": "Spyware/Information Retrieval",
+      "identifier": "api-97",
+      "type": 6,
+      "relevance": 10,
+      "name": "Tries to steal desktop applications information (file access)",
+      "description": "\"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to touch file \"C:\\Users\\%OSUSER%\\AppData\\Roaming\\DISCORD\\LOCAL STORAGE\\LEVELDB\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" trying to touch file \"%APPDATA%\\DISCORD\\LOCAL STORAGE\\LEVELDB\"",
+      "origin": "API Call",
+      "attck_id": "T1005",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1005"
+    },
+    {
+      "threat_level": 2,
+      "threat_level_human": "malicious",
+      "category": "Ransomware/Banking",
+      "identifier": "api-46",
+      "type": 6,
+      "relevance": 5,
+      "name": "Checks for files associated with bitcoin mining software",
+      "description": "\"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" opened file \"C:\\Users\\%OSUSER%\\AppData\\Roaming\\bytecoin\\\" (DesiredAccess: 1048577, OpenOptions: 16417)\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" opened file \"C:\\Users\\%OSUSER%\\AppData\\Roaming\\BYTECOIN\"\n \"cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229.exe\" opened file \"%APPDATA%\\BYTECOIN\"",
+      "origin": "API Call",
+      "attck_id": "T1083",
+      "attck_id_wiki": "https://attack.mitre.org/techniques/T1083"
+    },
+    {
+      "threat_level": 2,
+      "threat_level_human": "malicious",
+      "category": "External Systems",
+      "identifier": "avtest-8",
+      "type": 12,
+      "relevance": 10,
+      "name": "Sample detected by CrowdStrike Static Analysis and ML with relatively high confidence",
+      "description": "CrowdStrike Static Analysis and ML (QuickScan) yielded detection: win/malicious_confidence_100% (W)",
+      "origin": "External System"
+    }
+  ]
+}

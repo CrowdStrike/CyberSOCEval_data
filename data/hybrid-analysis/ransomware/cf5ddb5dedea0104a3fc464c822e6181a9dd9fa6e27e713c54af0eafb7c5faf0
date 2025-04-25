@@ -1,0 +1,420 @@
+{
+  "size": 5267459,
+  "type": "PE32 executable (DLL) (GUI) Intel 80386, for MS Windows",
+  "submit_name": "a55b9addb2447db1882a3ae995a70151.vir",
+  "sha256": "cf5ddb5dedea0104a3fc464c822e6181a9dd9fa6e27e713c54af0eafb7c5faf0",
+  "av_detect": 96,
+  "vx_family": "CVE-2017-0147",
+  "threat_score": 100,
+  "threat_level": 2,
+  "verdict": "malicious",
+  "total_network_connections": 206,
+  "total_processes": 3,
+  "total_signatures": 43,
+  "extracted_files": [
+    {
+      "name": "mssecsvc.exe",
+      "file_path": "%WINDIR%\\mssecsvc.exe",
+      "file_size": 3723264,
+      "sha256": "a90873267deb6777193d65a390752e86b6a1bbf3523cfb28c266139e24ed69f8",
+      "type_tags": [
+        "peexe",
+        "executable"
+      ],
+      "description": "PE32 executable (GUI) Intel 80386, for MS Windows",
+      "runtime_process": "rundll32.exe (PID: 2332)",
+      "threat_level": 2,
+      "threat_level_readable": "malicious",
+      "av_label": "Trojan.Ransom.WannaCryptor",
+      "av_matched": 77,
+      "av_total": 87,
+      "file_available_to_download": true
+    },
+    {
+      "name": "tasksche.exe",
+      "file_path": "%WINDIR%\\tasksche.exe",
+      "file_size": 3514368,
+      "sha256": "f60f8a6bcaf1384a0d6a76d3e88007a8604560b263d2b8aeee06fd74c9ee5b3b",
+      "type_tags": [
+        "peexe",
+        "executable"
+      ],
+      "description": "PE32 executable (GUI) Intel 80386, for MS Windows",
+      "runtime_process": "mssecsvc.exe (PID: 2648)",
+      "threat_level": 2,
+      "threat_level_readable": "malicious",
+      "av_label": "Trojan.Ransom.WannaCryptor",
+      "av_matched": 78,
+      "av_total": 87,
+      "file_available_to_download": true
+    },
+    {
+      "name": "zqkdnfb@iuqerfsodp9ifjaposdfjhgosurijfaewrwergwea[1].txt",
+      "file_path": "%APPDATA%\\Microsoft\\Windows\\Cookies\\zqkdnfb@iuqerfsodp9ifjaposdfjhgosurijfaewrwergwea[1].txt",
+      "file_size": 146,
+      "sha256": "4aa63fd32371a834a06c9f984268a95486287678aa20d5411e8e44ed7e9c904b",
+      "type_tags": [
+        "text"
+      ],
+      "description": "ASCII text",
+      "runtime_process": "mssecsvc.exe (PID: 2648)",
+      "threat_level_readable": "no specific threat",
+      "file_available_to_download": true
+    }
+  ],
+  "file_metadata": {
+    "file_compositions": [],
+    "imported_objects": [],
+    "file_analysis": [],
+    "total_file_compositions_imports": null
+  },
+  "processes": [
+    {
+      "uid": "00014740-00002460",
+      "name": "<Ignored Process>"
+    },
+    {
+      "uid": "00014966-00002332",
+      "parentuid": "00014740-00002460",
+      "name": "rundll32.exe",
+      "normalized_path": "%WINDIR%\\System32\\rundll32.exe",
+      "command_line": "C:\\cf5ddb5dedea0104a3fc464c822e6181a9dd9fa6e27e713c54af0eafb7c5faf0.dll\",PlayGame",
+      "sha256": "5ad3c37e6f2b9db3ee8b5aeedc474645de90c66e3d95f8620c48102f1eba4124",
+      "av_total": 62
+    },
+    {
+      "uid": "00015041-00002648",
+      "parentuid": "00014966-00002332",
+      "name": "mssecsvc.exe",
+      "normalized_path": "%WINDIR%\\mssecsvc.exe",
+      "sha256": "a90873267deb6777193d65a390752e86b6a1bbf3523cfb28c266139e24ed69f8",
+      "av_label": "Trojan.Ransom.WannaCryptor",
+      "av_matched": 77,
+      "av_total": 87
+    }
+  ],
+  "network_mode": "default",
+  "signatures": [
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "network-0",
+      "type": 7,
+      "relevance": 1,
+      "name": "Contacts domains",
+      "description": "\"www.iuqerfsodp9ifjaposdfjhgosurijfaewrwergwea.com\"",
+      "origin": "Network Traffic"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "network-1",
+      "type": 7,
+      "relevance": 1,
+      "name": "Contacts server",
+      "description": "\"<IPv4>:80\"\n \"<IPv4>:62082\"\n \"<IPv4>:62096\"\n \"<IPv4>:62108\"\n \"<IPv4>:62110\"\n \"<IPv4>:62120\"\n \"<IPv4>:62123\"\n \"<IPv4>:62130\"\n \"<IPv4>:62133\"\n \"<IPv4>:62136\"\n \"<IPv4>:62146\"\n \"<IPv4>:62149\"\n \"<IPv4>:62153\"\n \"<IPv4>:62160\"\n \"<IPv4>:62161\"\n \"<IPv4>:62164\"\n \"<IPv4>:62169\"\n \"<IPv4>:62175\"\n \"<IPv4>:62176\"\n \"<IPv4>:62179\"",
+      "origin": "Network Traffic"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "network-2",
+      "type": 7,
+      "relevance": 5,
+      "name": "GETs files from a webserver",
+      "description": "\"GET / HTTP/1.1\nHost: www.iuqerfsodp9ifjaposdfjhgosurijfaewrwergwea.com\nCache-Control: no-cache\"",
+      "origin": "Network Traffic"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "target-25",
+      "type": 9,
+      "relevance": 3,
+      "name": "Spawns new processes",
+      "description": "Spawned process \"rundll32.exe\" with commandline \"C:\\cf5ddb5dedea0104a3fc464c822e6181a9dd9fa6e27e713c54af0eafb7c5faf0.dll\"\nPlayGame\" (UID: 00014966-00002332), Spawned process \"mssecsvc.exe\" (UID: 00015041-00002648)",
+      "origin": "Monitored Target"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "General",
+      "identifier": "mutant-0",
+      "type": 4,
+      "relevance": 3,
+      "name": "Creates mutants",
+      "description": "\"\\Sessions\\1\\BaseNamedObjects\\Local\\_!MSFTHISTORY!_\"\n \"\\Sessions\\1\\BaseNamedObjects\\Local\\c:!users!zqkdnfb!appdata!roaming!microsoft!windows!cookies!\"\n \"\\Sessions\\1\\BaseNamedObjects\\Local\\c:!users!zqkdnfb!appdata!local!microsoft!windows!history!history.ie5!\"\n \"\\Sessions\\1\\BaseNamedObjects\\Local\\WininetStartupMutex\"\n \"\\Sessions\\1\\BaseNamedObjects\\Local\\WininetConnectionMutex\"\n \"\\Sessions\\1\\BaseNamedObjects\\Local\\WininetProxyRegistryMutex\"\n \"\\Sessions\\1\\BaseNamedObjects\\RasPbFile\"\n \"\\Sessions\\1\\BaseNamedObjects\\Local\\ZonesCounterMutex\"\n \"\\Sessions\\1\\BaseNamedObjects\\Local\\ZoneAttributeCacheCounterMutex\"\n \"\\Sessions\\1\\BaseNamedObjects\\Local\\ZonesCacheCounterMutex\"\n \"\\Sessions\\1\\BaseNamedObjects\\Local\\ZonesLockedCacheCounterMutex\"\n \"\\Sessions\\1\\BaseNamedObjects\\Local\\!IETld!Mutex\"\n \"\\Sessions\\1\\BaseNamedObjects\\Local\\c:!users!zqkdnfb!appdata!roaming!microsoft!windows!ietldcache!\"\n \"\\Sessions\\1\\BaseNamedObjects\\Local\\c:!users!zqkdnfb!appdata!local!microsoft!windows!temporary internet files!content.ie5!\"\n \"Local\\WininetStartupMutex\"\n \"Local\\c:!users!zqkdnfb!appdata!roaming!microsoft!windows!ietldcache!\"\n \"Local\\ZoneAttributeCacheCounterMutex\"\n \"Local\\WininetProxyRegistryMutex\"\n \"Local\\ZonesCacheCounterMutex\"\n \"Local\\c:!users!zqkdnfb!appdata!roaming!microsoft!windows!cookies!\"",
+      "origin": "Created Mutant"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Unusual Characteristics",
+      "identifier": "static-18",
+      "relevance": 10,
+      "name": "Matched Compiler/Packer signature",
+      "description": "\"cf5ddb5dedea0104a3fc464c822e6181a9dd9fa6e27e713c54af0eafb7c5faf0.dll.bin\" was detected as \"Microsoft visual C++ 6.0 DLL\"\n \"tasksche.exe\" was detected as \"Microsoft visual C++ 5.0\"\n \"mssecsvc.exe\" was detected as \"Microsoft visual C++ 5.0\"",
+      "origin": "Static Parser"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistance",
+      "identifier": "api-55",
+      "type": 6,
+      "relevance": 7,
+      "name": "Touches files in the Windows directory",
+      "description": "\"mssecsvc.exe\" touched file \"C:\\Windows\\Globalization\\Sorting\\SortDefault.nls\"\n \"mssecsvc.exe\" touched file \"C:\\Users\\ZQkDnFB\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\"\n \"mssecsvc.exe\" touched file \"C:\\Users\\ZQkDnFB\\AppData\\Roaming\\Microsoft\\Windows\\Cookies\"\n \"mssecsvc.exe\" touched file \"C:\\Users\\ZQkDnFB\\AppData\\Local\\Microsoft\\Windows\\History\"\n \"mssecsvc.exe\" touched file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\index.dat\"\n \"mssecsvc.exe\" touched file \"C:\\Users\\%OSUSER%\\AppData\\Roaming\\Microsoft\\Windows\\Cookies\\index.dat\"\n \"mssecsvc.exe\" touched file \"C:\\Users\\%OSUSER%\\AppData\\Local\\Microsoft\\Windows\\History\\History.IE5\\index.dat\"\n \"mssecsvc.exe\" touched file \"C:\\Windows\\System32\\en-US\\urlmon.dll.mui\"\n \"mssecsvc.exe\" touched file \"C:\\Windows\\System32\\en-US\\KernelBase.dll.mui\"\n \"mssecsvc.exe\" touched file \"C:\\Windows\\System32\\msxml3r.dll\"\n \"mssecsvc.exe\" touched file \"C:\\Users\\%OSUSER%\\AppData\\Roaming\\Microsoft\\Windows\\IETldCache\\index.dat\"\n \"mssecsvc.exe\" touched file \"C:\\Windows\\System32\\rsaenh.dll\"\n \"mssecsvc.exe\" touched file \"C:\\Users\\%OSUSER%\\AppData\\Roaming\\Microsoft\\Windows\\Cookies\\zqkdnfb@iuqerfsodp9ifjaposdfjhgosurijfaewrwergwea[1].txt\"\n \"mssecsvc.exe\" touched file \"C:\\Windows\\tasksche.exe\"\n \"mssecsvc.exe\" touched file \"C:\\Windows\\AppPatch\\sysmain.sdb\"\n \"mssecsvc.exe\" touched file \"%LOCALAPPDATA%\\Microsoft\\Windows\\Temporary Internet Files\"\n \"mssecsvc.exe\" touched file \"%APPDATA%\\Microsoft\\Windows\\Cookies\"",
+      "origin": "API Call"
+    },
+    {
+      "threat_level_human": "informative",
+      "category": "Installation/Persistance",
+      "identifier": "binary-0",
+      "type": 8,
+      "relevance": 3,
+      "name": "Dropped files",
+      "description": "\"tasksche.exe\" has type \"PE32 executable (GUI) Intel 80386 for MS Windows\"\n \"mssecsvc.exe\" has type \"PE32 executable (GUI) Intel 80386 for MS Windows\"\n \"zqkdnfb@iuqerfsodp9ifjaposdfjhgosurijfaewrwergwea[1].txt\" has type \"ASCII text\"",
+      "origin": "Binary File"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "General",
+      "identifier": "api-77",
+      "type": 6,
+      "relevance": 10,
+      "name": "Opened the service control manager",
+      "description": "\"mssecsvc.exe\" called \"OpenSCManager\" requesting access rights \"SC_MANAGER_CONNECT\" (0x1)\n \"mssecsvc.exe\" called \"OpenSCManager\" requesting access rights \"SC_MANAGER_ALL_ACCESS\" (0xf003f)",
+      "origin": "API Call"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "General",
+      "identifier": "api-76",
+      "type": 6,
+      "relevance": 10,
+      "name": "Requested access to a system service",
+      "description": "\"mssecsvc.exe\" called \"OpenService\" to access the \"rasman\" service\n \"mssecsvc.exe\" called \"OpenService\" to access the \"Sens\" service requesting \"SERVICE_QUERY_STATUS\" (0X4) access rights\n \"mssecsvc.exe\" called \"OpenService\" to access the \"RASMAN\" service",
+      "origin": "API Call"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "Unusual Characteristics",
+      "identifier": "hooks-8",
+      "type": 11,
+      "relevance": 10,
+      "name": "Installs hooks/patches the running process",
+      "description": "\"rundll32.exe\" wrote bytes \"7cca3c7700143d77e8ce3c777f3e3c7729fd3b774d983c775ba03c7782203877000000009498ab7651c1ab76ee9cab76ec32b57654d3ac7600000000\" to virtual address \"0x10002000\" (part of module \"CF5DDB5DEDEA0104A3FC464C822E6181A9DD9FA6E27E713C54AF0EAFB7C5FAF0.DLL\")",
+      "origin": "Hook Detection"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "Installation/Persistance",
+      "identifier": "api-2",
+      "type": 6,
+      "relevance": 8,
+      "name": "Creates new processes",
+      "description": "\"rundll32.exe\" is creating a new process (Name: \"%WINDIR%\\mssecsvc.exe\", Handle: 200)\n \"mssecsvc.exe\" is creating a new process (Name: \"%WINDIR%\\tasksche.exe\", Handle: 956)",
+      "origin": "API Call"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "Installation/Persistance",
+      "identifier": "binary-1",
+      "type": 8,
+      "relevance": 10,
+      "name": "Drops executable files",
+      "description": "\"tasksche.exe\" has type \"PE32 executable (GUI) Intel 80386 for MS Windows\"\n \"mssecsvc.exe\" has type \"PE32 executable (GUI) Intel 80386 for MS Windows\"",
+      "origin": "Binary File"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "Anti-Detection/Stealthyness",
+      "identifier": "registry-29",
+      "type": 3,
+      "relevance": 3,
+      "name": "Queries the internet cache settings (often used to hide footprints in index.dat or internet cache)",
+      "description": "\"mssecsvc.exe\" (Access type: \"QUERYVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\INTERNET SETTINGS\"; Key: \"DISABLECACHINGOFSSLPAGES\"; Value: \"00000000040000000400000000000000\")",
+      "origin": "Registry Access"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "Environment Awareness",
+      "identifier": "registry-1",
+      "type": 3,
+      "relevance": 10,
+      "name": "Reads the cryptographic machine GUID",
+      "description": "\"mssecsvc.exe\" (Path: \"HKLM\\SOFTWARE\\MICROSOFT\\CRYPTOGRAPHY\"; Key: \"MACHINEGUID\")",
+      "origin": "Registry Access"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "Network Related",
+      "identifier": "network-32",
+      "type": 7,
+      "relevance": 10,
+      "name": "Detected increased number of ARP broadcast requests (network device lookup)",
+      "description": "Attempt to find devices in networks: \"<IPv4>/31, <IPv4>/30, <IPv4>/29, <IPv4>/30, ...\"",
+      "origin": "Network Traffic"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "System Security",
+      "identifier": "registry-36",
+      "type": 3,
+      "relevance": 8,
+      "name": "Queries sensitive IE security settings",
+      "description": "\"mssecsvc.exe\" (Path: \"HKCU\\SOFTWARE\\MICROSOFT\\INTERNET EXPLORER\\SECURITY\"; Key: \"DISABLESECURITYSETTINGSCHECK\")",
+      "origin": "Registry Access"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "System Security",
+      "identifier": "registry-27",
+      "type": 3,
+      "relevance": 10,
+      "name": "Modifies proxy settings",
+      "description": "\"mssecsvc.exe\" (Access type: \"SETVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\INTERNET SETTINGS\"; Key: \"PROXYENABLE\"; Value: \"00000000\")\n \"mssecsvc.exe\" (Access type: \"DELETEVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\INTERNET SETTINGS\"; Key: \"PROXYSERVER\")\n \"mssecsvc.exe\" (Access type: \"DELETEVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\INTERNET SETTINGS\"; Key: \"PROXYOVERRIDE\")\n \"mssecsvc.exe\" (Access type: \"DELETEVAL\"; Path: \"HKCU\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\INTERNET SETTINGS\\ZONEMAP\"; Key: \"PROXYBYPASS\")\n \"mssecsvc.exe\" (Access type: \"DELETEVAL\"; Path: \"HKLM\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\INTERNET SETTINGS\\ZONEMAP\"; Key: \"PROXYBYPASS\")",
+      "origin": "Registry Access"
+    },
+    {
+      "threat_level": 1,
+      "threat_level_human": "suspicious",
+      "category": "Remote Access Related",
+      "identifier": "registry-61",
+      "type": 3,
+      "relevance": 10,
+      "name": "Reads terminal service related keys (often RDP related)",
+      "description": "\"mssecsvc.exe\" (Path: \"HKLM\\SYSTEM\\CONTROLSET001\\CONTROL\\TERMINAL SERVER\"; Key: \"TSUSERENABLED\")",
+      "origin": "Registry Access"
+    },
+    {
+      "threat_level": 2,
+      "threat_level_human": "malicious",
+      "category": "General",
+      "identifier": "binary-11",
+      "type": 8,
+      "relevance": 10,
+      "name": "The analysis extracted a file that was identified as malicious",
+      "description": "78/87 Antivirus vendors marked dropped file \"tasksche.exe\" as malicious (classified as \"Trojan.Ransom.WannaCryptor\" with 89% detection rate)\n 77/87 Antivirus vendors marked dropped file \"mssecsvc.exe\" as malicious (classified as \"Trojan.Ransom.WannaCryptor\" with 88% detection rate)",
+      "origin": "Binary File"
+    },
+    {
+      "threat_level": 2,
+      "threat_level_human": "malicious",
+      "category": "General",
+      "identifier": "target-58",
+      "type": 9,
+      "relevance": 10,
+      "name": "The analysis spawned a process that was identified as malicious",
+      "description": "77/87 Antivirus vendors marked spawned process \"mssecsvc.exe\" (PID: 2648) as malicious (classified as \"Trojan.Ransom.WannaCryptor\" with 88% detection rate)",
+      "origin": "Monitored Target"
+    },
+    {
+      "threat_level": 2,
+      "threat_level_human": "malicious",
+      "category": "Installation/Persistance",
+      "identifier": "api-5",
+      "type": 6,
+      "relevance": 7,
+      "name": "Creates a system file in windows directory",
+      "description": "\"rundll32.exe\" created file \"%WINDIR%\\mssecsvc.exe\"\n \"mssecsvc.exe\" created file \"%WINDIR%\\tasksche.exe\"",
+      "origin": "API Call"
+    },
+    {
+      "threat_level": 2,
+      "threat_level_human": "malicious",
+      "category": "Installation/Persistance",
+      "identifier": "binary-7",
+      "type": 8,
+      "relevance": 7,
+      "name": "Drops executable files to the Windows system directory",
+      "description": "File type \"PE32 executable (GUI) Intel 80386 for MS Windows\" was dropped at \"%WINDIR%\\tasksche.exe\"\n File type \"PE32 executable (GUI) Intel 80386 for MS Windows\" was dropped at \"%WINDIR%\\mssecsvc.exe\"",
+      "origin": "Binary File"
+    },
+    {
+      "threat_level": 2,
+      "threat_level_human": "malicious",
+      "category": "Network Related",
+      "identifier": "network-31",
+      "type": 7,
+      "relevance": 10,
+      "name": "Detected a large number of ARP broadcast requests (network device lookup)",
+      "description": "Attempt to find devices in networks: \"<IPv4>/31, <IPv4>/30, <IPv4>/29, <IPv4>/30, <IPv4>/32, <IPv4>/31, <IPv4>/29, <IPv4>/27, <IPv4>/26, <IPv4>/26, <IPv4>/27, <IPv4>/28, <IPv4>/29, <IPv4>/30, <IPv4>/31, <IPv4>/32\"",
+      "origin": "Network Traffic"
+    },
+    {
+      "threat_level": 2,
+      "threat_level_human": "malicious",
+      "category": "Network Related",
+      "identifier": "network-17",
+      "type": 7,
+      "relevance": 9,
+      "name": "Contacts very many different hosts",
+      "description": "Contacted 60 (or more) hosts in at least 22 different countries",
+      "origin": "Network Traffic"
+    },
+    {
+      "threat_level": 2,
+      "threat_level_human": "malicious",
+      "category": "Network Related",
+      "identifier": "network-21",
+      "type": 7,
+      "relevance": 10,
+      "name": "Malicious artifacts seen in the context of a contacted host",
+      "description": "Found malicious artifacts related to \"<IPv4>\" (ASN: , Owner: ): ...\n\n URL: http://www.iuqerfsodp9ifjaposdfjhgosurijfaewrwergwea.com/ (AV positives: 5/64 scanned on 11/05/2017 06:34:28)\n URL: http://iuqerfsodp9ifjaposdfjhgosurijfaewrwergwea.com/ (AV positives: 3/64 scanned on 10/30/2017 04:36:42)\n URL: http://www.iuqerfsodp9ifjaposdfjhgosurijfaewrwergwea.com/favicon.ico (AV positives: 3/64 scanned on 10/27/2017 09:48:54)\n URL: https://www.iuqerfsodp9ifjaposdfjhgosurijfaewrwergwea.com/ (AV positives: 1/65 scanned on 07/17/2017 04:18:57)\n URL: http://www.iuqerfsodp9ifjaposdfjhgosurijfaewrwergwea.com:~~Cache-Control/ (AV positives: 1/65 scanned on 07/05/2017 17:36:36)\n File SHA256: 1176207d6dcfb5f5ba613980f8e4e564d2c59e6aab787d6abd0a9f79d917a3ac (AV positives: 62/68 scanned on 11/04/2017 17:56:19)\n File SHA256: 9f2f8c37e5a1fd14aebafa20b7ebf51f6d9e024b4b965bfbcd7d08fcf31a8c90 (AV positives: 62/68 scanned on 11/04/2017 10:46:46)\n File SHA256: b0816cd42fe87d3d0d28bf8ff97574a0eda4ebeec44279fec6cbf78246a55894 (AV positives: 62/68 scanned on 11/04/2017 06:40:28)\n File SHA256: a0bc39001c6efcf39dbc6b7684232cce5126dcf0364c37e902714898ec097e94 (AV positives: 61/67 scanned on 11/04/2017 04:54:24)\n File SHA256: c44af40a62fdd4bee2b451a19b5f1f37ead8c452418264de7a9b394331baac91 (AV positives: 63/68 scanned on 11/04/2017 04:50:11)\n File SHA256: 6f7831f76436557131955a8d3d4a3ebdf65ad48a24bae010cd014dfc30bc6e10 (Scanned on 11/04/2017 06:30:07)\n File SHA256: b07a985d10bb2bdfc60e0282693abe404e5e18d7a2ad4315808735eeebc984d7 (Scanned on 11/04/2017 05:56:43)\n File SHA256: 8c85513eb3f4417cfb0b43fb88f16095281417d4ad7bf6e107f9dd49b2210527 (Scanned on 11/04/2017 05:56:36)\n File SHA256: e85a081597e0f27bde337f7f98aedaa0e0ca6a9ac901eda41eecc63189656104 (Scanned on 11/04/2017 05:56:26)\n File SHA256: b5e1f308414c269df5112852d8eb57cf1a0c39a9e5a0451b3e3a4a7d558a8a51 (Scanned on 11/03/2017 06:48:02)",
+      "origin": "Network Traffic"
+    },
+    {
+      "threat_level": 2,
+      "threat_level_human": "malicious",
+      "category": "Network Related",
+      "identifier": "network-7",
+      "type": 7,
+      "relevance": 7,
+      "name": "Uses network protocols on unusual ports",
+      "description": "TCP traffic to <IPv4> on port 62082\n TCP traffic to <IPv4> on port 62096\n TCP traffic to <IPv4> on port 62108\n TCP traffic to <IPv4> on port 62110\n TCP traffic to <IPv4> on port 62120\n TCP traffic to <IPv4> on port 62123\n TCP traffic to <IPv4> on port 62130\n TCP traffic to <IPv4> on port 62133\n TCP traffic to <IPv4> on port 62136\n TCP traffic to <IPv4> on port 62146\n TCP traffic to <IPv4> on port 62149\n TCP traffic to <IPv4> on port 62153\n TCP traffic to <IPv4> on port 62160\n TCP traffic to <IPv4> on port 62161\n TCP traffic to <IPv4> on port 62164\n TCP traffic to <IPv4> on port 62169\n TCP traffic to <IPv4> on port 62175\n TCP traffic to <IPv4> on port 62176\n TCP traffic to <IPv4> on port 62179\n TCP traffic to <IPv4> on port 62185\n TCP traffic to <IPv4> on port 62190\n TCP traffic to <IPv4> on port 62191\n TCP traffic to <IPv4> on port 62193\n TCP traffic to <IPv4> on port 62196\n TCP traffic to <IPv4> on port 62202\n TCP traffic to <IPv4> on port 62206\n TCP traffic to <IPv4> on port 62207\n TCP traffic to <IPv4> on port 62210\n TCP traffic to <IPv4> on port 62213\n TCP traffic to <IPv4> on port 62219\n TCP traffic to <IPv4> on port 62222\n TCP traffic to <IPv4> on port 62223\n TCP traffic to <IPv4> on port 62224\n TCP traffic to <IPv4> on port 62227\n TCP traffic to <IPv4> on port 62231\n TCP traffic to <IPv4> on port 62237\n TCP traffic to <IPv4> on port 62239\n TCP traffic to <IPv4> on port 62240\n TCP traffic to <IPv4> on port 62241\n TCP traffic to <IPv4> on port 62244\n TCP traffic to <IPv4> on port 62249\n TCP traffic to <IPv4> on port 62253\n TCP traffic to <IPv4> on port 62256\n TCP traffic to <IPv4> on port 62257\n TCP traffic to <IPv4> on port 62258\n TCP traffic to <IPv4> on port 62260\n TCP traffic to <IPv4> on port 62263\n TCP traffic to <IPv4> on port 62268\n TCP traffic to <IPv4> on port 62271\n TCP traffic to <IPv4> on port 62274",
+      "origin": "Network Traffic"
+    },
+    {
+      "threat_level": 2,
+      "threat_level_human": "malicious",
+      "category": "External Systems",
+      "identifier": "suricata-2",
+      "type": 18,
+      "relevance": 10,
+      "name": "Detected Emerging Threats Alert",
+      "description": "Detected alert \"ET TROJAN Possible WannaCry DNS Lookup 1\" (SID: 2024291, Rev: 3, Severity: 1) categorized as \"A Network Trojan was detected\" (Backdoor, ransomware, trojans, etc.)\n Detected alert \"ET TROJAN W32/WannaCry.Ransomware Killswitch Domain HTTP Request 1\" (SID: 2024298, Rev: 3, Severity: 1) categorized as \"A Network Trojan was detected\" (Backdoor, ransomware, trojans, etc.)\n Detected alert \"ET TROJAN W32/WannaCry.Ransomware Killswitch Domain HTTP Request 2\" (SID: 2024299, Rev: 3, Severity: 1) categorized as \"A Network Trojan was detected\" (Backdoor, ransomware, trojans, etc.)\n Detected alert \"ET TROJAN W32/WannaCry.Ransomware Killswitch Domain HTTP Request 4\" (SID: 2024301, Rev: 3, Severity: 1) categorized as \"A Network Trojan was detected\" (Backdoor, ransomware, trojans, etc.)\n Detected alert \"ET TROJAN W32/WannaCry.Ransomware Killswitch Domain HTTP Request 5\" (SID: 2024302, Rev: 3, Severity: 1) categorized as \"A Network Trojan was detected\" (Backdoor, ransomware, trojans, etc.)",
+      "origin": "Suricata Alerts"
+    },
+    {
+      "threat_level": 2,
+      "threat_level_human": "malicious",
+      "category": "External Systems",
+      "identifier": "avtest-3",
+      "type": 12,
+      "relevance": 10,
+      "name": "Sample was identified as malicious by a large number of Antivirus engines",
+      "description": "58/67 Antivirus vendors marked sample as malicious (86% detection rate)",
+      "origin": "External System"
+    },
+    {
+      "threat_level": 2,
+      "threat_level_human": "malicious",
+      "category": "External Systems",
+      "identifier": "avtest-0",
+      "type": 12,
+      "relevance": 8,
+      "name": "Sample was identified as malicious by at least one Antivirus engine",
+      "description": "58/67 Antivirus vendors marked sample as malicious (86% detection rate)",
+      "origin": "External System"
+    }
+  ]
+}
