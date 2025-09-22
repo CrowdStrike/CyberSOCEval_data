@@ -27,7 +27,7 @@ This dataset (e.g. scenarios) contains fictional business descriptions created f
 ## Repository Structure
 
 ```markdown
-cyberseceval_collab_data/
+CyberSOCEval_data/
 ├── data/ # Raw data sources
 │ ├── crowdstrike-reports/         # CrowdStrike reports (PDFs)
 │ └── hybrid-analysis/             # Hybrid Analysis data (JSONs)
